@@ -1,0 +1,38 @@
+# Safety & Security: atualiza o resumo de notícias que a app lê quando tem internet.
+# Corre a cada 30 minutos (o GitHub pode atrasar) e publica noticias.json no ramo "noticias".
+# A app encontra-o sozinha em https://raw.githubusercontent.com/<conta>/<repositório>/noticias/noticias.json
+name: Notícias
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: noticias
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Juntar as notícias e publicar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" app
+          mkdir pub
+          node app/tools/noticias.mjs pub/noticias.json
+          cd pub
+          git init -q
+          git checkout -q -b noticias
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add noticias.json
+          git commit -q -m "Notícias $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" noticias
