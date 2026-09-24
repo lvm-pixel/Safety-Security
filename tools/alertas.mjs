@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 // Safety & Security: verifica as fontes oficiais e envia alertas para a app ntfy (https://ntfy.sh).
 // Corre no GitHub Actions (.github/workflows/alertas.yml) de 10 em 10 minutos. Sem dependências; Node 18 ou mais recente.
-// Uso: node tools/alertas.mjs --estado estado.json [--seco]
+// Uso: node tools/alertas.mjs --estado estado.json [--seco] [--horas 3]   (--horas: janela dos sismos, para testes com sismos antigos)
 //   NTFY_TOPICO     tópico ntfy (segredo do GitHub). Obrigatório, exceto com --seco (mostra as notificações sem as enviar).
 //   ALERTAS_CONFIG  JSON criado na ferramenta «Alertas no telemóvel» da app (segredo do GitHub, para as zonas não aparecerem nos registos), por exemplo
 //                   {"zonas":["LSB"],"ipma":"laranja","sismosPerto":true,"sismosPortugal":true,"rcm":true,"mundo":true,"link":"https://conta.github.io/safety-security/"}
-//                   "idioma" é opcional: "pt" (por omissão) ou "en". Com "en", as notificações e as mensagens do registo saem em inglês
+//                   "sismosSentidos" (por omissão true): sismos do IPMA de magnitude 2,5 ou mais a menos de 100 km das zonas, ou assinalados
+//                   como sentidos a menos de 150 km; o EMSC não lista estes sismos pequenos. "idioma" é opcional: "pt" (por omissão) ou "en". Com "en", as notificações e as mensagens do registo saem em inglês
 //                   (os nomes das localidades e o texto dos avisos do IPMA ficam como vêm). A app em inglês junta "idioma":"en".
 //   NTFY_SERVIDOR   opcional, por omissão https://ntfy.sh/ ; NTFY_TOKEN opcional, para servidores com autenticação.
 //   TESTE=1         envia também uma notificação de teste.
@@ -26,6 +27,7 @@ const args = process.argv.slice(2);
 const opcao = n => { const i = args.indexOf(n); return i >= 0 ? args[i + 1] : undefined; };
 const SECO = args.includes('--seco');
 const ESTADO = opcao('--estado');
+const HORAS = Math.max(1, +opcao('--horas') || 3);
 const TOPICO = (process.env.NTFY_TOPICO || '').trim();
 const SERVIDOR = (process.env.NTFY_SERVIDOR || 'https://ntfy.sh/').trim();
 const TOKEN = (process.env.NTFY_TOKEN || '').trim();
@@ -53,7 +55,7 @@ function lerConfig() {
   try { c = JSON.parse(process.env.ALERTAS_CONFIG || '{}'); } catch { console.error(L('O segredo ALERTAS_CONFIG não é JSON válido: copia-o outra vez da app.', 'The ALERTAS_CONFIG secret is not valid JSON: copy it again from the app.')); process.exit(1); }
   const zonas = (Array.isArray(c.zonas) ? c.zonas : []).filter(z => ZONAS[z]);
   if (!zonas.length) { console.error(L('O segredo ALERTAS_CONFIG não tem zonas válidas.', 'The ALERTAS_CONFIG secret has no valid areas.')); process.exit(1); }
-  return { zonas, ipma: MINIMO[c.ipma] ? c.ipma : 'laranja', sismosPerto: c.sismosPerto !== false, sismosPortugal: c.sismosPortugal !== false, rcm: c.rcm !== false, mundo: c.mundo !== false, link: /^https:\/\//.test(c.link || '') ? c.link : '', idioma: L('pt', 'en') };
+  return { zonas, ipma: MINIMO[c.ipma] ? c.ipma : 'laranja', sismosPerto: c.sismosPerto !== false, sismosPortugal: c.sismosPortugal !== false, sismosSentidos: c.sismosSentidos !== false, rcm: c.rcm !== false, mundo: c.mundo !== false, link: /^https:\/\//.test(c.link || '') ? c.link : '', idioma: L('pt', 'en') };
 }
 
 async function ipma(cfg, out) {
@@ -84,13 +86,36 @@ async function rcm(cfg, out) {
     out.push({ k: 'rcm|' + limpa(d.dataPrev).slice(0, 10) + '|' + z[3], tipo: 'rcm', titulo: L('🔥 Risco máximo de incêndio hoje: ', '🔥 Maximum fire danger today: ') + z[0], msg: n + (n === 1 ? L(' concelho do distrito está', ' municipality in the district is') : L(' concelhos do distrito estão', ' municipalities in the district are')) + L(' em risco máximo. Queimas, queimadas e fogo no mato são proibidos. Se vires fumo ou chamas, liga 112.', ' at maximum fire danger. Burning debris piles, stubble burning and any fire in woods or scrubland are banned. If you see smoke or flames, call 112.'), prio: 4, tags: ['fire'] });
   }
 }
+/* Sismos do IPMA (api.ipma.pt; área 7 = continente e Madeira, 3 = Açores; horas em UTC). Inclui os pequenos sismos locais e os «sentidos»,
+   que o EMSC não lista. Corre antes do EMSC, que depois salta os eventos já apanhados aqui. */
+const ACORES = ['AOC', 'ACE', 'AOR'];
+async function sismosIPMA(cfg, out) {
+  if (!cfg.sismosSentidos && !cfg.sismosPerto && !cfg.sismosPortugal) return;
+  const areas = [...new Set(cfg.zonas.map(z => ACORES.includes(z) ? 3 : 7))];
+  for (const area of areas) {
+    const d = await json('https://api.ipma.pt/open-data/observation/seismic/' + area + '.json');
+    for (const e of d.data || []) {
+      const m = +e.magnitud || 0, la = +e.lat, lo = +e.lon, tm = Date.parse(String(e.time || '').replace(/Z?$/, 'Z')) || 0, sentido = e.sensed === true || e.sensed === 'true';
+      if (!isFinite(la) || !isFinite(lo) || !tm || Date.now() - tm > HORAS * 36e5) continue;
+      let perto = null;
+      for (const zn of cfg.zonas) { const z = ZONAS[zn], km = distancia(la, lo, z[1], z[2]); if (!perto || km < perto.km) perto = { nome: nomeZona(zn), km }; }
+      const sentidoPerto = cfg.sismosSentidos && perto && ((sentido && perto.km <= 150) || (m >= 2.5 && perto.km <= 100));
+      if (!(sentidoPerto || (cfg.sismosPerto && perto && perto.km <= 150 && m >= 3.5) || (cfg.sismosPortugal && m >= 5))) continue;
+      out.push({ k: 'ipma-sismo|' + (e.sismoId || (Math.round(tm / 6e4) + '|' + la.toFixed(2) + '|' + lo.toFixed(2))), tipo: 'sismo', la, lo, tm,
+        titulo: L('🌍 Sismo de magnitude ' + num(m), '🌍 Magnitude ' + num(m) + ' earthquake') + (perto && perto.km <= 500 ? L(' a ' + Math.round(perto.km) + ' km de ', ' ' + Math.round(perto.km) + ' km from ') + perto.nome : '') + (sentido ? L(' (sentido)', ' (felt)') : ''),
+        msg: limpa(e.local || e.obsRegion) + ', ' + quando(tm) + ', ' + Math.round(+e.depth || 0) + L(' km de profundidade', ' km deep') + (e.degree ? L(', intensidade ', ', intensity ') + limpa(e.degree) : '') + ' (IPMA). ' + L('Se sentiste: baixar, proteger, aguardar e contar com réplicas. Perto do mar e foi forte ou longo: vai para terreno alto.', 'If you felt it: drop, cover, hold on and expect aftershocks. If you are near the sea and it was strong or long: go to high ground.'),
+        prio: m >= 5 ? 5 : 4, tags: ['earth_africa'] });
+    }
+  }
+}
 async function sismos(cfg, out) {
   if (!cfg.sismosPerto && !cfg.sismosPortugal) return;
-  const t = await obter('https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minmag=3&minlat=27&maxlat=45&minlon=-35&maxlon=-5&orderby=time&limit=50&starttime=' + new Date(Date.now() - 6 * 36e5).toISOString().slice(0, 19));
+  const t = await obter('https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minmag=3&minlat=27&maxlat=45&minlon=-35&maxlon=-5&orderby=time&limit=50&starttime=' + new Date(Date.now() - (HORAS + 3) * 36e5).toISOString().slice(0, 19));
   const d = t.trim() ? JSON.parse(t) : { features: [] };
   for (const f of d.features || []) {
     const p = f.properties || {}, m = +p.mag || 0, la = +p.lat, lo = +p.lon, tm = Date.parse(p.time) || 0;
-    if (!isFinite(la) || !isFinite(lo) || Date.now() - tm > 3 * 36e5) continue;
+    if (!isFinite(la) || !isFinite(lo) || Date.now() - tm > HORAS * 36e5) continue;
+    if (out.some(o => o.tipo === 'sismo' && o.tm && Math.abs(o.tm - tm) < 180000 && distancia(la, lo, o.la, o.lo) < 50)) continue;
     let perto = null;
     for (const zn of cfg.zonas) { const z = ZONAS[zn], km = distancia(la, lo, z[1], z[2]); if (!perto || km < perto.km) perto = { nome: nomeZona(zn), km }; }
     if (!((cfg.sismosPerto && perto && perto.km <= 150 && m >= 3.5) || (cfg.sismosPortugal && m >= 5))) continue;
@@ -130,7 +155,8 @@ if (ESTADO && existsSync(ESTADO)) { try { estado = JSON.parse(readFileSync(ESTAD
 const primeira = !estado || !estado.enviados;
 const st = primeira ? { versao: 1, enviados: {} } : estado;
 const alertas = [], falhas = [];
-for (const [nome, fn] of [['IPMA', ipma], [L('risco de incêndio', 'fire danger'), rcm], [L('sismos', 'earthquakes'), sismos], [L('mundo', 'world'), mundo]]) {
+const FONTES = [['IPMA', ipma], [L('risco de incêndio', 'fire danger'), rcm], [L('sismos IPMA', 'IPMA earthquakes'), sismosIPMA], [L('sismos', 'earthquakes'), sismos], [L('mundo', 'world'), mundo]];
+for (const [nome, fn] of FONTES) {
   try { await fn(cfg, alertas); } catch (e) { falhas.push(nome + ': ' + curto(e)); }
 }
 const zonasTexto = cfg.zonas.map(z => nomeZona(z)).join(', ');
@@ -150,4 +176,4 @@ for (const k of Object.keys(st.enviados)) if (Date.now() - st.enviados[k] > 10 *
 st.ultima = new Date().toISOString(); st.fontesComFalha = falhas.length;
 if (ESTADO && !SECO) writeFileSync(ESTADO, JSON.stringify(st));
 console.log(L('Verificação concluída: ', 'Check complete: ') + alertas.length + (alertas.length === 1 ? L(' alerta em vigor, ', ' alert in force, ') : L(' alertas em vigor, ', ' alerts in force, ')) + enviados + (enviados === 1 ? L(' notificação enviada', ' notification sent') : L(' notificações enviadas', ' notifications sent')) + (erros ? ', ' + erros + L(' envios falhados', ' failed sends') : '') + (falhas.length ? L('. Fontes com falha: ', '. Sources that failed: ') + falhas.join('; ') : '') + '.');
-if (falhas.length === 4 || (erros && !enviados)) process.exit(1);
+if (falhas.length === FONTES.length || (erros && !enviados)) process.exit(1);
