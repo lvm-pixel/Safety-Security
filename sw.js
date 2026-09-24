@@ -3,7 +3,7 @@
    O resumo noticias.json, se estiver no mesmo site, vai primeiro à rede e só usa a cópia guardada sem ligação.
    As quadrículas do fundo do mapa ficam numa cache própria, que sobrevive às novas versões da app:
    as zonas já vistas voltam a aparecer sem rede. Guardam-se as últimas 2500 e renovam-se ao fim de 30 dias. */
-const CACHE = 'preparado-202609151100';
+const CACHE = 'preparado-202609231437';
 const TILES = 'preparado-quadriculas';
 const TILE_HOSTS = /^tile\.openstreetmap\.org$|(^|\.)tile\.openstreetmap\.fr$|(^|\.)tile\.opentopomap\.org$/;
 const TILE_MAX = 2500;

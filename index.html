@@ -378,6 +378,15 @@ html[data-theme=red] svg.qr{ filter:none; }
 .bv-crianca label.field{ margin:0; }
 .bv-falta select[data-k="age"]{ border-color:var(--danger); box-shadow:0 0 0 2px var(--danger); }
 
+/* ===== Estou bem (família) ===== */
+.eb-l{ list-style:none; padding:0; margin:.3em 0; }
+.eb-p{ display:flex; align-items:center; gap:.6em; padding:.5em 0; border-top:1px solid var(--line); }
+.eb-p:first-child{ border-top:0; }
+.eb-ic{ font-size:1.4em; flex:0 0 auto; }
+.eb-txt{ flex:1; min-width:0; }
+.eb-ok strong{ color:var(--ok); }
+.eb-sos strong{ color:var(--danger); }
+
 </style>
 </head>
 <body>
@@ -1525,7 +1534,7 @@ GUIAS.push(
     { id: 'danos', t: 'Sai com calma pelas escadas', d: 'Não voltes a entrar. Na rua, afasta-te de fachadas, varandas e chaminés.' },
     { id: 'mar', t: 'Risco de tsunami?', d: 'Portugal tem risco de tsunami.', p: { q: 'Estás perto do mar e o sismo foi forte ou longo (custava estar de pé ou durou mais de 20 segundos)?', sim: 'tsunami', nao: 'encontro' } },
     { id: 'tsunami', t: 'Vai já para terreno alto', d: '**Não esperes por aviso oficial.** Mais de 30 m de altitude ou 2 km para dentro, a pé se der. Sem hipótese: 3.º andar ou mais de um edifício sólido de betão. Fica várias horas: a primeira onda pode não ser a maior.', fim: true },
-    { id: 'encontro', t: 'Ponto de encontro e rádio', d: 'Vai para {{plano_encontro1}}. Liga {{radio_zona}}. Telefone só para SMS: [mensagens rápidas](#/t/mensagens).', fim: true }
+    { id: 'encontro', t: 'Ponto de encontro e rádio', d: 'Vai para {{plano_encontro1}}. Liga {{radio_zona}}. Telefone só para SMS: [mensagens rápidas](#/t/mensagens).', ferr: 'estoubem', fim: true }
   ] },
   { id: 'incendio-rural', icon: '🌲', t: 'Incêndio rural a aproximar-se', grupo: 'casa', pag: '#/s/agora/incendio-rural', passos: [
     { t: 'Qual é a situação?', d: 'Ouve {{radio_zona}} e lê os SMS da Proteção Civil.', p: { q: 'Há ordem de evacuação, fumo intenso ou chamas à vista?', sim: 'sair', nao: 'preparar' } },
@@ -1579,7 +1588,7 @@ GUIAS.push(
     { id: 'ja', t: 'Pessoas e animais primeiro', d: 'Quem leva quem: {{plano_levar}}.' },
     { t: 'Pega na mala e no essencial', d: 'Mala de evacuação, documentos, dinheiro, medicação, telemóvel e carregador, chaves, roupa e calçado para o tempo que faz.' },
     { id: 'rota', t: 'Fecha a porta e vai pela rota combinada', d: 'Rotas: {{plano_rotas}}. Não voltes atrás. A pé, se as estradas pararem.' },
-    { t: 'Avisa a família', d: 'Ponto de encontro: {{plano_encontro2}}. Contacto fora da zona: {{plano_contactoFora}}. [Mensagens rápidas](#/t/mensagens).', ios: 'Nas Mensagens, usa o Check In: a família recebe um aviso quando chegares.', fim: true },
+    { t: 'Avisa a família', d: 'Ponto de encontro: {{plano_encontro2}}. Contacto fora da zona: {{plano_contactoFora}}. [Mensagens rápidas](#/t/mensagens).', ios: 'Nas Mensagens, usa o Check In: a família recebe um aviso quando chegares.', ferr: 'estoubem', fim: true },
     { id: 'tempo', t: 'Ouve o rádio e confirma o caminho', d: 'Para onde e por onde é seguro ir: {{radio_zona}}.' },
     { t: 'Junta o essencial', d: 'Documentos, dinheiro, medicação, óculos, carregadores e powerbank, água (2 L por pessoa) e comida para 1 a 2 dias, roupa para 3 dias e o que as crianças e os animais precisam.' },
     { t: 'Fecha a casa', d: 'Gás e água; a luz no quadro se houver risco de cheia ou incêndio. Desliga os eletrodomésticos e fecha janelas e persianas.' },
@@ -11725,7 +11734,7 @@ Do not rev (it digs you in deeper). Mats, branches, cardboard, gravel under the 
 /* ===== Safety & Security — lógica da app ===== */
 (function () {
 'use strict';
-const VERSION = '202609151100';
+const VERSION = '202609231437';
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -11755,7 +11764,7 @@ const LANG = SETTINGS.lang === 'en' ? 'en' : 'pt';
 const EN = LANG === 'en';
 const LOCALE = EN ? 'en-GB' : 'pt-PT';
 function L(pt, en) { return EN && en != null ? en : pt; }
-function speechVoice() { const vs = window.speechSynthesis ? speechSynthesis.getVoices() : []; return EN ? vs.find(x => /en[-_]GB/i.test(x.lang)) || vs.find(x => /^en/i.test(x.lang)) : vs.find(x => /pt[-_]PT/i.test(x.lang)) || vs.find(x => /^pt/i.test(x.lang)); }
+function speechVoice() { audioPlayback(); const vs = window.speechSynthesis ? speechSynthesis.getVoices() : []; return EN ? vs.find(x => /en[-_]GB/i.test(x.lang)) || vs.find(x => /^en/i.test(x.lang)) : vs.find(x => /pt[-_]PT/i.test(x.lang)) || vs.find(x => /^pt/i.test(x.lang)); }
 function setLang(l) { if (l !== 'pt' && l !== 'en') return; SETTINGS.lang = l; LS.set('settings', SETTINGS); location.reload(); }
 /* Guias em inglês: o texto de src/content-en/ substitui o português com os mesmos ids; ícones, ordem, figuras e ferramentas vêm da versão portuguesa.
    Os visitos das checklists inglesas ficam nas chaves portuguesas do item na mesma posição (TASK_ALIAS). */
@@ -11935,7 +11944,10 @@ document.addEventListener('visibilitychange', () => { if (document.visibilitySta
 
 /* ---------- áudio ---------- */
 let AC = null;
-function ac() { if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)(); if (AC.state === 'suspended') AC.resume(); return AC; }
+/* iOS: com o interruptor de silêncio ligado, os sons gerados pela app ficam mudos, a não ser que a sessão de áudio seja de reprodução
+   («playback», iOS 17.4 ou mais recente). Depois de uma chamada ou de mudar de app, o contexto fica «interrupted» e tem de ser retomado. */
+function audioPlayback() { try { if (navigator.audioSession && navigator.audioSession.type !== 'playback') navigator.audioSession.type = 'playback'; } catch (e) { } }
+function ac() { audioPlayback(); if (!AC) AC = new (window.AudioContext || window.webkitAudioContext)(); if (AC.state !== 'running') { try { const p = AC.resume(); if (p && p.catch) p.catch(() => { }); } catch (e) { } } return AC; }
 function tone(freq = 800, dur = 0.12, type = 'sine', vol = 0.6) {
   try { const c = ac(); const o = c.createOscillator(); const g = c.createGain(); o.type = type; o.frequency.value = freq; o.connect(g); g.connect(c.destination);
     const t = c.currentTime; g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol, t + 0.01); g.gain.setValueAtTime(vol, t + Math.max(0.02, dur - 0.02)); g.gain.exponentialRampToValueAtTime(0.0001, t + dur); o.start(t); o.stop(t + dur + 0.05); } catch (e) { }
@@ -12120,6 +12132,7 @@ function renderHome() {
     '<a class="btn" href="#/t/sos"><span class="ic">🆘</span>' + L('SOS luminoso', 'SOS light') + '</a>' +
     '<a class="btn" href="#/t/lanterna"><span class="ic">🔦</span>' + L('Lanterna', 'Torch') + '</a>' +
     '<a class="btn" href="#/t/mensagens"><span class="ic">💬</span>' + L('SMS à família', 'SMS to family') + '</a>' +
+    '<a class="btn" href="#/t/estoubem"><span class="ic">✅</span>' + L('Estou bem', 'I’m OK') + '</a>' +
     '<a class="btn" href="#/t/rcp"><span class="ic">❤️</span>' + L('Metrónomo RCP', 'CPR metronome') + '</a>' +
     '<a class="btn" href="#/s/agora"><span class="ic">🚨</span>' + L('Emergência agora', 'Emergency now') + '</a>' +
     '<a class="btn" href="#/s/socorros"><span class="ic">🩹</span>' + L('Primeiros socorros', 'First aid') + '</a>' +
@@ -12385,7 +12398,16 @@ async function nwLoadAgg() {
 const NW_SRC = [
   { id: 'ipma', nome: 'IPMA', oque: L('avisos meteorológicos oficiais', 'official weather warnings'), site: 'https://www.ipma.pt/', load: async () => { const w = await nwJSON('https://api.ipma.pt/open-data/forecast/warnings/warnings_www.json'); if (!Array.isArray(w)) throw new Error('formato inesperado'); return w.filter(x => x && IPMA_LV[x.awarenessLevelID]).map(x => ({ a: String(x.idAreaAviso || ''), tipo: nwText(x.awarenessTypeName, 40), lv: x.awarenessLevelID, ini: Date.parse(x.startTime) || 0, fim: Date.parse(x.endTime) || 0, txt: nwText(x.text, 300) })); } },
   { id: 'rcm', nome: 'IPMA', oque: L('risco de incêndio rural por concelho, para hoje', 'wildfire danger by municipality, for today'), site: 'https://www.ipma.pt/', load: async () => { const d = await nwJSON('https://api.ipma.pt/open-data/forecast/meteorology/rcm/rcm-d0.json'); const by = {}; Object.values((d && d.local) || {}).forEach(v => { const k = String((v && v.dico) || '').slice(0, 2), r = +(((v && v.data) || {}).rcm) || 0; if (!DISTRITOS[k] || r < 1 || r > 5) return; const o = by[k] || (by[k] = { max: 0, n: [0, 0, 0, 0, 0, 0] }); o.max = Math.max(o.max, r); o.n[r]++; }); if (!Object.keys(by).length) throw new Error('sem dados'); return { dia: nwText(d.dataPrev, 12), by }; } },
-  { id: 'emsc', nome: 'EMSC', oque: L('sismos perto de Portugal nos últimos 7 dias', 'earthquakes near Portugal in the last 7 days'), site: 'https://www.emsc-csem.org/', load: async () => { const t = await nwGet('https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minmag=2.5&minlat=27&maxlat=45&minlon=-35&maxlon=-5&orderby=time&limit=40&starttime=' + nwDay(-7)); const d = t.trim() ? JSON.parse(t) : { features: [] }; return ((d && d.features) || []).map(f => { const p = f.properties || {}; return { t: Date.parse(p.time) || 0, m: +p.mag || 0, la: +p.lat, lo: +p.lon, reg: nwRegion(nwText(p.flynn_region, 80)), km: Math.round(+p.depth || 0), u: p.unid ? 'https://www.seismicportal.eu/eventdetails.html?unid=' + encodeURIComponent(p.unid) : '' }; }); } },
+  { id: 'emsc', nome: 'IPMA + EMSC', oque: L('sismos perto de Portugal nos últimos 7 dias, incluindo os pequenos sismos sentidos (IPMA)', 'earthquakes near Portugal in the last 7 days, including small felt earthquakes (IPMA)'), site: 'https://www.ipma.pt/pt/geofisica/sismicidade/', load: async () => {
+      // IPMA (áreas 7 = continente e Madeira, 3 = Açores; horas em UTC) lista os pequenos sismos locais e os «sentidos»; o EMSC cobre o resto e o mar. Os repetidos (mesmo minuto, a menos de 50 km) ficam com a versão do IPMA.
+      const R = await Promise.allSettled([nwGet('https://api.ipma.pt/open-data/observation/seismic/7.json'), nwGet('https://api.ipma.pt/open-data/observation/seismic/3.json'), nwGet('https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minmag=2.5&minlat=27&maxlat=45&minlon=-35&maxlon=-5&orderby=time&limit=40&starttime=' + nwDay(-7))]);
+      if (R.every(r => r.status === 'rejected')) throw R[0].reason;
+      const lim = Date.now() - 7 * 864e5, ipma = [];
+      for (const r of R.slice(0, 2)) { let d = null; try { d = r.status === 'fulfilled' && r.value.trim() ? JSON.parse(r.value) : null; } catch (e) { } for (const e of (d && d.data) || []) { const m = +e.magnitud || 0, tm = Date.parse(String(e.time || '').replace(/Z?$/, 'Z')) || 0, sentido = e.sensed === true || e.sensed === 'true'; if (!tm || tm < lim || !isFinite(+e.lat) || !(m >= 2.5 || sentido)) continue; ipma.push({ t: tm, m, la: +e.lat, lo: +e.lon, reg: nwText(e.local || e.obsRegion, 80) + (sentido ? L(' · sentido', ' · felt') + (e.degree ? ' (' + nwText(e.degree, 6) + ')' : '') : ''), km: Math.round(+e.depth || 0), u: 'https://www.ipma.pt/pt/geofisica/sismicidade/', f: 'IPMA', s: sentido }); } }
+      let d = { features: [] }; try { d = R[2].status === 'fulfilled' && R[2].value.trim() ? JSON.parse(R[2].value) : d; } catch (e) { }
+      const emsc = ((d && d.features) || []).map(f => { const p = f.properties || {}; return { t: Date.parse(p.time) || 0, m: +p.mag || 0, la: +p.lat, lo: +p.lon, reg: nwRegion(nwText(p.flynn_region, 80)), km: Math.round(+p.depth || 0), u: p.unid ? 'https://www.seismicportal.eu/eventdetails.html?unid=' + encodeURIComponent(p.unid) : '', f: 'EMSC' }; }).filter(x => !ipma.some(y => Math.abs(y.t - x.t) < 180000 && haversine({ lat: x.la, lon: x.lo }, { lat: y.la, lon: y.lo }) < 50000));
+      return ipma.concat(emsc).sort((a, b) => b.t - a.t).slice(0, 60);
+    } },
   { id: 'gdacs', nome: 'GDACS', oque: L('catástrofes com alerta laranja ou vermelho (Comissão Europeia e ONU)', 'disasters with an orange or red alert (European Commission and UN)'), site: 'https://www.gdacs.org/', load: async () => { const d = await nwJSON('https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH?eventlist=EQ;TC;FL;VO;DR;WF&alertlevel=Orange;Red&fromDate=' + nwDay(-14) + '&toDate=' + nwDay(1), 25000).catch(e => { if (/HTTP 404/.test(e.message)) return { features: [] }; throw e; }); return ((d && d.features) || []).map(f => { const p = f.properties || {}; const gc = (f.geometry && f.geometry.coordinates) || []; return { tipo: String(p.eventtype || ''), lv: String(p.alertlevel || ''), lo: +gc[0], la: +gc[1], pais: nwText(p.country, 160), de: String(p.fromdate || '').slice(0, 10), ate: String(p.todate || '').slice(0, 10), sev: nwText((p.severitydata || {}).severitytext, 140).replace(/^Magnitude 0(\.0+)?$/i, ''), u: nwUrl((p.url || {}).report || '') }; }).filter(x => x.lv === 'Red' || x.lv === 'Orange').sort((a, b) => ((b.lv === 'Red') - (a.lv === 'Red')) || (b.ate > a.ate ? 1 : b.ate < a.ate ? -1 : 0)); } },
   { id: 'usgs', nome: 'USGS', oque: L('sismos de magnitude 4,5 ou mais no mundo nos últimos 7 dias', 'earthquakes of magnitude 4.5 or more worldwide in the last 7 days'), site: 'https://earthquake.usgs.gov/', load: async () => { const d = await nwJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson'); return ((d && d.features) || []).map(f => { const p = f.properties || {}; const gc = (f.geometry && f.geometry.coordinates) || []; return { t: +p.time || 0, m: +p.mag || 0, lo: +gc[0], la: +gc[1], sig: +p.sig || 0, lugar: nwText(p.place, 120), tsu: +p.tsunami === 1, u: nwUrl(p.url) }; }).sort((a, b) => b.t - a.t); } },
   { id: 'oms', nome: L('OMS', 'WHO'), oque: L('surtos de doenças no mundo', 'disease outbreaks worldwide'), site: 'https://www.who.int/emergencies/disease-outbreak-news', load: async () => { const d = await nwJSON('https://www.who.int/api/news/diseaseoutbreaknews?sf_culture=en&$orderby=PublicationDateAndTime%20desc&$top=8&$select=Title,PublicationDateAndTime,UrlName'); return ((d && d.value) || []).map(x => ({ t: nwText(x.Title, 200), d: Date.parse(x.PublicationDateAndTime) || 0, u: x.UrlName ? 'https://www.who.int/emergencies/disease-outbreak-news/item/' + encodeURIComponent(x.UrlName) : '' })).filter(x => x.t); } },
@@ -12976,7 +12998,7 @@ TOOLS.push({ id: 'sos', section: 'ferramentas', icon: '🆘', title: L('SOS lumi
   render(el) {
     let stopSound = null;
     el.innerHTML = '<div class="btnrow"><button class="btn huge primary" id="light">' + L('🆘 SOS com luz (ecrã)', '🆘 SOS with light (screen)') + '</button></div><div class="btnrow"><button class="btn big" id="both">' + L('🔊 SOS luz + som', '🔊 SOS light + sound') + '</button><button class="btn big" id="sirene">' + L('🚨 Sirene contínua', '🚨 Continuous siren') + '</button></div>' +
-      md(L('>! Se tens rede, liga primeiro ao **112**. O SOS luminoso serve para te encontrarem: aponta o ecrã na direção de onde pode vir ajuda (estrada, helicóptero, barco) e mantém o telemóvel estável.\n\nOutras formas de pedir ajuda: **3 apitos** ou 3 gritos seguidos, pausa, repetir. **3 fogueiras** em triângulo. Espelho a refletir o sol para o alvo. Ver [Sinais de socorro](#/s/comunicar/sinais).', '>! If you have a signal, call **112** first. The SOS light helps people find you: point the screen towards where help may come from (road, helicopter, boat) and hold the phone steady.\n\nOther ways to call for help: **3 whistle blasts** or 3 shouts in a row, pause, repeat. **3 fires** in a triangle. A mirror reflecting the sun towards the target. See [Distress signals](#/s/comunicar/sinais).'), 'sos');
+      md(L('>! Se tens rede, liga primeiro ao **112**. O SOS luminoso serve para te encontrarem: aponta o ecrã na direção de onde pode vir ajuda (estrada, helicóptero, barco) e mantém o telemóvel estável.\n\nOutras formas de pedir ajuda: **3 apitos** ou 3 gritos seguidos, pausa, repetir. **3 fogueiras** em triângulo. Espelho a refletir o sol para o alvo. Ver [Sinais de socorro](#/s/comunicar/sinais).\n\n**Som:** põe o volume no máximo. No iPhone, se não ouvires nada, desliga o modo silencioso (interruptor lateral ou botão de ação).', '>! If you have a signal, call **112** first. The SOS light helps people find you: point the screen towards where help may come from (road, helicopter, boat) and hold the phone steady.\n\nOther ways to call for help: **3 whistle blasts** or 3 shouts in a row, pause, repeat. **3 fires** in a triangle. A mirror reflecting the sun towards the target. See [Distress signals](#/s/comunicar/sinais).\n\n**Sound:** turn the volume up to maximum. On an iPhone, if you hear nothing, turn off silent mode (side switch or Action button).'), 'sos');
     const go = (sound) => { overlayShow('#000', '<div class="big">SOS</div><div class="hint">' + L('Toca para parar', 'Tap to stop') + '</div>', () => { if (stopSound) { stopSound(); stopSound = null; } }); playSeq(morseSeq('SOS', 250), { light: true, sound, loop: true, unit: 250, freq: 900, vibrate: true }); };
     $('#light', el).onclick = () => go(false);
     $('#both', el).onclick = () => go(true);
@@ -12985,7 +13007,7 @@ TOOLS.push({ id: 'sos', section: 'ferramentas', icon: '🆘', title: L('SOS lumi
   } });
 
 /* --- Apito --- */
-TOOLS.push({ id: 'apito', section: 'ferramentas', icon: '📣', title: L('Apito e alarme', 'Whistle and alarm'), desc: L('Sons agudos para chamar a atenção. Põe o volume no máximo. Um apito físico é sempre melhor: leva um no kit.', 'High-pitched sounds to attract attention. Turn the volume up to maximum. A real whistle is always better: keep one in your kit.'),
+TOOLS.push({ id: 'apito', section: 'ferramentas', icon: '📣', title: L('Apito e alarme', 'Whistle and alarm'), desc: L('Sons agudos para chamar a atenção. Põe o volume no máximo e, no iPhone, desliga o modo silencioso. Um apito físico é sempre melhor: leva um no kit.', 'High-pitched sounds to attract attention. Turn the volume up to maximum and, on an iPhone, turn off silent mode. A real whistle is always better: keep one in your kit.'),
   render(el) {
     let stop = null; let burstTimer = null;
     el.innerHTML = '<div class="btnrow"><button class="btn huge" id="w">' + L('📣 Apito contínuo', '📣 Continuous whistle') + '</button></div><div class="btnrow"><button class="btn big" id="w3">' + L('3 apitos (pedido de socorro)', '3 whistle blasts (distress call)') + '</button><button class="btn big" id="al">' + L('🔔 Alarme intermitente', '🔔 Intermittent alarm') + '</button></div><p class="small muted">' + inline(L('Código internacional: **3 sinais** = preciso de ajuda. **1 sinal** = onde estás? **2 sinais** = vem cá.', 'International code: **3 signals** = I need help. **1 signal** = where are you? **2 signals** = come here.')) + '</p>';
@@ -13630,7 +13652,7 @@ function situacaoHTML() {
     LN.push(!lv ? L('✅ Sem avisos meteorológicos em ', '✅ No weather warnings in ') + esc(zn) : '<span class="badge ' + ['', 'warn', 'orange', 'danger'][lv] + '">' + L(['', 'Amarelo', 'Laranja', 'Vermelho'][lv], ['', 'Yellow', 'Orange', 'Red'][lv]) + '</span> ' + (z ? n + (n === 1 ? L(' aviso meteorológico', ' weather warning') : L(' avisos meteorológicos', ' weather warnings')) + L(' em ', ' in ') + esc(zn) : L('Avisos meteorológicos em ', 'Weather warnings in ') + nz + (nz === 1 ? L(' zona', ' area') : L(' zonas', ' areas')) + L(' do país', ' of the country')) + ': ' + tipos);
   }
   if (s.rcm && s.rcm.max >= 4) LN.push('<span class="rcm rcm' + s.rcm.max + '">' + s.rcm.max + '</span> ' + L('Risco de incêndio ' + RCM_LV[s.rcm.max] + ' hoje em ', cap(RCM_LV[s.rcm.max]) + ' fire danger today in ') + esc(zn));
-  if (s.sismos) { const r = s.sismos.filter(x => now - x.t < 24 * 36e5 && x.m >= 3); LN.push(r.length ? L('🌍 Sismo de magnitude ' + nf(r[0].m) + ' a ' + fmtKm(r[0].dist), '🌍 Magnitude ' + nf(r[0].m) + ' earthquake ' + fmtKm(r[0].dist) + ' away') + ' (' + esc(nwWhen(r[0].t)) + ')' : L('🌍 Sem sismos de magnitude 3 ou mais perto nas últimas 24 horas', '🌍 No earthquakes of magnitude 3 or more nearby in the last 24 hours')); }
+  if (s.sismos) { const r = s.sismos.filter(x => now - x.t < 24 * 36e5 && (x.m >= 3 || (x.s && x.dist <= 150))); LN.push(r.length ? L('🌍 Sismo de magnitude ' + nf(r[0].m) + ' a ' + fmtKm(r[0].dist), '🌍 Magnitude ' + nf(r[0].m) + ' earthquake ' + fmtKm(r[0].dist) + ' away') + (r[0].s ? L(', sentido', ', felt') : '') + ' (' + esc(nwWhen(r[0].t)) + ')' : L('🌍 Sem sismos de magnitude 3 ou mais, nem sentidos, perto nas últimas 24 horas', '🌍 No earthquakes of magnitude 3 or more, or felt ones, nearby in the last 24 hours')); }
   if (s.mundo) { const v = s.mundo.vermelhos.length, f = s.mundo.fortes[0]; LN.push('🌐 ' + (v ? v + (v === 1 ? L(' catástrofe', ' disaster') : L(' catástrofes', ' disasters')) + L(' com alerta vermelho no mundo', ' with a red alert worldwide') : L('Sem catástrofes com alerta vermelho no mundo', 'No disasters with a red alert worldwide')) + (f ? L('; sismo de magnitude ' + nf(f.m) + ': ', '; magnitude ' + nf(f.m) + ' earthquake: ') + esc(f.lugar) : '')); }
   return '<div class="tile situ"><div class="situ-h"><span class="t">' + L('📡 Situação agora', '📡 Situation now') + (z ? ' · ' + esc(zn) : '') + '</span><span class="small muted">' + (s.ts ? L('dados de ' + esc(nwAgo(s.ts)), 'updated ' + esc(nwAgo(s.ts))) : L('sem dados guardados', 'no saved data')) + '</span></div>' +
     (LN.length ? '<ul class="situ-l">' + LN.map(x => '<li>' + x + '</li>').join('') + '</ul>' : '<p class="small muted">' + L('Com internet, carrega em Atualizar para ver os avisos da tua zona, os sismos perto e os alertas graves no mundo.', 'With internet, tap Refresh to see the warnings for your area, nearby earthquakes and serious alerts worldwide.') + '</p>') +
@@ -13879,6 +13901,122 @@ TOOLS.push({ id: 'mensagens', section: 'ferramentas', icon: '💬', title: L('Me
     draw();
   } });
 
+/* ---- ferramentas/35-estoubem.js ---- */
+/* --- «Estou bem»: estado da família por notificação (ntfy), com a posição GPS, e SMS quando não há internet --- */
+// Tópico privado da família no ntfy, passado por QR (abre a app já com o tópico) ou colado. Cada telemóvel envia «estou bem»,
+// «preciso de ajuda» ou uma mensagem; todos os telemóveis subscritos recebem a notificação, mesmo com a app fechada.
+// O ntfy.sh guarda as mensagens 12 horas; a app lê-as por polling (sem ligação permanente) e guarda no telemóvel as que já viu (48 horas).
+function estouBemCfg() { return Object.assign({ topico: '', eu: '', teste: 0, lido: 0, pos: null }, LS.get('estouBem', {}) || {}); }
+function estouBemTopico() { const a = new Uint8Array(12); crypto.getRandomValues(a); return 'safety-fam-' + Array.from(a, b => 'abcdefghijkmnpqrstuvwxyz23456789'[b % 32]).join(''); }
+function estouBemLink(topico) { return /^https?:\/\//.test(location.href) && !/^(localhost|127\.)/.test(location.hostname) ? location.origin + location.pathname + '?fam=' + encodeURIComponent(topico) + '#/t/estoubem' : ''; }
+/* mensagem do ntfy → { id, ts, tipo (ok, sos, msg), nome, texto, lat, lon }: o tipo e o nome vêm do título, a posição da ligação do mapa */
+function estouBemParse(m) {
+  const t = String(m.title || '').trim(), r = t.match(/^(✅|🆘|💬)\s*(.+?)(?:\s+(está bem|is OK|precisa de ajuda|needs help))?$/u);
+  const c = String(m.click || '').match(/q=(-?\d+\.\d+),(-?\d+\.\d+)/);
+  return { id: m.id, ts: (+m.time || 0) * 1000, tipo: !r ? 'msg' : r[1] === '✅' ? 'ok' : r[1] === '🆘' ? 'sos' : 'msg', nome: r ? r[2] : (t || L('Alguém', 'Someone')), texto: String(m.message || ''), lat: c ? +c[1] : null, lon: c ? +c[2] : null };
+}
+TOOLS.push({ id: 'estoubem', section: 'ferramentas', icon: '✅', title: L('Estou bem (família)', 'I’m OK (family)'), desc: L('Um toque avisa toda a família de que estás bem, ou de que precisas de ajuda, com a tua posição: chega como notificação a cada telemóvel, mesmo com a app fechada, por qualquer internet. Sem internet, sai por SMS. Vês também o último estado de cada pessoa.', 'One tap tells the whole family that you are OK, or that you need help, with your location: it arrives as a notification on every phone, even with the app closed, over any internet connection. Without internet, it goes out by SMS. You also see each person’s latest status.'),
+  render(el) {
+    let cfg = estouBemCfg(), timer = null, ocupado = false;
+    const guarda = () => LS.set('estouBem', cfg);
+    const hm = ts => new Date(ts).toLocaleTimeString(LOCALE, { hour: '2-digit', minute: '2-digit' });
+    const q = s => $(s, el);
+    // tópico vindo do QR de outro telemóvel (?fam=…)
+    try { const f = new URLSearchParams(location.search).get('fam'); if (f) { if (/^[\w-]{8,64}$/.test(f) && f !== cfg.topico) { cfg.topico = f; guarda(); toast(L('Tópico da família recebido', 'Family topic received'), 3500); } const u = new URL(location.href); u.searchParams.delete('fam'); history.replaceState(null, '', u.href); } } catch (e) { }
+    if (!cfg.eu) { const a = getFamily().adults[0]; cfg.eu = String((a && a.name) || '').trim(); }
+    const pronto = () => !!(cfg.topico && String(cfg.eu || '').trim());
+    const estado = m => { const s = q('#ebst'); if (s) s.textContent = m; };
+    const posicao = ms => new Promise(res => { if (!navigator.geolocation) return res(null); let fim = false; const dar = v => { if (!fim) { fim = true; res(v); } }; const t = setTimeout(() => dar(null), ms); navigator.geolocation.getCurrentPosition(p => { clearTimeout(t); dar({ lat: p.coords.latitude, lon: p.coords.longitude, acc: p.coords.accuracy, ts: Date.now() }); }, () => { clearTimeout(t); dar(null); }, { enableHighAccuracy: true, timeout: ms, maximumAge: 120000 }); });
+    const numerosSMS = () => { const ps = smsPessoas(), sel = LS.get('smsPara', null), nums = sel ? ps.filter(p => sel.indexOf(p.tel) >= 0).map(p => p.tel) : []; return nums.length ? nums : ps.slice(0, 3).map(p => p.tel); };
+    const cache = () => LS.get('estouBemRecebidas', {}) || {};
+    const enviar = async (tipo, nota) => {
+      if (ocupado) return;
+      if (!cfg.topico) return toast(L('Cria ou recebe primeiro o tópico da família (em baixo)', 'Create or receive the family topic first (below)'));
+      const eu = String(cfg.eu || '').trim(); if (!eu) { toast(L('Escreve o teu nome em «Quem sou eu»', 'Write your name under “Who am I”')); const i = q('#ebeu'); if (i) i.focus(); return; }
+      ocupado = true; estado(L('A obter a posição…', 'Getting your location…'));
+      const p = await posicao(8000); if (p) { cfg.pos = p; guarda(); }
+      const link = p ? 'https://maps.google.com/?q=' + p.lat.toFixed(5) + ',' + p.lon.toFixed(5) : '';
+      const st = tipo === 'ok' ? L('está bem', 'is OK') : tipo === 'sos' ? L('precisa de ajuda', 'needs help') : '';
+      const title = (tipo === 'ok' ? '✅ ' : tipo === 'sos' ? '🆘 ' : '💬 ') + eu + (st ? ' ' + st : '');
+      const linhas = [eu + (st ? ' ' + st : '') + ' · ' + hm(Date.now())]; if (nota) linhas.push(nota);
+      linhas.push(p ? '📍 ' + L('Posição', 'Location') + ' (±' + Math.round(p.acc) + ' m): ' + link : '📍 ' + L('Sem posição GPS', 'No GPS position'));
+      const corpo = { topic: cfg.topico, title, message: linhas.join('\n'), priority: tipo === 'sos' ? 5 : 4 }; if (link) corpo.click = link;
+      estado(L('A enviar…', 'Sending…'));
+      try {
+        if (!navigator.onLine) throw new Error('offline');
+        const r = await fetch(NTFY_SERVIDOR, { method: 'POST', body: JSON.stringify(corpo), credentials: 'omit', referrerPolicy: 'no-referrer' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        cfg.teste = Date.now(); guarda(); ocupado = false; q('#ebsms').innerHTML = '';
+        const c = cache(); c['local-' + cfg.teste] = { id: 'local-' + cfg.teste, ts: cfg.teste, tipo, nome: eu, texto: linhas.join('\n'), lat: p ? p.lat : null, lon: p ? p.lon : null, local: true }; LS.set('estouBemRecebidas', c); drawLista('');
+        estado('✅ ' + L('Enviado à família às ', 'Sent to the family at ') + hm(Date.now()) + (p ? '' : L(' (sem posição GPS)', ' (without GPS position)')) + '.');
+        toast(L('Enviado à família', 'Sent to the family'));
+        setTimeout(carregar, 2000);
+      } catch (e) {
+        ocupado = false;
+        const texto = title + '\n' + linhas.join('\n'), nums = numerosSMS();
+        estado(L('Sem internet, ou o ntfy não respondeu.', 'No internet, or ntfy did not answer.'));
+        q('#ebsms').innerHTML = nums.length ? '<div class="callout warn"><strong>' + L('Envia por SMS:', 'Send by SMS:') + '</strong> ' + L('a mensagem fica pronta na app Mensagens, para ' + nums.length + ' número(s).', 'the message is ready in the Messages app, for ' + nums.length + ' number(s).') + '<div class="btnrow"><a class="btn primary" href="' + esc(smsHref(nums, texto)) + '">💬 ' + L('Abrir SMS', 'Open SMS') + '</a><a class="btn" href="#/t/mensagens">' + L('Escolher números', 'Choose numbers') + '</a></div></div>' : '<div class="callout warn">' + L('Sem internet e sem números para SMS: põe os telefones dos adultos no <a href="#/t/familia">perfil da família</a>.', 'No internet and no numbers for SMS: add the adults’ phone numbers to the <a href="#/t/familia">family profile</a>.') + '</div>';
+      }
+    };
+    const carregar = async () => {
+      if (!cfg.topico) return;
+      if (!navigator.onLine) { drawLista(L('Sem internet: a mostrar o que já tinha sido recebido.', 'No internet: showing what was already received.')); return; }
+      try {
+        const r = await fetch(NTFY_SERVIDOR + encodeURIComponent(cfg.topico) + '/json?poll=1&since=12h', { credentials: 'omit', referrerPolicy: 'no-referrer', cache: 'no-store' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const c = cache(); (await r.text()).split('\n').forEach(l => { if (!l.trim()) return; try { const m = JSON.parse(l); if (m.event === 'message' && m.id) { const x = estouBemParse(m); c[m.id] = x; Object.keys(c).forEach(k => { if (c[k].local && c[k].nome === x.nome && Math.abs(c[k].ts - x.ts) < 120000) delete c[k]; }); } } catch (e) { } });
+        const lim = Date.now() - 48 * 36e5; Object.keys(c).forEach(k => { if (!c[k].ts || c[k].ts < lim) delete c[k]; });
+        LS.set('estouBemRecebidas', c); cfg.lido = Date.now(); guarda(); drawLista('');
+      } catch (e) { drawLista(L('Não foi possível ler o ntfy (', 'Could not read ntfy (') + ((e && e.message) || e) + ').'); }
+    };
+    const drawLista = aviso => {
+      const box = q('#eblista'); if (!box) return;
+      const todas = Object.values(cache()).sort((a, b) => b.ts - a.ts), ult = new Map(); todas.forEach(m => { if (!ult.has(m.nome)) ult.set(m.nome, m); });
+      const ref = cfg.pos && Date.now() - cfg.pos.ts < 6 * 36e5 ? cfg.pos : null;
+      const linha = m => {
+        const d = ref && m.lat != null ? distKm(ref, m) : null, nota = m.texto.split('\n').filter(l => l.trim() && !/^📍/.test(l) && !/ · \d{1,2}:\d{2}$/.test(l)).join(' ');
+        return '<li class="eb-p eb-' + m.tipo + '"><span class="eb-ic">' + (m.tipo === 'ok' ? '✅' : m.tipo === 'sos' ? '🆘' : '💬') + '</span><div class="eb-txt"><strong>' + esc(m.nome) + '</strong> ' + esc(m.tipo === 'ok' ? L('está bem', 'is OK') : m.tipo === 'sos' ? L('precisa de ajuda', 'needs help') : '') +
+          ' <span class="muted small">· ' + esc(nwAgo(m.ts)) + ' (' + hm(m.ts) + ')' + (d != null ? ' · ' + esc(L('a ' + fmtKm(d) + ' a ' + rumoTexto(ref, m) + ' de ti', fmtKm(d) + ' ' + rumoTexto(ref, m) + ' of you')) : '') + '</span>' + (nota ? '<div class="small">' + esc(nota) + '</div>' : '') + '</div>' +
+          (m.lat != null ? '<a class="btn sm" target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q=' + m.lat + ',' + m.lon + '" title="' + L('Ver no mapa', 'See on the map') + '">🗺️</a>' : '') + '</li>';
+      };
+      box.innerHTML = (aviso ? '<p class="small muted">' + esc(aviso) + '</p>' : '') + (ult.size ? '<ul class="eb-l">' + [...ult.values()].map(linha).join('') + '</ul>' : '<p class="muted small">' + L('Ainda não há mensagens da família nas últimas horas.', 'No messages from the family in the last few hours yet.') + '</p>') +
+        (todas.length > ult.size ? '<details><summary class="small">' + L('Histórico (' + todas.length + ' mensagens)', 'History (' + todas.length + ' messages)') + '</summary><ul class="eb-l">' + todas.map(linha).join('') + '</ul></details>' : '') +
+        '<p class="small muted">' + (cfg.lido ? L('Lido ', 'Read ') + esc(nwAgo(cfg.lido)) + '. ' : '') + L('O ntfy.sh guarda as mensagens 12 horas; a app guarda as que já viu durante 48 horas.', 'ntfy.sh keeps messages for 12 hours; the app keeps the ones it has seen for 48 hours.') + '</p>';
+    };
+    const draw = () => {
+      const ok = pronto(), link = cfg.topico ? estouBemLink(cfg.topico) : '';
+      const adultos = getFamily().adults.map(a => String(a.name || '').trim()).filter(Boolean);
+      const acao = '<div class="card"><div class="btnrow"><button class="btn huge ok" id="ebok">✅ ' + L('Estou bem', 'I’m OK') + '</button></div><div class="btnrow"><button class="btn huge danger" id="ebsos">🆘 ' + L('Preciso de ajuda', 'I need help') + '</button></div>' +
+        '<div class="row"><input id="ebnota" placeholder="' + L('Mensagem (opcional): ex. estou na escola com as crianças', 'Message (optional): e.g. at the school with the kids') + '" maxlength="200"><button class="btn fixed" id="ebmsg">💬 ' + L('Enviar', 'Send') + '</button></div>' +
+        '<p class="small" id="ebst">' + (cfg.teste ? L('Último envio ', 'Last sent ') + esc(nwAgo(cfg.teste)) + '.' : L('Vai com a tua posição GPS, se a obtiver em 8 segundos, e chega como notificação a todos os telemóveis da família.', 'Goes out with your GPS position, if it can get it within 8 seconds, and arrives as a notification on every family phone.')) + '</p><div id="ebsms"></div></div>';
+      const estadoFam = '<div class="card"><div class="situ-h"><h3>' + L('Estado da família', 'Family status') + '</h3><button class="btn sm" id="ebler">🔄 ' + L('Atualizar', 'Refresh') + '</button></div><div id="eblista"></div></div>';
+      const topico = '<div class="card"><h3>' + L('1. Tópico da família', '1. Family topic') + '</h3>' + (cfg.topico ?
+        '<p class="small">' + L('É a «palavra-passe» do grupo: quem o tiver envia e recebe as mensagens da família. Nos outros telemóveis, lê o QR com a câmara (abre a app já com o tópico) ou cola o tópico em «Já tenho um tópico».', 'It is the group’s “password”: whoever has it sends and receives the family’s messages. On the other phones, scan the QR with the camera (it opens the app with the topic filled in) or paste the topic under “I already have a topic”.') + '</p><div class="al-topico mono">' + esc(cfg.topico) + '</div>' +
+        '<div class="qrbox">' + qrSVG(link || cfg.topico, 220) + '</div>' +
+        '<div class="btnrow"><button class="btn" id="ebcopt">📋 ' + L('Copiar o tópico', 'Copy the topic') + '</button>' + (link ? '<button class="btn" id="ebcopl">🔗 ' + L('Copiar a ligação', 'Copy the link') + '</button>' : '') + '<button class="btn sm" id="ebnovo">' + L('Trocar de tópico', 'Change topic') + '</button></div>' :
+        '<p class="small">' + L('Um telemóvel cria o tópico e passa-o aos outros por QR. Se já te passaram um, cola-o em baixo.', 'One phone creates the topic and passes it to the others by QR. If you were given one, paste it below.') + '</p><div class="btnrow"><button class="btn primary" id="ebcriar">' + L('Criar o tópico da família', 'Create the family topic') + '</button></div>') +
+        '<label class="field"><span>' + L('Já tenho um tópico (colar)', 'I already have a topic (paste)') + '</span><div class="row"><input id="ebcolar" placeholder="safety-fam-…" autocapitalize="off" autocomplete="off"><button class="btn fixed" id="ebusar">' + L('Usar', 'Use') + '</button></div></label></div>';
+      const ntfy = '<div class="card"><h3>' + L('2. A app ntfy em cada telemóvel', '2. The ntfy app on each phone') + '</h3><ol class="small"><li>' + L('Instala a app <strong>ntfy</strong> (App Store ou Google Play; gratuita, sem conta).', 'Install the <strong>ntfy</strong> app (App Store or Google Play; free, no account).') + '</li><li>' + L('Toca em <strong>+</strong>, escreve o tópico de cima e subscreve. É um tópico diferente do dos alertas: subscreve os dois.', 'Tap <strong>+</strong>, type the topic above and subscribe. It is a different topic from the alerts one: subscribe to both.') + '</li><li>' + L('Nas definições do telemóvel, deixa a ntfy mostrar notificações com som.', 'In the phone settings, allow ntfy to show notifications with sound.') + '</li></ol></div>';
+      const eu = '<div class="card"><h3>' + L('3. Quem sou eu neste telemóvel', '3. Who am I on this phone') + '</h3><div class="row"><input id="ebeu" list="ebnomes" value="' + esc(cfg.eu) + '" placeholder="' + L('O teu nome', 'Your name') + '" maxlength="30"><datalist id="ebnomes">' + adultos.map(n => '<option value="' + esc(n) + '">').join('') + '</datalist></div><p class="small muted">' + L('Aparece nas mensagens que envias. Cada telemóvel tem o seu.', 'Shown in the messages you send. Each phone has its own.') + '</p></div>';
+      const priv = '<div class="card small">' + L('<strong>Privacidade.</strong> As mensagens (nome, estado, posição) passam pelo ntfy.sh, que as guarda 12 horas. Dá o tópico só à família; se sair do vosso controlo, troca-o.', '<strong>Privacy.</strong> The messages (name, status, location) go through ntfy.sh, which keeps them for 12 hours. Only give the topic to your family; if it gets out of your control, change it.') + '</div>';
+      el.innerHTML = (ok ? acao + estadoFam + topico + ntfy + eu : '<div class="callout info">' + L('Para começar: cria o tópico da família (ou cola o que te passaram), subscreve-o na app ntfy e escreve o teu nome.', 'To start: create the family topic (or paste the one you were given), subscribe to it in the ntfy app and write your name.') + '</div>' + topico + ntfy + eu + acao + estadoFam) + priv;
+      q('#ebok').onclick = () => enviar('ok', q('#ebnota').value.trim());
+      q('#ebsos').onclick = () => enviar('sos', q('#ebnota').value.trim());
+      q('#ebmsg').onclick = () => { const n = q('#ebnota').value.trim(); if (!n) return toast(L('Escreve a mensagem', 'Write your message')); enviar('msg', n); };
+      q('#ebler').onclick = () => carregar();
+      if (q('#ebcriar')) q('#ebcriar').onclick = () => { cfg.topico = estouBemTopico(); guarda(); draw(); };
+      q('#ebusar').onclick = () => { let t = q('#ebcolar').value.trim().replace(/^.*[?&]fam=/, '').replace(/[#&].*$/, ''); try { t = decodeURIComponent(t); } catch (e) { } if (!/^[\w-]{8,64}$/.test(t)) return toast(L('Tópico inválido', 'Invalid topic')); cfg.topico = t; LS.del('estouBemRecebidas'); guarda(); draw(); };
+      if (q('#ebcopt')) q('#ebcopt').onclick = () => copyText(cfg.topico);
+      if (q('#ebcopl')) q('#ebcopl').onclick = () => copyText(link);
+      if (q('#ebnovo')) q('#ebnovo').onclick = () => { if (!confirm(L('Trocar de tópico? Todos os telemóveis da família têm de ler o QR novo e subscrevê-lo na app ntfy.', 'Change the topic? Every family phone must scan the new QR and subscribe to it in the ntfy app.'))) return; cfg.topico = estouBemTopico(); LS.del('estouBemRecebidas'); guarda(); draw(); };
+      q('#ebeu').oninput = () => { cfg.eu = q('#ebeu').value.trim(); guarda(); };
+      drawLista(''); if (cfg.topico) carregar();
+    };
+    draw();
+    timer = setInterval(() => { if (document.visibilityState === 'visible' && cfg.topico && navigator.onLine) carregar(); }, 60000);
+    return () => clearInterval(timer);
+  } });
+
 /* ---- ferramentas/40-ficha.js ---- */
 /* --- Ficha médica de emergência --- */
 const FICHA_CAMPOS = [['sangue', L('Grupo sanguíneo', 'Blood group'), 'sel'], ['alergias', L('Alergias (medicamentos, alimentos, picadas, látex)', 'Allergies (medicines, foods, stings, latex)'), 'txt'], ['doencas', L('Doenças e condições (asma, diabetes, epilepsia, gravidez, coração)', 'Illnesses and conditions (asthma, diabetes, epilepsy, pregnancy, heart problems)'), 'txt'], ['medicacao', L('Medicação habitual (nome, dose e horário)', 'Regular medication (name, dose and times)'), 'txt'], ['dispositivos', L('Dispositivos e próteses (pacemaker, bomba de insulina, aparelho auditivo)', 'Devices and prostheses (pacemaker, insulin pump, hearing aid)'), 'txt'], ['medico', L('Médico, centro de saúde e telefone', 'Doctor, health centre and phone number'), 'txt'], ['utente', L('Número de utente do SNS (opcional)', 'SNS user number (número de utente, optional)'), 'inp'], ['notas', L('Outras informações para os socorristas', 'Other information for rescuers'), 'txt']];
@@ -14060,6 +14198,8 @@ function prepEstado() {
   const bk = dias(LS.get('lastBackup', 0));
   add('backup', L('Cópia de segurança recente', 'Recent backup'), 6, bk <= 90 ? 1 : bk <= 180 ? 0.5 : 0, L('Exporta uma cópia e guarda-a noutro telemóvel ou numa pen.', 'Export a backup and keep it on another phone or on a USB stick.'), '#/t/backup');
   add('alertas', L('Alertas no telemóvel a funcionar', 'Phone alerts working'), 8, dias(LS.get('alertasTeste', 0)) <= 180 ? 1 : 0, L('Configura os alertas e envia uma notificação de teste.', 'Set up the alerts and send a test notification.'), '#/t/alertas');
+  const eb = LS.get('estouBem', {}) || {};
+  add('estoubem', L('«Estou bem» da família configurado', 'Family “I’m OK” set up'), 6, eb.topico ? (dias(eb.teste) <= 180 ? 1 : 0.5) : 0, L('Cria o tópico da família, subscreve-o na app ntfy em todos os telemóveis e envia um «Estou bem» de teste.', 'Create the family topic, subscribe to it in the ntfy app on every phone and send a test “I’m OK”.'), '#/t/estoubem');
   add('mapas', L('Mapas da zona descarregados no telemóvel', 'Maps of your area downloaded to the phone'), 6, dias(decl.mapas) <= 365 ? 1 : 0, L('No Google Maps ou no Apple Maps, descarrega a zona onde vives, trabalhas e para onde evacuarias.', 'In Google Maps or Apple Maps, download the area where you live, where you work and where you would evacuate to.'), '#/s/navegar/mapa-gps', 'mapas');
   add('radio', L('Rádio a pilhas e frequência sabida', 'Battery radio and known frequency'), 6, (dias(decl.radio) <= 365 ? 0.5 : 0) + (String(plan.radio || '').trim() ? 0.5 : 0), L('Um rádio a pilhas ou de manivela, e a frequência da Antena 1 guardada no plano.', 'A battery or wind-up radio, and the frequency of Antena 1 (public radio) saved in the plan.'), '#/t/mensagens', 'radio');
   const ip = LS.get('iphone', {}) || {}, nucleo = ['sos', 'contactos-sos', 'ficha', 'alertas-gov', 'familia-toca', 'roubo'];
@@ -14098,7 +14238,7 @@ TOOLS.push({ id: 'preparacao', section: 'meus', icon: '📊', title: L('Nível d
 /* ---- ferramentas/70-alertas.js ---- */
 /* --- Alertas no telemóvel (GitHub + ntfy) e «Perto de mim» --- */
 const NTFY_SERVIDOR = 'https://ntfy.sh/';
-function alertasCfg() { return Object.assign({ zonas: [], ipma: 'laranja', sismosPerto: true, sismosPortugal: true, rcm: true, mundo: true, topico: '', link: '' }, LS.get('alertasCfg', {}) || {}); }
+function alertasCfg() { return Object.assign({ zonas: [], ipma: 'laranja', sismosPerto: true, sismosPortugal: true, sismosSentidos: true, rcm: true, mundo: true, topico: '', link: '' }, LS.get('alertasCfg', {}) || {}); }
 function alertasTopico() { const a = new Uint8Array(16); crypto.getRandomValues(a); return 'safety-' + Array.from(a, b => 'abcdefghijkmnpqrstuvwxyz23456789'[b % 32]).join(''); }
 TOOLS.push({ id: 'alertas', section: 'ferramentas', icon: '🔔', title: L('Alertas no telemóvel', 'Phone alerts'), desc: L('Recebe no telemóvel, mesmo com a app fechada, os avisos do IPMA da tua zona, os sismos sentidos perto, o risco máximo de incêndio e as catástrofes graves no mundo. Grátis, com o GitHub e a app ntfy.', 'Get the IPMA (weather institute) warnings for your area, earthquakes felt nearby, maximum fire danger and major disasters around the world on your phone, even with the app closed. Free, with GitHub and the ntfy app.'),
   render(el) {
@@ -14109,13 +14249,13 @@ TOOLS.push({ id: 'alertas', section: 'ferramentas', icon: '🔔', title: L('Aler
     const guarda = () => LS.set('alertasCfg', cfg);
     guarda();
     const draw = () => {
-      const json = JSON.stringify(Object.assign({ zonas: cfg.zonas, ipma: cfg.ipma, sismosPerto: cfg.sismosPerto, sismosPortugal: cfg.sismosPortugal, rcm: cfg.rcm, mundo: cfg.mundo, link: cfg.link }, EN ? { idioma: 'en' } : {})), teste = LS.get('alertasTeste', 0);
+      const json = JSON.stringify(Object.assign({ zonas: cfg.zonas, ipma: cfg.ipma, sismosPerto: cfg.sismosPerto, sismosPortugal: cfg.sismosPortugal, sismosSentidos: cfg.sismosSentidos, rcm: cfg.rcm, mundo: cfg.mundo, link: cfg.link }, EN ? { idioma: 'en' } : {})), teste = LS.get('alertasTeste', 0);
       const chk = (k, t) => '<label class="field row"><input type="checkbox" class="fixed" data-cfg="' + k + '"' + (cfg[k] ? ' checked' : '') + '><span style="flex:1">' + t + '</span></label>';
       const opt = (v, t) => '<option value="' + v + '"' + (cfg.ipma === v ? ' selected' : '') + '>' + t + '</option>';
       el.innerHTML = md(L('>i Com a app fechada e o telemóvel bloqueado, recebes uma notificação quando houver um aviso para a tua zona. Um serviço gratuito do GitHub verifica as fontes oficiais de 10 em 10 minutos e envia o alerta pela app **ntfy** (gratuita, sem conta). Não substitui os SMS de alerta da Proteção Civil.', '>i With the app closed and the phone locked, you get a notification when there is a warning for your area. A free GitHub service checks the official sources every 10 minutes and sends the alert through the **ntfy** app (free, no account). It does not replace the SMS alerts from Proteção Civil (Civil Protection).'), 'alinfo') +
         '<div class="card"><h3>' + L('1. Zonas e alertas', '1. Areas and alerts') + '</h3><div class="fambar">' + Object.keys(NEWS_AREAS).map(k => '<label class="btn sm' + (cfg.zonas.indexOf(k) >= 0 ? ' primary' : '') + '"><input type="checkbox" data-zona="' + k + '"' + (cfg.zonas.indexOf(k) >= 0 ? ' checked' : '') + ' style="display:none">' + esc(NEWS_AREAS[k]) + '</label>').join('') + '</div>' +
         '<label class="field"><span>' + L('Avisos meteorológicos do IPMA', 'IPMA weather warnings') + '</span><select id="alipma">' + opt('amarelo', L('Amarelo, laranja e vermelho', 'Yellow, orange and red')) + opt('laranja', L('Laranja e vermelho (recomendado)', 'Orange and red (recommended)')) + opt('vermelho', L('Só vermelho', 'Red only')) + opt('nao', L('Não quero', 'None')) + '</select></label>' +
-        chk('sismosPerto', L('Sismos de magnitude 3,5 ou mais a menos de 150 km das zonas', 'Earthquakes of magnitude 3.5 or more within 150 km of the areas')) + chk('sismosPortugal', L('Sismos de magnitude 5 ou mais no continente, nos Açores, na Madeira e no mar à volta', 'Earthquakes of magnitude 5 or more on the mainland, in the Açores, in Madeira and in the surrounding sea')) + chk('rcm', L('Risco máximo de incêndio rural no distrito (uma vez por dia, durante o dia)', 'Maximum wildfire danger in the district (once a day, during the day)')) + chk('mundo', L('Catástrofes com alerta vermelho no mundo e sismos de magnitude 7 ou mais', 'Disasters with a red alert around the world, and earthquakes of magnitude 7 or more')) + '</div>' +
+        chk('sismosPerto', L('Sismos de magnitude 3,5 ou mais a menos de 150 km das zonas', 'Earthquakes of magnitude 3.5 or more within 150 km of the areas')) + chk('sismosPortugal', L('Sismos de magnitude 5 ou mais no continente, nos Açores, na Madeira e no mar à volta', 'Earthquakes of magnitude 5 or more on the mainland, in the Açores, in Madeira and in the surrounding sea')) + chk('sismosSentidos', L('Sismos sentidos perto das zonas (IPMA): magnitude 2,5 ou mais a menos de 100 km, ou assinalados como sentidos a menos de 150 km', 'Earthquakes felt near the areas (IPMA): magnitude 2.5 or more within 100 km, or marked as felt within 150 km')) + chk('rcm', L('Risco máximo de incêndio rural no distrito (uma vez por dia, durante o dia)', 'Maximum wildfire danger in the district (once a day, during the day)')) + chk('mundo', L('Catástrofes com alerta vermelho no mundo e sismos de magnitude 7 ou mais', 'Disasters with a red alert around the world, and earthquakes of magnitude 7 or more')) + '</div>' +
         '<div class="card"><h3>' + L('2. A app ntfy no telemóvel', '2. The ntfy app on your phone') + '</h3><ol class="small"><li>' + L('Instala a app <strong>ntfy</strong> na App Store ou no Google Play. É gratuita e não pede conta.', 'Install the <strong>ntfy</strong> app from the App Store or Google Play. It is free and does not ask for an account.') + '</li><li>' + L('Abre-a, toca em <strong>+</strong> e escreve este tópico:', 'Open it, tap <strong>+</strong> and type this topic in <strong>Topic name</strong>, then tap <strong>Subscribe</strong>:') + '</li></ol><div class="al-topico mono">' + esc(cfg.topico) + '</div><div class="btnrow"><button class="btn" id="alcopt">' + L('📋 Copiar o tópico', '📋 Copy the topic') + '</button><button class="btn sm" id="alnovo">' + L('Criar outro tópico', 'Create another topic') + '</button></div><p class="small muted">' + L('O tópico funciona como uma palavra-passe: quem o souber recebe os mesmos alertas. Dá-o só à família.', 'The topic works like a password: anyone who knows it gets the same alerts. Only give it to your family.') + '</p></div>' +
         '<div class="card"><h3>' + L('3. Testar', '3. Test') + '</h3><p class="small">' + L('Com internet, a app envia uma notificação para o tópico. Deve chegar ao telemóvel em segundos.', 'With internet, the app sends a notification to the topic. It should reach your phone within seconds.') + '</p><div class="btnrow"><button class="btn primary" id="alteste">' + L('📣 Enviar notificação de teste', '📣 Send test notification') + '</button></div><p class="small" id="alst">' + (teste ? L('✅ Último teste enviado ', '✅ Last test sent ') + esc(nwAgo(teste)) + '.' : '') + '</p></div>' +
         '<div class="card"><h3>' + L('4. Ligar o GitHub (uma vez)', '4. Connect GitHub (once)') + '</h3><ol class="small"><li>' + L('No repositório onde publicaste a app, carrega os ficheiros <strong>tools/alertas.mjs</strong> e <strong>.github/workflows/alertas.yml</strong>.', 'In the repository where you published the app, upload the files <strong>tools/alertas.mjs</strong> and <strong>.github/workflows/alertas.yml</strong>.') + '</li><li>' + L('Em <strong>Settings › Secrets and variables › Actions</strong>, separador <strong>Secrets</strong>, cria <strong>NTFY_TOPICO</strong> com o tópico de cima.', 'In <strong>Settings › Secrets and variables › Actions</strong>, on the <strong>Secrets</strong> tab, click <strong>New repository secret</strong> and create <strong>NTFY_TOPICO</strong> with the topic above.') + '</li><li>' + L('No mesmo separador <strong>Secrets</strong>, cria também <strong>ALERTAS_CONFIG</strong> com este texto (como segredo, as zonas não aparecem nos registos públicos do GitHub):', 'On the same <strong>Secrets</strong> tab, click <strong>New repository secret</strong> again and create <strong>ALERTAS_CONFIG</strong> with this text (as a secret, your areas do not appear in GitHub’s public logs):') + '</li></ol>' + (cfg.zonas.length ? '' : '<div class="callout warn">' + L('Escolhe pelo menos uma zona no passo 1: sem zonas, o GitHub não envia alertas.', 'Choose at least one area in step 1: with no areas, GitHub does not send alerts.') + '</div>') + '<pre class="al-json mono small">' + esc(json) + '</pre><div class="btnrow"><button class="btn" id="alcopj">' + L('📋 Copiar a configuração', '📋 Copy the configuration') + '</button></div>' +
