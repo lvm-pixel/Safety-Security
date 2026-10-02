@@ -12,10 +12,10 @@ A app está em português e em inglês. A língua escolhe-se em Definições ›
 
 Na primeira abertura, a app pergunta quem é a família: quantos adultos, as crianças (idade e, se quiseres, nome, menina ou menino e peso) e os animais. Tem um botão para abrir logo o modo emergência, e os atalhos diretos (SOS, lanterna, 112) nunca passam por essa pergunta. Com «Agora não», os guias usam um exemplo (2 adultos e crianças de 2 e 7 anos) e a pergunta volta na abertura seguinte.
 
-A partir daí tudo sai do **perfil da família** (Os meus dados › Perfil da família), que se pode alterar a qualquer momento: nomes, menina ou menino, idades, pesos, alergias, telefones e animais. Os guias da família foram escritos para uma criança pequena (até aos 4 anos) e outra em idade escolar (5 anos ou mais): o que fala de uma criança ou de um segundo adulto que a família não tem não aparece (a linha, a secção, a coluna da tabela ou a página). A partir do perfil a app calcula:
+A partir daí tudo sai do **perfil da família** (Os meus dados › Perfil da família), que se pode alterar a qualquer momento: nomes, menina ou menino, idades, pesos, alergias, telefones e animais. Os guias da família foram escritos para uma criança pequena (até aos 4 anos) e outra em idade escolar (5 anos ou mais): o que fala de uma criança ou de um segundo adulto que a família não tem não aparece (a linha, a secção, a coluna da tabela ou a página). A partir do perfil a app calcula: Para um bebé (idade 0) escolhe-se também os meses: o peso estimado, as doses e a página «Bebé: o que muda com um bebé» dependem disso; com menos de 3 meses, ou sem meses, a app não mostra doses de paracetamol e ibuprofeno e manda falar com o SNS 24.
 
 - água, comida, fraldas e leite para 3 dias e 2 semanas, nos guias, nos kits e na calculadora de reservas;
-- as doses de paracetamol (ex.: Ben-u-ron, em xarope, supositório ou comprimido), ibuprofeno (ex.: Brufen), soro oral, cetirizina, desloratadina, iodeto de potássio e adrenalina, de cada criança do perfil ou de qualquer peso e idade, com o máximo por dia e o registo das tomas (ferramenta «Doses para crianças»);
+- as doses de paracetamol (ex.: Ben-u-ron, em xarope, supositório ou comprimido), ibuprofeno (ex.: Brufen), soro oral, cetirizina, desloratadina, iodeto de potássio e adrenalina, de cada criança do perfil ou de qualquer peso e idade, com o máximo por dia e o registo das tomas (ferramenta «Doses para crianças»); Os supositórios seguem os folhetos ben-u-ron 125/250/500 mg (10 a 20 mg/kg, máximo 60 mg/kg por dia, 6 horas de intervalo; o de 500 mg só a partir dos 12 anos e 40 kg) e o ibuprofeno fica nos 50 mg no primeiro ano.
 - a secção «A nossa família», com guias escritos para a criança de 2 anos e para a de 7 (febre, escola e creche, evacuar, manter calmas, casa segura);
 - cartões de identificação das crianças para imprimir, e o plano familiar com os campos de escola, pessoas autorizadas e «quem leva quem».
 
@@ -29,8 +29,9 @@ Os textos usam o nome das crianças quando o perfil tem o nome e o sexo; sem iss
 
 ### Para agir numa emergência
 
-- **Modo emergência**: escolhes a situação (não respira, hemorragia, engasgamento, convulsão, alergia grave, AVC ou dor no peito, criança desaparecida, incêndio, sismo, incêndio rural, cheia, apagão, ataque, nuclear ou químico, evacuação) e a app mostra um passo de cada vez, com perguntas, temporizadores, leitura em voz alta, a posição GPS para dizer ao 112, os dados da família (doses, plano, rádio da zona) e um registo com as horas para o INEM. Os passos resumem os guias e estão em `src/content/11-guias.js` e `12-guias.js`.
+- **Modo emergência**: escolhes a situação (não respira, hemorragia, engasgamento, convulsão, alergia grave, AVC ou dor no peito, criança desaparecida, queimadura, crise de asma, intoxicação ou monóxido de carbono, golpe de calor, incêndio, sismo, incêndio rural, cheia, apagão, ataque, nuclear ou químico, evacuação) e a app mostra um passo de cada vez, com perguntas, temporizadores, leitura em voz alta, a posição GPS para dizer ao 112, os dados da família (doses, plano, rádio da zona) e um registo com as horas para o INEM. Os passos resumem os guias e estão em `src/content/11-guias.js` e `12-guias.js`.
 - **Mensagens sem internet**: SMS prontos com a localização, as frequências da Antena 1 por zona (fonte: RTP), o canal PMR446 da família, códigos QR feitos no telemóvel (contacto, ponto guardado, plano, endereço da app) e um bilhete para deixar à família.
+- **«Estou bem» da família**: um toque envia «estou bem» ou «preciso de ajuda», com a posição GPS, a todos os telemóveis da família, como notificação (app ntfy, tópico privado passado por QR), por qualquer internet; sem internet sai por SMS. A app mostra o último estado de cada pessoa nas últimas 12 horas.
 - **Ficha médica de emergência** de cada pessoa, para mostrar num toque, imprimir ou transformar numa imagem para o ecrã de bloqueio.
 - **Modo apagão**: conta o tempo sem luz e diz até quando o frigorífico (4 horas) e o congelador (24 ou 48 horas) são seguros.
 - **Nível de preparação**: percentagem com o que falta (kit, mala, plano, ficha médica, validades, cópia de segurança, alertas, mapas, rádio, simulacros) e simulacros para treinar em família.
@@ -38,7 +39,7 @@ Os textos usam o nome das crianças quando o perfil tem o nome e o sexo; sem iss
 
 ### Alertas no telemóvel (GitHub e ntfy)
 
-`tools/alertas.mjs` corre no GitHub Actions de 10 em 10 minutos (`.github/workflows/alertas.yml`), verifica o IPMA (avisos e risco de incêndio), o EMSC, o GDACS e o USGS, e envia notificações para a app gratuita [ntfy](https://ntfy.sh) quando há algo novo nas zonas escolhidas. Para ativar:
+`tools/alertas.mjs` corre no GitHub Actions de 10 em 10 minutos (`.github/workflows/alertas.yml`), verifica o IPMA (avisos, risco de incêndio e sismos, incluindo os pequenos sismos sentidos perto das zonas, que o EMSC não lista), o EMSC, o GDACS e o USGS, e envia notificações para a app gratuita [ntfy](https://ntfy.sh) quando há algo novo nas zonas escolhidas. Para ativar:
 
 1. Na app, abre «Alertas no telemóvel», escolhe as zonas, subscreve o tópico na app ntfy e envia a notificação de teste.
 2. Carrega `tools/alertas.mjs` e `.github/workflows/alertas.yml` para o repositório (com o GitHub Desktop vão juntos com o resto: ver «Publicar no GitHub com o GitHub Desktop»).
@@ -57,7 +58,7 @@ A ferramenta «Preparar o iPhone» liga, passo a passo, as funções de emergên
 
 A página «Notícias e alertas» tem seis separadores e guarda a última versão para ler sem rede:
 
-- **Portugal**: avisos meteorológicos do IPMA (com a tua zona em destaque), risco de incêndio rural por distrito e sismos do golfo de Cádis aos Açores (EMSC).
+- **Portugal**: avisos meteorológicos do IPMA (com a tua zona em destaque), risco de incêndio rural por distrito e sismos do golfo de Cádis aos Açores (IPMA, incluindo os pequenos sismos sentidos, e EMSC).
 - **Alertas no mundo**: catástrofes com alerta laranja ou vermelho (GDACS, Comissão Europeia e ONU), sismos de magnitude 6 ou mais (USGS) e surtos de doenças (OMS).
 - **Notícias**: manchetes da RTP, Público, Observador, CNN Portugal, ECO, Euronews, ONU News, ECDC, BBC, The Guardian, France 24 e DW, com filtro por tema.
 - **Vídeo**: canais de notícias em direto (Euronews em português, DW News, France 24, euronews, Al Jazeera e Sky News, pelo YouTube sem cookies), ligações para os diretos da RTP3 e da CNN Portugal, e os vídeos das últimas 72 horas desses canais, que vêm do resumo.
@@ -159,6 +160,8 @@ Antes de publicar, depois de `node build.js`, corre os verificadores: `node tool
 A app chamava-se Preparado. Os nomes internos (o prefixo `prep.` no localStorage, a base IndexedDB `preparado`, as caches do service worker e a verificação do cofre) ficaram com o nome antigo para não se perderem os dados de quem já a usa, e as cópias de segurança antigas continuam a importar.
 
 ## Estrutura
+
+As fotografias e diagramas dos guias estão em `img/`, com os créditos em `img/imagens.json` (todos da Wikimedia Commons, com licenças livres; a página «Sobre e avisos» lista-os). Para juntar uma imagem: põe o ficheiro em `img/`, acrescenta a entrada em `imagens.json` (largura, altura, título, autor, licença, fonte) e escreve `![legenda](img:ficheiro.jpg)` na página, em português e em inglês. O `build.js` mete os créditos na app e os ficheiros na cache do service worker.
 
 ```
 safety-security/

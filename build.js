@@ -16,19 +16,24 @@ const ferrDir = path.join(src, 'ferramentas');
 const ferramentas = fs.existsSync(ferrDir) ? fs.readdirSync(ferrDir).filter(f => f.endsWith('.js')).sort()
   .map(f => '/* ---- ferramentas/' + f + ' ---- */\n' + fs.readFileSync(path.join(ferrDir, f), 'utf8')).join('\n') : '';
 const app = read('app.js');
+
+// Fotografias dos guias: img/imagens.json (tamanho e créditos de cada ficheiro em img/) entra em app.js como IMGS e os ficheiros vão para a cache do service worker.
+const imgDir = path.join(__dirname, 'img');
+const imgs = fs.existsSync(path.join(imgDir, 'imagens.json')) ? JSON.parse(fs.readFileSync(path.join(imgDir, 'imagens.json'), 'utf8')) : {};
+for (const f of Object.keys(imgs)) if (!fs.existsSync(path.join(imgDir, f))) throw new Error('Falta a imagem img/' + f + ' referida em img/imagens.json');
 if (ferramentas && !app.includes('/*__FERRAMENTAS__*/')) throw new Error('Falta o marcador /*__FERRAMENTAS__*/ em src/app.js');
 
 let html = read('shell.html');
 html = html.replace('/*__CSS__*/', () => read('style.css'));
 html = html.replace('/*__CONTENT__*/', () => content);
-html = html.replace('/*__APP__*/', () => app.replace('/*__FERRAMENTAS__*/', () => ferramentas));
+html = html.replace('/*__APP__*/', () => app.replace('/*__FERRAMENTAS__*/', () => ferramentas).replace('/*__IMGS__*/{}', () => JSON.stringify(imgs)));
 
 // Versão = data de build, usada pelo service worker para invalidar a cache.
 const version = new Date().toISOString().slice(0, 16).replace(/[-:T]/g, '');
 html = html.replace(/__VERSION__/g, version);
 
 fs.writeFileSync(path.join(__dirname, 'index.html'), html, 'utf8');
-const sw = read('sw.js').replace(/__VERSION__/g, version);
+const sw = read('sw.js').replace(/__VERSION__/g, version).replace('/*__IMG_FILES__*/', () => Object.keys(imgs).map(f => ", './img/" + f + "'").join(''));
 fs.writeFileSync(path.join(__dirname, 'sw.js'), sw, 'utf8');
 
 const kb = Math.round(Buffer.byteLength(html, 'utf8') / 1024);
