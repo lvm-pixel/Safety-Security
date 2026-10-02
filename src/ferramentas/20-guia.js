@@ -1,11 +1,11 @@
 /* --- Modo emergência: um passo de cada vez --- */
 function guiaTokens() {
   const f = getFamily(), plan = LS.get('plan', {}), kids = kidsSorted(f), C = kids.length, t = Object.assign({}, famTokens(f));
-  kids.forEach((k, i) => { k.forms = childForms(k, i === 0 ? 1 : 2, C); });
+  kids.forEach((k, i) => { k.forms = childForms(k, i === 0 ? 1 : i === C - 1 ? 2 : 3, C); });
   PLAN_FIELDS.forEach(pf => { const v = String(plan[pf[0]] || '').trim(); t['plano_' + pf[0]] = v || L('ainda por preencher no plano familiar', 'not yet filled in the family plan'); });
   t.radio_zona = radioZonaTexto(minhaZona());
   t.familia_adr = (C ? kids.map(k => k.forms.label + ' (' + nf(childKg(k)) + ' kg): ' + adrDose(childKg(k))).join('; ') + '; ' : '') + L('adultos: 0,3 mg, só se receitada', 'adults: 0.3 mg, only if prescribed');
-  t.familia_para = C ? kids.map(k => k.forms.label + ' ' + nf(doseCalc(childKg(k), 15, 40, 1000).ml) + L(' ml de xarope a 40 mg/ml', ' ml of 40 mg/ml syrup')).join('; ') : L('vê as doses pelo peso da criança', 'look up the doses for the child\'s weight');
+  t.familia_para = C ? kids.map(k => k.forms.label + (semDoses(k) ? L(' (bebé com menos de 3 meses, ou sem meses no perfil): só com indicação médica, SNS 24', ' (baby under 3 months, or months not in the profile): only on medical advice, SNS 24') : ' ' + nf(doseCalc(childKg(k), 15, 40, 1000).ml) + L(' ml de xarope a 40 mg/ml', ' ml of 40 mg/ml syrup'))).join('; ') : L('vê as doses pelo peso da criança', 'look up the doses for the child\'s weight');
   t.familia_ki = (C ? kids.map(k => k.forms.label + ' ' + kiDose(k.age)).join('; ') + '; ' : '') + L('adultos 130 mg', 'adults 130 mg');
   return t;
 }

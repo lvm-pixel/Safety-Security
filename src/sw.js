@@ -7,7 +7,7 @@ const CACHE = 'preparado-__VERSION__';
 const TILES = 'preparado-quadriculas';
 const TILE_HOSTS = /^tile\.openstreetmap\.org$|(^|\.)tile\.openstreetmap\.fr$|(^|\.)tile\.opentopomap\.org$/;
 const TILE_MAX = 2500;
-const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
+const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'/*__IMG_FILES__*/];
 let tilePuts = 0;
 
 self.addEventListener('install', e => {

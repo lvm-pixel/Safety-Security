@@ -41,10 +41,10 @@ function ptLeft(txt) {
 }
 const taskCount = s => (String(s || '').match(/^\s*[-*+]\s+\[[ xX]\]\s+/gm) || []).length;
 const linksOf = s => [...String(s || '').matchAll(/\]\((#\/[^)\s]*)\)/g)].map(m => m[1]).sort();
-const figsOf = s => [...String(s || '').matchAll(/\(fig:([\w-]+)\)/g)].map(m => m[1]).sort();
+const figsOf = s => [...String(s || '').matchAll(/\((?:fig|img):([\w.-]+)\)/g)].map(m => m[1]).sort();
 const tokensOf = s => [...String(s || '').matchAll(/\{\{(\w+)\}\}/g)].map(m => m[1]);
-const OLD_TOK = /^((de|a|em|por)_c[12]|c[12]_o)$/;
-const TOK_OK = /^(C[12](_s)?|c[12](_(n|o|s|idade|titulo|age|kg|kg_est|water|kcal|para_mg|para_ml|para_tab|ibu_mg|ibu_ml|sro|sro4h|cet|ki|adr))?|(de|a|em|por)_c[12]|fam|n|nA|nC|water_drink_day|water_drink_3d|water_drink_14d|water_day|water_3d|water_14d|jugs_3d|jugs_14d|water_detail|pets_water_line|kcal_day|kcal_3d|kcal_14d|pd_factor|kcal_detail|diapers_day|diapers_3d|diapers_14d|diapers_line|milk_day|milk_3d|milk_14d|milk_line|a1|a2|cpr_line|fam_nomes|kids_para|kids_de|kids_desc|radio_zona|familia_adr|familia_para|familia_ki|local|encontro1|encontro2|plano_\w+)$/;
+const OLD_TOK = /^((de|a|em|por)_[cb][12]|[cb][12]_o)$/;
+const TOK_OK = /^([CB][12](_s)?|[cb][12](_(n|o|s|idade|meses|bebe_nota|pequena_titulo|titulo|age|kg|kg_est|water|kcal|para_mg|para_ml|para_tab|ibu_mg|ibu_ml|sro|sro4h|cet|ki|adr))?|(de|a|em|por)_[cb][12]|fam|n|nA|nC|water_drink_day|water_drink_3d|water_drink_14d|water_day|water_3d|water_14d|jugs_3d|jugs_14d|water_detail|pets_water_line|kcal_day|kcal_3d|kcal_14d|pd_factor|kcal_detail|diapers_day|diapers_3d|diapers_14d|diapers_line|milk_day|milk_3d|milk_14d|milk_line|a1|a2|cpr_line|fam_nomes|kids_para|kids_de|kids_desc|radio_zona|familia_adr|familia_para|familia_ki|local|encontro1|encontro2|plano_\w+)$/;
 
 const stats = { pages: 0, translated: 0, untranslated: [], ptLeft: [] };
 function checkText(where, ptTxt, enTxt, isMd) {
@@ -52,7 +52,7 @@ function checkText(where, ptTxt, enTxt, isMd) {
   if (ptTxt && enTxt === ptTxt && /\p{L}{4,}/u.test(ptTxt) && !/^[A-Z0-9 &.:/()+-]+$/.test(ptTxt)) { stats.untranslated.push(where); return; }
   for (const t of tokensOf(enTxt)) { if (!TOK_OK.test(t)) err(where, 'token desconhecido {{' + t + '}}'); else if (OLD_TOK.test(t)) warn(where, 'token português {{' + t + '}} (usar c1 / c1_s)'); }
   const ptT = new Set(tokensOf(ptTxt).filter(t => !OLD_TOK.test(t))), enT = new Set(tokensOf(enTxt));
-  for (const t of ptT) if (!enT.has(t) && !/^[cC][12]$/.test(t) && !/^c[12]_(s|idade)$/.test(t)) warn(where, 'token {{' + t + '}} desapareceu');
+  for (const t of ptT) if (!enT.has(t) && !/^[cCbB][12]$/.test(t) && !/^[cb][12]_(s|idade)$/.test(t)) warn(where, 'token {{' + t + '}} desapareceu');
   const l = ptLeft(enTxt); if (l.n >= (isMd ? 4 : 2)) stats.ptLeft.push(where + ' (' + l.n + ': ' + l.sample + ')');
 }
 

@@ -96,7 +96,7 @@ async function sismosIPMA(cfg, out) {
     const d = await json('https://api.ipma.pt/open-data/observation/seismic/' + area + '.json');
     for (const e of d.data || []) {
       const m = +e.magnitud || 0, la = +e.lat, lo = +e.lon, tm = Date.parse(String(e.time || '').replace(/Z?$/, 'Z')) || 0, sentido = e.sensed === true || e.sensed === 'true';
-      if (!isFinite(la) || !isFinite(lo) || !tm || Date.now() - tm > HORAS * 36e5) continue;
+      if (!isFinite(la) || !isFinite(lo) || !tm || !(m > 0) || Date.now() - tm > HORAS * 36e5) continue;
       let perto = null;
       for (const zn of cfg.zonas) { const z = ZONAS[zn], km = distancia(la, lo, z[1], z[2]); if (!perto || km < perto.km) perto = { nome: nomeZona(zn), km }; }
       const sentidoPerto = cfg.sismosSentidos && perto && ((sentido && perto.km <= 150) || (m >= 2.5 && perto.km <= 100));

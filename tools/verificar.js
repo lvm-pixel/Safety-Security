@@ -39,11 +39,15 @@ const all = texts.join('\n') + '\n' + app;
 const links = new Set([...all.matchAll(/\]\((#\/[^)\s]*)\)/g)].map(m => m[1]).concat([...all.matchAll(/href="(#\/[^"]*)"/g)].map(m => m[1])));
 for (const l of links) if (!valid.has(l) && !/^#\/(search|t\/' \+|s\/' \+)/.test(l) && !l.includes("'")) err('ligação quebrada', l);
 const figRefs = new Set([...all.matchAll(/\(fig:([\w-]+)\)/g)].map(m => m[1]));
+const imgMeta = fs.existsSync(root + 'img/imagens.json') ? JSON.parse(fs.readFileSync(root + 'img/imagens.json', 'utf8')) : {};
+const imgRefs = new Set([...all.matchAll(/\(img:([\w.-]+)\)/g)].map(m => m[1]));
+for (const f of imgRefs) { if (!imgMeta[f]) err('imagem sem créditos em img/imagens.json', f); if (!fs.existsSync(root + 'img/' + f)) err('imagem inexistente', 'img/' + f); }
+for (const f of Object.keys(imgMeta)) if (!imgRefs.has(f)) err('imagem sem uso', f);
 for (const id of figRefs) if (!F[id]) err('figura inexistente', id);
 const unused = Object.keys(F).filter(id => !figRefs.has(id));
 const fam = ['fam', 'n', 'nA', 'nC', 'water_drink_day', 'water_drink_3d', 'water_drink_14d', 'water_day', 'water_3d', 'water_14d', 'jugs_3d', 'jugs_14d', 'water_detail', 'pets_water_line', 'kcal_day', 'kcal_3d', 'kcal_14d', 'pd_factor', 'kcal_detail', 'diapers_day', 'diapers_3d', 'diapers_14d', 'diapers_line', 'milk_day', 'milk_3d', 'milk_14d', 'milk_line', 'a1', 'a2', 'cpr_line', 'fam_nomes', 'kids_para', 'kids_de', 'kids_desc', 'radio_zona', 'familia_adr', 'familia_para', 'familia_ki', 'local', 'encontro1', 'encontro2'];
 const planos = new Set([...app.matchAll(/^\s*\['(\w+)', .*?, '(?:input|textarea)'/gm)].map(m => 'plano_' + m[1]));
-const kid = /^(C[12](_s)?|c[12](_(n|o|s|idade|titulo|age|kg|kg_est|water|kcal|para_mg|para_ml|para_tab|ibu_mg|ibu_ml|sro|sro4h|cet|ki|adr))?|(de|a|em|por)_c[12])$/;
+const kid = /^([CB][12](_s)?|[cb][12](_(n|o|s|idade|meses|bebe_nota|pequena_titulo|titulo|age|kg|kg_est|water|kcal|para_mg|para_ml|para_tab|ibu_mg|ibu_ml|sro|sro4h|cet|ki|adr))?|(de|a|em|por)_[cb][12])$/;
 const toks = new Set([...(texts.join('\n') + Object.values(F).join('\n') + app).matchAll(/\{\{(\w+)\}\}/g)].map(m => m[1]));
 for (const t of toks) if (!fam.includes(t) && !kid.test(t) && !planos.has(t)) err('token desconhecido', t);
 for (const [id, svg] of Object.entries(F)) {
