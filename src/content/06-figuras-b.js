@@ -20,7 +20,7 @@ Object.assign(FIGS, {
 <rect class="bad" x="40" y="40" width="200" height="120" style="stroke:none"/>
 <rect class="bad" x="360" y="40" width="200" height="120" style="stroke:none"/>
 <rect class="bad" x="40" y="200" width="160" height="90" style="stroke:none"/>
-<rect class="okf" x="240" y="40" width="120" height="120"/>
+<rect class="okf" x="240" y="72" width="120" height="88"/>
 <rect class="okf" x="200" y="160" width="200" height="40"/>
 <rect class="ln" style="stroke-width:7" x="40" y="40" width="520" height="250"/>
 <path class="ln" style="stroke-width:4" d="M240 40 V160 M360 40 V160 M40 160 H200 M400 160 H560 M40 200 H200 M200 200 V290 M400 200 H560"/>
@@ -84,7 +84,7 @@ Object.assign(FIGS, {
 <path class="ln" style="stroke-width:3" d="M252 218 L300 110 M348 218 L300 110 M272 218 L302 112 M330 218 L298 112 M290 220 L300 110 M312 220 L300 110"/>
 <path class="ln" style="stroke-width:10" d="M150 214 L230 170 M450 214 L370 170"/>
 <path class="accs" d="M210 206 Q224 190 236 206"/><path class="accs" d="M200 236 L226 214 M226 214 l-10 2 M226 214 l-2 10"/>
-<text x="300" y="248" text-anchor="middle" class="s">1. isca seca e solta (mão cheia)</text>
+<text x="300" y="248" text-anchor="middle" class="s">1. isca seca e solta (mão-cheia)</text>
 <text x="360" y="92" class="s">2. acendalhas: da grossura</text><text x="360" y="108" class="s">de um fósforo à de um lápis</text>
 <text x="420" y="196" class="s">3. lenha: só depois</text>
 <text x="40" y="190" class="s ta">acende por baixo,</text><text x="40" y="206" class="s ta">do lado do vento</text>
@@ -120,7 +120,7 @@ Object.assign(FIGS, {
 <text x="320" y="178" text-anchor="middle" class="s">serradura</text>
 <text x="320" y="222" text-anchor="middle" class="b">Balde 2: fezes</text></g>
 <g><path class="soft" d="M440 100 h110 v96 h-110 z"/><text x="495" y="146" text-anchor="middle" class="s">serradura,</text><text x="495" y="162" text-anchor="middle" class="s">terra ou cinza</text>
-<text x="495" y="222" text-anchor="middle" class="s">1 mão cheia por cima, sempre</text></g>
+<text x="495" y="222" text-anchor="middle" class="s">1 mão-cheia por cima, sempre</text></g>
 <text x="300" y="24" text-anchor="middle" class="s">Balde 2 forrado com saco de lixo resistente (tracejado). Tampa sempre fechada.</text>
 </svg>`,
 

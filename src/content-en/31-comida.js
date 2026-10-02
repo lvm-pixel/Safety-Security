@@ -50,7 +50,7 @@ A tin that is swollen, leaking or deeply rusted, or that releases gas when opene
     frigorifico: { title: 'Fridge without power', desc: 'How long food lasts and how to decide what to eat first.', md: `
 ## Time rules (doors closed)
 
-- **Fridge:** 4 hours. After that, anything perishable (meat, fish, dairy, boiled eggs, cooked leftovers, food with mayonnaise) that has been above 5 °C for more than 2 hours: **throw it away**. Butter, hard cheese, opened preserves with lots of salt or sugar, fruit, vegetables, bread and dry cakes last longer.
+- **Fridge:** 4 hours. After that, anything perishable (meat, fish, dairy, boiled eggs, cooked leftovers, food with mayonnaise) that has been above 4 °C for more than 2 hours: **throw it away**. Butter, hard cheese, opened preserves with lots of salt or sugar, fruit, vegetables, bread and dry cakes last longer.
 - **Full freezer:** 48 hours. **Half full:** 24 hours. A chest freezer lasts longer than an upright one.
 - Do not open the doors. Every opening costs hours. Put a note on the door saying "DO NOT OPEN" for the children.
 - Pack the food together in the freezer (items keep each other cold). Frozen water bottles or bags of ice help.
@@ -59,16 +59,16 @@ A tin that is swollen, leaking or deeply rusted, or that releases gas when opene
 ## Order for eating
 
 1. First what is in the fridge and spoils quickly (meat, fish, opened milk): cook everything you can in the first few hours.
-2. Then the freezer, as it thaws. Food that still has **ice crystals or is below 5 °C** can be cooked or refrozen (it loses quality, not safety). If it has fully thawed and has been at room temperature for more than 2 h: throw it out.
+2. Then the freezer, as it thaws. Food that **still has ice crystals** can be refrozen. Food that has thawed but is still cold (below 4 °C) is cooked within the next few hours and **not refrozen** (the rule of ASAE, the food safety authority). If it has fully thawed and has been at room temperature for more than 2 h: throw it out.
 3. Only then the pantry.
 
 ## Thermometer
 
-A fridge thermometer (€2) settles any doubt: **below 5 °C, safe**. No thermometer and not sure: when in doubt, throw it out. Food poisoning with no hospital available costs far more than one meal.
+A fridge thermometer (€2) settles any doubt: **up to 4 °C, safe**. No thermometer and not sure: when in doubt, throw it out. Food poisoning with no hospital available costs far more than one meal.
 
 ## Without a fridge for days
 
-- **Meat and fish:** cook thoroughly, eat the same day. With plenty of coarse salt (salting) they keep for days; dried in thin strips in the sun and wind, for weeks.
+- **Meat and fish:** cook thoroughly, eat the same day. With plenty of coarse salt (salting) they keep for 1 to 2 weeks; dried in thin strips in the sun and wind, for weeks to months, but only cooked before eating (drying does not kill parasites): see [keeping food without a fridge](#/s/comida/conservar).
 - **Eggs:** last for weeks without refrigeration if they have not been washed and are kept in a cool place. Test: in water, the ones that float have gone bad.
 - **Unopened UHT milk:** months. Opened: hours. Powdered milk solves this.
 - **Hard cheeses, cured sausages, butter:** days to weeks in a cool place.
@@ -76,12 +76,14 @@ A fridge thermometer (€2) settles any doubt: **below 5 °C, safe**. No thermom
 - **Evaporative cooler (pot-in-pot):** a clay pot inside a bigger one, wet sand between them, a damp cloth on top, in the shade and in a breeze. Lowers the temperature by 10 to 15 °C.
 - Cook only as much as will be eaten; leftovers kept at room temperature for more than 2 h (1 h in hot weather) are a risk.
 
-![Evaporative cooler: pot inside a pot](fig:pote)
+![Pot inside a pot: wet sand between the two, a damp cloth on top; evaporation cools the food by 10 to 15 °C.](img:pote.jpg)
 ` },
     cozinhar: { title: 'Cooking without electricity', desc: 'Stoves, gas, firewood, solar oven, and the danger of cooking indoors.', md: `
 >x **Charcoal, firewood, barbecues, alcohol or paraffin stoves and generators NEVER inside the home, garage or tent.** Carbon monoxide cannot be seen or smelled and kills people in their sleep. Gas camping stove: only with a window open and for a short time. A CO detector in the kit.
 
 ## Options in order of practicality
+![A "rocket stove" made from two tins: the wood goes in through the lower tube, the air rises up the chimney and concentrates the heat on the pot, with little wood and little smoke. Outdoors only.](img:rocket-stove.jpg)
+
 
 - **Bottled gas cooker** (many homes have one): works without power. Light it with a match or a lighter. A 13 kg gas bottle lasts 1 to 2 months of normal use.
 - **Cartridge camping stove** (butane/propane, 230 g): cooks 10 to 15 simple meals per cartridge. Cheap, compact. Keep 5 to 10 spare cartridges. Do not use it below 5 °C (pure butane fails; a propane mix is better).
@@ -89,18 +91,19 @@ A fridge thermometer (€2) settles any doubt: **below 5 °C, safe**. No thermom
 - **Firewood:** fireplace, "rocket stove" (2 tins), a fire outdoors. It needs practice and dry wood. See [making fire](#/s/saber/fogo).
 - **Charcoal barbecue**, outdoors. Not efficient for boiling water.
 - **Solar oven** (a cardboard box lined with aluminium foil, with glass or plastic on top, a black pot inside): 80 to 120 °C on a sunny day. Cooks rice and vegetables, heats water. Slow, free, safe.
-- **Car engine:** heats tins wrapped in foil on the engine block in 20 to 30 min (not near the exhaust). A fallback.
+- **Car engine:** heats **already-opened** tins (a closed tin can burst), wrapped in foil on the engine block, in 20 to 30 min (not near the exhaust). A last resort.
 
 ## Saving fuel and water
 
 - Cook once a day, in quantity. Always cover the pans. Cut food into small pieces. Soak pulses and rice overnight (they cook in half the time).
-- **Passive cooking ("haybox"):** boil for 5 minutes, cover, wrap the pan in blankets or put it in a box filled with clothes or polystyrene, and leave it for 1 to 2 hours. Rice, pasta, soup and soaked pulses are ready using a fraction of the gas.
+- **Passive cooking ("haybox"):** boil for 5 minutes (soaked dried beans: 10 minutes at a rolling boil, to destroy the toxin in raw beans), cover, wrap the pan in blankets or put it in a box filled with clothes or polystyrene, and leave it for 1 to 2 hours. Rice, pasta, soup and soaked pulses are ready using a fraction of the gas.
 - Many foods can be eaten raw or need only hot water: couscous, oats, instant mash, packet soups, noodles.
 - Pressure cooker: half the time and fuel.
 - The water used to boil vegetables can be reused for soup.
 
 ## Hygiene without running water
 
+- Wash your hands (or use alcohol gel) before handling food and after using the toilet: it is what does most to prevent diarrhoea.
 - Wipe the dishes with paper or bread before washing them. Wash them in one basin and rinse them in another with water and a few drops of bleach. Let them air-dry.
 - Cook over a towel or a plastic sheet to catch scraps.
 - Keep food waste closed up and away from the house (rats, flies). Bury it if the situation lasts for days.
@@ -111,7 +114,7 @@ A fridge thermometer (€2) settles any doubt: **below 5 °C, safe**. No thermom
 ## How much you need
 
 - Adult at rest: 1,500 to 2,000 kcal. With physical work or in the cold: 2,500 to 3,500. Pregnant or breastfeeding women: +300 to 500.
-- Children: 1,000 to 1,800 depending on age. They should not ration like adults: **children, pregnant women, the sick and the frail elderly first**, then those doing physical work, then everyone else.
+- Children: 1,000 to 2,300 depending on age (a teenager eats as much as an adult). They should not ration like adults: **children, pregnant women, the sick and the frail elderly first**, then those doing physical work, then everyone else.
 - A healthy person can last for weeks on half the calories, but with less energy, feeling colder, in a worse mood and with weaker immunity. Plan for a minimum of 1,200 kcal per adult when rationing.
 
 ## Quick reference
@@ -150,10 +153,12 @@ Anything you do not know for certain (wild mushrooms and plants kill people ever
 ` },
     conservar: { title: 'Preserving without refrigeration', desc: 'Salt, drying, smoke, vinegar, fat. Old methods that work.', md: `
 ## Drying
+![Fish drying in the sun on nets: thin, well-salted strips, turned and protected from flies; keeps for months once dry.](img:secar-peixe.jpg)
+
 
 The simplest method. Take the water out and germs cannot grow.
 
-- **Meat and fish:** thin strips (5 mm), salted, hung in the sun and wind (or near a fire, away from the flames) for 2 to 4 days, until they are stiff with no soft spots. Cover them with netting against flies. Keep in a dry place; they last for months.
+- **Meat and fish:** thin strips (5 mm), well salted, hung in the sun and wind (or near a fire, away from the flames) for 2 to 4 days, until they are stiff with no soft spots. Sun-drying does not kill parasites or bacteria: scald or cook the strips before drying, or always cook dried meat before eating it. Cover them with netting against flies. Keep in a dry place; they last for months.
 - **Fruit:** thin slices of apple, pear, peach, fig, and grapes, in the sun for 3 to 5 days, turned every day. Tomatoes cut in half and salted.
 - **Vegetables and herbs:** green beans, mushrooms, peppers, herbs on strings in the shade and wind.
 - An oven at 50 to 70 °C with the door ajar, or a dehydrator, if there is electricity.
@@ -174,11 +179,11 @@ Home smokehouse: a box or barrel with smoke from fruit tree or oak wood (never p
 
 ## Fat
 
-Cooked meat completely covered in fat or olive oil (confit, chouriço in lard) in a closed container, in a cool place: weeks. The fat seals it off from the air.
+**Meat in olive oil or fat without refrigeration is a botulism risk**: the fat keeps the air out, and it is without air that the botulism bacterium makes its toxin. With no fridge, only preserve meat with **a lot of salt** (dry salting or strong brine for days, then drying), or smoked and dried. A bulging jar or an odd smell: do not taste it, throw it away, as with swollen tins. Meat or vegetables in oil that look normal but are of doubtful origin: only after boiling for 10 minutes, which destroys the toxin.
 
 ## Sugar
 
-Jams and fruit in syrup (at least 50% sugar) in boiled jars sealed while hot: months to years.
+Jams and fruit in syrup (at least 60% sugar) in boiled jars sealed while hot: months to years.
 
 ## Home-made preserves in jars (take care)
 
@@ -194,9 +199,9 @@ Lentils, chickpeas, mung beans, sunflower seeds: soak for 12 h, drain, rinse 2 t
 ## Babies
 
 - **Breastfeeding** is the best preparation: it needs no water, refrigeration, fire or stock, and it protects against infections. In a crisis, stress reduces the milk supply but rarely stops it: keep breastfeeding, drink and eat, rest. The mother needs an extra 500 kcal and 1 L of water.
-- **Powdered infant formula:** a supply for 2 to 4 weeks. It needs **boiled** water (even bottled water) and clean bottles (boiled or washed with treated water). Make up only one feed at a time; throw away leftovers after 1 h.
+- **Powdered infant formula:** a supply for 2 to 4 weeks. Wash your hands before preparing it. It needs **boiled** water (even bottled water), still above **70 °C** when you add the powder (it kills bacteria in the powder itself), and clean bottles (boiled or washed with treated water); cool it before feeding. With no clean bottle, feed from a small cup. Make up only one feed at a time; throw away leftovers after 1 h.
 - **Ready-to-feed liquid formula** (in UHT cartons for babies): needs no water or preparation, lasts for months unopened. More expensive but much safer when conditions are poor. Keep some.
-- With no formula and no breastfeeding, over 6 months: full-fat UHT milk diluted with boiled water (not ideal, but safe in the short term). Under 6 months: this is a medical emergency; get help.
+- With no formula and no breastfeeding, over 6 months: **undiluted** full-fat UHT milk, plus soft food, for a short time. Under 6 months: this is a medical emergency; get help (SNS 24, health centre, Red Cross); only until help arrives, full-fat UHT milk diluted half and half with boiled water, for hours, never days.
 - **Baby cereal and jars of baby food:** from 6 months on. Mashed potato, carrot, mashed banana and well-cooked rice will do.
 - Nappies (8 a day for newborns, 5 later on), wipes, cream, bags. Cloth nappies and safety pins as a backup.
 - Babies dehydrate in hours: with diarrhoea or vomiting, give [oral rehydration solution](#/s/socorros/diarreia) by the spoonful and get help early.

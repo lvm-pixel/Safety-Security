@@ -6,13 +6,13 @@
     id: 'informacao', icon: '📰', title: 'Informação fiável e boatos', desc: 'Onde ouvir as autoridades, que fontes merecem confiança e como apanhar um boato antes de o partilhar.', tools: ['noticias'], md: `
 ## Primeiro, as fontes oficiais
 
-- **SMS de alerta da Proteção Civil**: chega aos telemóveis na zona afetada, sem inscrição. Lê-o com atenção e cumpre.
+- **SMS de alerta da Proteção Civil**: chega aos telemóveis na zona afetada, sem inscrição, com o remetente **«AvisoPROCIV»**. Lê-o com atenção e cumpre. Nunca traz links nem pede dados: uma mensagem «da Proteção Civil» com link ou pedido de dados é fraude.
 - **Rádio**: a Antena 1 e as rádios locais transmitem as instruções da Proteção Civil, e funcionam sem internet nem rede móvel. Ver [rádio](#/s/comunicar/radio).
 - **Proteção Civil** (prociv.gov.pt), **IPMA** (avisos meteorológicos), **DGS** e **SNS 24** (saúde), câmara municipal e junta de freguesia.
 - **Portal Diplomático** e consulados, se estiveres fora de Portugal.
 - A página [Notícias e alertas](#/t/noticias) junta, quando há internet, os avisos do IPMA, o risco de incêndio, os sismos e as notícias de fontes credíveis.
 
->! **O 112 é só para emergências.** Não liges para perguntar o que se passa: ocupas a linha de quem precisa de socorro.
+>! **O 112 é só para emergências.** Não ligues para perguntar o que se passa: ocupas a linha de quem precisa de socorro.
 
 ## Fontes de notícias que merecem confiança
 
@@ -33,13 +33,12 @@ Nenhuma fonte é perfeita, e todas se enganam nas primeiras horas de uma crise. 
 
 ## Boatos típicos numa crise
 
-- "A água ou a luz vão faltar durante semanas: enche tudo já", sem nenhuma fonte oficial.
-- "A barragem vai rebentar", "vem aí um tsunami", "vão fechar as fronteiras esta noite".
+- "A água ou a luz vão faltar durante semanas", sem nenhuma fonte oficial. Encher garrafas num apagão é prudente; esvaziar as lojas por um boato não é.
+- "A barragem vai rebentar", "vem aí um tsunami", "vão fechar as fronteiras esta noite". Exceção: se sentiste um sismo forte ou longo junto ao mar, não esperes por confirmação: [sismo](#/s/agora/sismo).
 - "Estão a saquear o supermercado X", "há raptos de crianças na zona Y".
 - Curas milagrosas e remédios caseiros para doenças graves.
-- Mensagens falsas "da Proteção Civil", "do banco" ou "da polícia" com links, pedidos de dados ou de dinheiro.
 
->x **Nenhum alerta oficial pede dados pessoais, códigos ou pagamentos**, nem manda instalar aplicações por um link. Mensagens assim são burlas.
+>x **Nenhuma entidade oficial (Proteção Civil, polícia, banco) pede por mensagem dados pessoais, códigos ou pagamentos**, nem manda instalar aplicações por um link. Mensagens assim são burlas.
 
 ## Imagens e vídeos feitos com inteligência artificial
 
@@ -51,6 +50,6 @@ Nenhuma fonte é perfeita, e todas se enganam nas primeiras horas de uma crise. 
 
 - Combinem em que fontes confiam e quem acompanha as notícias. Os outros descansam.
 - Com crianças por perto, notícias só pela rádio ou em texto, longe dos vídeos. Ver [manter as crianças calmas](#/s/familia/ocupar-e-acalmar).
-- Ver as notícias duas vezes por dia chega para decidir bem. Mais do que isso aumenta o medo e não melhora as decisões.
+- Com a situação estável, ver as notícias duas vezes por dia chega para decidir bem; mais do que isso aumenta o medo e não melhora as decisões. Com um perigo ativo na tua zona (incêndio, cheia, ordem de evacuação), rádio sempre ligado.
 ` });
 })();

@@ -14,11 +14,11 @@ CONTENT.sections.push({
 5. **Age pelo que é mais urgente:** primeiro quem não respira, depois hemorragias graves, depois o resto.
 6. **Informa e junta as pessoas.** Diz à família onde estás e para onde vais. Ponto de encontro do [plano familiar](#/t/plano).
 
->+ Se és tu que estás em perigo e não consegues fazer mais nada: torna-te visível e audível. [SOS luminoso](#/t/sos), 3 apitos, gritos em grupos de 3.
+>+ Se és tu que estás em perigo e não consegues fazer mais nada: torna-te visível e audível. [SOS luminoso](#/t/sos), 3 apitos seguidos (pausa de 1 minuto e repete), gritos em grupos de 3.
 
 ## Como ligar ao 112
 
-O 112 funciona em toda a União Europeia, é gratuito e funciona **mesmo sem saldo, sem SIM ou com o ecrã bloqueado**. Se a tua rede não tiver cobertura, o telemóvel usa qualquer outra rede disponível.
+O 112 funciona em toda a União Europeia, é gratuito e funciona **mesmo sem saldo, sem SIM ou com o ecrã bloqueado**. Se a tua rede não tiver cobertura, o telemóvel usa qualquer outra rede disponível. Sem cartão SIM, o 112 não te consegue ligar de volta nem receber a tua localização automática: diz sempre onde estás. Os carros novos desde 2018 têm um botão **SOS** (eCall) que liga ao 112 e envia a posição, mesmo sem telemóvel.
 
 Diz, por esta ordem:
 
@@ -28,7 +28,7 @@ Diz, por esta ordem:
 4. **Quem és** e o teu número de telefone.
 5. **Não desligues** até te dizerem. Responde às perguntas: o operador está a enviar ajuda enquanto fala contigo.
 
-Se não puderes falar (perigo, incapacidade): liga na mesma, deixa a chamada aberta e, se possível, toca em teclas. Em alternativa, envia SMS para o 112 se tiveres registo no serviço de SMS para pessoas surdas (só funciona se estiver ativado previamente).
+Se não puderes falar (perigo, incapacidade): liga na mesma, deixa a chamada aberta e, se possível, toca em teclas. Em alternativa, a app gratuita **MAI112** (instala-a antes) fala com o 112 por videochamada com intérprete de língua gestual, mensagens rápidas e envio da localização.
 
 ## Depois de chamar
 
@@ -63,7 +63,7 @@ Aprende com o apagão ibérico de 28 de abril de 2025: em minutos falharam **pag
 3. Se estiveres num elevador: carrega no botão de alarme, mantém a calma, não forces as portas.
 4. Ouve o rádio (Antena 1 ou emissora local) a pilhas ou no carro. Não confies em boatos nas redes sociais.
 5. Enche garrafas e a banheira com água **agora**, enquanto houver pressão (pode falhar quando as bombas param).
-6. Liga à família por SMS (passa melhor do que chamadas) e combina o ponto de encontro. Depois poupa bateria: modo de voo.
+6. Liga à família por SMS (passa melhor do que chamadas) e combina o ponto de encontro. Depois poupa bateria: modo de voo, e liga a rede 5 minutos a cada hora certa para receber mensagens.
 
 ## Nas horas seguintes
 
@@ -73,14 +73,15 @@ Aprende com o apagão ibérico de 28 de abril de 2025: em minutos falharam **pag
 - Gerador: **sempre no exterior**, a 6 m de janelas, nunca em garagem nem varanda fechada.
 - Dinheiro vivo: multibancos e cartões não funcionam. Usa a reserva de notas pequenas.
 - Combustível: as bombas não funcionam sem eletricidade. Não gastes o depósito em passeios.
-- Trânsito: semáforos apagados, cruzamentos funcionam como sinais de STOP. Evita conduzir.
+- Trânsito: com os semáforos apagados valem os sinais verticais do cruzamento e, sem sinais, a prioridade à direita; abranda e conta com quem não para. Evita conduzir.
+- Portões e portas de garagem elétricos têm um desbloqueio manual (chave ou alavanca): descobre onde está antes de precisares de tirar o carro.
 - Aquecimento ou frio: junta a família numa divisão, roupa em camadas, fecha portas. [Ver frio em casa](#/s/casa/frio-casa).
-- Vai ver dos vizinhos idosos, doentes ou com bebés. Quem depende de oxigénio ou máquinas médicas: liga ao 112 ou vai ao centro de saúde com o plano.
+- Vai ver dos vizinhos idosos, doentes ou com bebés. Quem depende de oxigénio ou máquinas médicas: liga ao 112 ou vai para o hospital previsto no plano combinado antes ([medicação crónica](#/s/saude/medicacao-cronica)).
 
 ## Quando a energia voltar
 
 - Volta a ligar aparelhos aos poucos, com intervalos.
-- Verifica a comida: se o congelador tiver cristais de gelo, pode ser recongelada. Se cheirar mal ou esteve acima de 5 °C mais de 2 h, deita fora. Em dúvida, deita fora.
+- Verifica a comida: o que ainda tem cristais de gelo pode voltar a congelar; o que descongelou cozinha-se e não se volta a congelar. O que cheira mal ou esteve acima de 4 °C mais de 2 h, deita fora. Em dúvida, deita fora.
 - Repõe a água e as pilhas usadas. Regista o que faltou.
 
 >+ Preparação que faz diferença: rádio a pilhas, lanterna frontal, powerbank carregada, 50 a 100 € em notas pequenas, fogareiro com cartuchos, 20 L de água armazenada, ficha múltipla com proteção de picos.
@@ -91,7 +92,7 @@ Aprende com o apagão ibérico de 28 de abril de 2025: em minutos falharam **pag
 
 **Baixar. Proteger. Aguardar.**
 
-![Baixar, proteger, aguardar](fig:sismo)
+![Baixar, proteger, aguardar: debaixo de uma mesa, agarrada a uma perna, com a cabeça e o pescoço protegidos.](img:sismo.jpg)
 
 - **Dentro de casa:** baixa-te, mete-te **debaixo de uma mesa sólida** e segura-lhe as pernas. Se não houver, encosta-te a uma parede interior, longe de janelas, espelhos, estantes e candeeiros, e protege a cabeça e o pescoço com os braços. **Não corras para a rua** durante o abalo: o que mais fere é o que cai das fachadas.
 - **Na cama:** fica na cama, protege a cabeça com a almofada.
@@ -103,11 +104,11 @@ Aprende com o apagão ibérico de 28 de abril de 2025: em minutos falharam **pag
 ## Logo a seguir
 
 1. Conta com **réplicas**: podem ser fortes e deitar abaixo o que ficou fragilizado.
-2. Verifica se há feridos à tua volta. [Primeiros socorros](#/s/socorros).
+2. Calça sapatos fechados (vidros partidos), pega na lanterna e no kit de evacuação.
 3. **Cheira a gás?** Não acendas luzes nem isqueiros, não uses interruptores. Abre janelas, fecha a válvula do gás e sai.
-4. Calça sapatos fechados (vidros partidos) e pega no kit de evacuação.
+4. Verifica se há feridos à tua volta: primeiro quem não respira, depois quem sangra muito. [Primeiros socorros](#/s/socorros).
 5. Se o edifício tem danos visíveis (fendas grandes, pilares estalados, portas que não fecham), **sai** com calma pelas escadas e não voltes a entrar.
-6. Na rua, afasta-te de fachadas, varandas e chaminés. Vai para o ponto de encontro do [plano](#/t/plano).
+6. Na rua, afasta-te de fachadas, varandas e chaminés. Perto do mar depois de um sismo forte ou longo? Primeiro terreno alto (ver «Risco de tsunami» abaixo); só depois o ponto de encontro do [plano](#/t/plano).
 7. Rádio ligado. Telefone só para SMS.
 
 ## Risco de tsunami (Portugal tem)
@@ -132,12 +133,13 @@ Se estás perto do mar e sentes um sismo **forte ou longo** (custa estar de pé,
     { id: 'incendio-casa', icon: '🔥', title: 'Incêndio em casa', desc: 'Fumo, fogo na cozinha, evacuar com segurança.', md: `
 ## Se o fogo é pequeno (menos de um caixote do lixo)
 
-- **Tacho com óleo a arder:** tapa com uma tampa ou pano molhado e desliga o fogão. **Nunca deites água** (explode em bola de fogo).
+- **Tacho com óleo a arder:** tapa com uma tampa ou um pano húmido bem torcido e desliga o fogão. **Nunca deites água** (explode em bola de fogo).
 - Aparelho elétrico: desliga da tomada ou no quadro antes de qualquer coisa. Extintor de pó ou CO2. Não uses água em aparelhos ligados.
 - Usa o extintor: **P.A.S.S.**: puxa a cavilha, aponta à base das chamas, aperta o manípulo, varre de lado a lado. De costas para a saída.
 - Se em 30 segundos não está controlado, **sai**.
+- Apagado? Vê se não ficaram brasas nem fumo a sair de aparelhos ou paredes. Na dúvida, liga 112 na mesma.
 
-![Usar o extintor: P.A.S.S.](fig:pass)
+![Usar o extintor: tira a cavilha, aponta à base das chamas, aperta o manípulo e varre de lado a lado, a 2 ou 3 metros.](img:extintor.jpg)
 
 ## Se o fogo é grande ou há muito fumo
 
@@ -162,7 +164,7 @@ Se estás perto do mar e sentes um sismo **forte ou longo** (custa estar de pé,
 ## Prevenção que salva
 
 - Detetor de fumo em cada piso e junto aos quartos (pilha trocada uma vez por ano).
-- Extintor na cozinha e manta anti-fogo.
+- Extintor na cozinha e manta antifogo.
 - Não carregar telemóveis e trotinetes na cama nem à noite sem vigilância.
 - Chaves nas portas e janelas de saída sempre no mesmo sítio.
 - Plano de fuga combinado e treinado com as crianças, incluindo a segunda saída.
@@ -171,17 +173,19 @@ Se estás perto do mar e sentes um sismo **forte ou longo** (custa estar de pé,
     { id: 'incendio-rural', icon: '🌲', title: 'Incêndio rural ou florestal', desc: 'Casa em zona de mato, cercado na estrada, fumo a aproximar-se.', md: `
 ## Se há um incêndio a aproximar-se da tua zona
 
-1. Rádio ou SMS da Proteção Civil: **se houver ordem de evacuação, cumpre cedo**. Sair tarde, com fumo e estradas fechadas, é a situação mais mortal.
-2. Se decides ficar (só se a casa está preparada e limpa de vegetação à volta, com água e sem fumo intenso):
+1. Vês chamas ou fumo novo? Liga **112**. Rádio ou SMS da Proteção Civil: **se houver ordem de evacuação, cumpre cedo**. Sair tarde, com fumo e estradas fechadas, é a situação mais mortal.
+2. Sem ordem de evacuação, se decides ficar (só se a casa está preparada e limpa de vegetação à volta, com água e sem fumo intenso):
    - Fecha portas, janelas, persianas e ventilações. Tira cortinas. Molha o telhado e a zona à volta se tiveres água.
    - Enche baldes, banheira, lavatórios. Tem mangueira ligada.
    - Roupa de algodão comprida, botas, luvas, óculos, pano húmido para a cara.
    - Afasta da casa gás, lenha, mobília de jardim, sacos de lixo.
    - Carro virado para a saída, com a chave, janelas fechadas, na garagem ou ao lado da casa (não no mato).
    - Fica dentro de casa quando a frente de chamas passar (10 a 20 min). Depois sai e apaga pequenos focos (telhado, beirados, cortinas exteriores).
+- Numa aldeia com o programa **Aldeia Segura / Pessoas Seguras**, há um local de abrigo combinado (junta, largo, pavilhão) e um responsável de segurança: descobre-os antes do verão e vai para lá quando sair deixa de ser seguro.
 
 ## Cercado no exterior
 
+- Se tiveres rede, liga **112** e diz onde estás (estrada, km, coordenadas pelas [mensagens](#/t/mensagens)), a pé ou no carro.
 - **Nunca fujas encosta acima** nem à frente do fogo: o fogo sobe mais depressa do que tu. Foge para o lado ou para baixo, para terreno já queimado, estrada larga, campo lavrado, água, rocha.
 - Sem saída: deita-te numa zona sem vegetação (estrada, terra), cara para baixo, pés virados para o fogo, cobre-te com terra ou um cobertor de lã. Respira junto ao chão.
 - Piscina, rio ou lago: entra e fica com o corpo dentro de água, cabeça protegida com pano molhado.
@@ -197,23 +201,24 @@ Se estás perto do mar e sentes um sismo **forte ou longo** (custa estar de pé,
 - Limpa mato num raio de 50 m à volta da casa (é obrigação legal em Portugal). Sem árvores a tocar no telhado, sem lenha encostada à parede.
 - Redes finas nas ventilações do sótão. Caleiras limpas de folhas.
 - Kit de evacuação pronto de junho a outubro. Combina com a família para onde ir.
-- Segue os avisos do IPMA (risco de incêndio) e da ANEPC. Em dias de risco máximo, não uses máquinas no mato nem faças fogo.
+- Segue os avisos do IPMA (risco de incêndio) e da ANEPC. Em dias de risco muito elevado ou máximo, é proibido usar máquinas no mato e fazer qualquer fogo.
 ` },
 
     { id: 'cheia', icon: '🌊', title: 'Cheia ou inundação', desc: 'Água a subir, carro na água, depois da cheia.', md: `
 ## Água a subir
+![Antes de a água chegar, se houver tempo e sacos de areia: cheios a dois terços, fechados com a aba dobrada por baixo, em fiadas desencontradas como tijolos e com plástico por baixo e por cima.](img:sacos-areia.jpg)
+
 
 - **15 cm de água em movimento deitam uma pessoa ao chão; 30 cm arrastam um carro.** Nunca atravesses água em movimento, a pé ou de carro. A profundidade engana e o pavimento pode ter desaparecido.
-- Sobe: andares superiores, telhado se preciso. Leva o kit, água, telemóvel, rádio, roupa quente.
-- Desliga a eletricidade no quadro **antes** de a água chegar às tomadas. Nunca toques em aparelhos elétricos com os pés molhados.
-- Fecha o gás.
+- Desliga a eletricidade no quadro **antes** de a água chegar às tomadas e fecha o gás. Nunca toques em aparelhos elétricos com os pés molhados.
+- Depois sobe: andares superiores, telhado se preciso. Leva o kit, água, telemóvel, rádio, roupa quente.
 - Sinaliza a tua presença (pano na janela, luz). Liga 112 se estiveres em risco.
 - Evita caves, garagens, túneis e passagens inferiores.
 
 ## No carro
 
 - Se a água sobe à volta do carro, **sai imediatamente** e vai para terreno alto. Não esperes.
-- Se o carro cai à água: desaperta o cinto, abre ou parte a janela (encosto de cabeça: as pontas metálicas partem o vidro no canto), sai pela janela **antes** de o carro encher. As portas não abrem contra a pressão da água.
+- Se o carro cai à água, tens cerca de **1 minuto**, por esta ordem: **cinto** (o teu), **janela** (abre-a já, ou parte-a com uma ferramenta de quebrar vidros que tenhas ao alcance; o encosto de cabeça é pouco fiável, e os vidros laminados de muitos carros recentes não partem), **crianças** (solta primeiro a mais velha, que já ajuda, e passa-as pela janela), **sai**. As portas não abrem contra a pressão da água. Se a janela não abre nem parte, a última hipótese é esperar que o carro encha quase até cima: aí a pressão iguala e a porta abre.
 
 ## Depois da cheia
 
@@ -298,6 +303,7 @@ Guia completo: [Alerta aéreo e abrigo](#/s/guerra/alerta-aereo).
 
 ## Depois
 
+- Liga **112** (ou pede a alguém que ligue): onde, o que aconteceu, quantos feridos.
 - Primeiros socorros: [hemorragia grave](#/s/socorros/hemorragia) é a prioridade. Torniquete se necessário.
 - Afasta-te da zona, informa a família por SMS, não espalhes boatos.
 ` },
@@ -307,7 +313,7 @@ Guia completo: [Alerta aéreo e abrigo](#/s/guerra/alerta-aereo).
 
 **Entra. Fica. Ouve.**
 
-1. **Entra** no edifício mais próximo e sólido (betão, tijolo), ao centro ou na cave. Não vás buscar familiares a outro lado: eles também devem abrigar-se onde estão. Tens **10 a 15 minutos** antes de a poeira radioativa começar a cair.
+1. **Entra** no edifício mais próximo e sólido (betão, tijolo), ao centro ou na cave. Não vás buscar familiares a outro lado: eles também devem abrigar-se onde estão. Numa **explosão nuclear**, tens **10 a 15 minutos** antes de a poeira radioativa começar a cair; num acidente numa central, a nuvem demora horas e segues as instruções das autoridades.
 2. **Fica** dentro pelo menos **24 horas** (as primeiras 24 h são as mais perigosas; a radiação cai muito depressa). Fecha janelas, portas e ventilações; desliga o ar condicionado.
 3. Se estavas na rua: **tira a roupa exterior** (elimina até 90% da contaminação), põe-a num saco fechado longe das pessoas; duche com sabão ou limpa a pele com pano húmido; não uses amaciador. Assoa o nariz.
 4. **Ouve** o rádio (Antena 1) para instruções: quando sair, para onde ir, se há distribuição de iodo.
@@ -320,7 +326,7 @@ Guia completo: [Nuclear e radiação](#/s/guerra/nuclear).
 
 - Se a nuvem vem de fora: **entra**, fecha tudo, sobe (muitos gases são mais pesados do que o ar), sela a divisão com toalhas molhadas e fita, desliga ventilações. Ouve o rádio.
 - Se a fuga é dentro (gás de cozinha): **não acendas nada, não mexas em interruptores**, abre janelas, fecha a válvula, sai e liga do exterior ao 112 e à empresa de gás.
-- Se estás na rua: afasta-te **contra o vento** (o vento deve bater-te na cara) e para terreno alto. Tapa nariz e boca com pano húmido.
+- Se estás na rua: sai da nuvem **de lado, perpendicularmente ao vento** (nunca a favor do vento, que te leva com ela), para terreno alto, e afasta-te pelo menos 1 km. Tapa nariz e boca com pano húmido.
 - Contaminação na pele ou roupa: tira a roupa (corta-a em vez de a puxar pela cabeça), lava com muita água e sabão durante 15 minutos, olhos com água durante 15 minutos.
 - Sintomas (tosse, olhos a arder, dificuldade em respirar, confusão): 112, ar fresco, sem esforço físico.
 
@@ -346,6 +352,8 @@ Guia completo: [Químico e biológico](#/s/guerra/quimico-bio).
 
 ## Quando ligar ao 112 ou SNS 24
 
+Liga **112** se a pessoa respira mal, não acorda, tem convulsões ou manchas que não desaparecem ao pressionar. Nos outros sinais, liga primeiro ao SNS 24 (808 24 24 24).
+
 - Dificuldade em respirar, lábios azulados, dor no peito.
 - Confusão, não acorda bem, convulsões.
 - Não consegue beber há mais de 12 h, urina muito escura ou ausente, diarreia com sangue.
@@ -363,7 +371,7 @@ Guia completo: [Químico e biológico](#/s/guerra/quimico-bio).
 **S.T.O.P.**
 
 - **S de Sentar:** para. Bebe água. Respira. Não continues a andar "só para ver". A maior parte das pessoas perde-se mais ao andar em pânico.
-- **T de Pensar:** quando foi a última vez que sabias onde estavas? Que horas são? Quanto falta para anoitecer? Quem sabe que vieste e para onde? Que tens contigo?
+- **T de Think (pensar):** quando foi a última vez que sabias onde estavas? Que horas são? Quanto falta para anoitecer? Quem sabe que vieste e para onde? Que tens contigo?
 - **O de Observar:** ouve (estradas, água, sinos, vozes), olha (fumo, luzes, linhas de alta tensão, trilhos), sente o vento, vê o tempo.
 - **P de Planear:** decide, e só depois age.
 
@@ -389,7 +397,7 @@ Guia completo: [Químico e biológico](#/s/guerra/quimico-bio).
 ## Primeiro
 
 - Não é o teu telemóvel: não percas bateria a reiniciar. Testa uma SMS (passa em redes congestionadas). Testa o 112 só se for emergência real.
-- Modo de voo e liga a rede de 30 em 30 minutos durante 2 minutos para receber mensagens.
+- Modo de voo e liga a rede 5 minutos a cada hora certa para receber mensagens.
 - Wi-Fi de vizinhos, cafés ou hotspots públicos podem funcionar quando a rede móvel não funciona (e vice-versa).
 - Rádio a pilhas ou do carro: a Antena 1 e as rádios locais transmitem instruções da Proteção Civil.
 
@@ -420,7 +428,7 @@ Pega e vai, por esta ordem:
 4. Chaves de casa e do carro.
 5. Roupa e calçado adequados ao tempo.
 
-Fecha a porta à chave. Não voltes atrás. Vai pela rota combinada, a pé se as estradas estiverem paradas.
+Fecha a porta à chave. Não voltes atrás. Vai pela rota combinada, a pé se as estradas estiverem paradas. Em segurança, avisa a família e o contacto fora da zona por SMS.
 
 ## Com tempo (1 a 2 horas)
 
@@ -451,12 +459,14 @@ Fecha a porta à chave. Não voltes atrás. Vai pela rota combinada, a pé se as
 
     { id: 'carro', icon: '🚗', title: 'Preso no carro', desc: 'Neve, cheia, avaria em zona remota, engarrafamento de horas.', md: `
 ## Regra de ouro
+![Martelo quebra-vidros, como os dos autocarros e comboios: bate num canto do vidro lateral, nunca no para-brisas. Tem um no carro ao alcance do condutor, com corta-cintos.](img:martelo-vidros.jpg)
 
-**O carro é abrigo, sinal e recurso.** Só o abandonas se ele estiver em perigo (água a subir, fogo, estrada instável) ou se souberes exatamente onde ir a curta distância.
+
+**O carro é abrigo, sinal e recurso.** Só o abandonas se ele estiver em perigo (água a subir, o próprio carro a arder, estrada instável, parado numa faixa com trânsito) ou se souberes exatamente onde ir a curta distância. Cercado por um incêndio rural, o carro protege mais do que fugir a pé: ver [Incêndio rural](#/s/agora/incendio-rural).
 
 ## Preso na neve ou no frio
 
-- Fica no carro. Liga o motor 10 minutos por hora para aquecer, com o **tubo de escape desimpedido de neve** (monóxido de carbono) e uma janela ligeiramente aberta.
+- Liga **112** (ou SMS, se a chamada não passar) e diz onde estás. Fica no carro. Liga o motor 10 minutos por hora para aquecer, com o **tubo de escape desimpedido de neve** (monóxido de carbono) e uma janela ligeiramente aberta.
 - Roupa em camadas, cobertor, jornais ou tapetes para isolar. Move braços e pernas. Não durmas com o motor ligado.
 - Amarra um pano colorido à antena ou à porta. Luz interior ligada de noite (gasta pouco).
 - Não caminhes na neve à procura de ajuda a menos que vejas um edifício a menos de 100 m.
@@ -464,7 +474,7 @@ Fecha a porta à chave. Não voltes atrás. Vai pela rota combinada, a pé se as
 
 ## Avaria em zona remota
 
-- Sai do carro para o lado oposto ao trânsito e afasta-te da faixa. Triângulo a pelo menos 30 m, visível a 100 m, colete.
+- Veste o colete ainda dentro do carro, sai pelo lado oposto ao trânsito e afasta-te da faixa. Triângulo a pelo menos 30 m, visível a 100 m.
 - Liga 112 ou à assistência. Diz o ponto quilométrico (placas pequenas na berma) e o sentido.
 - Fica do lado de fora da guarda de segurança, nunca dentro do carro parado na faixa.
 

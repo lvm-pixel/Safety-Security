@@ -38,7 +38,7 @@ Object.assign(FIGS, {
 <path class="ln" style="stroke-width:2" d="M140 116 Q240 104 318 128"/>
 <circle class="accs" cx="330" cy="150" r="22"/>
 <path class="lnt" d="M290 150 V200 M372 150 V200 M282 164 V200 M380 164 V200"/>
-<path class="oks" d="M396 172 V200 M390 172 H402 M390 200 H402"/><text x="408" y="190" class="s to">1 palmo</text>
+<path class="oks" d="M396 172 V200 M390 172 H402 M390 200 H402"/><text x="408" y="190" class="s to">1 punho</text>
 <text x="300" y="104" class="s">laço corredio de arame fino,</text><text x="300" y="120" class="s">abertura de um punho (~10 cm)</text>
 <text x="200" y="244" class="s">paus dos lados a afunilar o caminho até ao laço</text>
 <g class="body"><ellipse class="body" cx="494" cy="176" rx="30" ry="18"/><circle class="body" cx="462" cy="166" r="11"/><path class="body" d="M458 156 l-6 -22 l8 2 z M466 155 l2 -22 l6 4 z"/></g>

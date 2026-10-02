@@ -19,6 +19,8 @@ CONTENT.sections.push({
 
 Para beber e cozinhar: {{water_detail}}. A isto juntam-se 2 L por pessoa para higiene (mãos, dentes, fraldas, feridas).{{pets_water_line}} As crianças pequenas desidratam em horas e não pedem água: oferece de hora a hora. Com calor, febre ou diarreia, conta com mais 50%.
 
+A água {{de_b1}} serve para preparar o leite e lavar biberões: antes dos 6 meses não bebe água, só leite; a partir dos 6 meses, pequenos goles.
+
 ## Comida
 
 **{{kcal_day}} kcal por dia** para a família: {{kcal_detail}}. Para 3 dias, cerca de {{kcal_3d}} mil kcal; para 2 semanas, cerca de **{{kcal_14d}} mil kcal**.
@@ -46,7 +48,9 @@ Para beber e cozinhar: {{water_detail}}. A isto juntam-se 2 L por pessoa para hi
 | Soro oral, se já está desidratada | {{c1_sro4h}} | {{c2_sro4h}} |
 | Anti-histamínico (cetirizina) | {{c1_cet}} | {{c2_cet}} |
 | Iodeto de potássio, só com ordem oficial | {{c1_ki}} | {{c2_ki}} |
-| Adrenalina auto-injetável | {{c1_adr}} | {{c2_adr}} |
+| Adrenalina autoinjetável | {{c1_adr}} | {{c2_adr}} |
+
+{{c1_bebe_nota}}
 
 Se o peso aparece como estimado, vem da idade: para doses certas, **pesa as crianças** e escreve o peso no [perfil](#/t/familia). Registo das tomas e outras concentrações na [calculadora de doses](#/t/doses). **Nunca aspirina em crianças.**
 
@@ -54,21 +58,63 @@ Se o peso aparece como estimado, vem da idade: para doses certas, **pesa as cria
 
 ![Quem leva quem numa saída a pé](fig:familia-carga)
 
-- **{{a1}}** fica com {{c1}}: colo ou porta-bebé, fraldas, leite, chucha. Leva também os documentos, o dinheiro e o rádio, que são leves, porque já carrega uma criança.
+- **{{a1}}** fica com {{c1}}: colo ou porta-bebés, fraldas, leite, chucha. Leva também os documentos, o dinheiro e o rádio, que são leves, porque já carrega uma criança.
 - **{{a2}}** fica com {{c2}} pela mão e leva a mochila grande: água, comida, kit médico, roupa e, se houver, o animal.
-- **Se só estiver um adulto**: {{c1}} ao colo ou no porta-bebé, {{c2}} agarrad{{c2_o}} à mochila ou a uma fita presa ao pulso do adulto. {{C2}} pode ajudar com tarefas simples (segurar a lanterna, dar a chucha), mas **nunca fica responsável {{por_c1}}**.
+- **Se só estiver um adulto**: {{c1}} ao colo ou no porta-bebés, {{c2}} agarrad{{c2_o}} à mochila ou a uma fita presa ao pulso do adulto. {{C2}} pode ajudar com tarefas simples (segurar a lanterna, dar a chucha), mas **nunca fica responsável {{por_c1}}**.
 - Ponto de encontro, contacto fora da zona e palavra-código são iguais para todos. Estão no cartão de cada criança e no [plano familiar](#/t/plano).
 - **Treinem** uma vez por mês: "quem pega em quem", com as mochilas, em 30 segundos. Torna-se automático.
 
 ## Transporte
 
 - **Carro**: sistema de retenção adequado ao peso e à altura de cada criança, sempre montado. {{C1}} numa cadeirinha virada para trás o máximo de tempo possível; {{c2}} num assento elevatório com encosto (obrigatório até aos 12 anos ou 135 cm). Em evacuação não há exceções: numa colisão a 50 km/h, ninguém consegue segurar uma criança ao colo.
-- **A pé**: {{c1}} vai ao colo, num porta-bebé ergonómico ou numa mochila de transporte de montanha (leva a criança e ainda alguma carga), ou num carrinho robusto, que leva carga mas não passa escadas, escombros, lama nem multidões. {{C2}} anda **5 a 8 km por dia**, com pausas de 10 minutos a cada 40. Distância realista para a família: **8 a 12 km por dia**.
+- **A pé**: {{c1}} vai ao colo, num porta-bebés ergonómico ou numa mochila de transporte de montanha (leva a criança e ainda alguma carga), ou num carrinho robusto, que leva carga mas não passa escadas, escombros, lama nem multidões. {{C2}} anda **5 a 8 km por dia**, com pausas de 10 minutos a cada 40. Distância realista para a família: **5 a 8 km por dia**.
 - **Bicicleta**: cadeira traseira para {{c1}}; {{c2}} na sua bicicleta ou num atrelado. Vai 3 a 4 vezes mais longe do que a pé.
 - Mais em [evacuar com crianças](#/s/familia/evacuar-com-criancas).
 ` },
 
-    { id: 'crianca-pequena', need: 1, icon: '🧸', title: '{{c1_titulo}}: o que muda', desc: 'Pensado para {{c1}}: fraldas, leite, engasgamento, colo, febre, sono e perigos em casa.', tools: ['doses', 'rcp'], md: `
+    { id: 'bebe', need: 1, icon: '🍼', title: '{{b1_titulo}}: o que muda com um bebé', desc: 'Pensado para {{b1}}: colo, leite, febre e sinais de alarme, engasgamento e RCP de bebé, mochila.', tools: ['doses', 'rcp'], md: `
+## O que muda com um bebé
+
+- Depende de vós para tudo, arrefece e desidrata em poucas horas e não consegue dizer o que tem. Nunca fica sozinh{{b1_o}}, nem no carro «só um minuto».
+- **Ao colo, em marsúpio ou pano de transporte**, com as mãos livres: é mais seguro do que o carrinho em escadas, escombros e multidões. Cabeça sempre apoiada, cara destapada e vias respiratórias livres.
+- Frio: um bebé perde calor muito depressa. Gorro, várias camadas, contacto pele com pele dentro do casaco de um adulto. Calor: sombra, pouca roupa, mamadas ou biberões mais frequentes; nunca fica no carro fechado.
+- **Sono seguro** mesmo num abrigo: de costas, superfície firme, sem almofadas nem edredões, longe de fumo. Nunca em sofás nem em camas partilhadas com adultos exaustos.
+- Toca-te a ti: um adulto calmo é o que acalma {{b1}}. Fala baixo, embala, mantém as rotinas possíveis.
+
+## Leite e água
+
+- Se mama, **continua a amamentar**: é a comida mais segura em crise, não precisa de água limpa e acalma. A mãe precisa de mais 1 L de água e 500 kcal por dia; o stress não «seca» o leite, a desidratação sim.
+- Leite adaptado: cerca de **800 ml por dia** para um bebé de {{b1_meses}}, ou seja, 110 g de pó por dia e 1,5 kg para 2 semanas. Prepara com água **fervida** e ainda acima de 70 °C, arrefece antes de dar, deita fora o que sobra ao fim de 1 hora. Sem água fervida, o leite líquido pronto a usar (leite adaptado líquido) é a alternativa segura.
+- Sem biberão limpo, dá pelo copo pequeno, devagar. Sem leite adaptado e sem mama: com menos de 6 meses é urgência médica; com mais de 6 meses, leite UHT gordo sem diluir e comida mole, por pouco tempo, enquanto procuras ajuda.
+- Antes dos 6 meses o leite chega, mesmo com calor; a partir dos 6 meses, pequenos goles de água fervida ou engarrafada. Quantidades para a família: [os nossos números](#/s/familia/numeros).
+
+## Febre e doença
+
+- Febre é a partir de **38 °C** (axila; retal é mais exato). Com **menos de 3 meses**, qualquer febre é motivo para SNS 24 (808 24 24 24) ou urgência **no próprio dia**, sem dar medicamentos antes. Dos 3 aos 6 meses, a partir de 39 °C.
+- {{b1_bebe_nota}}
+- Paracetamol ({{b1_kg}} kg{{b1_kg_est}}): **{{b1_para_mg}} mg** = {{b1_para_ml}} ml de xarope 40 mg/ml, até 4 vezes por dia com 6 horas de intervalo. Supositório de 125 mg a partir dos 6 kg, no máximo 2 a 4 por dia conforme o peso (a calculadora diz quantos).
+- Ibuprofeno só a partir dos 3 meses e 5 kg, com leite: **{{b1_ibu_mg}} mg** = {{b1_ibu_ml}} ml de xarope 20 mg/ml, até 3 vezes por dia. Nunca aspirina, nunca «antigripais». Ver a [calculadora de doses](#/t/doses).
+- Diarreia e vómitos: soro oral {{b1_sro}} depois de cada dejeção líquida ou vómito, e continua a mamar ou o leite habitual. Sinais de alarme: fralda seca há 6 horas ou mais, boca seca, moleira afundada: **urgência**; se está muito sonolento ou não consegue beber, 112.
+- Respiração: mais de 60 respirações por minuto (50 depois dos 2 meses), covinhas entre as costelas, gemido, lábios azulados, pausas na respiração: **112**. Nariz entupido: soro fisiológico e aspirador nasal; um bebé respira sobretudo pelo nariz.
+- Manchas roxas ou vermelhas que não desaparecem quando pressionas um copo de vidro sobre elas: **112** (pode ser meningite). Os outros sinais de alarme e quando ligar estão em [febre e doença](#/s/familia/febre-doenca).
+- Iodeto de potássio, só com ordem oficial: {{b1_ki}}.
+
+## Engasgamento e RCP: técnica de bebé
+
+- **Engasgamento**: se tosse com força, deixa tossir e vigia. Se não consegue tossir, chorar nem respirar: bebé de barriga para baixo sobre o teu antebraço, cabeça mais baixa do que o corpo, 5 pancadas nas costas entre as omoplatas; vira e dá 5 compressões no peito com dois dedos. Repete. Nunca compressões abdominais num bebé. Se perde os sentidos: RCP.
+- **RCP de bebé**: 5 insuflações a cobrir boca e nariz com a tua boca, depois compressões com **dois dedos ou os dois polegares** no meio do peito, 4 cm, 100 a 120 por minuto, 30:2 (15:2 se tiveres formação). Sozinho: telemóvel em alta voz e liga ao 112 enquanto fazes RCP; sem telemóvel à mão, 1 minuto de RCP antes de ir pedir ajuda. Ver [RCP](#/s/socorros/rcp), [engasgamento](#/s/socorros/engasgamento) e o [metrónomo](#/t/rcp).
+
+## Na mochila e na evacuação
+
+- [ ] Fraldas para 3 dias (8 por dia), toalhitas, creme barreira, sacos para as usadas
+- [ ] Leite adaptado (pó ou líquido) para 3 dias, 2 biberões, água engarrafada para preparar
+- [ ] Marsúpio ou pano de transporte
+- [ ] 2 mudas completas, gorro, manta, saco-cama de bebé
+- [ ] Paracetamol xarope 40 mg/ml e seringa, soro fisiológico, termómetro
+- [ ] Boletim de saúde e vacinas (foto no telemóvel) e cartão com nome e telefones no bolso do bebé
+- Em abrigos coletivos pede um canto sossegado e mantém o bebé sempre com um adulto. A cadeira do carro é para viajar, não para dormir horas.
+` },
+    { id: 'crianca-pequena', need: 1, icon: '🧸', title: '{{c1_pequena_titulo}}: o que muda', desc: 'Pensado para {{c1}}: fraldas, leite, engasgamento, colo, febre, sono e perigos em casa.', tools: ['doses', 'rcp'], md: `
 ## O que muda nesta idade
 
 - Não percebe o perigo, não fica quieta, não sabe dizer o nome dos pais nem a morada e não anda longe. **Tudo depende de vós.** Nunca fica sozinha, nem "só um minuto".
@@ -98,9 +144,9 @@ Se o peso aparece como estimado, vem da idade: para doses certas, **pesa as cria
 ## Saúde
 
 - **Febre**: paracetamol **{{c1_para_mg}} mg** ({{c1_para_ml}} ml de xarope 40 mg/ml) até 4 vezes por dia, ou ibuprofeno **{{c1_ibu_mg}} mg** ({{c1_ibu_ml}} ml de xarope 20 mg/ml) até 3 vezes por dia, com comida. Roupa leve, líquidos. Ver [febre e doença](#/s/familia/febre-doenca) e a [calculadora de doses](#/t/doses).
-- **Convulsão com febre**: entre os 6 meses e os 5 anos é comum e quase sempre benigna. Deita de lado, protege a cabeça, cronometra, não metas nada na boca. Mais de 5 minutos, ou não recupera: 112. Ver [convulsões](#/s/socorros/convulsoes).
-- **Diarreia e vómitos**: soro oral, {{c1_sro}} depois de cada dejeção, à colher ou com seringa, em goles pequenos. Se já está desidratada: {{c1_sro4h}}. Alarme: fralda seca 6 horas, sem lágrimas, muito sonolenta, olhos fundos: 112. Ver [diarreia](#/s/socorros/diarreia).
-- **RCP e engasgamento**: técnica de **criança** (a partir de 1 ano), não de bebé. RCP: 5 insuflações iniciais, compressões com uma mão, 5 cm, 30:2. Engasgamento: 5 pancadas nas costas e 5 compressões abdominais suaves, com a criança inclinada para a frente. Ver [RCP](#/s/socorros/rcp), [engasgamento](#/s/socorros/engasgamento) e o [metrónomo](#/t/rcp).
+- **Convulsão com febre**: entre os 6 meses e os 5 anos é comum e quase sempre benigna. Deita de lado, protege a cabeça, cronometra, não metas nada na boca. Se é a primeira vez, dura mais de 5 minutos, ou não recupera: 112. Ver [convulsões](#/s/socorros/convulsoes).
+- **Diarreia e vómitos**: soro oral, {{c1_sro}} depois de cada dejeção, à colher ou com seringa, em goles pequenos. Se já está desidratada: {{c1_sro4h}}. Alarme: fralda seca há 6 horas, sem lágrimas, olhos fundos: **urgência**; se está muito sonolenta ou não consegue beber, 112. Ver [diarreia](#/s/socorros/diarreia).
+- **RCP e engasgamento**: técnica de **criança** (a partir de 1 ano), não de bebé. RCP: liga ao 112 em alta voz; 5 insuflações iniciais, compressões com uma mão, 5 cm, 30:2. Engasgamento: se tosse com força, deixa tossir e vigia; se não consegue tossir, falar nem respirar, 5 pancadas nas costas e 5 compressões abdominais suaves, com a criança inclinada para a frente, e repete; se perde os sentidos, RCP. Ver [RCP](#/s/socorros/rcp), [engasgamento](#/s/socorros/engasgamento) e o [metrónomo](#/t/rcp).
 - **Intoxicação**: CIAV 800 250 250. Não provoques o vómito. Guarda a embalagem. Ver [intoxicações](#/s/socorros/intoxicacao).
 - **Frio e calor**: vigia mãos e pés frios, tremores, sonolência; ao calor, cara muito vermelha, moleza, fralda seca. Nesta idade não se queixa a tempo.
 - Boletim de saúde e de vacinas no [cofre](#/t/cofre) e em papel na mala.
@@ -110,7 +156,7 @@ Se o peso aparece como estimado, vem da idade: para doses certas, **pesa as cria
 - Porta-bebé ergonómico ou mochila de transporte: mãos livres, passa escadas e escombros, e a criança dorme lá. Treina antes: {{c1_kg}} kg às costas durante 2 horas cansam.
 - Carrinho robusto para estrada e para levar carga.
 - **Cadeirinha sempre montada no carro.** Sem cadeirinha não se viaja, mesmo em evacuação.
-- Em multidões: ao colo ou no porta-bebé, nunca a andar. Nome e telefone escritos no braço com caneta permanente e no cartão.
+- Em multidões: ao colo ou no porta-bebés, nunca a andar. Nome e telefone escritos no braço com caneta permanente e no cartão.
 - Roupa de cor viva. Muda completa em saco estanque na mala dos adultos.
 
 ## Abrigo, barulho e sono
@@ -174,7 +220,7 @@ Plano de emergência da escola, quem vai buscar, lista de autorizados e o que fa
 ## Equipamento próprio
 
 - Mochila pequena própria (ver [mala de evacuação](#/s/kit/mala-evacuacao)): água, lanche, lanterna, apito, casaco, muda de roupa, brinquedo pequeno, livro, cartão de identificação.
-- Sapatos fechados, já usados e confortáveis, e meias de reserva. Uma bolha acaba uma caminhada aos 2 km.
+- Sapatos fechados, já usados e confortáveis, e meias de reserva. Uma bolha acaba uma caminhada aos 3 km.
 - Roupa de cor viva. Gorro e luvas mesmo no verão: as noites arrefecem e as crianças perdem calor depressa.
 ` },
 
@@ -195,7 +241,7 @@ Plano de emergência da escola, quem vai buscar, lista de autorizados e o que fa
 - **Sismo ou incêndio**: a escola evacua para um ponto de encontro exterior. Vai lá, não à sala. Leva documento: só entregam a quem está na lista.
 - Os telefones da escola ficam saturados: usa a app ou o site da escola, SMS, o grupo de pais, ou vai. **Um adulto vai buscar, o outro fica a receber e a passar informação** (rádio, contacto fora da zona).
 - A ordem: primeiro a criança em maior risco ou mais longe de ajuda, normalmente a mais nova. Combinem antes, não no momento.
-- Entre ir buscar as crianças e outra coisa qualquer, vai-se buscar as crianças.
+- Logo que seja seguro sair, entre ir buscar as crianças e outra coisa qualquer, vai-se buscar as crianças.
 - Depois, todos para o ponto de encontro ou para casa, conforme o plano. Avisa o contacto fora da zona: "temos as crianças, estamos em X".
 
 ## Se ficarmos separados por horas ou dias
@@ -212,25 +258,28 @@ Plano de emergência da escola, quem vai buscar, lista de autorizados e o que fa
 ## Febre
 
 - Febre é a partir de **38 °C**. Não é uma doença: é o corpo a lutar. O medicamento serve para dar conforto, não para pôr a febre a zero.
-- **Paracetamol**, até 4 vezes por dia, com pelo menos 4 a 6 horas entre tomas:
+- **Paracetamol**, de 6 em 6 horas (nunca menos de 4 horas entre tomas), até 4 vezes por dia:
   - {{c1_n}}: **{{c1_para_mg}} mg** = {{c1_para_ml}} ml de xarope 40 mg/ml
   - {{c2_n}}: **{{c2_para_mg}} mg** = {{c2_para_ml}} ml de xarope 40 mg/ml{{c2_para_tab}}
 - **Ibuprofeno**, se a febre não cede ou há dor, até 3 vezes por dia, com comida:
   - {{c1_n}}: **{{c1_ibu_mg}} mg** = {{c1_ibu_ml}} ml de xarope 20 mg/ml
   - {{c2_n}}: **{{c2_ibu_mg}} mg** = {{c2_ibu_ml}} ml de xarope 20 mg/ml
-- Não dar ibuprofeno a uma criança desidratada, com varicela, ou com asma que piora com anti-inflamatórios. Em febre alta podem alternar-se os dois, sem passar o máximo diário de cada um.
+- {{c1_bebe_nota}}
+- Não dar ibuprofeno a uma criança desidratada, com varicela, ou com asma que piora com anti-inflamatórios. **Não alternes os dois por rotina**: escolhe um; só dás o outro se a febre não cede e a criança está mal, sem passar o máximo diário de cada um, e registando tudo.
 - Usa a **seringa doseadora** e **regista cada toma** na [calculadora de doses](#/t/doses): às 3 da manhã, dois adultos cansados dão a mesma dose duas vezes. Confirma a concentração no rótulo: há xaropes com concentrações diferentes.
-- Roupa leve, ambiente fresco, líquidos frequentes (água, soro, sopa, leite). Sem banhos frios nem álcool na pele. Pode dormir; acorda só para beber.
-- Se vomita o xarope: supositório de paracetamol com a dosagem mais próxima da dose por peso, sem passar (confirma no folheto).
+- Deste uma dose a mais por engano? Uma toma duplicada de paracetamol ou ibuprofeno raramente faz mal, mas liga ao **CIAV (800 250 250)** para confirmar, sobretudo com um bebé. Nada de «antigripais» nem xaropes para a tosse em crianças pequenas: muitos já têm paracetamol (dose a dobrar) e não estão indicados abaixo dos 6 anos.
+- Roupa leve, ambiente fresco, líquidos frequentes (água, soro, sopa, leite). Sem banhos frios nem álcool na pele. Pode dormir; acorda-a só para beber.
+- Se vomita o xarope: supositório de paracetamol com a dosagem mais próxima da dose por peso, sem a ultrapassar (confirma no folheto).
 
 ## Quando ligar para o SNS 24 (808 24 24 24) ou ir à urgência
 
-- Febre acima de **40 °C**, ou que dura mais de **3 dias** (2 dias abaixo dos 3 anos).
+- Qualquer febre (38 °C ou mais) com **menos de 3 meses**: SNS 24 ou urgência no próprio dia. Dos 3 aos 6 meses, a partir de **39 °C**. Depois, febre a partir de **39,5 °C** que não baixa com o medicamento, ou que dura mais de **3 dias** (2 dias abaixo dos 3 anos).
+- Se tens oxímetro de dedo: saturação abaixo de **92 %** com a criança calma, ou abaixo de 94 % com dificuldade a respirar: urgência.
 - **Manchas roxas ou vermelhas que não desaparecem quando pressionas um copo de vidro sobre elas**: 112 (pode ser meningite).
 - Pescoço rígido, dor de cabeça forte com vómitos, a luz incomoda muito.
 - Dificuldade em respirar: respiração muito rápida, covas entre as costelas ou no pescoço a cada respiração, lábios azulados, ruído a respirar, não consegue dizer uma frase: **112**.
 - Muito prostrada, não acorda bem, não sorri nem reage, geme sem parar, chora inconsolável durante horas.
-- Convulsão: se durar mais de 5 minutos ou for a primeira, 112.
+- Convulsão: deita de lado, protege a cabeça, cronometra, nada na boca; se durar mais de 5 minutos ou for a primeira, 112. Ver [convulsões](#/s/socorros/convulsoes).
 - Desidratação: sem urina há 6 a 8 horas, boca seca, sem lágrimas, olhos fundos.
 - Dor de barriga forte e contínua (sobretudo do lado direito), vómitos verdes, sangue nas fezes.
 - Qualquer coisa que vos deixe mesmo preocupados: os pais acertam mais do que pensam.
@@ -248,10 +297,10 @@ Plano de emergência da escola, quem vai buscar, lista de autorizados e o que fa
 
 ## Tosse, nariz entupido, ouvidos
 
-- Líquidos, ar húmido (toalha molhada no quarto), cabeceira elevada, soro fisiológico no nariz: fundamental até aos 3 ou 4 anos, porque ainda não sabem assoar-se. Aspirador nasal.
+- Líquidos, ar húmido (toalha molhada no quarto), cabeceira elevada (não em bebés com menos de 1 ano: dormem de costas, em colchão plano), soro fisiológico no nariz: fundamental até aos 3 ou 4 anos, porque ainda não sabem assoar-se. Aspirador nasal.
 - Mel para a tosse a partir de 1 ano (uma colher de chá). Xaropes para a tosse não se dão abaixo dos 6 anos: não funcionam e têm riscos.
 - Dor de ouvidos: paracetamol ou ibuprofeno. Se durar mais de 2 dias, sair pus ou houver febre alta, precisa de médico.
-- Pieira ou respiração rápida, sobretudo se já teve bronquiolite ou asma: inalador com câmara expansora, se tiver receita; se não melhorar, urgência.
+- Pieira ou respiração rápida, sobretudo se já teve bronquiolite ou asma: inalador com câmara expansora, se tiver receita; se não melhorar, urgência. Ver [asma](#/s/socorros/asma).
 
 ## Pele
 
@@ -276,7 +325,7 @@ Plano de emergência da escola, quem vai buscar, lista de autorizados e o que fa
     { id: 'evacuar-com-criancas', need: 1, icon: '🚶‍♀️', title: 'Evacuar com {{kids_para}}', desc: 'De carro, a pé, em transportes e em abrigos coletivos, com {{kids_desc}}.', md: `
 ## Decidir cedo
 
-Com crianças pequenas, **saiam antes dos outros**. Uma fila de 6 horas ao calor sem fraldas nem água, ou uma caminhada de noite com as duas crianças, evita-se saindo ao primeiro aviso, quando as estradas e as bombas de gasolina ainda funcionam. Se a maioria decide ficar, vocês têm menos margem do que a maioria.
+Com crianças pequenas, **saiam antes dos outros**. Uma fila de 6 horas ao calor sem fraldas nem água, ou uma caminhada de noite com as duas crianças, evita-se saindo ao primeiro aviso, quando as estradas e as bombas de gasolina ainda funcionam. Mesmo que a maioria decida ficar, vocês têm menos margem do que eles.
 
 ## De carro
 
@@ -284,13 +333,15 @@ Com crianças pequenas, **saiam antes dos outros**. Uma fila de 6 horas ao calor
 - Ao alcance da mão: água com bico, lanches, fraldas e toalhitas, saco para vómito, muda de roupa, brinquedos, mantas, protetores auriculares. Histórias e músicas descarregadas no telemóvel (com o ecrã desligado gastam pouca bateria).
 - Paragens de 10 minutos a cada hora e meia. **Nunca** as deixes no carro, nem numa fila parada ao sol.
 - Com crianças, o depósito nunca fica abaixo de meio. Fila longa sem ar condicionado: janelas, panos húmidos, água.
-- Se tiverem de abandonar o carro: porta-bebé e mochilas; a cadeirinha fica.
+- Se tiverem de abandonar o carro: porta-bebés e mochilas; a cadeirinha fica.
 
 ## A pé
+![Marsúpio: mãos livres, criança segura e quente, e andas mais depressa do que com o carrinho em escadas e escombros.](img:marsupio.jpg)
 
-- {{C1}} vai no porta-bebé ergonómico ou na mochila de transporte de montanha (que ainda leva carga por baixo e tem capa de chuva). O carrinho todo-o-terreno serve em estrada e leva muita carga, mas não passa escadas, escombros, lama funda nem multidões apertadas. O ideal é levar os dois: carrinho para a carga, porta-bebé enrolado de reserva.
-- {{C2}} vai pela mão em ruas com trânsito e em multidões, ou com uma fita presa ao pulso do adulto, e leva a sua mochila de 2 a 3 kg. Ritmo de criança: 2 a 3 km/h, pausas de 10 minutos a cada 40, metas curtas ("até àquela árvore"), lanches como prémio.
-- **Distância realista da família: 8 a 12 km por dia.** Planeia paragens e abrigo a essa distância, não à distância de dois adultos.
+
+- {{C1}} vai no porta-bebés ergonómico ou na mochila de transporte de montanha (que ainda leva carga por baixo e tem capa de chuva). O carrinho todo-o-terreno serve em estrada e leva muita carga, mas não passa escadas, escombros, lama funda nem multidões apertadas. O ideal é levar os dois: carrinho para a carga, porta-bebés enrolado de reserva.
+- {{C2}} vai pelo pulso em ruas com trânsito e em multidões (a mão escapa-se da tua), ou com uma fita presa ao pulso do adulto, e leva a sua mochila de 2 a 3 kg. Ritmo de criança: 2 a 3 km/h, pausas de 10 minutos a cada 40, metas curtas ("até àquela árvore"), lanches como prémio.
+- **Distância realista da família: 5 a 8 km por dia.** Planeia paragens e abrigo a essa distância, não à distância de dois adultos.
 - Carga: quem leva {{c1}} ({{c1_kg}} kg) leva só uma mochila pequena à frente (documentos, água, fraldas; até 5 kg). O outro adulto leva a mochila grande (até 15 kg). Ver [deslocação a pé](#/s/navegar/caminhar).
 - Roupa em camadas para as duas crianças, gorro, muda seca em saco estanque. As crianças aquecem e arrefecem mais depressa do que os adultos: verifica mãos, pés e nuca de hora a hora.
 - Verifica os pés {{de_c2}} a cada paragem: uma bolha aos 3 km acaba a caminhada.
@@ -300,7 +351,7 @@ Com crianças pequenas, **saiam antes dos outros**. Uma fila de 6 horas ao calor
 
 - Nomes e telefones no braço com caneta permanente, cartão no bolso. Foto de cada criança tirada nesse dia, com a roupa que leva vestida, no telemóvel dos dois adultos.
 - Os comboios e autocarros de evacuação dão prioridade a famílias com crianças pequenas: pede.
-- Na multidão: {{c1}} sempre ao colo ou no porta-bebé; {{c2}} à tua frente, entre os teus braços, ou às cavalitas se apertar. Se se separarem, o último sítio onde estiveram juntos é o ponto de encontro imediato: {{c2}} fica parad{{c2_o}} e chama.
+- Na multidão: {{c1}} sempre ao colo ou no porta-bebés; {{c2}} à tua frente, entre os teus braços, ou às cavalitas se apertar. Se se separarem, o último sítio onde estiveram juntos é o ponto de encontro imediato: {{c2}} fica parad{{c2_o}} e chama.
 - Não entrem num transporte se não couberem todos. Ninguém fica para trás "para ir no próximo".
 
 ## Abrigos coletivos e casas de outros
@@ -358,7 +409,7 @@ Com crianças pequenas, **saiam antes dos outros**. Uma fila de 6 horas ao calor
 - Barulho: protetores auriculares, canção baixa, mão nas costas. Explosões e sirenes: "É barulho. Estamos seguros aqui. Vem para o colo."
 - Pesadelos: acordar, colo, água, "foi um sonho, estou aqui", voltar a deitar. Falar do sonho, só de manhã e se quiser.
 - Chichi na cama: normal em crise. Resguardo impermeável, muda rápida, sem comentários.
-- Dormir todos na mesma divisão é normal e aconselhável em crise. Se {{c1}} só dorme agarrad{{c1_o}}, deixa.
+- Dormir todos na mesma divisão é normal e aconselhável em crise. Se {{c1}} só dorme agarrad{{c1_o}}, deixa (exceto um bebé com menos de 1 ano: de costas, em superfície firme, nunca ao colo de um adulto a dormir).
 
 ## Birras, choro e medo
 
@@ -412,7 +463,7 @@ Numa crise a casa enche-se de perigos que não existiam: velas, fogareiros, lix�
 
 ## Fora de casa
 
-- [ ] {{C1}} sempre pela mão ou ao colo perto de água, estradas, escombros e animais soltos.
+- [ ] {{C1}} sempre ao colo ou pelo pulso perto de água, estradas, escombros e animais soltos.
 - [ ] {{C2}} não toca em objetos estranhos, não vai ver o rio, o fogo ou os estragos, não entra em casas danificadas.
 - [ ] Cães soltos e assustados: as crianças não correm nem gritam; ficam de lado, quietas, atrás de um adulto.
 - [ ] Cabos caídos, buracos e água de cheia: zona proibida, explicada e repetida.

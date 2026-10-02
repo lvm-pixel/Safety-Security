@@ -34,6 +34,8 @@ A walking stick is legal, useful every day and easy to make:
 
 It helps you walk with a load, test mud and the bottom of water, keep dogs away, and **keep your distance** from someone while you back away towards an exit.
 
+The law looks at the use: a staff is a walking aid, not a weapon. If you carry it "to hit someone", it becomes a prohibited weapon. Use it to keep your distance and get away, never to attack.
+
 ## Everyday objects that buy you time to escape
 
 The idea is always to **create distance and get out**, never to win a fight.
@@ -47,7 +49,7 @@ The idea is always to **create distance and get out**, never to win a fight.
 
 ## Pepper spray
 
-- Legal for people over 18, within the limits of the Lei das Armas (weapons law); buy it from a licensed gun shop (armeiro). Check the current rules with the PSP (police).
+- Only with a **class E licence** from the PSP police (over 18, no criminal record; buy it from a licensed gun shop, armeiro). Without the licence, owning or using one is the crime of possessing a prohibited weapon.
 - **How to use it**: arm outstretched, short 1-second bursts at the face, from 1 to 3 metres away, and **get out straight away**, to the side, without staying to watch.
 - Check the wind. In an enclosed space it will affect you too. Never near the children, except as a last resort.
 - It lasts 2 to 4 years: once a year, test a short burst outdoors, and replace it when it expires.

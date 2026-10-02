@@ -5,13 +5,15 @@ CONTENT.sections.push({
     { id: 'higiene', icon: '🧼', title: 'Higiene sem água corrente', desc: 'Manter-se limpo e evitar infeções com 2 litros por dia.', md: `
 ## Prioridades (o que evita doenças)
 
-1. **Mãos**: antes de comer, cozinhar, tratar feridas; depois da casa de banho, de tocar em lixo ou em doentes. Sabão e água (20 segundos) ou gel de álcool a 60% ou mais. Um garrafão com torneira ou uma garrafa com um furo pequeno na tampa gastam 200 ml por lavagem.
+1. **Mãos**: antes de comer, cozinhar, tratar feridas; depois da casa de banho, de tocar em lixo ou em doentes. Sabão e água (20 segundos) ou gel de álcool a 60% ou mais. Um garrafão com torneira ou uma garrafa com um furo pequeno na tampa gastam 100 a 200 ml por lavagem (meio copo a um copo).
 2. **Dentes**: escovar 2 vezes por dia (uma dor de dentes sem dentista é um problema sério). Meio copo de água. Sem pasta, bicarbonato ou só a escova.
 3. **Zonas de risco**: axilas, virilhas, pés, entre os dedos, genitais. Pano húmido com sabão ou toalhitas, 1 vez por dia. Secar bem (fungos crescem no húmido).
 4. **Roupa interior e meias**: mudar todos os dias se possível; se não, virar do avesso e arejar ao sol. O sol e o ar matam bactérias.
 5. **Cabelo e corpo inteiro**: 1 vez por semana chega. "Duche" de 2 L: molhar com caneca, ensaboar, enxaguar com o resto.
 
 ## Poupar água
+![Lavatório de garrafa («tippy tap»): uma garrafa pendurada com um furo pequeno na tampa, que se inclina com a mão ou com um pé; lava as mãos com meio copo de água.](img:tippy-tap.jpg)
+
 
 - Toalhitas (bebé ou adulto), gel de álcool, champô seco.
 - Banho de bacia: 3 a 5 L para o corpo inteiro, de cima para baixo, a água usada serve para o autoclismo ou lavar o chão.
@@ -31,7 +33,7 @@ Limpar com papel antes de lavar. Duas bacias: uma com sabão, outra com umas got
 
 ## Casa
 
-Casa de banho desinfetada 1 vez por dia com lixívia 1:50. Lixo fechado. Ver [saneamento](#/s/casa/saneamento).
+Casa de banho desinfetada 1 vez por dia com lixívia 1:50; 1:10 onde houver fezes ou vómito. Lixo fechado. Ver [saneamento](#/s/casa/saneamento).
 ` },
 
     { id: 'doencas', icon: '🌡️', title: 'Doenças comuns em crise', desc: 'Prevenir e tratar em casa o que aparece quando os serviços falham.', md: `
@@ -69,7 +71,7 @@ Dificuldade em respirar, dor no peito, confusão súbita, convulsão, febre com 
 
 ## Antibióticos
 
-Só com prescrição, mas em crise prolongada convém ter em reserva com receita prévia do médico de família: amoxicilina com ácido clavulânico (feridas, dentes, respiratório), ciprofloxacina ou fosfomicina (urinário), azitromicina (respiratório em alérgicos à penicilina). Doses e duração segundo o folheto ou o médico por telefone (SNS 24). Completa o curso. Não uses para constipações e gripes (são vírus).
+Só com prescrição, mas em crise prolongada convém ter em reserva com receita prévia do médico de família: amoxicilina com ácido clavulânico (feridas, dentes, respiratório), fosfomicina ou nitrofurantoína (urinário; a ciprofloxacina já não é primeira escolha), azitromicina (respiratório em alérgicos à penicilina). Doses e duração segundo o folheto ou o médico por telefone (SNS 24). Completa o tratamento. Não uses para constipações e gripes (são vírus).
 ` },
 
     { id: 'medicacao-cronica', icon: '💊', title: 'Medicação crónica', desc: 'Diabetes, tensão, coração, tiroide, epilepsia, psiquiatria, asma: não pode falhar.', md: `
@@ -87,7 +89,7 @@ Só com prescrição, mas em crise prolongada convém ter em reserva com receita
 
 - Farmácias (mesmo sem receita, em emergência declarada muitas dispensam), centros de saúde, hospitais, Cruz Vermelha, postos de ajuda humanitária.
 - SNS 24 (808 24 24 24) pode orientar substituições.
-- Se tens de racionar: fala com um médico se possível; reduzir a dose gradualmente é quase sempre melhor do que parar. Toma as prioridades: insulina, anticonvulsivantes, cardíacos, tiroide, psiquiátricos, antirretrovirais.
+- Se tens de racionar: fala com um médico se possível; reduzir a dose gradualmente é quase sempre melhor do que parar. Dá prioridade a: insulina, anticonvulsivantes, cardíacos, tiroide, psiquiátricos, antirretrovirais.
 
 ## Por doença
 
@@ -97,10 +99,10 @@ Só com prescrição, mas em crise prolongada convém ter em reserva com receita
 - **Anticoagulantes**: varfarina precisa de análises; DOAC (apixabano, rivaroxabano) não. Sem eles, risco de AVC ou trombose: prioridade máxima na reposição.
 - **Epilepsia**: nunca parar. Dormir, evitar álcool e stress, ter plano para crises.
 - **Asma e DPOC**: inaladores de reserva (o de alívio azul e o de manutenção), câmara expansora; evitar fumo de fogareiros e velas; máscara em poeira.
-- **Psiquiatria**: antidepressivos, antipsicóticos e estabilizadores não param de repente. Rotina, sono, apoio; SNS 24 tem linha de apoio psicológico.
+- **Psiquiatria**: antidepressivos, antipsicóticos e estabilizadores não se param de repente. Rotina, sono, apoio; SNS 24 tem linha de apoio psicológico.
 - **Tiroide**: levotiroxina aguenta alguns dias de falha; não é urgente mas não deve faltar semanas.
 - **Contracetivos**: pílula de reserva; sem ela, preservativos no kit.
-- **HIV, transplantes, oncologia**: reservas maiores (3 meses), contacto do hospital, plano de fuga para onde haja tratamento.
+- **VIH, transplantes, oncologia**: reservas maiores (3 meses), contacto do hospital, plano de fuga para onde haja tratamento.
 - **Oxigénio, diálise, ventilação**: contactar o hospital e a Proteção Civil **antes** de uma crise para registo de doentes prioritários; gerador ou bateria para concentradores; plano de evacuação para hospital com energia.
 
 ## Idosos
@@ -123,7 +125,7 @@ Diferente do medo agudo: cansaço, irritação, discussões, apatia, sono mau, c
 - **Sentido**: ajudar alguém, cuidar de algo (planta, animal), aprender uma coisa, registar num diário.
 - **Informação**: 2 vezes por dia, fonte fiável, e depois desliga.
 - **Álcool e drogas**: parecem ajudar, mas pioram o sono, a ansiedade, e são a maior causa de violência em casa durante crises.
-- **Respiração 4-4-6** quando o pânico sobe: inspira 4 s, segura 4 s, expira 6 s, 10 vezes. Aterrar: 5 coisas que vês, 4 que ouves, 3 que tocas, 2 que cheiras, 1 que provas.
+- **Respiração 4-4-6** quando o pânico sobe: inspira 4 s, segura 4 s, expira 6 s, 10 vezes. Ancoragem: 5 coisas que vês, 4 que ouves, 3 que tocas, 2 que cheiras, 1 que provas.
 
 ## Em família
 
@@ -163,7 +165,7 @@ Quem tem limitações precisa de **plano antes**, não de improviso. Faz a lista
 ## Visão e audição
 
 - Cegos: bengala de reserva, rotas memorizadas, lanterna para quem ajuda; o rádio é o meio de informação.
-- Surdos: alertas com luz e vibração, cartão escrito "Sou surdo/a, escreva por favor", SMS ao 112 (registo prévio no serviço para surdos), vizinho que avisa. Pilhas ou carregador para aparelhos auditivos, com reserva.
+- Surdos: alertas com luz e vibração, cartão escrito "Sou surdo/a, escreva por favor", contacto com o 112 por texto e videochamada em língua gestual através da app **MAI112** (regista-te antes), vizinho que avisa. Pilhas ou carregador para aparelhos auditivos, com reserva.
 
 ## Demência e confusão
 
@@ -199,7 +201,7 @@ Em desastres e conflitos pode acontecer não haver quem venha nas primeiras hora
 - **Os corpos não causam epidemias**, ao contrário do mito, exceto em doenças muito contagiosas (cólera, ébola) e para quem os manuseia diretamente sem proteção. Não há pressa de enterrar por razões de saúde; há por razões de dignidade e de cheiro.
 - Regista: quem, onde, quando, como, quem viu. Fotografa a cara e sinais particulares (para identificação). Guarda documentos e objetos pessoais num saco com o nome.
 - Cobre com lençol. Luvas ou sacos nas mãos ao mexer, lavar as mãos depois. Coloca num local fresco, ventilado, separado das pessoas, se possível em saco ou lençóis bem envolvidos.
-- Avisa: 112, polícia, Proteção Civil, junta de freguesia. Só as autoridades podem autorizar enterro; em zona de conflito sem autoridade, enterro temporário marcado (sítio registado, nome, profundidade mínima de 1 m, longe de água), para exumação posterior.
+- Avisa: 112, polícia, Proteção Civil, junta de freguesia. Só as autoridades podem autorizar enterro; em zona de conflito sem autoridade, enterro temporário marcado (sítio registado, nome, profundidade mínima de 1,5 m, a mais de 200 m de poços, nascentes e cursos de água), para exumação posterior.
 - **Nunca cremação improvisada, nunca valas comuns sem identificação.**
 - Diz aos familiares com verdade e calma, num sítio com privacidade. Deixa-os ver o corpo se quiserem. Um ritual, por pequeno que seja, ajuda o luto.
 - Crianças: verdade simples ("o avô morreu; morrer é quando o corpo deixa de funcionar e a pessoa não volta"), sem "adormeceu" nem "foi embora".

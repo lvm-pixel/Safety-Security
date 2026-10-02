@@ -51,7 +51,7 @@ Lata inchada, a deitar líquido, com ferrugem profunda, ou que solta gás ao abr
     { id: 'frigorifico', icon: '🧊', title: 'Frigorífico sem luz', desc: 'Quanto tempo aguenta a comida e como decidir o que comer primeiro.', md: `
 ## Regras de tempo (portas fechadas)
 
-- **Frigorífico:** 4 horas. Depois disso, o que for perecível (carne, peixe, lácteos, ovos cozidos, restos cozinhados, comida com maionese) e esteve acima de 5 °C mais de 2 horas: **deita fora**. Manteiga, queijo curado, conservas abertas com muito sal ou açúcar, fruta, legumes, pão, bolos secos aguentam mais.
+- **Frigorífico:** 4 horas. Depois disso, o que for perecível (carne, peixe, lácteos, ovos cozidos, restos cozinhados, comida com maionese) e esteve acima de 4 °C mais de 2 horas: **deita fora**. Manteiga, queijo curado, conservas abertas com muito sal ou açúcar, fruta, legumes, pão, bolos secos aguentam mais.
 - **Congelador cheio:** 48 horas. **Meio cheio:** 24 horas. Um congelador de arca aguenta mais do que um vertical.
 - Não abras as portas. Cada abertura custa horas. Põe um papel na porta a dizer "NÃO ABRIR" para as crianças.
 - Junta os alimentos no congelador (mantêm-se frios uns aos outros). Garrafas de água congeladas ou gelo em sacos ajudam.
@@ -60,16 +60,16 @@ Lata inchada, a deitar líquido, com ferrugem profunda, ou que solta gás ao abr
 ## Ordem para comer
 
 1. Primeiro o que está no frigorífico e estraga depressa (carne, peixe, leite aberto): cozinha tudo o que puderes nas primeiras horas.
-2. Depois o congelador, à medida que descongela. Comida com **cristais de gelo ou abaixo de 5 °C** pode ser cozinhada ou recongelada (perde qualidade, não segurança). Se descongelou totalmente e está há mais de 2 h à temperatura ambiente: fora.
+2. Depois o congelador, à medida que descongela. Comida que **ainda tem cristais de gelo** pode voltar a congelar. A que descongelou mas ainda está fria (abaixo de 4 °C) cozinha-se nas horas seguintes e **não volta a congelar** (regra da ASAE). Se descongelou totalmente e está há mais de 2 h à temperatura ambiente: fora.
 3. Só depois a despensa.
 
 ## Termómetro
 
-Um termómetro de frigorífico (2 €) tira as dúvidas: **abaixo de 5 °C, seguro**. Sem termómetro e sem certeza: na dúvida, deita fora. Uma intoxicação alimentar sem hospital disponível é muito mais cara do que uma refeição.
+Um termómetro de frigorífico (2 €) tira as dúvidas: **até 4 °C, seguro**. Sem termómetro e sem certeza: na dúvida, deita fora. Uma intoxicação alimentar sem hospital disponível é muito mais cara do que uma refeição.
 
 ## Sem frigorífico durante dias
 
-- **Carne e peixe:** cozinha bem, come no dia. Com sal grosso em abundância (salga) aguentam dias; secar ao sol e vento em tiras finas, semanas.
+- **Carne e peixe:** cozinha bem, come no dia. Com sal grosso em abundância (salga) aguentam 1 a 2 semanas; secas ao sol e vento em tiras finas, semanas a meses, mas só cozinhadas antes de comer (secar não mata parasitas): ver [conservar sem frio](#/s/comida/conservar).
 - **Ovos:** duram semanas sem frio se não forem lavados e ficarem em local fresco. Teste: em água, os que flutuam estão estragados.
 - **Leite UHT fechado:** meses. Aberto: horas. Leite em pó resolve.
 - **Queijos curados, enchidos, manteiga:** dias a semanas em local fresco.
@@ -77,13 +77,15 @@ Um termómetro de frigorífico (2 €) tira as dúvidas: **abaixo de 5 °C, segu
 - **Frigorífico de evaporação (pot-in-pot):** vaso de barro dentro de outro maior, areia molhada entre eles, pano húmido por cima, à sombra e com vento. Baixa 10 a 15 °C.
 - Cozinha em quantidade só o que se come; restos à temperatura ambiente mais de 2 h (1 h com calor) são risco.
 
-![Frigorífico de evaporação: pote dentro de pote](fig:pote)
+![Pote dentro de pote: areia molhada entre os dois, pano húmido por cima; a evaporação arrefece a comida 10 a 15 °C.](img:pote.jpg)
 ` },
 
     { id: 'cozinhar', icon: '🍳', title: 'Cozinhar sem eletricidade', desc: 'Fogareiros, gás, lenha, forno solar, e o perigo de cozinhar dentro de casa.', md: `
 >x **Carvão, lenha, grelhadores, fogareiros a álcool ou petróleo e geradores NUNCA dentro de casa, garagem ou tenda.** O monóxido de carbono não se vê nem se cheira e mata a dormir. Fogareiro a gás: só com janela aberta e por pouco tempo. Detetor de CO no kit.
 
 ## Opções por ordem de praticidade
+![Fogareiro «rocket stove» feito com duas latas: a lenha entra pelo tubo de baixo, o ar sobe pela chaminé e concentra o calor no tacho, com pouca lenha e pouco fumo. Só ao ar livre.](img:rocket-stove.jpg)
+
 
 - **Fogão a gás de botija** (muitas casas têm): funciona sem luz. Acende com fósforo ou isqueiro. Uma botija de 13 kg dá 1 a 2 meses de uso normal.
 - **Fogareiro de campismo a cartucho** (butano/propano, 230 g): cozinha 10 a 15 refeições simples por cartucho. Barato, compacto. Tem 5 a 10 cartuchos de reserva. Não usar abaixo de 5 °C (butano puro falha; mistura com propano é melhor).
@@ -91,18 +93,19 @@ Um termómetro de frigorífico (2 €) tira as dúvidas: **abaixo de 5 °C, segu
 - **Lenha:** lareira, fogareiro tipo "rocket stove" (2 latas), fogueira no exterior. Precisa de prática e de lenha seca. Ver [fazer fogo](#/s/saber/fogo).
 - **Grelhador a carvão**, no exterior. Não é eficiente para ferver água.
 - **Forno solar** (caixa de cartão forrada a alumínio, com vidro ou plástico por cima, panela preta dentro): 80 a 120 °C em dia de sol. Cozinha arroz, legumes, aquece água. Lento, gratuito, seguro.
-- **Motor do carro:** aquece latas embrulhadas em alumínio sobre o bloco em 20 a 30 min (não perto do escape). Recurso.
+- **Motor do carro:** aquece latas **já abertas** (uma lata fechada pode rebentar), embrulhadas em alumínio sobre o bloco, em 20 a 30 min (não perto do escape). Último recurso.
 
 ## Poupar combustível e água
 
 - Cozinha uma vez por dia em quantidade. Tapa sempre as panelas. Corta em pedaços pequenos. Deixa demolhar leguminosas e arroz de um dia para o outro (cozem em metade do tempo).
-- **Cozedura passiva ("haybox"):** ferve 5 minutos, tapa, embrulha a panela em cobertores ou mete-a numa caixa cheia de roupa ou esferovite, e deixa 1 a 2 horas. Arroz, massa, sopa, leguminosas demolhadas ficam prontos com uma fração do gás.
+- **Cozedura passiva ("haybox"):** ferve 5 minutos (feijão seco demolhado: 10 minutos em cachão, para destruir a toxina do feijão cru), tapa, embrulha a panela em cobertores ou mete-a numa caixa cheia de roupa ou esferovite, e deixa 1 a 2 horas. Arroz, massa, sopa, leguminosas demolhadas ficam prontos com uma fração do gás.
 - Muita coisa come-se crua ou só com água quente: cuscuz, aveia, purés instantâneos, sopas de pacote, noodles.
 - Panela de pressão: metade do tempo e combustível.
 - Água de cozer legumes reaproveita-se para sopa.
 
 ## Higiene sem água corrente
 
+- Mãos lavadas (ou gel de álcool) antes de mexer na comida e depois da casa de banho: é o que mais evita diarreias.
 - Limpa a loiça com papel ou pão antes de lavar. Lava numa bacia, enxagua noutra com água e umas gotas de lixívia. Deixa secar ao ar.
 - Cozinha sobre uma toalha ou plástico para apanhar restos.
 - Lixo orgânico fechado e longe da casa (ratos, moscas). Enterra se durar dias.
@@ -114,7 +117,7 @@ Um termómetro de frigorífico (2 €) tira as dúvidas: **abaixo de 5 °C, segu
 ## Quanto precisas
 
 - Adulto em repouso: 1500 a 2000 kcal. Com trabalho físico ou frio: 2500 a 3500. Grávidas e a amamentar: +300 a 500.
-- Crianças: 1000 a 1800 conforme a idade. Não devem racionar como adultos: **primeiro as crianças, grávidas, doentes e idosos frágeis**, depois quem faz trabalho físico, depois os restantes.
+- Crianças: 1000 a 2300 conforme a idade (um adolescente come como um adulto). Não devem racionar como adultos: **primeiro as crianças, grávidas, doentes e idosos frágeis**, depois quem faz trabalho físico, depois os restantes.
 - Uma pessoa saudável aguenta semanas com metade das calorias, mas com menos energia, mais frio, pior humor e pior imunidade. Planeia 1200 kcal mínimas por adulto em racionamento.
 
 ## Referências rápidas
@@ -127,7 +130,7 @@ Um termómetro de frigorífico (2 €) tira as dúvidas: **abaixo de 5 °C, segu
 | Lata de atum em óleo (120 g) | 250 |
 | Lata de sardinha | 300 |
 | Lata de feijão/grão (400 g) | 350 |
-| Amendoins, mão cheia (30 g) | 170 |
+| Amendoins, mão-cheia (30 g) | 170 |
 | Chocolate, 100 g | 550 |
 | Bolachas Maria, 6 | 150 |
 | Ovo | 75 |
@@ -145,19 +148,21 @@ Um termómetro de frigorífico (2 €) tira as dúvidas: **abaixo de 5 °C, segu
 
 ## Sinais de subnutrição a vigiar
 
-Fraqueza, feridas que não saram, gengivas a sangrar (falta de vitamina C: fruta, legumes crus, batata, brotos de leguminosas germinadas em 3 dias com água), tonturas, apatia, perda rápida de peso. Prioridade a essas pessoas.
+Fraqueza, feridas que não saram, gengivas a sangrar (falta de vitamina C: fruta, legumes crus, batata, rebentos de leguminosas germinadas em 3 dias com água), tonturas, apatia, perda rápida de peso. Prioridade a essas pessoas.
 
 ## Não comas
 
-O que não conheces com certeza (cogumelos e plantas silvestres mata gente todos os anos), animais encontrados mortos, moluscos em zonas de maré vermelha, comida de latas inchadas, comida que esteve em água de cheia.
+O que não conheces com certeza (cogumelos e plantas silvestres matam gente todos os anos), animais encontrados mortos, moluscos em zonas de maré vermelha, comida de latas inchadas, comida que esteve em água de cheia.
 ` },
 
     { id: 'conservar', icon: '🧂', title: 'Conservar sem frio', desc: 'Sal, secagem, fumo, vinagre, gordura. Métodos antigos que funcionam.', md: `
 ## Secagem
+![Peixe a secar ao sol sobre redes: tiras finas, bem salgadas, viradas e protegidas das moscas; guarda-se seco durante meses.](img:secar-peixe.jpg)
+
 
 O método mais simples. Tira a água, os micróbios não crescem.
 
-- **Carne e peixe:** tiras finas (5 mm), salgadas, penduradas ao sol e vento (ou perto de fogo sem chama) 2 a 4 dias, até ficarem rígidas e sem zonas moles. Tapa com rede contra moscas. Guarda em local seco; dura meses.
+- **Carne e peixe:** tiras finas (5 mm), bem salgadas, penduradas ao sol e vento (ou perto de fogo sem chama) 2 a 4 dias, até ficarem rígidas e sem zonas moles. Secar ao sol não mata parasitas nem bactérias: escalda ou cozinha as tiras antes de secar, ou cozinha sempre a carne seca antes de a comer. Tapa com rede contra moscas. Guarda em local seco; dura meses.
 - **Fruta:** rodelas finas de maçã, pera, pêssego, figo, uva ao sol 3 a 5 dias, viradas todos os dias. Tomate cortado ao meio e salgado.
 - **Legumes e ervas:** feijão-verde, cogumelos, pimentos, ervas aromáticas em fios à sombra e vento.
 - Forno a 50 a 70 °C com porta entreaberta, ou desidratador, se houver eletricidade.
@@ -178,11 +183,11 @@ Fumeiro caseiro: caixa ou barril com fumo de lenha de árvores de fruto ou carva
 
 ## Gordura
 
-Carne cozinhada e coberta totalmente de gordura ou azeite (confit, chouriço em banha) num recipiente fechado, local fresco: semanas. A gordura isola do ar.
+**Carne em azeite ou em gordura sem frio é um risco de botulismo**: a gordura tira o ar, e é sem ar que a bactéria do botulismo produz a toxina. Sem frigorífico, só conserva carne com **muito sal** (salga a seco ou salmoura forte, dias, e depois secar), ou fumada e seca. Frasco estufado ou com cheiro estranho: não proves, deita fora, como com as latas inchadas. Carne ou legumes em azeite com aspeto normal mas de origem duvidosa: só depois de ferver 10 minutos, que destrói a toxina.
 
 ## Açúcar
 
-Compotas e fruta em calda (mínimo 50% de açúcar) em frascos fervidos e fechados a quente: meses a anos.
+Compotas e fruta em calda (mínimo 60% de açúcar) em frascos fervidos e fechados a quente: meses a anos.
 
 ## Conservas caseiras em frasco (cuidado)
 
@@ -190,7 +195,7 @@ Legumes pouco ácidos (feijão-verde, ervilhas, cogumelos, carne) em frasco fech
 
 ## Germinar
 
-Lentilhas, grão, feijão-mungo, sementes de girassol: demolha 12 h, escorre, enxagua 2 vezes por dia num frasco tapado com pano. Em 3 a 5 dias tens brotos frescos com vitaminas. A forma mais fácil de ter "verdura" num apartamento sem luz.
+Lentilhas, grão, feijão-mungo, sementes de girassol: demolha 12 h, escorre, enxagua 2 vezes por dia num frasco tapado com pano. Em 3 a 5 dias tens rebentos frescos com vitaminas. A forma mais fácil de ter "verdura" num apartamento sem luz.
 ` },
 
     { id: 'especiais', icon: '🍼', title: 'Bebés, idosos, alergias, animais', desc: 'Necessidades específicas que se esquecem até ser tarde.', md: `
@@ -199,16 +204,16 @@ Lentilhas, grão, feijão-mungo, sementes de girassol: demolha 12 h, escorre, en
 ## Bebés
 
 - **Amamentar** é a melhor preparação: não precisa de água, frio, fogo nem stock, e protege contra infeções. Em crise, o stress reduz o leite mas raramente o corta: continuar a dar mama, beber e comer, descansar. A mãe precisa de mais 500 kcal e 1 L de água.
-- **Leite adaptado em pó:** reserva para 2 a 4 semanas. Precisa de água **fervida** (mesmo engarrafada) e biberões limpos (fervidos ou lavados com água tratada). Prepara só a quantidade da toma; deita fora restos ao fim de 1 h.
+- **Leite adaptado em pó:** reserva para 2 a 4 semanas. Lava as mãos antes de preparar. Precisa de água **fervida** (mesmo engarrafada), ainda acima de **70 °C** ao juntar o pó (mata as bactérias do próprio pó), e biberões limpos (fervidos ou lavados com água tratada); arrefece antes de dar. Sem biberão limpo, dá pelo copo pequeno. Prepara só a quantidade da toma; deita fora restos ao fim de 1 h.
 - **Leite líquido pronto** (em pacotes UHT para bebé): não precisa de água nem preparação, dura meses fechado. Mais caro mas muito mais seguro sem condições. Tem alguns.
-- Sem leite adaptado e sem mama, com mais de 6 meses: leite UHT gordo diluído com água fervida (não ideal, mas seguro no curto prazo). Menos de 6 meses: é urgência médica; procura ajuda.
+- Sem leite adaptado e sem mama, com mais de 6 meses: leite UHT gordo **sem diluir**, mais comida mole, por pouco tempo. Menos de 6 meses: é urgência médica; procura ajuda (SNS 24, centro de saúde, Cruz Vermelha); só enquanto ela não chega, leite UHT gordo diluído em partes iguais com água fervida, umas horas, nunca dias.
 - **Papas e frascos:** 6 meses em diante. Puré de batata, cenoura, banana esmagada, arroz bem cozido servem.
 - Fraldas (8 por dia para recém-nascidos, 5 depois), toalhitas, creme, sacos. Fraldas de pano e alfinetes como reserva.
 - Bebés desidratam em horas: com diarreia ou vómitos, [soro oral](#/s/socorros/diarreia) à colher e procurar ajuda cedo.
 
 ## Idosos
 
-- Comida mole e fácil de mastigar e digerir; sopa, purés, papas, leite, ovos.
+- Comida mole e fácil de mastigar e digerir: sopa, purés, papas, leite, ovos.
 - Beber é a maior falha: sentem menos sede. Oferece líquidos de hora a hora.
 - Medicação: a maior prioridade do stock. Ver [medicação crónica](#/s/saude/medicacao-cronica).
 - Diabéticos: comida regular, açúcar rápido à mão para hipoglicemias.

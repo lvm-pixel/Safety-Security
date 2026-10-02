@@ -4,6 +4,8 @@ CONTENT_EN.sections['navegar'] = {
   pages: {
     bussola: { title: 'Finding north', desc: 'Compass, watch and sun, shadows, stars. Always two methods.', md: `
 ## Compass
+![A compass on the map: turn the map until its north lines up with the needle and read the direction to your destination on the graduated ring.](img:bussola-mapa.jpg)
+
 
 - The red needle points to **magnetic north** (in Portugal, the difference from true north is small: about 1 to 2° to the west; ignore it when walking).
 - Keep it away from metal, magnets, mobile phones and cars (they cause errors of tens of degrees).
@@ -12,7 +14,7 @@ CONTENT_EN.sections['navegar'] = {
 
 ## Analogue watch and sun (northern hemisphere)
 
-![Watch method](fig:norte-relogio)
+![Watch method: only the two watches at the top (northern hemisphere) apply in Portugal; the ones at the bottom are for the southern hemisphere and swap N and S. Point the hour hand at the sun; South is halfway between that hand and 12 (1 o'clock with daylight saving time).](img:norte-relogio.jpg)
 
 1. Hold the watch level. Point the **hour hand at the sun**.
 2. **South** is halfway between the hour hand and 12 o'clock. North is the opposite direction.
@@ -36,11 +38,11 @@ Approximate (10 to 20° of error), but good enough.
 
 ## Stars (clear night)
 
-![Finding the Pole Star](fig:norte-estrelas)
+![Pole Star: extend the distance between the two stars at the end of the Plough's bowl (Merak and Dubhe) five times. Polaris marks North.](img:norte-estrelas.jpg)
 
 - **Pole Star** (Polaris) = North, with less than 1° of error. Find the **Plough** (7 stars of Ursa Major shaped like a saucepan). The two stars at the end of the "saucepan" (opposite the handle) point to the Pole Star: extend the distance between them 5 times. The Pole Star is not very bright; it stands alone and is the tip of the handle of the Little Bear (Ursa Minor).
 - **Cassiopeia** (a W or M shape) is on the other side of the Pole Star, at the same distance. Use it when the Plough is low.
-- The height of the Pole Star above the horizon is your latitude (Portugal: 37 to 42°).
+- The height of the Pole Star above the horizon is your latitude (mainland Portugal: 37 to 42°).
 - **Orion** (three stars in a line, the "belt") rises in the East and sets in the West; the tip of its sword points South.
 
 ## Nature (clues, not certainties)
@@ -91,7 +93,7 @@ The [GPS tool](#/t/gps) shows your position and saves points (the car, the shelt
     caminhar: { title: 'Travelling on foot', desc: 'Evacuating on foot, how far you walk in a day, pace, feet, load, obstacles.', md: `
 ## How far you can walk
 
-- Fit adult with a light backpack: **20 to 30 km a day** on roads; 10 to 15 km in mountains. With children, elderly people or a load: half that.
+- Fit adult with a light backpack: **20 to 30 km a day** on roads; 10 to 15 km in mountains. With children, elderly people or a load: half that or less (a family with children: 5 to 8 km a day).
 - Pace: 4 km/h on the flat. **Take a 10-minute break every hour**, sitting down, feet up, and eat and drink something.
 - Start early, avoid the hottest hours (12:00 to 16:00 in summer), reach your shelter 2 hours before nightfall.
 
@@ -121,7 +123,7 @@ They are your vehicle. An infected blister can stop everything.
 - **Traffic**: walk on the left-hand side (facing oncoming cars), off the carriageway, in light-coloured clothing or with a reflector. At night, torch on.
 - **Damaged power cables, bridges and buildings**: go around them.
 - **Rivers**: do not cross water above knee height or with a strong current. Undo your backpack straps, face upstream, use a stick as a third point of support, cross diagonally downstream. In a group, link arms.
-- **Crowds and queues**: hold children by the hand, not loosely by the wrist. Meeting point.
+- **Crowds and queues**: hold children firmly by the wrist, not by the hand (a hand slips out of yours), and agree a meeting point.
 - **Loose dogs**: do not run, do not look them in the eye, stand side-on, speak calmly, back away slowly.
 - **Heat and cold**: see [extreme heat and cold](#/s/agora/extremos).
 

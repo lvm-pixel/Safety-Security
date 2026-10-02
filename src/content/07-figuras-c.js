@@ -83,12 +83,12 @@ Object.assign(FIGS, {
 <g><rect class="body" x="70" y="96" width="18" height="44" rx="5"/><circle class="head" cx="100" cy="58" r="18"/><path class="limb" d="M100 78 V168 M100 168 L86 244 M100 168 L118 244"/>
 <rect class="soft" x="102" y="94" width="36" height="58" rx="12"/><circle class="headv" cx="122" cy="104" r="11"/><path class="limbv" style="stroke-width:7" d="M122 118 V146"/>
 <path class="limb" d="M100 98 L136 132 L120 150"/>
-<text x="100" y="274" text-anchor="middle" class="b">{{a1}}</text><text x="100" y="294" text-anchor="middle" class="s">porta-bebé + mochila pequena</text></g>
+<text x="100" y="274" text-anchor="middle" class="b">{{a1}}</text><text x="100" y="294" text-anchor="middle" class="s">porta-bebés + mochila pequena</text></g>
 <g><rect class="body" x="252" y="86" width="34" height="86" rx="7"/><circle class="head" cx="300" cy="58" r="18"/><path class="limb" d="M300 78 V168 M300 168 L286 244 M300 168 L318 244 M300 100 L338 142 L360 156"/>
 <text x="290" y="274" text-anchor="middle" class="b">{{a2}}</text><text x="290" y="294" text-anchor="middle" class="s">mochila grande + dá a mão</text></g>
 <g><rect class="body" x="386" y="150" width="14" height="28" rx="4"/><circle class="headv" cx="380" cy="132" r="13"/><path class="limbv" style="stroke-width:8" d="M380 146 V200 M380 200 L370 246 M380 200 L392 246 M380 162 L362 158"/>
 <text x="420" y="176" class="b">{{c2_n}}</text><text x="420" y="194" class="s">a sua mochila, 2 a 3 kg</text></g>
-<text x="150" y="30" class="s">{{c1_n}} vai no porta-bebé</text>
+<text x="150" y="30" class="s">{{c1_n}} vai no porta-bebés</text>
 </svg>`,
 
 'quarto-seguro': `<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">

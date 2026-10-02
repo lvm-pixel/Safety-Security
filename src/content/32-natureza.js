@@ -1,9 +1,9 @@
 CONTENT.sections.push({
   id: 'natureza', icon: '🎣', title: 'Comida da natureza',
-  desc: 'Pesca, armadilhas, caça, preparar a carne, plantas silvestres e criar comida. Para emergências reais, dentro da lei.',
+  desc: 'Pesca, armadilhas, caça, preparar a carne, plantas silvestres e criar comida. Para emergências reais, e o que a lei permite.',
   pages: [
     { id: 'antes', icon: '⚖️', title: 'Antes de começar: lei e prioridades', desc: 'O que rende mais comida por esforço, o que é legal em tempos normais e quando faz sentido.', md: `
->! Em tempos normais, **caçar sem carta de caçador e licença é crime**, pescar sem licença é contraordenação, e **laços, armadilhas e redes são proibidos**. O que está nesta secção é para uma emergência real sem outra fonte de comida: perdido no campo durante dias, ou uma crise longa em que a distribuição de alimentos parou. Para aprender a caçar a sério, o caminho é tirar a carta de caçador.
+>! Em tempos normais, **caçar sem carta de caçador é crime** (com carta mas sem a licença anual, é contraordenação), pescar sem licença é contraordenação (licença de pesca lúdica da DGRM para o mar, do ICNF para rios e albufeiras; paga-se no Multibanco em «Pagamentos ao Estado»; menores de 16 anos pescam acompanhados por um titular; coimas de 200 a 2000 €), e **laços, armadilhas e redes são proibidos** (com eles, caçar é crime). O que está nesta secção é para uma emergência real sem outra fonte de comida: perdido no campo durante dias, ou uma crise longa em que a distribuição de alimentos parou. Para aprender a caçar a sério, o caminho é tirar a carta de caçador.
 
 ## A comida é a última prioridade
 
@@ -32,7 +32,7 @@ Arcos, fisgas e lanças improvisadas quase nunca funcionam nas mãos de quem nã
 ` },
 
     { id: 'pesca', icon: '🎣', title: 'Pesca de sobrevivência', desc: 'Anzóis e linhas improvisados, iscos, onde estão os peixes, pesca passiva e mariscos.', md: `
-![Material de pesca improvisado](fig:pesca-improvisada)
+![Anzol de osso feito à mão. Podes copiar a forma com um alfinete dobrado, um espinho ou uma lasca de osso; mais simples ainda é a «agulha» (pau de 3 cm afiado nas duas pontas, atado ao meio), que o peixe engole com o isco. Linha: fios interiores do paracord, fio dental ou linha de coser dobrada.](img:anzol-osso.jpg)
 
 ## Material
 
@@ -55,10 +55,12 @@ Minhocas (mais fáceis depois da chuva, debaixo de pedras e troncos), larvas, ga
 
 ## Pesca passiva (trabalha enquanto fazes outras coisas)
 
-![Nassa de garrafa](fig:nassa-garrafa)
+Só numa emergência real, como os laços: ver [lei e prioridades](#/s/natureza/antes).
+
+![Nassa de garrafa: o terço de cima cortado e invertido faz o funil de entrada; uns furos para a água circular, o funil preso com fio ou arame, e um peso em baixo. Boca virada para jusante.](img:nassa-garrafa.jpg)
 
 - **Linha de fundo**: vários anzóis com isco numa linha presa a um ramo ou estaca, deixada durante a noite. Verifica de manhã.
-- **Nassa de garrafa**: corta o terço de cima de uma garrafa grande de plástico, encaixa-o ao contrário dentro do resto, põe isco lá dentro e uma pedra para afundar. Os peixes pequenos entram e não sabem sair. Coloca-a num sítio calmo, com a entrada virada para jusante.
+- **Nassa de garrafa**: corta o terço de cima de uma garrafa grande de plástico, encaixa-o ao contrário dentro do resto e prende-o (fio, arame ou agrafos), faz uns furos para a água circular, põe isco lá dentro e uma pedra para afundar. Os peixes pequenos entram e não sabem sair. Coloca-a num sítio calmo, com a entrada virada para jusante.
 - **Barreira de pedras** num riacho pouco fundo, em forma de V, que guia os peixes para uma poça fechada onde os apanhas à mão ou com uma rede improvisada.
 
 ## Arpão de pontas
@@ -68,7 +70,7 @@ Um pau direito de 1,5 m, com a ponta rachada em 2 a 4 dentes, afastados com uma 
 ## Mariscos
 
 - Mexilhões, lapas, berbigão e amêijoas podem acumular **toxinas** invisíveis que o calor não destrói. O IPMA publica as zonas onde a apanha está proibida: se não souberes, **não comas bivalves**.
-- Lapas e caramujos das rochas batidas pelo mar são mais seguros do que bivalves de zonas paradas. Sempre bem cozinhados.
+- Lapas e caramujos das rochas batidas pelo mar são mais seguros do que bivalves de zonas paradas, mas também apanham toxinas: valem os mesmos avisos do IPMA. Sempre bem cozinhados.
 - Nunca apanhes marisco junto a esgotos, portos ou depois de cheias.
 
 ## Limpar e cozinhar o peixe
@@ -83,7 +85,7 @@ Tira as escamas raspando da cauda para a cabeça, abre a barriga do ânus às gu
 
 - Nos **carreiros** que os coelhos e as lebres abrem na erva, nas passagens estreitas entre arbustos, nas entradas de tocas, junto a água e a zonas de alimentação.
 - Procura sinais: caganitas, pegadas, erva roída, tufos de pelo, tocas usadas (terra fresca à entrada).
-- Arma **muitas**: 10 a 20 laços dão, com sorte, uma captura por noite.
+- Arma **muitos**: 10 a 20 laços dão, com sorte, uma captura por noite.
 
 ## Laço para coelho
 
@@ -91,7 +93,7 @@ Tira as escamas raspando da cauda para a cabeça, abre a barriga do ânus às gu
 
 1. Arame fino e maleável (latão de 0,5 a 1 mm, ou cabo de aço fino) com 60 a 80 cm.
 2. Faz um olhal pequeno numa ponta e passa a outra ponta por ele: fica um laço corredio.
-3. **Abertura com cerca de 10 cm** (um punho), com a parte de baixo **a um palmo do chão**.
+3. **Abertura com cerca de 10 cm** (quatro dedos), com a parte de baixo **à altura de um punho do chão** (7 a 10 cm).
 4. Prende a outra ponta com firmeza a uma estaca bem enterrada ou a um arbusto forte.
 5. Usa paus e ramos dos lados para "afunilar" o carreiro até ao laço, sem mudar muito o sítio.
 6. Mexe o mínimo e esfrega o arame e as mãos com terra para tirar o cheiro humano.
@@ -107,7 +109,7 @@ Tira as escamas raspando da cauda para a cabeça, abre a barriga do ânus às gu
 
 - **Nassa de garrafa** para peixe: ver [pesca](#/s/natureza/pesca).
 - **Armadilha de queda** (uma pedra lisa e pesada apoiada num gatilho de paus em forma de 4): funciona para ratos e aves pequenas, mas exige muita prática e é fácil magoar os dedos a montá-la.
-- Pássaros selvagens e ovos são protegidos: fica-te pelos coelhos, pelos ratos do campo e pelo peixe.
+- A maioria das aves selvagens, e todos os ninhos e ovos, são protegidos (as espécies de caça estão em [caça](#/s/natureza/caca)): com armadilhas, fica-te pelos coelhos, pelos ratos do campo e pelo peixe.
 ` },
 
     { id: 'caca', icon: '🦌', title: 'Caça: o caminho legal', desc: 'Carta de caçador, espécies, segurança com armas, e porque a caça improvisada raramente resulta.', md: `
@@ -154,9 +156,9 @@ Arcos, fisgas, lanças e boleadeiras improvisadas raramente acertam num animal s
 
 1. Belisca a pele do dorso, faz um corte pequeno e mete os dedos. Puxa a pele em sentidos opostos, como quem tira uma luva, até às patas e ao pescoço.
 2. Corta a cabeça e as patas.
-3. Abre a barriga com um corte pouco fundo, do meio das patas de trás até às costelas, **sem furar os intestinos**: mete dois dedos por baixo da faca a levantar a pele.
+3. Abre a barriga com um corte pouco fundo, do meio das patas de trás até às costelas, **sem furar os intestinos**: mete dois dedos por baixo da faca a levantar a parede da barriga, afastando-a das tripas.
 4. Tira as tripas. Guarda o coração, os rins e o fígado se estiver são.
-5. Lava por dentro e por fora com água limpa. Corta em pedaços.
+5. Lava a carne por dentro e por fora com água limpa, e depois as mãos e a faca. Corta em pedaços.
 
 ## Aves
 
@@ -170,7 +172,7 @@ Depena a seco enquanto a ave ainda está quente (ou mergulha-a 1 minuto em água
 
 ## Conservar
 
-Tiras finas salgadas e secas ao sol e ao vento, ou fumadas: ver [conservar sem frio](#/s/comida/conservar). Carne fresca sem frio aguenta um dia; cozinhada, dois.
+Tiras finas salgadas e secas ao sol e ao vento, ou fumadas: ver [conservar sem frio](#/s/comida/conservar). Carne fresca sem frio: cozinha-a no próprio dia e come o cozinhado em 2 horas, ou salga-a e seca-a logo. Javali só **bem passado** (triquinose), sem provar cru.
 
 ## Restos
 
@@ -187,9 +189,12 @@ Pele, tripas e ossos enterrados a pelo menos 30 cm, longe da água e do acampame
 | **Embude** (Oenanthe crocata) | Margens de ribeiras e valas | Parece aipo ou salsa; a raiz é das plantas mais venenosas da Europa |
 | **Cicuta** (Conium maculatum) | Bermas, terrenos baldios | Caule com manchas roxas, cheiro a rato; mortal |
 | **Loendro** (loureiro-rosa) | Jardins, rotundas, margens | Tóxico em todas as partes, até o fumo e os paus usados para assar |
-| **Dedaleira** | Norte e centro, orlas de bosque | Flores roxas em tubo; para o coração |
+| **Dedaleira** | Norte e centro, orlas de bosque | Flores roxas em tubo; faz parar o coração |
 | **Estramónio, mamona, teixo, jarro** | Baldios, jardins | Muito tóxicos |
 | **Castanheiro-da-índia** | Jardins, avenidas | Os frutos parecem castanhas e são tóxicos |
+![Embude (Oenanthe crocata): umbelas de flores brancas e folhas parecidas com as do aipo, em valas e margens de ribeiras. A raiz, em feixe de tubérculos, é mortal.](img:planta-embude.jpg)
+
+![Cicuta (Conium maculatum): planta alta de bermas e baldios, com flores brancas em umbela, caule liso com manchas roxas e cheiro desagradável.](img:planta-cicuta.jpg)
 
 Regra de ouro: **nunca comas plantas com flores em guarda-chuva** (a família da cenoura e da salsa), a não ser que tenhas a certeza absoluta. É nessa família que estão o embude e a cicuta.
 
@@ -202,7 +207,7 @@ Regra de ouro: **nunca comas plantas com flores em guarda-chuva** (a família da
 - **Tanchagem**: folhas com nervuras paralelas. Novas, cozidas.
 - **Azedas**: sabor ácido. Em pequenas quantidades (têm oxalatos).
 - **Espargos bravos**: rebentos na primavera, nas sebes. Cozidos.
-- **Agrião**: só cozinhado se vier de ribeiras com gado por perto (parasitas do fígado).
+- **Agrião**: só cozinhado se vier de ribeiras com gado por perto (parasitas do fígado). Cresce nos mesmos sítios que o embude: sem certeza absoluta da planta, não colhas.
 
 ## Frutos, sementes e frutos secos
 

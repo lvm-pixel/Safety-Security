@@ -6,7 +6,7 @@ FIGS_EN['rcp-maos'] = [
   ['Criança', 'Child'],
   ['1 mão · 5 cm', '1 hand · 5 cm'],
   ['Bebé', 'Baby'],
-  ['2 dedos · 4 cm', '2 fingers · 4 cm'],
+  ['2 polegares · 4 cm', '2 thumbs · 4 cm'],
 ];
 FIGS_EN['pls'] = [
   ['1. braço de baixo em ângulo reto, palma para cima', '1. lower arm at a right angle, palm up'],
@@ -95,7 +95,7 @@ FIGS_EN['sodis'] = [
   ['até 2 L · só água límpida · deitadas', 'up to 2 L · clear water only · lying flat'],
 ];
 FIGS_EN['fogo'] = [
-  ['1. isca seca e solta (mão cheia)', '1. dry, loose tinder (a handful)'],
+  ['1. isca seca e solta (mão-cheia)', '1. dry, loose tinder (a handful)'],
   ['2. acendalhas: da grossura', '2. kindling: thickness from'],
   ['de um fósforo à de um lápis', 'a match to a pencil'],
   ['3. lenha: só depois', '3. firewood: only after'],
@@ -123,7 +123,7 @@ FIGS_EN['balde'] = [
   ['Balde 2: fezes', 'Bucket 2: faeces'],
   ['serradura,', 'sawdust,'],
   ['terra ou cinza', 'soil or ash'],
-  ['1 mão cheia por cima, sempre', '1 handful on top, every time'],
+  ['1 mão-cheia por cima, sempre', '1 handful on top, every time'],
   ['Balde 2 forrado com saco de lixo resistente (tracejado). Tampa sempre fechada.', 'Bucket 2 lined with a strong bin bag (dashed line). Lid always closed.'],
 ];
 FIGS_EN['pote'] = [
@@ -190,10 +190,10 @@ FIGS_EN['morse-sos'] = [
   ['Serve com luz, apito, buzina ou pancadas num cano.', 'Works with a light, whistle, horn or banging on a pipe.'],
 ];
 FIGS_EN['familia-carga'] = [
-  ['porta-bebé + mochila pequena', 'baby carrier + small backpack'],
+  ['porta-bebés + mochila pequena', 'baby carrier + small backpack'],
   ['mochila grande + dá a mão', 'big backpack + holds a hand'],
   ['a sua mochila, 2 a 3 kg', 'own backpack, 2 to 3 kg'],
-  ['{{c1_n}} vai no porta-bebé', '{{c1_n}} goes in the baby carrier'],
+  ['{{c1_n}} vai no porta-bebés', '{{c1_n}} goes in the baby carrier'],
 ];
 FIGS_EN['quarto-seguro'] = [
   ['porta da rua', 'front door'],
@@ -240,7 +240,7 @@ FIGS_EN['nassa-garrafa'] = [
 FIGS_EN['laco'] = [
   ['carreiro dos coelhos', 'rabbit run'],
   ['estaca bem enterrada', 'stake driven in firmly'],
-  ['1 palmo', '1 span'],
+  ['1 punho', '1 fist'],
   ['laço corredio de arame fino,', 'running noose of thin wire,'],
   ['abertura de um punho (~10 cm)', 'fist-sized opening (~10 cm)'],
   ['paus dos lados a afunilar o caminho até ao laço', 'sticks on each side funnel the path to the snare'],

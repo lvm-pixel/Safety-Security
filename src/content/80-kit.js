@@ -46,11 +46,11 @@ CONTENT.sections.push({
 - [ ] Máscaras FFP2 (de adulto e de criança), luvas descartáveis, gel de álcool
 - [ ] Papel higiénico, toalhitas, sabão, escovas e pasta de dentes, pensos higiénicos
 - [ ] Sacos de lixo resistentes e um balde com tampa (sanita de emergência)
-- [ ] Lixívia simples, guardada fora do alcance das crianças
+- [ ] Lixívia simples sem perfume (a «alimentar» serve), com a % de cloro no rótulo, fora do alcance das crianças
 
 ## Ferramentas e proteção
 
-- [ ] Extintor e manta anti-fogo
+- [ ] Extintor e manta antifogo
 - [ ] Detetor de fumo e detetor de monóxido de carbono
 - [ ] Canivete multifunções, fita adesiva forte, corda ou cordel (10 m)
 - [ ] Chave inglesa (para o gás e a água), alicate, chave de fendas
@@ -83,7 +83,7 @@ CONTENT.sections.push({
     { id: 'mala-evacuacao', icon: '🎒', title: 'Mala de evacuação', desc: 'Uma mochila por pessoa, pronta à porta, para sair em 2 minutos e aguentar 3 dias.', md: `
 ## Regras
 
-- **Três mochilas para a família**: a **mochila grande** ({{a2}}), a **mochila pequena** ({{a1}}, que leva {{c1}} no porta-bebé) e a **mochila {{de_c2}}**.
+- **Três mochilas para a família**: a **mochila grande** ({{a2}}), a **mochila pequena** ({{a1}}, que leva {{c1}} no porta-bebés) e a **mochila {{de_c2}}**.
 - Prontas, fechadas, sempre no mesmo sítio, perto da porta. Revê-as de 6 em 6 meses: roupa, tamanhos, validades.
 - Pesos: mochila grande até 12 a 15 kg; mochila pequena à frente até 5 kg; mochila {{de_c2}} 2 a 3 kg.
 - Pensa em **3 dias a pé, com qualquer tempo**. Ver [quem faz o quê](#/s/familia/numeros).
@@ -103,7 +103,6 @@ CONTENT.sections.push({
 - [ ] Fraldas para um dia, toalhitas, creme e sacos
 - [ ] Leite e lanches {{de_c1}}, chucha de reserva e o boneco
 - [ ] Rádio pequeno, lanterna frontal e apito
-- [ ] Documentos e dinheiro da família
 
 ## Mochila grande ({{a2}})
 
@@ -111,10 +110,10 @@ CONTENT.sections.push({
 - [ ] Comida para 3 dias para todos, leve e sem cozinhar: barras, frutos secos, bolachas, latas pequenas de abertura fácil, fruta seca, chocolate
 - [ ] Leite para as crianças ({{milk_3d}} L em pó ou UHT) e papas ou purés {{de_c1}}
 - [ ] Fraldas para os restantes dias ({{diapers_3d}} no total) e toalhitas
-- [ ] Kit de primeiros socorros com os medicamentos das crianças e seringas doseadoras
+- [ ] Kit de primeiros socorros com os medicamentos das crianças e seringas doseadoras, e a medicação crónica de cada um (pelo menos 1 semana; 2 se puderes)
 - [ ] Mudas de roupa de todos em sacos estanques, meias extra, gorros e casacos leves
 - [ ] Mantas térmicas (uma por pessoa), poncho, 2 sacos de lixo grandes e 10 m de cordel
-- [ ] Caneca ou panela de metal, isqueiro, fósforos estanques, canivete, fita adesiva forte
+- [ ] Caneca ou panela de metal, isqueiro, fósforos estanques, pederneira de ferrocério, canivete, fita adesiva forte
 - [ ] Higiene: escovas e pasta, sabão, papel higiénico, gel, pensos higiénicos
 - [ ] Protetor solar, repelente e máscaras FFP2
 
@@ -147,10 +146,10 @@ CONTENT.sections.push({
 - [ ] Martelo quebra-vidros com corta-cintos, ao alcance do condutor
 - [ ] Extintor pequeno (1 kg)
 - [ ] Kit de primeiros socorros
-- [ ] Água 2 a 4 L (troca de 6 em 6 meses; no verão o plástico degrada: à sombra), barras ou frutos secos
+- [ ] Água 2 a 4 L (troca de 6 em 6 meses; no verão o plástico degrada-se: à sombra), barras ou frutos secos
 - [ ] Cobertor ou manta térmica, casaco velho, luvas de trabalho, gorro
 - [ ] Lanterna e pilhas, powerbank, carregador de isqueiro, cabos
-- [ ] Cabos de bateria, corda de reboque, roda sobresselente ou kit de reparação, macaco e chave (verifica que sabes usar)
+- [ ] Cabos de bateria ou powerbank de arranque, corda de reboque, roda sobresselente ou kit de reparação, macaco e chave (verifica se sabes usar)
 - [ ] Papel higiénico, sacos de lixo, toalhitas, saco para vómitos
 - [ ] Mapa de papel da região, notas pequenas, moedas
 - [ ] Papel e caneta, lista de contactos
@@ -173,13 +172,13 @@ CONTENT.sections.push({
 ## Evacuação
 
 - [ ] Mala de evacuação de cada um vai para o carro
-- [ ] Jerricã de combustível (20 L, homologado, fora do habitáculo, ou na mala bem preso)
+- [ ] Jerricã de combustível homologado: gasóleo até 20 L, num anexo ou arrecadação ventilada, nunca dentro da habitação nem num apartamento (e gasolina, nunca em casa: só o depósito do carro); no carro só em viagem, fora do habitáculo e bem preso
 - [ ] Documentos do carro, seguro, chave sobresselente em sítio combinado
 
 ## Com crianças
 
 - [ ] Cadeirinha {{de_c1}} e assento elevatório {{de_c2}}, bem fixos
-- [ ] Muda de roupa de cada criança, fraldas, toalhitas e sacos para vómito
+- [ ] Muda de roupa de cada criança e fraldas
 - [ ] Água com bico, lanches e leite de longa duração
 - [ ] Mantas, protetores de sol para os vidros, brinquedos e livros
 - [ ] Porta-bebé enrolado debaixo de um banco
@@ -214,17 +213,16 @@ Pneus (pressão mensal, piso), travões, bateria (mais de 4 anos: risco), escova
 
 ## Medicamentos (adultos; ver [doses](#/s/socorros/medicamentos))
 
-- [ ] Paracetamol 1 g (20), ibuprofeno 400 mg (20), aspirina 100 mg (10, para enfarte)
+- [ ] Paracetamol 1 g (20), ibuprofeno 400 mg (20), aspirina 100 mg (10; num enfarte, 3 comprimidos mastigados = 300 mg)
 - [ ] Anti-histamínico (cetirizina 10 mg, 10), creme de hidrocortisona 1%
 - [ ] Soro de reidratação oral (10 saquetas), loperamida (10)
 - [ ] Antiácido, omeprazol
 - [ ] Anti-enjoo (dimenidrinato), se viajas
 - [ ] Antifúngico (clotrimazol), pomada antibiótica se tiveres receita
 - [ ] Gotas ou comprimidos de purificação de água
-- [ ] Iodeto de potássio (se há central nuclear a menos de 300 km)
+- [ ] Iodeto de potássio, comprimidos de 65 mg (só com receita médica; faz sentido sobretudo a menos de 100 km de uma central, como Almaraz para o Alto Alentejo e a Beira Baixa)
 - [ ] Medicação pessoal de cada um para 1 semana
-- [ ] Doses pediátricas (paracetamol e ibuprofeno em xarope) se há crianças
-- [ ] Adrenalina auto-injetável se alguém tem alergia grave
+- [ ] Adrenalina autoinjetável se alguém tem alergia grave
 
 ## Outros
 
@@ -236,8 +234,7 @@ Pneus (pressão mensal, piso), travões, bateria (mais de 4 anos: risco), escova
 
 - [ ] Paracetamol xarope 40 mg/ml e ibuprofeno xarope 20 mg/ml (2 frascos de cada), com seringas doseadoras
 - [ ] Supositórios de paracetamol nas dosagens dos pesos das crianças
-- [ ] Soro de reidratação oral (10 saquetas) e soro fisiológico em ampolas
-- [ ] Aspirador nasal, termómetro digital e oxímetro de dedo pediátrico
+- [ ] Aspirador nasal e oxímetro de dedo pediátrico
 - [ ] Cetirizina em gotas, creme barreira e pomada para picadas
 - [ ] Pensos pequenos e com desenhos (ajudam mais do que parece)
 - [ ] Doses de cada criança anotadas: [calculadora de doses](#/t/doses)
@@ -254,7 +251,7 @@ Bolsa com compartimentos, etiquetada, no mesmo sítio, toda a gente sabe. Um kit
     { id: 'documentos', icon: '📄', title: 'Documentos e informação', desc: 'O que ter em papel, no cofre e na cabeça.', tools: ['cofre'], md: `
 ## Em papel, num saco estanque, na mala de evacuação
 
-- [ ] Cartão de cidadão, passaporte (válidos), carta de condução
+- [ ] Cartão de cidadão, passaporte (válidos), carta de condução: os originais vão ao corpo, numa bolsa interior ([mala de evacuação](#/s/kit/mala-evacuacao))
 - [ ] Certidões de nascimento, casamento, óbito relevantes (cópias)
 - [ ] Cartão do SNS, seguro de saúde, cartão europeu de seguro de doença, boletim de vacinas
 - [ ] Lista de medicação, alergias, grupo sanguíneo, contactos médicos, diretivas antecipadas se existirem
@@ -280,7 +277,7 @@ Fotos de tudo o de cima, no [cofre encriptado](#/t/cofre). Também numa pen esco
 - [ ] A morada completa e a de um familiar
 - [ ] O IBAN principal
 - [ ] Os pontos de encontro e a palavra-código
-- [ ] A palavra-passe do cofre (e de uma pessoa de confiança: a mesma)
+- [ ] A palavra-passe do cofre; uma pessoa de confiança também a sabe
 - [ ] As doses da medicação de cada um
 
 ## Cópias autenticadas
@@ -297,7 +294,7 @@ Título de residência, passaporte válido com mais de 6 meses, registo no consu
 
 - [ ] Detetor de fumo em cada piso e junto aos quartos; pilha anual
 - [ ] Detetor de monóxido de carbono junto a aparelhos de combustão e quartos
-- [ ] Extintor de pó (6 kg) à entrada e um pequeno na cozinha, manta anti-fogo na cozinha
+- [ ] Extintor de pó (6 kg) à entrada e um pequeno na cozinha, manta antifogo na cozinha
 - [ ] Todos sabem onde ficam e como fechar o [gás, a água e a eletricidade](#/s/casa/cortar)
 - [ ] Chaves das portas e janelas de saída sempre no mesmo sítio; plano de fuga de incêndio treinado
 - [ ] Lanterna e sapatos ao lado de cada cama
@@ -314,12 +311,12 @@ Título de residência, passaporte válido com mais de 6 meses, registo no consu
 
 - [ ] Tomadas e quadro elétrico acima do nível provável da água
 - [ ] Objetos de valor e documentos no piso superior
-- [ ] Sacos de areia ou barreiras, válvula anti-retorno no esgoto
+- [ ] Sacos de areia ou barreiras, válvula antirretorno no esgoto
 - [ ] Bomba de água manual ou a bateria
 
 ## Incêndio rural (casa em zona de mato)
 
-- [ ] Faixa de 50 m limpa de mato à volta da casa (obrigatório por lei), árvores a mais de 5 m do telhado
+- [ ] Faixa de 50 m limpa de mato à volta da casa (obrigatório por lei, até 30 de abril de cada ano), árvores a mais de 5 m do telhado
 - [ ] Sem lenha, gás, mobiliário de jardim ou lixo encostados às paredes
 - [ ] Redes finas nas ventilações, caleiras limpas, telhado sem folhas
 - [ ] Mangueira que chegue a toda a volta, depósito de água, bomba se possível
@@ -339,9 +336,9 @@ Título de residência, passaporte válido com mais de 6 meses, registo no consu
 
 ## Autonomia
 
-- [ ] Água armazenada (mínimo 12 L por pessoa), meios de purificar
+- [ ] Água armazenada (mínimo 15 L por pessoa; 60 L para 2 semanas), meios de purificar
 - [ ] Despensa de 2 semanas com rotação
-- [ ] Meios de cozinhar sem eletricidade e combustível
+- [ ] Meios de cozinhar sem eletricidade (fogareiro, botija) e combustível de reserva
 - [ ] Rádio a pilhas, lanternas, powerbanks, painel solar
 - [ ] Aquecimento alternativo seguro (lareira, salamandra) ou plano de "divisão quente"
 - [ ] Horta, mesmo pequena, e sementes; árvores de fruto se houver terreno
@@ -364,7 +361,7 @@ Título de residência, passaporte válido com mais de 6 meses, registo no consu
 - [ ] Comida: consumir o que expira em 6 meses e repor; verificar latas (amolgadelas, ferrugem)
 - [ ] Medicamentos: validades, repor os usados, medicação crónica para 1 mês
 - [ ] Pilhas: testar lanternas e rádio, trocar pilhas antigas, carregar recarregáveis
-- [ ] Powerbanks e estação de energia: carregar a 100%, testar
+- [ ] Powerbanks e estação de energia: carregar a 100% e testar (entre revisões, uma carga por mês)
 - [ ] Painel solar: testar num dia de sol
 - [ ] Gerador: ligar 15 minutos, verificar óleo e combustível (rodar o combustível)
 - [ ] Detetores de fumo e CO: testar o botão, trocar pilhas

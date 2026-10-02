@@ -8,10 +8,10 @@ CONTENT.sections.push({
 Não esperes pelo primeiro ataque. Os que se preparam nas semanas anteriores saem com tempo, com dinheiro e com documentos. Os outros ficam presos em filas.
 
 - [ ] **Documentos**: CC/passaporte válidos para todos (renova os que expiram em menos de 1 ano), certidões de nascimento e casamento, cartões de saúde, escrituras, diplomas. Originais num saco estanque, cópias no [cofre](#/t/cofre) e numa pen, fotos no telemóvel.
-- [ ] **Dinheiro**: notas pequenas em euros (algumas centenas, mais se puderes), e algo em dólares ou moeda estável se houver risco de fuga para fora. Os bancos e multibancos podem fechar por dias.
+- [ ] **Dinheiro**: notas pequenas em euros (o ideal é 1 a 2 meses de despesas, repartido por vários sítios; algumas centenas no mínimo), e algo em dólares ou moeda estável se houver risco de fuga para fora. Ver [dinheiro em crise](#/s/guerra/dinheiro). Os bancos e multibancos podem fechar por dias.
 - [ ] **Combustível**: depósito sempre cheio, jerricã de 20 L guardado em segurança no exterior.
 - [ ] **Água e comida** para 2 semanas mínimo, ideal 1 mês. [Despensa](#/s/comida/despensa).
-- [ ] **Medicação** para 2 a 3 meses, incluindo iodeto de potássio se há centrais nucleares a menos de 300 km (Almaraz está a 100 km da fronteira).
+- [ ] **Medicação** para 2 a 3 meses, incluindo iodeto de potássio se vives a menos de 100 km de uma central nuclear (Almaraz, em Espanha, está a 100 km da fronteira: conta para a Beira Baixa e o Alto Alentejo).
 - [ ] **Rádio a pilhas**, powerbanks, painel solar, pilhas, lanternas.
 - [ ] **Mala de evacuação** por pessoa, à porta. [Checklist](#/s/kit/mala-evacuacao).
 - [ ] **Abrigo**: identifica o melhor sítio em casa ([abrigo em casa](#/s/casa/abrigo-explosoes)) e os abrigos públicos ou parques subterrâneos a menos de 5 minutos de casa, do trabalho e da escola. Metro, garagens, caves de edifícios grandes.
@@ -34,6 +34,8 @@ Encerramento de escolas e aeroportos, evacuação de embaixadas, mobilização m
 
     { id: 'alerta-aereo', icon: '🚨', title: 'Alerta aéreo e sirenes', desc: 'O que fazer ao ouvir sirenes, ao ver drones, ao ouvir explosões.', md: `
 ## Ao ouvir a sirene ou receber alerta
+![Sirene de proteção civil (Finlândia). Em Portugal não há rede de sirenes: o aviso chega por SMS, rádio e altifalantes das autoridades.](img:sirene.jpg)
+
 
 **Vai para o abrigo. Já. Não para casa, não para buscar coisas.**
 
@@ -43,7 +45,7 @@ Encerramento de escolas e aeroportos, evacuação de embaixadas, mobilização m
 - No carro: para (não debaixo de pontes nem junto a postos de combustível ou instalações militares), sai, afasta-te do carro e deita-te ou entra num edifício.
 - No transporte público: os condutores param e os passageiros vão para o abrigo mais próximo.
 - Não uses elevadores.
-- Fica no abrigo até ao **sinal de fim de alerta** (sirene contínua longa, ou anúncio na rádio/app), e não saias só porque "já não se ouve nada".
+- Fica no abrigo até ao **sinal de fim de alerta** (sirene contínua longa, ou anúncio na rádio/app), e não saias só porque "já não se ouve nada"; onde não há sirenes nem sinal de fim (Portugal), espera pelo menos 10 a 15 minutos depois da última explosão e ouve o rádio.
 
 ## Tipos de sinal (variam por país; em Portugal não há sistema instituído, mas o padrão é semelhante em toda a Europa)
 
@@ -53,8 +55,8 @@ Encerramento de escolas e aeroportos, evacuação de embaixadas, mobilização m
 
 ## Explosões sem sirene
 
-1. **Deita-te** imediatamente, de barriga, cabeça longe de janelas, mãos na nuca, boca aberta.
-2. Espera 30 a 60 segundos (ataques em série).
+1. **Deita-te** imediatamente, de barriga para baixo, cabeça longe de janelas, mãos na nuca, boca aberta.
+2. Espera 1 a 2 minutos no chão (segunda explosão, queda de destroços, ataques em série).
 3. Move-te para o abrigo entre explosões, a correr agachado, por dentro de edifícios se possível.
 4. Não te aproximes do local do impacto ("double tap": um segundo míssil ou drone atinge o mesmo sítio para apanhar socorristas).
 
@@ -67,7 +69,7 @@ Encerramento de escolas e aeroportos, evacuação de embaixadas, mobilização m
 
 ## Depois de um ataque
 
-- Sai só depois do fim de alerta. Cobre nariz e boca (poeira, amianto).
+- Sai só depois do fim de alerta; onde não há sirenes nem sinal de fim (Portugal), espera pelo menos 10 a 15 minutos depois da última explosão e ouve o rádio. Cobre nariz e boca (poeira, amianto).
 - Feridos: [hemorragia grave](#/s/socorros/hemorragia) é a prioridade, torniquetes, depois via aérea e respiração.
 - Cabos elétricos, fugas de gás, estruturas instáveis: afasta-te.
 - Não toques em nada metálico ou estranho (submunições, engenhos por explodir). [Ver engenhos](#/s/guerra/engenhos).
@@ -75,6 +77,8 @@ Encerramento de escolas e aeroportos, evacuação de embaixadas, mobilização m
 ` },
 
     { id: 'abrigo', icon: '🏚️', title: 'Abrigos: escolher e viver neles', desc: 'Abrigo público, cave, metro, o que levar, como passar dias.', md: `
+![Estação de metro usada como abrigo em Kiev, 2022: fundo, betão e muita gente. Cada família traz o seu canto, água, roupa quente e uma ocupação para as crianças.](img:abrigo-metro.jpg)
+
 ## Classificação (do melhor para o pior)
 
 1. **Abrigo construído** (bunker, abrigo antiaéreo com ventilação e portas blindadas). Raro em Portugal.
@@ -100,8 +104,10 @@ Evita: perto de alvos militares, centrais elétricas, depósitos de combustível
 
 ## Dentro do abrigo
 
+![Cave de um edifício como abrigo: camas de campanha, prateleiras com reservas, luz a pilhas. Frio e húmido, por isso roupa em camadas e isolamento do chão.](img:abrigo-cave.jpg)
+
 - Longe da porta e das paredes exteriores; ao centro, encostado a pilares.
-- Senta-te ou deita-te contra a parede; durante as explosões, deita-te, cabeça protegida, boca aberta.
+- Senta-te ou deita-te contra uma parede interior ou um pilar, nunca contra a parede da rua; durante as explosões, deita-te, cabeça protegida, boca aberta.
 - Poupa luz e bateria. Turnos de rádio.
 - Regras de convivência: silêncio à noite, higiene, lixo, crianças com tarefas. Um responsável.
 - Ventilação: um abrigo fechado com muita gente esgota o ar. Abre a porta entre alertas.
@@ -109,7 +115,7 @@ Evita: perto de alvos militares, centrais elétricas, depósitos de combustível
 
 ## Se ficares preso
 
-Não grites; **bate com ritmo** em canos ou paredes (3 pancadas, pausa), usa o [apito](#/t/apito). Tapa a boca contra a poeira. Mexe-te o mínimo. Poupa bateria: só acendes o telemóvel para tentar ligar. Um SMS ao 112 ou a familiares com a tua localização exata é a melhor hipótese.
+Não grites; **bate com ritmo** em canos ou paredes (3 pancadas, pausa), usa o [apito](#/t/apito). Tapa a boca contra a poeira. Mexe-te o mínimo. Poupa bateria: só acendes o telemóvel para tentar ligar. Uma chamada ao 112, ou um SMS a familiares com a tua localização exata, é a melhor hipótese (o 112 não recebe SMS; por texto só pela app MAI112).
 
 ## Dias e semanas em abrigo
 
@@ -117,7 +123,7 @@ Rotina fixa (levantar, refeições, higiene, deitar), exercício leve, tarefas p
 ` },
 
     { id: 'engenhos', icon: '💣', title: 'Minas, engenhos por explodir', desc: 'Nunca tocar. Como reconhecer, marcar, sair de uma zona minada.', md: `
->x **Nunca toques, pontapeies, movas ou aproximes-te de qualquer objeto militar, estranho, metálico, ou "brinquedo" novo em zona de conflito.** Granadas, munições, submunições (bombas de fragmentação, pequenas, coloridas, com fitas), minas, drones caídos, restos de mísseis. Muitos são desenhados para explodir ao serem mexidos, dias ou anos depois.
+>x **Nunca toques, pontapeies, movas ou te aproximes de qualquer objeto militar, estranho, metálico, ou "brinquedo" novo em zona de conflito.** Granadas, munições, submunições (bombas de fragmentação, pequenas, coloridas, com fitas), minas, drones caídos, restos de mísseis. Muitos são desenhados para explodir ao serem mexidos, dias ou anos depois.
 
 ## Se vires um objeto suspeito
 
@@ -128,6 +134,8 @@ Rotina fixa (levantar, refeições, higiene, deitar), exercício leve, tarefas p
 5. Mantém crianças e animais afastados.
 
 ## Zonas de risco
+![Sinal de campo minado: caveira, fita, pedras pintadas ou simplesmente uma zona que ninguém pisa. Para, volta pelos teus próprios passos e avisa.](img:sinal-minas.jpg)
+
 
 - Onde houve combates, posições militares, veículos destruídos, crateras.
 - Bermas de estradas e trilhos (é onde se plantam minas contra veículos e pessoas), pontes, portas de casas abandonadas, poços, pomares, cemitérios.
@@ -168,7 +176,7 @@ Quem está no checkpoint tem medo, está cansado e tem uma arma. O teu objetivo 
 - Cumpre ordens de imediato. Sem discussão, sem ironia, sem "conheço os meus direitos".
 - Responde só ao que perguntam, curto, com a verdade simples: quem és, de onde vens, para onde vais, porquê. Histórias consistentes entre todos os ocupantes.
 - Sem contacto visual prolongado, sem gestos bruscos, sem sair do carro sem ordem.
-- Se te mandam sair e revistar: obedece, mãos visíveis, diz o que tens ("tenho uma faca de cozinha na mochila, no bolso da frente").
+- Se te mandam sair para te revistarem: obedece, mãos visíveis, diz o que tens ("tenho uma faca de cozinha na mochila, no bolso da frente").
 
 ## O que não levar ao passar controlos
 
@@ -196,7 +204,7 @@ Nunca viajar sozinhos em zona de conflito. Em grupo, com um adulto de confiança
     { id: 'evacuar-conflito', icon: '🚙', title: 'Evacuar de zona de conflito', desc: 'Quando, como, por onde, com o quê. Corredores humanitários.', md: `
 ## Quando sair
 
-- **Antes dos combates chegarem** à tua cidade, se possível: quando as estradas ainda estão abertas e há combustível. Depois, é uma questão de sorte.
+- **Antes de os combates chegarem** à tua cidade, se possível: quando as estradas ainda estão abertas e há combustível. Depois, é uma questão de sorte.
 - Quando as autoridades ordenam. Quando falta água, comida, medicação e não há reposição à vista. Quando as forças armadas ocupam a tua zona.
 - Se não puderes sair (doença, idosos, sem meios), prepara-te para ficar semanas: [abrigo](#/s/guerra/abrigo), água, comida, contacto com vizinhos.
 
@@ -287,7 +295,7 @@ Um clarão de luz muito intenso, mesmo a dezenas de km.
 
 1. **Não olhes** para o clarão (cegueira temporária ou permanente). Vira as costas.
 2. **Deita-te no chão** de barriga, atrás de qualquer cobertura, cara para baixo, mãos sob o corpo, olhos fechados, boca aberta. A onda de choque chega segundos a minutos depois (a 10 km, cerca de 30 segundos) e parte vidros e derruba paredes. Espera **2 minutos** deitado.
-3. **Entra no edifício mais sólido próximo** (betão, tijolo, cave, centro de edifício grande) nos **10 a 15 minutos** seguintes, antes de a poeira radioativa (fallout) começar a cair. A poeira é o que mata a maioria das pessoas fora da zona de explosão. Se a explosão foi longe e não vês nuvem em tua direção, tens mais tempo, mas entra na mesma.
+3. **Entra no edifício mais sólido próximo** (betão, tijolo, cave, centro de edifício grande) nos **10 a 15 minutos** seguintes, antes de a poeira radioativa (fallout) começar a cair. A poeira é o que mata a maioria das pessoas fora da zona de explosão. Se a explosão foi longe e não vês nuvem na tua direção, tens mais tempo, mas entra na mesma.
 4. **Fica dentro pelo menos 24 h, idealmente 48 a 72 h.** A radioatividade do fallout cai muito depressa: **7 horas depois, 10% do inicial; 2 dias depois, 1%; 2 semanas, 0,1%** (regra do 7-10). Sai só quando a rádio disser ou se o edifício for perigoso.
 5. **Descontamina**: se estavas fora, tira a roupa exterior (remove até 90% da contaminação), saco fechado, longe das pessoas. Duche com água morna e sabão (sem esfregar com força), ou pano húmido em toda a pele exposta. Cabelo lavado, sem amaciador (fixa partículas). Assoa o nariz, limpa ouvidos e pálpebras. Roupa limpa.
 6. Não uses o carro para fugir nas primeiras 24 h (o carro não protege; as estradas param; os carros ficam contaminados).
@@ -297,15 +305,17 @@ Um clarão de luz muito intenso, mesmo a dezenas de km.
 ## Acidente em central nuclear (Almaraz, Espanha, a 100 km da fronteira; outras em Espanha e França)
 
 - A libertação é mais lenta e prolongada; as autoridades avisam. **Entra, fecha tudo, desliga ventilações, ouve o rádio.**
-- **Iodeto de potássio (KI)**: satura a tiroide com iodo normal para não absorver o iodo radioativo (que causa cancro da tiroide, sobretudo em crianças). **Só tomar quando as autoridades disserem** (tomado cedo ou tarde demais não serve, e tem riscos), de preferência 1 a 2 h antes da nuvem passar, e uma vez só (raramente duas). Doses:
+- **Iodeto de potássio (KI)**: satura a tiroide com iodo normal para não absorver o iodo radioativo (que causa cancro da tiroide, sobretudo em crianças). **Só tomar quando as autoridades disserem** (tomado cedo ou tarde demais não serve, e tem riscos), de preferência 1 a 2 h antes de a nuvem passar, e uma vez só (raramente duas). Quem tem doença da tiroide ou alergia ao iodo pergunta ao médico **antes**, com calma, se pode tomar. Doses:
 
 | Idade | Dose de KI |
 |---|---|
-| Adultos até 40 anos, grávidas, a amamentar | 130 mg (2 comprimidos de 65 mg) |
+| Mais de 12 e até 40 anos (adolescentes e adultos, incluindo grávidas e a amamentar) | 130 mg (2 comprimidos de 65 mg) |
 | 3 a 12 anos | 65 mg (1 comprimido) |
 | 1 mês a 3 anos | 32 mg (meio) |
 | Recém-nascido até 1 mês | 16 mg (um quarto) |
 | Mais de 40 anos | Normalmente não indicado (risco baixo) |
+![Comprimidos de iodeto de potássio (65 mg) em blister: só com ordem das autoridades, uma vez, na dose da tabela.](img:ki.jpg)
+
 
   Não substitui o abrigo. Não protege de outros isótopos (césio, estrôncio) nem de radiação externa. Não tomes tintura de iodo, Betadine ou algas: são tóxicos em dose alta e não servem.
 
@@ -313,7 +323,7 @@ Um clarão de luz muito intenso, mesmo a dezenas de km.
 
 ## "Bomba suja" (explosivo com material radioativo)
 
-Mais pânico do que radiação. Afasta-te da explosão como de outra qualquer, contra o vento, entra, descontamina como acima, ouve as autoridades.
+Mais pânico do que radiação. Afasta-te da explosão como de outra qualquer, de lado ao vento e depois contra o vento, entra, descontamina como acima, ouve as autoridades.
 
 ## Sintomas de exposição elevada
 
@@ -331,8 +341,8 @@ Muitas pessoas com os mesmos sintomas ao mesmo tempo (tosse, olhos a arder, difi
 
 ## O que fazer (primeiros minutos)
 
-1. **Sai da nuvem**: contra o vento (o vento na cara) e para **cima** (a maioria dos gases é mais pesada do que o ar e acumula-se em caves, valas, pisos baixos). Não uses caves como abrigo de químicos.
-2. **Tapa nariz e boca** com pano húmido (água, ou até urina em último recurso; carvão ativado ou bicarbonato molhado no pano ajudam contra alguns gases). Máscara FFP2/FFP3 protege de partículas e aerossóis, pouco de gases. Uma máscara de gás com filtro é a única proteção real: filtro ABEK-P3 contra gases industriais, filtro certificado CBRN (NBQ) contra agentes de guerra. Se vives em zona de risco, considera uma por pessoa.
+1. **Sai da nuvem**: primeiro de lado (perpendicular ao vento, para saíres do rasto), depois contra o vento (o vento na cara) e para **cima** (a maioria dos gases é mais pesada do que o ar e acumula-se em caves, valas, pisos baixos). Não uses caves como abrigo de químicos.
+2. **Tapa nariz e boca** com pano húmido (água; carvão ativado ou bicarbonato molhado no pano ajudam contra alguns gases). Máscara FFP2/FFP3 protege de partículas e aerossóis, pouco de gases. Só uma máscara de gás com o filtro certo protege de gases (tipos e preços em **Preparação**, no fim da página).
 3. **Entra num edifício**, sobe, fecha janelas e portas, desliga ventilações e ar condicionado, **sela** uma divisão alta com fita adesiva e toalhas molhadas nas frestas. Fica lá até o rádio dizer que passou (normalmente horas).
 4. **Descontamina**: tira a roupa (corta-a; não a puxes pela cabeça), saco fechado fora da divisão. Lava tudo com **muita água e sabão** durante 15 minutos, olhos com água 15 minutos. Não esfregues com força (abre a pele). Roupa limpa. Se não há água: pó absorvente (farinha, talco, terra seca) sobre a pele e remover com pano; depois água quando houver.
 5. Não comas nem bebas nada exposto. Não fumes.
@@ -344,13 +354,15 @@ Muitas pessoas com os mesmos sintomas ao mesmo tempo (tosse, olhos a arder, difi
 - **Agentes nervosos** (sarin, novichok): sem cheiro ou cheiro a fruta; pupilas muito pequenas, saliva, lágrimas, urinar, convulsões. Descontaminar já; 112.
 - **Mostarda**: cheiro a alho ou mostarda; bolhas na pele e olhos horas depois. Lavar muito, cobrir as bolhas.
 - **Amoníaco, ácido**: cheiro forte, queimaduras. Ar, água.
-- **Fumo de incêndio industrial**: cianeto e outros; afasta-te contra o vento.
+- **Fumo de incêndio industrial**: cianeto e outros; afasta-te de lado ao vento e depois contra o vento.
 
-## Biológico (agentes infecciosos)
+## Biológico (agentes infeciosos)
 
 Não se vê no momento; os sintomas aparecem dias depois em muita gente. Faz o mesmo que para uma [pandemia](#/s/agora/pandemia): distância, máscaras, mãos, água tratada, comida cozinhada, isolar doentes, seguir as autoridades de saúde (vacinas ou antibióticos em massa se for o caso). Não entres em pânico com boatos: a maioria das "armas biológicas" é muito menos eficaz do que parece.
 
 ## Preparação
+![Máscara FFP3 com válvula: protege de partículas e aerossóis, pouco de gases. Bem ajustada à cara, sem barba por baixo; uma por pessoa, e de reserva.](img:mascara-ffp3.jpg)
+
 
 - [ ] Fita adesiva larga e plástico para selar uma divisão.
 - [ ] Máscaras FFP2/FFP3, óculos de proteção, luvas.
@@ -373,8 +385,8 @@ Não se vê no momento; os sintomas aparecem dias depois em muita gente. Faz o m
 
 ## Treinar
 
-- "Quando ouvirmos a sirene, vamos para o [abrigo] e levamos a mochila." Como um jogo, com tempo cronometrado e elogios.
-- Cada criança tem uma **mochila pequena** com água, lanche, lanterna, brinquedo pequeno, cartão com nome, morada, telefones dos pais e tipo sanguíneo.
+- "Quando ouvirmos a sirene, vamos para o abrigo e levamos a mochila." Como um jogo, com tempo cronometrado e elogios.
+- Cada criança tem uma **mochila pequena** com água, lanche, lanterna, brinquedo pequeno, cartão com nome, morada, telefones dos pais e grupo sanguíneo.
 - Nome e telefone dos pais escritos no braço com caneta permanente em deslocações e evacuações. Pulseira de identificação.
 - Regra: "se te perderes, ficas onde estás e pedes ajuda a uma mãe com filhos ou a um polícia".
 - "Não tocamos em nada que encontramos no chão", com exemplos (brinquedos, telemóveis, latas). [Engenhos](#/s/guerra/engenhos).
@@ -404,7 +416,7 @@ Se tiveres de separar-te dos filhos (evacuação de crianças, hospital), foto r
     { id: 'mental', icon: '🧠', title: 'Saúde mental em conflito', desc: 'Medo, stress, choque, luto: o que é normal, o que ajuda, quando pedir ajuda.', md: `
 ## O que é normal
 
-Nos dias e semanas de perigo: medo constante, sobressalto com qualquer ruído, insónia, pesadelos, irritabilidade, choro, dificuldade em concentrar, sensação de irrealidade, culpa por ter sobrevivido ou por não ter feito mais. **Isto é uma reação normal a uma situação anormal**, não fraqueza nem doença. A maioria das pessoas recupera quando a segurança volta.
+Nos dias e semanas de perigo: medo constante, sobressalto com qualquer ruído, insónia, pesadelos, irritabilidade, choro, dificuldade em concentrar-se, sensação de irrealidade, culpa por ter sobrevivido ou por não ter feito mais. **Isto é uma reação normal a uma situação anormal**, não fraqueza nem doença. A maioria das pessoas recupera quando a segurança volta.
 
 ## O que ajuda (para ti e para os outros)
 
@@ -452,7 +464,7 @@ Turnos, pausas, comer, dormir. Falar do que viste com alguém. Aceitar que não 
 
 ## Bancos e contas
 
-- Conta em mais do que um banco; alguma poupança fora do país se tens risco elevado (conta na UE noutro estado, ou corretora internacional).
+- Conta em mais do que um banco; alguma poupança fora do país se tens risco elevado (conta na UE noutro Estado, ou corretora internacional).
 - Cópias dos extratos e números de conta, apólices, dívidas, no [cofre](#/t/cofre).
 - Sabe o IBAN de cor ou impresso. Códigos de acesso e telefone da linha de apoio.
 - Em fuga, os bancos podem bloquear cartões por "atividade suspeita": avisa-os antes de viajar.
@@ -463,7 +475,7 @@ Turnos, pausas, comer, dormir. Falar do que viste com alguém. Aceitar que não 
 - Evita dívidas em moeda que não controlas.
 - Não vendas bens ou casas em pânico: os preços de pânico são péssimos; a maior parte das crises acaba.
 
-## Documentos: o que provar quem és
+## Documentos: como provar quem és
 
 - Originais de identificação sempre contigo, num saco estanque, no corpo (bolsa interior).
 - Cópias autenticadas (notário ou junta) de CC, certidão de nascimento, casamento, títulos de propriedade, diplomas: podem substituir originais perdidos.
@@ -474,6 +486,56 @@ Turnos, pausas, comer, dormir. Falar do que viste com alguém. Aceitar que não 
 ## Trabalho e rendimento
 
 Diversifica: nada de depender de um só cliente ou empregador. Competências que se levam para qualquer lado. Uma pequena atividade que funcione sem internet.
+` },
+    { id: 'desconhecido', icon: '🛸', title: 'Ameaça desconhecida, mesmo de fora da Terra', desc: 'Quando ninguém sabe, ou ninguém diz, o que se passa: luzes, objetos, falhas em tudo ao mesmo tempo. A sequência de decisões que serve para qualquer cenário sem nome.', md: `
+>! Não conhecemos nenhum plano oficial público para uma ameaça vinda de fora da Terra, em Portugal ou noutro país. Esta página não cita fontes oficiais porque não as encontrámos: aplica a esse cenário as regras das outras páginas da app, que são as mesmas para qualquer perigo grande que ninguém sabe explicar. Se a informação oficial for pouca, atrasada ou contraditória, decide pelo que vês e por estas regras.
+
+## A regra que serve para tudo
+
+Perante algo que não sabes o que é: **afasta-te, abriga-te, avisa a família, espera, cuida**. Por esta ordem. A curiosidade e a pressa são o que mais mata nas primeiras horas de qualquer catástrofe.
+
+## Primeiros minutos
+
+1. **Não vás ver.** Luzes, objetos a descer, uma multidão a correr para um sítio: vai na direção contrária. Quem filma de perto é quem fica mais perto da explosão, da queda, do gás ou do pânico.
+2. **Objetos, destroços ou engenhos desconhecidos**: as regras das [minas e engenhos](#/s/guerra/engenhos). Nunca tocar, mais de 100 m de distância, marcar de longe, avisar o 112 se houver rede. Vale para qualquer coisa que tenha caído do céu.
+3. **Entra no edifício sólido mais próximo** e fica longe de janelas, com duas paredes entre ti e a rua: explosões, estilhaços e ondas de choque matam pelo vidro. Como num [alerta aéreo](#/s/guerra/alerta-aereo) ou numa [explosão](#/s/agora/ataque).
+4. **Avisa a família pelo plano**: um SMS curto («estamos bem, em casa»). Cada um fica abrigado onde está e só se junta no ponto de encontro quando for seguro sair. Poupa bateria (ecrã no mínimo, dados móveis desligados), mas deixa a rede ligada: os alertas da Proteção Civil e as respostas da família chegam por SMS. Ver [mensagens sem internet](#/t/mensagens) e [Estou bem](#/t/estoubem).
+5. **Rádio a pilhas ligado** na Antena 1 e nas rádios locais. Nas primeiras horas, o que circula no telemóvel é sobretudo boato: a página [informação fiável](#/s/comunicar/informacao) diz como separar.
+
+## Se o que vês não se explica
+
+- **Luzes, objetos a voar, sons que não reconheces**: trata-os como perigo físico (queda, explosão) e tecnológico (apagões, telemóveis e carros a falhar). É o cenário do [apagão](#/s/agora/apagao) com mais incógnitas: lanterna, rádio, água tirada das torneiras enquanto há pressão.
+- **Eletrónica a falhar de repente** (telemóvel, carro, luz, tudo ao mesmo tempo): não insistas em ligar e desligar. Aparelhos desligados e fora da tomada sobrevivem melhor a sobretensões; o rádio a pilhas e esta app (funciona sem rede) são a tua ligação ao que se passa.
+- **Fumos, nuvens, poeira ou cheiros estranhos**: regras do [químico](#/s/guerra/quimico-bio): sobe, nunca para a cave (a maioria dos gases acumula-se em baixo), fecha tudo, tapa frestas, pano húmido na cara, e lava-te com água e sabão se estiveste ao ar livre.
+- **Pele a arder como queimadura solar sem sol, tonturas, náuseas ou vómitos sem explicação**: regras da [radiação](#/s/guerra/nuclear): tempo, distância, abrigo; a cave ou o centro do edifício (mas com fumo ou cheiro estranho no ar vale a regra do químico: sobe).
+- **Pessoas, animais ou coisas que se comportam de forma que não entendes**: não te aproximes, não tentes comunicar, não tentes apanhar nem afastar à força. Afasta as crianças e os animais, mantém uma porta entre vocês, sai pelo lado oposto. É a regra do [intruso](#/s/protecao/intrusao), com mais distância.
+- **Fotografa ou filma só de longe e só se for seguro**, com a hora e o local anotados. Não uses flash, laser nem luzes a piscar para «sinalizar» seja o que for: não sabes o que estás a chamar.
+
+## Primeiros dias
+
+- **Fica onde tens água, comida e paredes.** A estrada é a pior opção: engarrafamentos, sem combustível, sem informação, e as crianças fechadas no carro. Só evacuas com ordem oficial ou com um perigo direto (fogo, edifício a ceder, fumo), e nunca na direção do que não conheces. Ver [evacuar de zona de conflito](#/s/guerra/evacuar-conflito).
+- **Reservas**: [os vossos números](#/s/familia/numeros) para duas semanas; água em todas as vasilhas enquanto houver; medicação crónica à mão.
+- **Luz e ruído mínimos à noite**, janelas tapadas, como na [discrição em crise](#/s/protecao/principios): não sabes quem, ou o quê, repara em ti.
+- **Vizinhos**: turnos de vigia, água e informação partilhadas, um sinal combinado para «perigo» e outro para «tudo bem». Ver [comunidade](#/s/protecao/comunidade).
+- **Crianças**: rotina, verdade simples («há um perigo lá fora, aqui dentro estamos seguros, os adultos tratam disso»), nada de vídeos em repetição. Ver [crianças em conflito](#/s/guerra/criancas) e [calma e brincadeiras](#/s/familia/ocupar-e-acalmar).
+- **Regista o que observas** (hora, direção, duração, efeitos nos aparelhos, nos animais, em ti) num caderno: ajuda-te a decidir e será precioso para quem vier depois.
+
+## O que não fazer
+
+- Armas improvisadas contra algo que não conheces: a única defesa de que podes ter a certeza é a distância.
+- Acreditar em mensagens, vozes ou «instruções» que não vêm da Proteção Civil, da Antena 1 ou de forças de segurança identificadas. Em dúvida, abrigo e espera.
+- Beber ou comer o que apareceu, caiu ou mudou de aspeto; a água da torneira que guardaste no início serve; a que corre depois, só quando as autoridades confirmarem que é segura (limpa à vista não quer dizer segura).
+- Deixar os animais soltos a correr para o perigo, ou abandoná-los.
+- Ir buscar familiares a outro lado atravessando a zona do fenómeno: cada um abriga-se onde está e junta-se pelo plano quando for seguro.
+
+## Checklist para este cenário
+
+- [ ] Rádio a pilhas, lanterna e esta app instalada em todos os telemóveis
+- [ ] Plano familiar com ponto de encontro e contacto fora da zona
+- [ ] Água e comida para 2 semanas, medicação crónica
+- [ ] Divisão interior com duas paredes identificada, janelas com cortinas opacas
+- [ ] Pano, fita adesiva e plástico para fechar frestas; máscaras FFP2
+- [ ] Caderno e caneta para registar o que acontece
 ` }
   ]
 });

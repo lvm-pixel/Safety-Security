@@ -11,16 +11,16 @@ CONTENT_EN.sections['comunicar'] = {
 | SNS 24 (national health helpline: advice, psychological support) | **808 24 24 24** | 24 h. Avoids unnecessary trips to A&E |
 | CIAV (Poison Information Centre) | **800 250 250** | 24 h: poisoning, medicines, plants, chemicals |
 | Linha Nacional de Emergência Social (national social emergency line) | **144** | Homelessness, violence, serious social situations |
-| APAV (victim support) | **116 006** | Victims of crime |
+| APAV (victim support) | **116 006** | Victims of crime; weekdays, 8 am to 11 pm |
 | SOS Criança (child helpline) | **116 111** | |
 | Missing child | **116 000** | |
 | Proteção Civil (ANEPC, Civil Protection) | 214 247 100 | Not an emergency line; use 112 |
-| Polícia Marítima (maritime police) / Rescue at sea (MRCC Lisboa) | 214 401 919 | Or 112, or VHF channel 16 |
-| GNR (police, mainly rural areas) | 217 217 000 | Non-urgent. Emergencies: 112 |
-| PSP (police, cities) | 217 654 242 | Non-urgent. Emergencies: 112 |
+| Rescue at sea: MRCC Lisboa (Navy) | 214 401 919 | Or 112, or VHF channel 16. Açores: MRCC Ponta Delgada 296 281 777. Madeira: MRSC Funchal 291 213 112 |
+| GNR (police, mainly rural areas) | 213 217 000 | Non-urgent. Emergencies: 112 |
+| PSP (police, cities) | 218 111 000 | Non-urgent. Emergencies: 112 |
 | Domestic violence (24 h) | **800 202 148** | Free and confidential |
-| SOS Voz Amiga (emotional support) | 213 544 545 | Afternoons and nights |
-| Electricity: E-REDES faults (grid operator) | 800 506 506 | Fallen cables, poles |
+| SOS Voz Amiga (emotional support) | 800 209 899 (free, 9 pm to midnight) or 213 544 545 (3.30 pm to 12.30 am) | |
+| Electricity: E-REDES faults (grid operator) | 800 506 506 | Fallen cables, poles. Madeira: EEM; Açores: EDA (number on the bill) |
 | Gas supplier: emergency | See your bill | Write it in the family plan |
 
 ## Europe and elsewhere
@@ -33,10 +33,10 @@ CONTENT_EN.sections['comunicar'] = {
 | United Kingdom | 999 or 112 |
 | Brazil | 190 police, 192 SAMU ambulance, 193 fire brigade |
 | United States and Canada | 911 |
-| Angola | 112 (or 113 police, 115 fire brigade) |
-| Mozambique | 112 (or 119 police, 198 fire brigade) |
+| Angola | 112 general; 111 and 113 police, 115 fire brigade, 116 ambulance |
+| Mozambique | 112 (or 119 police, 198 fire brigade, 117 ambulance) |
 | Cape Verde | 132 (police), 131 (fire brigade), 130 (medical) |
-| Morocco | 19 police, 15 ambulance, 150 on the roads |
+| Morocco | 19 police (190 from a mobile), 15 fire and ambulance (150 from a mobile), 177 gendarmerie on the roads, 5050 road accidents |
 
 ## If you cannot speak
 
@@ -50,12 +50,14 @@ Modern mobile phones automatically send their location to 112 (AML) when you cal
 
 - **Marine VHF channel 16** (156.800 MHz): distress at sea, monitored by the Navy and by all ships.
 - **PMR446 channel 8, code 16** (446.09375 MHz): not official, but used informally as an emergency channel by many users in Europe.
-- **Amateur radio**: 145.500 MHz (2 m) is the calling frequency; in a life-threatening emergency, anyone may use any radio.
+- **Amateur radio**: 145.500 MHz (2 m) is the calling frequency; when a life is in danger, anyone may use any radio.
 
 Keep your personal contacts in [Contacts](#/t/contactos).
 ` },
     radio: { title: 'Radio and walkie-talkies', desc: 'Getting information without a network and talking over short distances. Useful frequencies.', md: `
 ## Listening: battery radio (essential)
+![An emergency radio with a hand crank, torch and solar panel: works without batteries and charges a phone slowly.](img:radio-manivela.jpg)
+
 
 In a blackout or disaster, **radio is the only guaranteed source of information**. FM radio transmitters have generators and cover hundreds of kilometres; the mobile network goes down within hours.
 
@@ -99,11 +101,13 @@ In Spain, RNE Radio Nacional. In general, public service radio in any country.
 
 ## Official warnings
 
-- **Proteção Civil alert SMS** (cell broadcast): they reach every phone in the area, with no sign-up needed. Read them.
+- **Proteção Civil alert SMS** (sender "AvisoPROCIV"): sent by location to the phones that are in the area, with no sign-up. They can be delayed or fail when the network is overloaded: read them, but count on the radio as the main source. They never contain links or ask for data.
 - **Sirens**: in areas downstream of dams and in some municipalities. Continuous siren = danger: listen to the radio and follow the plan.
 - **Weather warnings from IPMA (weather institute)**: yellow (be alert), orange (moderate to high risk), red (extreme risk: do not go out).
 
 ## Talking over short distances: PMR446
+![PMR446 walkie-talkies: 16 channels (8 on older radios), 500 mW, no licence; 1 to 3 km in town, more in open country or with a direct line of sight. Agree the channel and code with the family beforehand.](img:pmr446.jpg)
+
 
 **PMR446** walkie-talkies are legal in Europe without a licence: 0.5 W, range 1 to 3 km in town (more in open country or with a direct line of sight, less through walls). €20 to €60 a pair. They work without any network at all.
 
@@ -119,14 +123,14 @@ In Spain, RNE Radio Nacional. In general, public service radio in any country.
 | 8 | 446.09375 | 16 | 446.19375 |
 
 - Agree a **channel and code (CTCSS)** with your family and neighbours, and listening times (e.g. on the hour, for 5 minutes). Write them in the plan.
-- Save batteries: listen at fixed times. Carry spare batteries.
+- Outside the listening times, switch it off: it saves batteries. Carry spare batteries.
 - Keep it short and clear: who you are, where you are, what you need. Say "Out" (Terminado) at the end. Use the [phonetic alphabet](#/s/comunicar/fonetico) for names.
 - Aerials placed high up (a high window, a roof, a hill) multiply the range.
 
 ## Other radios
 
 - **CB 27 MHz**: no licence needed, range of several kilometres (lorry drivers use channel 9 for emergencies and 19 on the roads). Car or handheld radios, more expensive and bulkier.
-- **Amateur radio (VHF/UHF/HF)**: needs a licence and an exam (issued by ANACOM, the communications regulator; REP and RE-A provide training), but it is the network that survives everything. In a life-threatening emergency, **anyone may use any radio**. 145.500 MHz is the calling frequency on 2 m.
+- **Amateur radio (VHF/UHF/HF)**: needs a licence and an exam (issued by ANACOM, the communications regulator; REP, the Portuguese amateur radio network, provides training), but it is the network that survives everything. When a life is in danger, **anyone may use any radio**. 145.500 MHz is the calling frequency on 2 m.
 - **Baofeng UV-5R and similar**: they receive everything (including Antena 1 FM, marine, aviation, PMR); transmitting on PMR446 with them is not legal (power and equipment not type-approved), but listening is. Useful for listening in.
 - **Shortwave radio**: picks up stations from all over the world (BBC World Service, etc.) when everything else fails. A radio with SW costs €30 to €60.
 
@@ -142,7 +146,7 @@ VHF **channel 16** (156.800 MHz) for distress: "MAYDAY MAYDAY MAYDAY, this is [n
 3. **Wi-Fi**: if there is cable/fibre internet somewhere with power (cafés, neighbours, hospitals, town halls), calls over WhatsApp, Signal or your operator's "Wi-Fi Calling" work without the mobile network.
 4. **Move**: 50 m away or one floor up may pick up a signal from another mast. Near windows, on high ground.
 5. **Aeroplane mode on and off again**: forces the phone to search for another network. Do not overdo it (it uses battery).
-6. **Bluetooth mesh apps**: Bridgefy, Briar or similar pass messages from phone to phone over 100 m, with no network, if they have been installed on both phones **beforehand**. Install and test them today.
+6. **Bluetooth mesh apps**: Bridgefy (iPhone and Android) or Briar (Android only) pass messages from phone to phone over 100 m, with no network, if they have been installed on both phones **beforehand**. Install and test them today.
 7. **PMR446 walkie-talkies** (see [radio](#/s/comunicar/radio)).
 8. **Physical messages**: a note on the door, a note in an agreed place, a messenger on foot or by bike.
 9. **Out-of-area contact**: when something works, everyone updates the same person, who passes the news on. Write their details in the [plan](#/t/plano).
@@ -155,7 +159,7 @@ VHF **channel 16** (156.800 MHz) for distress: "MAYDAY MAYDAY MAYDAY, this is [n
 
 ## Phone via satellite
 
-Recent iPhones (14 onwards) and some Android phones have **Emergency SOS via satellite**: outside coverage, the phone guides you to point it at the satellite and sends messages to 112 or to contacts. Check in Settings whether yours has it and how to use it. A dedicated satellite communicator (Garmin inReach, Zoleo) costs €200 to €400 plus a subscription and works anywhere.
+In Portugal, iPhone 14 and later have **Emergency SOS via satellite** (free for a period after purchase; check in Settings): outside coverage, the phone guides you to point it at the satellite and sends messages to 112 or to contacts. Most Android phones do not offer it here yet. A dedicated satellite communicator (Garmin inReach, Zoleo) costs €200 to €400 plus a subscription and works anywhere.
 
 ## Social media and rumours
 
@@ -250,7 +254,7 @@ Repeat at regular intervals. Listen out between repeats.
 
 **Three of anything** = distress, all over the world: 3 whistle blasts, 3 shouts, 3 shots, 3 fires, 3 flashes, 3 knocks. Pause for 1 minute and repeat.
 
-- Answer to "where are you?": 1 signal. "Come here": 2 signals.
+- 1 signal = answer to "where are you?" ("I am here"). 2 signals = "come here". 3 signals = distress.
 - A whistle can be heard 1 to 2 km away; a voice, 200 m. Keep a whistle with no ball inside (it works when wet) in the kit and on your keys. The [app's whistle](#/t/apito) is weak: it only helps people find you when they are a few metres away.
 
 ## Light
@@ -261,7 +265,7 @@ Repeat at regular intervals. Listen out between repeats.
 
 ## Signal mirror
 
-![Aiming a signal mirror](fig:espelho)
+![Signal mirror with a sighting hole: through the hole you see a bright spot; move the mirror until the spot sits on the target (aircraft, boat). With an ordinary mirror: arm outstretched, target between two fingers in a V, and sweep the reflection across the fingers.](img:espelho.jpg)
 
 The daytime signal with the longest range (tens of km, visible from an aircraft). Any mirror, CD, polished tin or switched-off phone screen will work.
 
@@ -277,7 +281,7 @@ The daytime signal with the longest range (tens of km, visible from an aircraft)
 
 ## Ground signals (for planes and helicopters)
 
-![Ground and body signals](fig:sinais-solo)
+![International ground-to-air code: V need help, X need medical help, N no, Y yes, arrow: we went this way. Letters 3 m or more, in contrast with the ground (stones, branches, clothing).](img:sinais-solo.jpg)
 
 Make **large** letters (at least 3 m, ideally 10 m) with anything that contrasts with the ground: stones, logs, clothes, plastic, trenches in snow, branches on sand. With a shadow they are even more visible.
 
@@ -289,9 +293,9 @@ Make **large** letters (at least 3 m, ideally 10 m) with anything that contrasts
 | **Y** | Yes |
 | **→** (arrow) | I am going this way |
 | **SOS** | Help |
-| **LL** | All is well |
-| **F** | I need food and water |
-| **I** | Seriously injured |
+| **LL** | All is well (old code) |
+| **F** | I need food and water (old code) |
+| **I** | Seriously injured (old code) |
 
 Body signals, when the helicopter approaches: **both arms raised in a V = I need help**; one arm up and the other down = all is well (no help needed). Do not wave casually: it may be taken to mean "all is well".
 

@@ -11,16 +11,16 @@ CONTENT.sections.push({
 | SNS 24 (saúde, aconselhamento, apoio psicológico) | **808 24 24 24** | 24 h. Evita idas desnecessárias à urgência |
 | Centro de Informação Antivenenos (CIAV) | **800 250 250** | 24 h, intoxicações, medicamentos, plantas, químicos |
 | Linha Nacional de Emergência Social | **144** | Sem-abrigo, violência, situações sociais graves |
-| Apoio à Vítima (APAV) | **116 006** | Vítimas de crime |
+| Apoio à Vítima (APAV) | **116 006** | Vítimas de crime; dias úteis, 8h às 23h |
 | SOS Criança | **116 111** | |
 | Criança desaparecida | **116 000** | |
 | Proteção Civil (ANEPC) | 214 247 100 | Não é linha de emergência; usa 112 |
-| Polícia Marítima / Socorro no mar (MRCC Lisboa) | 214 401 919 | Ou 112, ou canal 16 VHF |
-| GNR | 217 217 000 | Não urgente. Urgência: 112 |
-| PSP | 217 654 242 | Não urgente. Urgência: 112 |
+| Socorro no mar: MRCC Lisboa (Marinha) | 214 401 919 | Ou 112, ou canal 16 VHF. Açores: MRCC Ponta Delgada 296 281 777. Madeira: MRSC Funchal 291 213 112 |
+| GNR | 213 217 000 | Não urgente. Urgência: 112 |
+| PSP | 218 111 000 | Não urgente. Urgência: 112 |
 | Violência doméstica (24 h) | **800 202 148** | Gratuito e confidencial |
-| SOS Voz Amiga (apoio emocional) | 213 544 545 | Tardes e noites |
-| Rede elétrica: avarias E-REDES | 800 506 506 | Cabos caídos, postes |
+| SOS Voz Amiga (apoio emocional) | 800 209 899 (grátis, 21h às 24h) ou 213 544 545 (15h30 às 00h30) | |
+| Rede elétrica: avarias E-REDES | 800 506 506 | Cabos caídos, postes. Madeira: EEM; Açores: EDA (número na fatura) |
 | Fornecedor de gás: emergência | Vê a fatura | Escreve no plano familiar |
 
 ## Europa e outros
@@ -33,10 +33,10 @@ CONTENT.sections.push({
 | Reino Unido | 999 ou 112 |
 | Brasil | 190 polícia, 192 SAMU, 193 bombeiros |
 | Estados Unidos e Canadá | 911 |
-| Angola | 112 (ou 113 polícia, 115 bombeiros) |
-| Moçambique | 112 (ou 119 polícia, 198 bombeiros) |
+| Angola | 112 geral; 111 e 113 polícia, 115 bombeiros, 116 ambulância |
+| Moçambique | 112 (ou 119 polícia, 198 bombeiros, 117 ambulância) |
 | Cabo Verde | 132 (polícia), 131 (bombeiros), 130 (médica) |
-| Marrocos | 19 polícia, 15 ambulância, 150 nas estradas |
+| Marrocos | 19 polícia (190 do telemóvel), 15 bombeiros e ambulância (150 do telemóvel), 177 gendarmaria nas estradas, 5050 acidentes de viação |
 
 ## Se não consegues falar
 
@@ -50,17 +50,19 @@ Os telemóveis modernos enviam a localização ao 112 (AML) automaticamente ao l
 
 - **VHF marítimo canal 16** (156,800 MHz): socorro no mar, ouvido pela Marinha e por todos os navios.
 - **PMR446 canal 8, código 16** (446,09375 MHz): não é oficial, mas é usado informalmente como canal de emergência por muitos utilizadores na Europa.
-- **Rádio-amador**: 145,500 MHz (2 m) é a frequência de chamada; em emergência de vida, qualquer pessoa pode usar qualquer rádio.
+- **Radioamador**: 145,500 MHz (2 m) é a frequência de chamada; em perigo de vida, qualquer pessoa pode usar qualquer rádio.
 
 Guarda os teus contactos pessoais em [Contactos](#/t/contactos).
 ` },
 
     { id: 'radio', icon: '📻', title: 'Rádio e walkie-talkies', desc: 'Receber informação sem rede e falar a curta distância. Frequências úteis.', md: `
 ## Ouvir: rádio a pilhas (essencial)
+![Rádio de emergência com manivela, lanterna e painel solar: funciona sem pilhas e carrega o telemóvel devagar.](img:radio-manivela.jpg)
+
 
 Num apagão ou desastre, **a rádio é a única fonte de informação garantida**. As antenas de rádio FM têm geradores e cobrem centenas de quilómetros; a rede móvel cai em horas.
 
-- Rádio AM/FM a pilhas, ou com dínamo (manivela) e painel solar (15 a 40 €). Muitas têm lanterna e carregam telemóveis (pouco).
+- Rádio AM/FM a pilhas, ou com dínamo (manivela) e painel solar (15 a 40 €). Muitos têm lanterna e carregam telemóveis (pouco).
 - O **rádio do carro** serve (10 min de motor de hora a hora, ou só a chave em "ACC" com atenção à bateria).
 - Muitos telemóveis Android antigos têm rádio FM com os auriculares como antena.
 
@@ -100,11 +102,13 @@ Em Espanha, RNE Radio Nacional. Em geral, rádios de serviço público em qualqu
 
 ## Avisos oficiais
 
-- **SMS de alerta da Proteção Civil** (cell broadcast): chegam a todos os telemóveis na zona, sem inscrição. Lê-os.
+- **SMS de alerta da Proteção Civil** (remetente «AvisoPROCIV»): enviados por localização aos telemóveis que estão na zona, sem inscrição. Podem atrasar ou falhar com a rede saturada: lê-os, mas conta com o rádio como fonte principal. Nunca trazem links nem pedem dados.
 - **Sirenes**: em zonas a jusante de barragens e em alguns concelhos. Sirene contínua = perigo, ouve o rádio e cumpre o plano.
 - **Avisos meteorológicos do IPMA**: amarelo (atenção), laranja (risco moderado a alto), vermelho (risco extremo: não saias).
 
 ## Falar a curta distância: PMR446
+![Walkie-talkies PMR446: 16 canais (8 nos rádios antigos), 500 mW, sem licença; 1 a 3 km em cidade, mais em campo aberto ou com vista direta. Combina canal e código com a família antes.](img:pmr446.jpg)
+
 
 Walkie-talkies **PMR446** são legais na Europa sem licença, 0,5 W, alcance 1 a 3 km em cidade (mais em campo aberto ou com vista direta, menos entre paredes). 20 a 60 € o par. Funcionam sem qualquer rede.
 
@@ -120,14 +124,14 @@ Walkie-talkies **PMR446** são legais na Europa sem licença, 0,5 W, alcance 1 a
 | 8 | 446,09375 | 16 | 446,19375 |
 
 - Combina com a família e vizinhos **canal e código (CTCSS)**, e horas de escuta (ex.: às horas certas, 5 minutos). Escreve no plano.
-- Poupa pilhas: escuta em horários fixos. Leva pilhas de reserva.
+- Fora das horas de escuta, desliga: poupa pilhas. Leva pilhas de reserva.
 - Fala curto e claro: quem és, onde estás, o que precisas. "Terminado" no fim. Usa o [alfabeto fonético](#/s/comunicar/fonetico) para nomes.
 - Antenas em altura (janela alta, telhado, colina) multiplicam o alcance.
 
 ## Outros rádios
 
 - **CB 27 MHz**: sem licença, alcance de vários quilómetros (camionistas usam o canal 9 para emergências e o 19 para estradas). Rádios de carro ou portáteis, mais caros e maiores.
-- **Rádio-amador (VHF/UHF/HF)**: precisa de licença e exame (a ANACOM emite; o REP e o RE-A dão formação), mas é a rede que sobrevive a tudo. Em emergência de vida, **qualquer pessoa pode usar qualquer rádio**. 145,500 MHz é a frequência de chamada em 2 m.
+- **Radioamador (VHF/UHF/HF)**: precisa de licença e exame (a ANACOM emite; o REP, Rede dos Emissores Portugueses, dá formação), mas é a rede que sobrevive a tudo. Em perigo de vida, **qualquer pessoa pode usar qualquer rádio**. 145,500 MHz é a frequência de chamada em 2 m.
 - **Baofeng UV-5R e similares**: recebem tudo (incluindo Antena 1 FM, marítimo, aviação, PMR); transmitir em PMR446 com eles não é legal (potência e equipamento não homologados), mas ouvir é. Úteis para escutar.
 - **Rádio de ondas curtas**: ouve emissoras de todo o mundo (BBC World Service, etc.) quando tudo o resto falha. Um rádio com SW custa 30 a 60 €.
 
@@ -144,7 +148,7 @@ VHF **canal 16** (156,800 MHz) para socorro: "MAYDAY MAYDAY MAYDAY, aqui [nome],
 3. **Wi-Fi**: se houver internet por cabo/fibra num sítio com energia (cafés, vizinhos, hospitais, câmaras), as chamadas por WhatsApp, Signal ou "chamadas Wi-Fi" da operadora funcionam sem rede móvel.
 4. **Mudar de sítio**: 50 m ou um andar acima podem apanhar sinal de outra antena. Junto a janelas, em pontos altos.
 5. **Modo de voo e religar**: força o telemóvel a procurar outra rede. Não abuses (gasta bateria).
-6. **Apps de malha por Bluetooth**: Bridgefy, Briar ou similares passam mensagens de telemóvel em telemóvel a 100 m, sem rede, se estiverem instaladas em ambos **antes**. Instala e testa hoje.
+6. **Apps de malha por Bluetooth**: Bridgefy (iPhone e Android) ou Briar (só Android) passam mensagens de telemóvel em telemóvel a 100 m, sem rede, se estiverem instaladas em ambos **antes**. Instala e testa hoje.
 7. **Walkie-talkies PMR446** (ver [rádio](#/s/comunicar/radio)).
 8. **Mensagens físicas**: papel na porta, bilhete num sítio combinado, mensageiro a pé ou de bicicleta.
 9. **Contacto fora da zona**: quando algo funcionar, todos avisam a mesma pessoa, que redistribui. Escreve-a no [plano](#/t/plano).
@@ -157,7 +161,7 @@ VHF **canal 16** (156,800 MHz) para socorro: "MAYDAY MAYDAY MAYDAY, aqui [nome],
 
 ## Telemóvel via satélite
 
-iPhones recentes (14 em diante) e alguns Android têm **SOS de emergência via satélite**: fora de cobertura, o telemóvel guia-te a apontar ao satélite e envia mensagens ao 112 ou a contactos. Vê nas definições se o teu tem e como se usa. Um comunicador satélite dedicado (Garmin inReach, Zoleo) custa 200 a 400 € mais subscrição e funciona em qualquer sítio.
+Em Portugal, os iPhones 14 em diante têm **SOS de emergência via satélite** (grátis por um período depois da compra; confirma nas definições): fora de cobertura, o telemóvel guia-te a apontar ao satélite e envia mensagens ao 112 ou a contactos. A maioria dos Android ainda não o oferece cá. Um comunicador satélite dedicado (Garmin inReach, Zoleo) custa 200 a 400 € mais subscrição e funciona em qualquer sítio.
 
 ## Redes sociais e boatos
 
@@ -255,18 +259,18 @@ Repete a intervalos regulares. Fica à escuta entre repetições.
 
 **Três de qualquer coisa** = socorro, em todo o mundo: 3 apitos, 3 gritos, 3 tiros, 3 fogueiras, 3 flashes, 3 pancadas. Pausa de 1 minuto e repete.
 
-- Resposta a "onde estás?": 1 sinal. "Vem cá": 2 sinais.
+- 1 sinal = resposta a «onde estás?» («estou aqui»). 2 sinais = «vem cá». 3 sinais = socorro.
 - Apito ouve-se a 1 a 2 km; a voz a 200 m. Tem um apito sem bola (funciona molhado) no kit e nas chaves. O [apito da app](#/t/apito) é fraco: serve para ajudar a encontrar-te a poucos metros.
 
 ## Luz
 
 - **SOS com lanterna ou ecrã** (3 curtos, 3 longos, 3 curtos), apontado na direção de onde pode vir ajuda. À noite vê-se a quilómetros. [Ferramenta SOS](#/t/sos).
 - Faróis do carro em piscas, buzina em grupos de 3.
-- Luz química (light stick) presa a um cordel e rodada faz um círculo visível a distância.
+- Luz química (light stick) presa a um cordel e rodada faz um círculo visível à distância.
 
 ## Espelho de sinais
 
-![Apontar um espelho de sinais](fig:espelho)
+![Espelho de sinais com mira: pela abertura vês uma mancha de luz; move o espelho até a mancha ficar sobre o alvo (avião, barco). Com um espelho vulgar: braço esticado, alvo entre dois dedos em V, e faz passar o reflexo pelos dedos.](img:espelho.jpg)
 
 O sinal de dia com maior alcance (dezenas de km, visível de avião). Qualquer espelho, CD, lata polida, ecrã de telemóvel desligado funciona.
 
@@ -282,7 +286,7 @@ O sinal de dia com maior alcance (dezenas de km, visível de avião). Qualquer e
 
 ## Sinais no chão (para aviões e helicópteros)
 
-![Sinais no chão e com o corpo](fig:sinais-solo)
+![Código internacional de sinais no chão: V preciso de ajuda, X preciso de ajuda médica, N não, Y sim, seta: fomos nesta direção. Tabela da foto em inglês. Letras com 3 m ou mais, em contraste com o chão (pedras, ramos, roupa).](img:sinais-solo.jpg)
 
 Faz letras **grandes** (mínimo 3 m, ideal 10 m) com o que contraste com o chão: pedras, troncos, roupa, plástico, valas na neve, ramos sobre areia. Com sombra é ainda mais visível.
 
@@ -294,9 +298,9 @@ Faz letras **grandes** (mínimo 3 m, ideal 10 m) com o que contraste com o chão
 | **Y** | Sim |
 | **→** (seta) | Vou nesta direção |
 | **SOS** | Socorro |
-| **LL** | Tudo bem |
-| **F** | Preciso de comida e água |
-| **I** | Ferido grave |
+| **LL** | Tudo bem (código antigo) |
+| **F** | Preciso de comida e água (código antigo) |
+| **I** | Ferido grave (código antigo) |
 
 Sinais com o corpo, quando o helicóptero se aproxima: **os dois braços levantados em V = preciso de ajuda**; um braço levantado e outro para baixo = está tudo bem (não preciso). Não acenes descontraidamente: pode ser interpretado como "está tudo bem".
 

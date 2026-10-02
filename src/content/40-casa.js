@@ -13,15 +13,15 @@ CONTENT.sections.push({
 
 ## Pilhas
 
-Padroniza: **AA e AAA** para tudo. Pilhas alcalinas duram 5 a 10 anos guardadas; recarregáveis (NiMH de baixa autodescarga, tipo Eneloop) 70% após um ano. 20 AA e 20 AAA por casa. Não guardes pilhas dentro dos aparelhos durante meses (vertem).
+Padroniza: **AA e AAA** para tudo. Pilhas alcalinas duram 5 a 10 anos guardadas; recarregáveis (NiMH de baixa autodescarga, tipo Eneloop) mantêm cerca de 70% da carga ao fim de um ano. 20 AA e 20 AAA por casa. Não guardes pilhas dentro dos aparelhos durante meses (vertem).
 
 ## Energia
 
 - **Powerbanks**: 10 000 a 20 000 mAh, carregadas mensalmente. Com saída USB-C PD carregam portáteis pequenos.
 - **Estação de energia portátil** (300 a 1000 Wh): telemóveis durante semanas, rádio, luzes, CPAP, router, um frigorífico pequeno por algumas horas. Carrega por painel solar de 100 W em 5 a 10 h de sol.
-- **Painel solar dobrável** (20 a 100 W): telemóveis e powerbanks. Verifica que funciona **antes** de precisares.
+- **Painel solar dobrável** (20 a 100 W): telemóveis e powerbanks. Verifica se funciona **antes** de precisares.
 - **Carro**: carrega telemóveis (10 min de motor por hora). Inversor 12 V (150 a 300 W) para portátil e luzes. Nunca em garagem fechada.
-- **Gerador a gasolina/gasóleo**: 2 kW alimentam frigorífico, luzes, router, telemóveis. **Sempre no exterior**, a 6 m de janelas, tubo de escape virado para longe. Nunca o ligues ao quadro da casa sem interruptor de transferência (eletrocutas quem repara a rede). Combustível: 5 a 10 L por dia; guarda com estabilizador, roda de 6 em 6 meses. Faz um teste mensal de 15 min.
+- **Gerador a gasolina/gasóleo**: 2 kW alimentam frigorífico, luzes, router, telemóveis. **Sempre no exterior**, a 6 m de janelas, tubo de escape virado para longe. Nunca o ligues ao quadro da casa sem interruptor de transferência (eletrocutas quem repara a rede). Combustível: 5 a 10 L por dia; desliga-o e deixa arrefecer antes de atestar; guarda com estabilizador, roda de 6 em 6 meses. Faz um teste mensal de 15 min.
 
 ## O que fazer no quadro
 
@@ -44,7 +44,7 @@ Rotinas (refeições, horas de dormir), jogos de cartas e de tabuleiro, livros, 
 
 - Pequena, interior ou virada a sul, com poucas janelas, no piso mais baixo que não seja cave húmida. Um quarto pequeno para toda a família é ideal.
 - Fecha as portas das outras divisões. Tapa frestas das portas com toalhas.
-- Janelas: cortinas fechadas de noite, abertas de dia se houver sol direto. Plástico de bolhas, cartão ou mantas nas janelas isolam muito. Persianas fechadas.
+- Janelas: cortinas e persianas fechadas de noite, abertas de dia só nas janelas com sol direto. Plástico de bolhas, cartão ou mantas nas restantes isolam muito.
 - Tenda montada dentro do quarto, ou "cabana" de cobertores sobre a cama: o ar pequeno aquece com o corpo. Crianças adoram, e funciona.
 
 ## Aquece o corpo, não a casa
@@ -59,8 +59,8 @@ Rotinas (refeições, horas de dormir), jogos de cartas e de tabuleiro, livros, 
 ## Fontes de calor seguras
 
 - Lareira ou salamandra a lenha com chaminé: ótimas. Lenha seca (menos fumo, mais calor). Nunca fechar totalmente a entrada de ar.
-- Aquecedor a gás de botija (catalítico ou infravermelhos) ou a petróleo: **só com ventilação** (janela entreaberta) e **nunca a dormir**. Detetor de CO ao lado. Ver [monóxido](#/s/casa/co).
-- Velas grandes (não aquecem, mas sob um vaso de barro invertido criam um ponto de calor radiante local; cuidado, incêndios).
+- Aquecedor a gás de botija (catalítico ou infravermelhos) ou a petróleo: **só com ventilação** (janela entreaberta) e **nunca a dormir**. Detetor de CO ao lado (norma EN 50291; à altura da cabeça, a 1 a 3 m do aparelho; dura 7 a 10 anos, vê a data). Ver [monóxido](#/s/casa/co).
+- Velas grandes dão luz, não aquecem uma divisão. Esquece o «aquecedor» de velas sob um vaso de barro: não aquece nada e já causou incêndios e queimaduras.
 - Cozinhar aquece a cozinha: junta a família aí.
 
 ## Nunca
@@ -71,7 +71,7 @@ Rotinas (refeições, horas de dormir), jogos de cartas e de tabuleiro, livros, 
 
 ## Canos e casa
 
-- Torneira a pingar em noites de gelo. Se congelar: desliga a torneira geral, aquece o cano devagar (secador, panos quentes), nunca com chama.
+- Torneira a pingar em noites de gelo. Se congelar: fecha a torneira geral e abre a torneira desse cano, aquece o cano devagar (secador, panos quentes) a partir da torneira, nunca com chama.
 - Sabe onde é a [torneira geral](#/s/casa/cortar): um cano rebentado inunda a casa em minutos.
 
 ## Sinais de hipotermia
@@ -86,7 +86,7 @@ Tremores, mãos desajeitadas, confusão, sonolência. Idosos e bebés não treme
 - Janelas **fechadas** enquanto o ar de fora estiver mais quente do que o de dentro (normalmente das 10 h às 20 h).
 - Fica no piso mais baixo, nas divisões viradas a norte, ou na cave.
 - Não uses fogão, forno ou luzes que aqueçam.
-- Lençóis húmidos pendurados nas janelas com corrente de ar: arrefecem por evaporação (funciona melhor com ar seco).
+- Lençol húmido pendurado numa janela aberta por onde entre ar (de noite, ou de dia só se o ar de fora não estiver mais quente): arrefece por evaporação (funciona melhor com ar seco).
 
 ## De noite
 
@@ -126,11 +126,11 @@ Dor de cabeça, tonturas, náuseas, cansaço, confusão, sonolência, dor no pei
 
 ## Prevenção
 
-- **Detetor de CO** com alarme (15 a 30 €) junto aos quartos e perto de aparelhos de combustão. Pilha anual. É o item de segurança mais barato e mais ignorado do kit.
-- Geradores, grelhadores, braseiras, fogareiros a carvão ou lenha: **sempre no exterior**, longe de janelas e portas.
+- **Detetor de CO** com alarme (15 a 30 €) junto aos quartos e perto de aparelhos de combustão. Pilha anual (ou pilha selada de 10 anos); o aparelho dura 7 a 10 anos, vê a data no verso. É o item de segurança mais barato e mais ignorado do kit.
+- Geradores, grelhadores, braseiras, fogareiros a carvão ou lenha: **sempre no exterior**, a 6 m de janelas e portas.
 - Esquentadores a gás: com ventilação (grelha na janela ou porta), revisão anual, chama azul (amarela é sinal de má combustão).
 - Aquecedores a gás e petróleo: nunca em quartos fechados nem a dormir; janela entreaberta.
-- Motor do carro: nunca ligado em garagem, mesmo com a porta aberta. Neve a tapar o escape num carro parado.
+- Motor do carro: nunca ligado em garagem, mesmo com a porta aberta. Carro parado com o motor ligado: confirma que a neve ou a lama não tapam o escape.
 - Lareiras: chaminé limpa, entrada de ar aberta, brasas não abafadas.
 - Velas: mais de 5 ou 6 num quarto fechado durante horas produzem CO e consomem oxigénio.
 ` },
@@ -150,7 +150,7 @@ Dor de cabeça, tonturas, náuseas, cansaço, confusão, sonolência, dor no pei
 ## Eletricidade
 
 - **Quadro elétrico** (normalmente à entrada da casa): o disjuntor geral (o maior, ou o diferencial) desliga tudo. Os pequenos desligam circuitos.
-- **Quando desligar:** cheia (antes de a água chegar às tomadas), incêndio elétrico, fugas de água sobre instalações, evacuação longa, trabalhos.
+- **Quando desligar:** cheia (antes de a água chegar às tomadas; se já chegou, não toques no quadro nem entres na água), incêndio elétrico, fugas de água sobre instalações, evacuação longa, trabalhos.
 - Nunca toques em nada elétrico com mãos ou pés molhados ou em água. Cabos caídos na rua: afasta-te 10 m e avisa.
 - Depois de cheia, a instalação deve ser verificada por um eletricista antes de ligar.
 
@@ -175,11 +175,11 @@ Chave inglesa ou de válvulas para a torneira de rua, lanterna no quadro elétri
 
 ## Sanita de balde (2 baldes)
 
-![Sanita de dois baldes](fig:balde)
+![Sanita de dois baldes: um para a urina, outro para as fezes, forrado com um saco forte e com serradura, terra ou cinza por cima de cada uso. Tampa sempre fechada.](img:balde.jpg)
 
 - Balde 1 para urina (despeja longe de casa e de fontes de água, ou dilui e rega; a urina é quase estéril).
-- Balde 2 para fezes, forrado com **saco de lixo resistente**, e depois de cada uso cobre com uma mão cheia de serradura, terra, cinza, cal, areia de gato ou papel picado (tira o cheiro, seca, reduz moscas). Tampa sempre fechada.
-- Quando o saco estiver a meio, fecha-o bem com nó e um segundo saco. Guarda num contentor fechado longe da casa e de água, à sombra, até haver recolha. Ou enterra (ver abaixo).
+- Balde 2 para fezes, forrado com **saco de lixo resistente**, e depois de cada uso cobre com uma mão-cheia de serradura, terra, cinza, cal apagada, areia de gato ou papel picado (tira o cheiro, seca, reduz moscas). Tampa sempre fechada.
+- Quando o saco estiver a meio, fecha-o bem com nó e um segundo saco. Guarda num contentor fechado longe da casa e de água, à sombra, até haver recolha. Ou enterra com as regras da latrina (abaixo): a 30 m de água e com 30 cm de terra por cima.
 - Separar urina de fezes reduz muito o cheiro e o volume.
 - Uma tampa de sanita de campismo que encaixa em baldes de 20 L custa 15 €; tem uma.
 
@@ -194,15 +194,15 @@ Chave inglesa ou de válvulas para a torneira de rua, lanterna no quadro elétri
 
 ## Lixo
 
-- Separa: orgânico (enterra, ou composta, ou fecha bem longe da casa), plástico e papel (podem ficar semanas; queima só em último recurso e ao ar livre, nunca plásticos dentro de casa).
+- Separa: orgânico (enterra, ou composta, ou fecha bem longe da casa), plástico e papel (podem ficar semanas; queima só em último recurso e ao ar livre; plástico, nunca dentro de casa: o fumo é tóxico).
 - Latas e vidro lavados não atraem animais.
 - Sacos bem fechados, num contentor com tampa, longe da porta. Ratos, moscas e cães vêm em 2 dias.
 - Fraldas e pensos: como fezes: saco duplo, contentor fechado.
 
 ## Limpeza e desinfeção
 
-- Lixívia diluída: **1 parte para 10 de água** para superfícies com fezes, vómito ou sangue; **1 para 50** para limpeza geral. Faz novo todos os dias (perde efeito). Não mistures com amoníaco ou outros produtos (gás tóxico).
-- Cal viva ou cal hidratada em latrinas e sobre resíduos.
+- Lixívia diluída: **1 parte para 10 de água** para superfícies com fezes, vómito ou sangue; **1 para 50** para limpeza geral. Prepara de novo todos os dias (perde efeito). Não mistures com amoníaco ou outros produtos (gás tóxico).
+- Cal hidratada (cal apagada) em latrinas e sobre resíduos, com luvas e óculos. Nunca cal viva: reage com a água, queima e pode incendiar.
 
 ## Cadáveres de animais
 
@@ -269,14 +269,14 @@ Na maioria das crises, as pessoas cooperam; a criminalidade sobe sobretudo quand
 
 ## Comunidade
 
-- Grupo de vizinhos: quem tem competências (médico, enfermeira, eletricista, canalizador, rádio-amador), quem precisa de ajuda (idosos, doentes, bebés), quem tem gerador, água, ferramentas.
+- Grupo de vizinhos: quem tem competências (médico, enfermeira, eletricista, canalizador, radioamador), quem precisa de ajuda (idosos, doentes, bebés), quem tem gerador, água, ferramentas.
 - Turnos de vigilância só se for mesmo necessário, em pares, com apito e lanterna, **sem armas** (em Portugal é crime e vira facilmente tragédia).
 - Ponto de informação do bairro (quadro na entrada, um café): notícias, pedidos, ofertas.
 - Partilha. Quem partilha comida no primeiro dia tem aliados no décimo.
 
 ## Armas
 
-Em Portugal, ter arma de fogo sem licença é crime, e com licença há regras estritas. Um extintor, um spray de pimenta (legal com mais de 18 anos, para defesa pessoal) e uma lanterna forte resolvem quase tudo o que um civil comum enfrenta, sem os riscos. Uma arma numa casa com stress, crianças e álcool é mais perigosa para a família do que para intrusos.
+Em Portugal, ter arma de fogo sem licença é crime, e com licença há regras estritas. Um extintor, uma lanterna forte e, só com a **licença E** da PSP, um aerossol de defesa (sem licença, ter ou usar spray de pimenta é crime) resolvem quase tudo o que um civil comum enfrenta, sem os riscos. Uma arma numa casa com stress, crianças e álcool é mais perigosa para a família do que para intrusos.
 ` },
 
     { id: 'abrigo-improvisado', icon: '⛺', title: 'Abrigo improvisado no exterior', desc: 'Passar a noite fora com o que há. Proteger do vento, chuva, frio e chão.', md: `

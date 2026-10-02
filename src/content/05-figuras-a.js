@@ -19,7 +19,7 @@ Object.assign(FIGS, {
 <g transform="translate(400,45)"><circle class="body" cx="100" cy="34" r="17"/><rect class="body" x="72" y="54" width="56" height="75" rx="22"/>
 <path class="dash" d="M76 78 H124"/><circle class="fl" cx="88" cy="78" r="2"/><circle class="fl" cx="112" cy="78" r="2"/>
 <circle class="acc" cx="95" cy="89" r="5"/><circle class="acc" cx="105" cy="89" r="5"/>
-<text x="100" y="187" text-anchor="middle" class="b">Bebé</text><text x="100" y="206" text-anchor="middle" class="s">2 dedos · 4 cm</text></g>
+<text x="100" y="187" text-anchor="middle" class="b">Bebé</text><text x="100" y="206" text-anchor="middle" class="s">2 polegares · 4 cm</text></g>
 </svg>`,
 
 'pls': `<svg viewBox="0 0 600 240" xmlns="http://www.w3.org/2000/svg">

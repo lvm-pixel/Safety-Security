@@ -3,7 +3,7 @@ CONTENT.sections.push({
   desc: 'Fazer fogo, nós, reparações, combustíveis, improvisar, o carro. Competências que não precisam de bateria.',
   pages: [
     { id: 'fogo', icon: '🔥', title: 'Fazer fogo', desc: 'Com isqueiro, sem isqueiro, com chuva. E como não incendiar o mato.', md: `
->! Em Portugal, fazer fogo no mato fora dos locais autorizados é proibido de maio a outubro e sempre que o risco é elevado. Só em emergência real, num sítio limpo, com água ou terra à mão para apagar, e nunca com vento.
+>! Em Portugal, fazer fogo em espaço rural fora dos locais autorizados é proibido sempre que o perigo de incêndio do dia (IPMA/ICNF) for **muito elevado ou máximo**, e durante o período crítico declarado pelo Governo (na prática, quase todo o verão); queimas e queimadas precisam de autorização. Só em emergência real, num sítio limpo, com água ou terra à mão para apagar, e nunca com vento.
 
 ## O triângulo
 
@@ -12,13 +12,19 @@ Fogo precisa de **calor, combustível e ar**. Falha um, não há fogo. Os erros 
 ## Preparar antes de acender (a parte que conta)
 
 1. **Local**: chão limpo num raio de 2 m, sem raízes nem folhas, abrigado do vento, longe de tendas e ramos. Círculo de pedras (não do rio: explodem com o calor).
-2. **Isca** (arde com uma faísca): casca de bétula, folhas e erva **secas** esmigalhadas, algodão com vaselina, papel, cartão de ovos, lã de aço fina, resina de pinheiro, pinhas secas abertas, penas de madeira (lascas finas cortadas num pau seco), agulhas de pinheiro secas. Uma mão cheia, bem seca e solta.
-3. **Acendalhas** (da espessura de um fósforo ao de um lápis): ramos secos que partem com estalo, ainda na árvore ou no meio de arbustos (os do chão estão húmidos). Duas mãos cheias.
+2. **Isca**, o material miudinho e seco que pega com uma faísca: casca de bétula, folhas e erva **secas** esmigalhadas, algodão com vaselina, papel, cartão de ovos, lã de aço fina, resina de pinheiro, pinhas secas abertas, penas de madeira (lascas finas cortadas num pau seco), agulhas de pinheiro secas. Uma mão-cheia, bem seca e solta.
+3. **Acendalhas** (da espessura de um fósforo à de um lápis): ramos secos que partem com estalo, ainda na árvore ou no meio de arbustos (os do chão estão húmidos). Duas mãos-cheias.
 4. **Lenha** (do dedo ao pulso): seca, a estalar. Uma braçada antes de acender, não depois.
+
+![Isca: casca de bétula a arder. Pega com uma faísca e dá tempo às acendalhas.](img:fogo-isca.jpg)
+
+![Penas de madeira: lascas finas levantadas num pau seco com a faca. Pegam à primeira, mesmo com o resto húmido.](img:fogo-penas.jpg)
 
 ## Acender
 
-![Fogueira em cabana](fig:fogo)
+![Cabana de acendalhas montada sobre a isca, com espaço para o ar: é assim que fica antes de acender.](img:fogo-cabana.jpg)
+
+![Acende por baixo e do lado do vento: a chama sobe pelas acendalhas e só depois entra a lenha.](img:fogo-acender.jpg)
 
 - Isca no centro. Acendalhas em cabana ou em pirâmide sobre a isca, com espaço para o ar, ou encostadas de um lado (lean-to).
 - Acende a isca **por baixo e do lado do vento** (o vento leva a chama para o resto).
@@ -27,7 +33,7 @@ Fogo precisa de **calor, combustível e ar**. Falha um, não há fogo. Os erros 
 
 ## Sem isqueiro
 
-- **Pilha e lã de aço** (mais fácil com uma pilha de 9 V; em alternativa, uma pilha AA e o papel de alumínio da pastilha elástica cortado estreito ao meio): a lã, ou a tira de alumínio, acende ao tocar nos dois polos.
+- **Pilha e lã de aço** (mais fácil com uma pilha de 9 V; em alternativa, uma pilha AA e uma tira do papel de alumínio da pastilha elástica, cortada mais estreita no meio (é aí que aquece)): a lã, ou a tira de alumínio, acende ao tocar nos dois polos.
 - **Lente** (lupa, óculos de ver ao perto, fundo de garrafa com água, gelo polido): concentra o sol na isca escura. Só com sol forte.
 - **Pederneira e aço (ferrocério)**: raspa com força para a isca; algodão com vaselina ou penas de madeira pegam à primeira. Tem uma no kit: funciona molhada, dura milhares de vezes.
 - **Fricção (arco)**: possível, mas exige prática e madeira certa. Aprende antes; não contes com isso.
@@ -46,7 +52,7 @@ Lenha do interior de troncos caídos (racha e usa o miolo), ramos mortos ainda n
 
 ## Apagar
 
-Água até deixar de fumegar e as cinzas estarem **frias ao toque**. Sem água: terra e mexer até esfriar. Nunca deixes um fogo a arder sozinho. Nunca enterres brasas (ardem em raízes durante dias).
+Água até deixar de fumegar e as cinzas estarem **frias ao toque**. Sem água: mistura terra com as brasas e mexe até arrefecer; tapar sem mexer não chega. Nunca deixes um fogo a arder sozinho. Nunca deixes brasas enterradas (ardem em raízes durante dias).
 
 ## Fogo dentro de casa
 
@@ -57,6 +63,7 @@ Só em lareira ou salamandra com chaminé. Nunca em latas, bacias ou barbecues d
 ## Os seis
 
 ### 1. Lais de guia (bowline): um laço fixo que não aperta nem desliza
+![Lais de guia, passo a passo: 1 e 2 o anel, 3 a ponta sobe pelo anel, 4 dá a volta à parte longa, 5 volta a descer pelo anel. Puxa a parte longa e o laço para apertar.](img:nos-lais-de-guia.jpg)
 
 Para: prender à volta de um tronco, de uma pessoa (resgate), fazer uma alça. Aguenta carga e desfaz-se depois.
 
@@ -66,6 +73,7 @@ Para: prender à volta de um tronco, de uma pessoa (resgate), fazer uma alça. A
 4. Volta a entrar no anel de cima para baixo ("e volta para a lagoa"). Aperta puxando a parte longa e o laço.
 
 ### 2. Nó de escota (sheet bend): unir duas cordas, mesmo de espessuras diferentes
+![Nó de escota, passo a passo: 1 dobra em U na corda grossa e a ponta da fina por dentro, de baixo para cima; 2 dá a volta por trás das duas pernas do U; 3 enfia a ponta por baixo dela própria; 4 aperta.](img:nos-escota-passos.jpg)
 
 1. Faz uma dobra (U) na corda mais grossa.
 2. Passa a ponta da fina por dentro do U, de baixo para cima.
@@ -73,12 +81,14 @@ Para: prender à volta de um tronco, de uma pessoa (resgate), fazer uma alça. A
 4. Enfia a ponta por baixo dela própria (sem entrar no U). Aperta. Para mais segurança, dá duas voltas (escota dobrada).
 
 ### 3. Volta do fiel (clove hitch): prender rapidamente a um poste ou vara
+![Volta do fiel numa vara: duas voltas, com a ponta a sair por baixo do último cruzamento.](img:nos-volta-do-fiel.jpg)
 
 1. Dá uma volta à vara com a corda a cruzar por cima.
-2. Dá segunda volta e passa a ponta por baixo do último cruzamento. Aperta.
-Fácil de ajustar; não confiar para carga que puxa e alivia (pode desfazer). Remata com meia volta.
+2. Dá uma segunda volta e passa a ponta por baixo do último cruzamento. Aperta.
+Fácil de ajustar; não confiar para carga que puxa e alivia (pode desfazer-se). Remata com meia volta.
 
 ### 4. Nó de pescador duplo: unir duas cordas para carga (escalada, reboque)
+![Nó de pescador duplo: cada ponta dá duas voltas à volta da outra corda e passa por dentro delas; ao puxar, os dois nós encostam.](img:nos-pescador-duplo.jpg)
 
 1. Põe as pontas lado a lado, em sentidos opostos.
 2. Com a ponta A, dá duas voltas à volta da corda B e passa por dentro das voltas. Aperta.
@@ -86,6 +96,7 @@ Fácil de ajustar; não confiar para carga que puxa e alivia (pode desfazer). Re
 4. Puxa as duas cordas: os nós encostam. Muito seguro; difícil de desfazer depois de carga.
 
 ### 5. Volta de tensão (trucker's hitch): esticar uma corda com força (lona, carga no carro)
+![Volta de tensão, passo a passo: 1 e 2 faz um laço a meio da corda (uma volta torcida com um U por dentro); 3 e 4 o laço fica fixo e faz de roldana; 5 a ponta livre passa à volta do ponto fixo e volta por dentro do laço; 6 puxa com força e remata com duas meias voltas.](img:nos-volta-de-tensao-passos.jpg)
 
 1. Prende uma ponta ao ponto A (lais de guia).
 2. A meio caminho, faz um laço na corda (uma volta torcida, passando um U por dentro: forma uma "roldana").
@@ -93,6 +104,7 @@ Fácil de ajustar; não confiar para carga que puxa e alivia (pode desfazer). Re
 4. Puxa: tens vantagem mecânica de 3:1. Segura a tensão com duas meias voltas junto ao laço.
 
 ### 6. Nó Prusik: um laço que desliza quando solto e prende quando carregado (subir por uma corda, segurança, tensionar)
+![Nó Prusik: o anel de cordel fino dá três voltas à volta da corda principal, sempre por dentro de si próprio, com as voltas bem paralelas.](img:nos-prusik.jpg)
 
 1. Faz um anel com um cordel mais fino (nó de pescador duplo).
 2. Passa o anel à volta da corda principal 3 vezes, entrando sempre por dentro de si próprio.
@@ -102,11 +114,12 @@ Fácil de ajustar; não confiar para carga que puxa e alivia (pode desfazer). Re
 
 - Um nó bem apertado e arrumado é o que aguenta. Nós tortos partem.
 - Nós reduzem a resistência da corda em 30 a 50%. Corda de 5 mm de polietileno aguenta 300 kg sem nó; conta com metade.
-- Paracord (550) aguenta 250 kg e tem 7 fios interiores para linha de pesca, costura, etc. 20 m no kit.
+- Paracord (550) aguenta 250 kg e tem 7 fios interiores para linha de pesca, costura, etc. Os 10 m do kit chegam; 20 m dão mais folga.
 - Remata sempre com meia volta ou nó simples na ponta.
 - Ao cortar corda sintética, queima a ponta para não desfiar.
 
 ## Amarrações (juntar varas para abrigos, macas, tripés)
+![Amarração quadrada, de cima para baixo: volta do fiel na vara vertical, três voltas a passar por cima e por baixo das duas varas, voltas de aperto entre elas e remate com volta do fiel.](img:nos-amarracao.jpg)
 
 **Amarração quadrada** (varas em cruz): volta do fiel numa vara, três voltas por cima e por baixo alternadas em cada vara, três voltas de "estrangulamento" entre as varas para apertar, remata com volta do fiel. **Tripé**: três varas lado a lado, 5 voltas em ziguezague entre elas, estrangular, abrir.
 ` },
@@ -125,14 +138,14 @@ Martelo, alicate universal, alicate de corte, chaves de fendas (cruz e plana), c
 ## Janelas e portas
 
 - Vidro partido: luvas, tira os cacos, plástico grosso ou cartão pregado ou colado com fita americana pela parte de dentro e de fora; contraplacado para segurança.
-- Vidro fendido mas inteiro: fita adesiva em X e de lado a lado para não desfazer.
+- Vidro fendido mas inteiro: fita adesiva em X e de lado a lado para não se desfazer.
 - Porta que não fecha depois de sismo: escora com tábua ou cadeira; não forces a estrutura.
 - Reforçar uma porta contra intrusão: barra de madeira atravessada em suportes, cunha no chão, cadeira inclinada sob o puxador.
 
 ## Canos e água
 
 - Cano rebentado: **fecha a torneira geral**, abre torneiras para esvaziar. Remendo temporário: pedaço de borracha (câmara de ar, luva) sobre o furo apertado com braçadeiras ou abraçadeiras de metal; fita autofundente; cola epóxi para canalização. Aguenta dias.
-- Cano congelado: fecha a geral, aquece devagar com panos quentes ou secador, a partir da torneira em direção ao gelo.
+- Cano congelado: fecha a geral e abre a torneira desse cano (alivia a pressão e mostra quando descongela); aquece devagar com panos quentes ou secador, nunca com chama, a partir da torneira em direção ao gelo.
 - Sanita entupida: balde de água quente com sabão, esperar, desentupidor de ventosa. Sem esgoto: sanita de balde ([saneamento](#/s/casa/saneamento)).
 - Fuga no esquentador ou termoacumulador: fecha a água e a energia; a água que lá está é potável ([água escondida](#/s/agua/fontes-casa)).
 
@@ -144,7 +157,7 @@ Martelo, alicate universal, alicate de corte, chaves de fendas (cruz e plana), c
 
 ## Gás
 
-Cheiro a gás: sem chamas nem interruptores, janelas, fechar válvula, sair, chamar. Não repares tu.
+Cheiro a gás: sem chamas, interruptores nem telemóvel dentro de casa; abre janelas, fecha a válvula, sai e liga de fora ao 112 e ao fornecedor. Não repares tu.
 
 ## Improvisar
 
@@ -158,8 +171,8 @@ Cheiro a gás: sem chamas nem interruptores, janelas, fechar válvula, sair, cha
     { id: 'combustiveis', icon: '⛽', title: 'Combustíveis e energia', desc: 'Guardar gasolina, gás, lenha em segurança. Quanto dura o quê.', md: `
 ## Gasolina e gasóleo
 
-- **Guardar**: em jerricãs homologados (metal ou plástico próprio), cheios a 95% (dilatação), fechados, em local ventilado, à sombra, fora da casa e longe de fontes de calor. Máximo legal em casa em Portugal: pequenas quantidades (consulta o regulamento; 20 a 30 L é razoável e prudente).
-- **Duração**: gasolina degrada em 3 a 6 meses (com estabilizador, 1 a 2 anos); gasóleo dura 6 a 12 meses (com aditivo, mais; cuidado com bactérias e água). Roda: usa no carro e enche de novo de 6 em 6 meses.
+- **Guardar**: em jerricãs homologados (metal ou plástico próprio), cheios a 95% (dilatação), fechados, em local ventilado, à sombra, fora da casa e longe de fontes de calor. Limites legais em Portugal: em apartamentos, **nada de gasolina**; gasóleo até 20 L, num anexo ou arrecadação ventilada e nunca dentro da habitação; gás em garrafas, no máximo 4 (cheias e vazias) em casa. Acima disso o local passa a instalação de armazenamento, com licença.
+- **Duração**: gasolina degrada-se em 3 a 6 meses (com estabilizador, 1 a 2 anos); gasóleo dura 6 a 12 meses (com aditivo, mais; cuidado com bactérias e água). Roda: usa no carro e enche de novo de 6 em 6 meses.
 - **Tirar do depósito do carro**: os carros modernos têm válvulas antirretorno; um sifão pode não funcionar. Bomba manual de trasfega pelo tubo do depósito, ou pelo tubo de retorno junto ao filtro (para quem sabe).
 - **Consumo**: gerador de 2 kW gasta 0,5 a 1 L por hora a meia carga. Carro ao ralenti para carregar: 0,5 a 1 L por hora.
 
@@ -168,7 +181,7 @@ Cheiro a gás: sem chamas nem interruptores, janelas, fechar válvula, sair, cha
 - Botija de 13 kg: 1 a 2 meses de cozinha normal, 1 semana de aquecimento intensivo. Guardar de pé, no exterior ou ventilado, longe de calor; nunca em caves (o gás é mais pesado do que o ar e acumula-se).
 - Verificar tubo (validade impressa) e redutor; testar fugas com água com sabão (bolhas).
 - Propano funciona no frio; butano puro falha abaixo de 0 a 5 °C.
-- Cartuchos de campismo (230 g): 1 a 2 h de fogo forte cada. 10 no kit.
+- Cartuchos de campismo (230 g): 1 a 2 h de fogo forte cada. 3 no kit de 72 horas, 10 para duas semanas.
 
 ## Lenha
 
@@ -188,8 +201,8 @@ Só no exterior. 1 kg = 1 h de grelhador. Não serve para aquecer nem ferver com
 ## Pilhas e baterias
 
 - Alcalinas: 5 a 10 anos guardadas, 20 °C. Lítio (AA de lítio): 15 anos, funcionam no frio, mais leves. Recarregáveis NiMH: perdem 20 a 30% por ano; carrega de 6 em 6 meses.
-- Powerbank e estação de energia (iões de lítio): guarda a 50 a 80%, carrega de 3 em 3 meses, longe de calor. Duram 500 a 1000 ciclos; LiFePO4 duram 3000.
-- Bateria do carro: 12 V, 40 a 70 Ah = 500 a 800 Wh utilizáveis com cuidado. Não descarregar abaixo de 12,0 V (a bateria estraga-se e o carro não pega).
+- Powerbank e estação de energia (iões de lítio): guarda carregada e dá-lhe uma carga todos os meses, longe de calor; se for ficar meses sem uso, 50 a 80% conserva-a melhor. Duram 500 a 1000 ciclos; LiFePO4 duram 3000.
+- Bateria do carro: 12 V, 40 a 70 Ah, mas só metade é utilizável sem a estragar: cerca de 240 a 420 Wh. Em repouso, 12,24 V = 50%: não desças daí (a bateria estraga-se e o carro não pega).
 
 ## Energia solar
 
@@ -213,30 +226,30 @@ Extintor perto de combustíveis. Nunca transvasar perto de chama ou motor a trab
 - **Garrafas PET**: armazenar água, SODIS, funil, lanterna difusa (com lanterna frontal), filtro improvisado, boia, colher.
 - **Latas**: fogareiro (rocket stove com 2 latas), candeeiro, panela, refletor, sinal, armadilha de água.
 - **Colher de metal**: espelho de sinais (polida), talas pequenas.
-- **Cinto**: torniquete (largo), corda, tala de suporte.
+- **Cinto**: corda, tala de suporte, prender uma compressa. **Não serve de torniquete**: não aperta o suficiente nem se fixa; torniquete a sério, ou improvisado com pano largo e um pau para torcer.
 - **Meias**: filtro de água grosseiro, luvas, saco, com sabão dentro lava e seca.
 - **Lenços grandes ou t-shirt**: suspensório, ligadura, filtro, máscara de pó, chapéu, recolher orvalho, corda torcida.
 - **Cartão**: isolamento do chão, talas, sinalização, acendalha, cobrir janelas.
 - **Espelhos e CDs**: sinalizar a quilómetros.
 - **Óculos de ver ao perto**: lente de fogo.
 - **Pilha e lã de aço**: fogo.
-- **Tampões e pensos**: fogo (algodão), estancar hemorragias nasais.
+- **Tampões**: estancar hemorragias nasais; o algodão serve de isca de fogo.
 - **Balde com tampa**: sanita, lavar, transportar, banco, guardar comida contra ratos.
 - **Cadeira**: maca (duas varas passadas por baixo do assento), barricar portas, tala.
 - **Porta**: maca para coluna, mesa, contraplacado, ponte.
-- **Carro**: abrigo, bateria (luz, rádio, carregar), espelhos (sinal), buzina (3 toques), tapetes (isolamento), cinto (corda), gasolina (fogo, com cuidado), rodas (fumo negro de sinal).
+- **Carro**: abrigo, bateria (luz, rádio, carregar), espelhos (sinal), buzina (3 toques), tapetes (isolamento), cinto (corda), gasolina (só umas gotas num pano como isca, nunca sobre o fogo), rodas (fumo negro de sinal).
 
 ## Ferramentas improvisadas
 
 - **Faca**: lata cortada e dobrada, vidro, pedra lascada. Uma lâmina de x-ato com fita como cabo.
 - **Corda**: fita americana, tiras de roupa entrançadas, cabos elétricos, arame, cintos, fibras de plantas torcidas.
-- **Pá**: tampa de panela, prato, tábua, capot de plástico.
+- **Pá**: tampa de panela, prato, tábua, tampão de roda de plástico.
 - **Recipiente para ferver**: qualquer lata sem revestimento interior colorido; garrafa PET cheia sobre brasas (funciona: a água impede que derreta, não fica bonito).
 
 ## Água
 
 - Cozinha a vapor com panela e prato: destilação de emergência.
-- Filtro em garrafa: carvão de fogueira esmagado, areia, gravilha, pano.
+- Filtro em garrafa: carvão de fogueira esmagado, areia, gravilha, pano. Clarifica, não desinfeta: ferve ou [trata](#/s/agua/purificar) a água depois.
 
 ## Regra
 
@@ -245,11 +258,13 @@ Antes de sair a "procurar", inventaria o que tens. Uma casa vulgar tem centenas 
 
     { id: 'veiculo', icon: '🚗', title: 'O carro em emergência', desc: 'Arrancar com bateria fraca, pneu furado, combustível, usar o carro como recurso.', md: `
 ## Bateria descarregada
+![Cabos de arranque: vermelho no + das duas baterias; preto no − da bateria boa e numa peça metálica do motor do carro avariado, longe da bateria. Liga o carro bom, espera 2 minutos, tenta o outro.](img:arranque.jpg)
+
 
 - **Cabos**: os dois carros desligados. Vermelho no + da bateria fraca, depois no + da boa. Preto no − da boa, depois numa parte metálica do motor do carro fraco (não no − da bateria fraca: faíscas junto ao gás). Liga o carro bom, espera 2 minutos, tenta ligar o fraco. Tira os cabos pela ordem inversa. Deixa o motor a trabalhar 30 minutos.
 - **Powerbank de arranque** (jump starter, 50 a 100 €): sem outro carro. Tem um e carrega-o.
 - **Empurrar** (só carros com caixa manual): chave ligada, 2.ª velocidade, embraiagem a fundo, atingir 10 km/h, largar a embraiagem de repente.
-- **Frio**: a bateria perde 30 a 50% abaixo de 0 °C. Desliga tudo (luzes, aquecimento) ao arrancar. Faróis 30 segundos antes aquecem a bateria.
+- **Frio**: a bateria perde 30 a 50% abaixo de 0 °C. Liga os faróis 30 segundos para aquecer a bateria, depois desliga tudo (luzes, aquecimento) e dá à chave.
 
 ## Pneu furado
 
@@ -272,7 +287,7 @@ Sem acelerar (enterra mais). Tapetes, ramos, cartão, gravilha sob as rodas motr
 
 ## O carro como recurso
 
-- **Abrigo**: contra vento, chuva, frio, fumo e radiação térmica de incêndio. Não contra cheias nem raios em floresta (mas sim contra raios em campo aberto).
+- **Abrigo**: contra vento, chuva, frio, fumo e radiação térmica de incêndio. Não contra cheias. Contra raios protege em qualquer sítio (a carroçaria funciona como gaiola metálica), com as janelas fechadas e sem tocar em metal; em floresta o perigo é a queda de árvores e ramos.
 - **Energia**: tomada de isqueiro (12 V, 120 W), inversor para 230 V. 10 minutos de motor de hora em hora carregam telemóveis sem esgotar a bateria. Nunca em garagem fechada.
 - **Rádio** e **luz** (interior, faróis para sinalizar).
 - **Água**: o depósito do lava-vidros (só se for água pura; a maioria tem detergente e anticongelante, não beber).

@@ -38,6 +38,8 @@ Um pau de caminhada é legal, útil todos os dias e fácil de fazer:
 
 Serve para caminhar com carga, testar a lama e o fundo da água, afastar cães, e **manter distância** entre ti e alguém enquanto recuas para uma saída.
 
+A lei olha ao uso: um bordão é um objeto de caminhada, não uma arma. Se o levas «para bater», passa a arma proibida. Usa-o para manter distância e fugir, nunca para atacar.
+
 ## Objetos do dia a dia que dão tempo para fugir
 
 A ideia é sempre **criar distância e sair**, nunca ganhar uma luta.
@@ -51,7 +53,7 @@ A ideia é sempre **criar distância e sair**, nunca ganhar uma luta.
 
 ## Spray de pimenta
 
-- Legal para maiores de 18 anos, dentro dos limites da lei das armas (compra em armeiro). Confirma as regras atuais na PSP.
+- Só com **licença E** da PSP (maiores de 18 anos, sem antecedentes; compra em armeiro). Sem licença, ter ou usar é crime de detenção de arma proibida.
 - **Como usar**: braço esticado, jatos curtos de 1 segundo para a cara, a 1 a 3 metros, e **sair logo**, de lado, sem ficar a ver.
 - Vê o vento. Num espaço fechado também te atinge a ti. Nunca perto das crianças, a não ser como último recurso.
 - Tem prazo de 2 a 4 anos: uma vez por ano, testa um jato curto ao ar livre, e troca-o quando expirar.

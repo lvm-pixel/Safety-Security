@@ -35,7 +35,7 @@ A app está adaptada à família descrita no [perfil da família](#/t/familia): 
 ## Privacidade e segurança
 
 - Sem rastreio e sem contas. O código está no próprio ficheiro e pode ser lido por qualquer pessoa.
-- Só usam a internet, e só quando as usas, a página [Notícias e alertas](#/t/noticias), o [mapa](#/t/mapa) e o botão Atualizar de «Situação agora» e de [Perto de mim](#/t/perto). O fundo detalhado do mapa vem do OpenStreetMap, da OpenStreetMap France ou do OpenTopoMap, que recebem o pedido das quadrículas da zona que estás a ver. «Atualizar alertas» liga-se às fontes oficiais e «Descarregar zona» envia ao OpenStreetMap só as coordenadas do retângulo pedido. Todos veem o endereço IP, como em qualquer site, e nunca recebem nomes nem dados da família.
+- Só usam a internet, e só quando os usas, a página [Notícias e alertas](#/t/noticias), o [mapa](#/t/mapa) e o botão Atualizar de «Situação agora» e de [Perto de mim](#/t/perto). O fundo detalhado do mapa vem do OpenStreetMap, da OpenStreetMap France ou do OpenTopoMap, que recebem o pedido das quadrículas da zona que estás a ver. «Atualizar alertas» liga-se às fontes oficiais e «Descarregar zona» envia ao OpenStreetMap só as coordenadas do retângulo pedido. Todos veem o endereço IP, como em qualquer site, e nunca recebem nomes nem dados da família.
 - Os botões «Google Maps», «Abrir no Google Maps», «Abrir no Apple Maps» e «Como chegar» enviam à Google ou à Apple as coordenadas do ponto. Só acontece quando tocas neles.
 - Os [alertas no telemóvel](#/t/alertas) passam pelo GitHub e pelo ntfy.sh, que recebem as zonas e o tópico escolhidos e mais nada. A notificação de teste sai daqui diretamente para o ntfy.sh.
 - Os SMS, a ficha médica, a imagem para o ecrã de bloqueio e os códigos QR fazem-se no próprio telemóvel, sem internet.
@@ -82,6 +82,6 @@ Proteção Civil (ANEPC), INEM, SNS 24, IPMA, Cruz Vermelha, Organização Mundi
 
 - Palavra-passe longa (uma frase com 4 ou 5 palavras) que só tu e uma pessoa de confiança saibam.
 - Guarda também cópias em papel num saco estanque, e uma cópia encriptada (a exportação) numa pen ou noutro telemóvel.
-- Bloqueia o cofre quando acabas. Bloqueia sozinho após 5 minutos.
+- Bloqueia o cofre quando acabas. Bloqueia-se sozinho após 5 minutos.
 `
 };

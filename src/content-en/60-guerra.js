@@ -8,10 +8,10 @@ CONTENT_EN.sections['guerra'] = {
 Do not wait for the first attack. Those who prepare in the weeks before leave in time, with money and with documents. The others end up stuck in queues.
 
 - [ ] **Documents**: valid ID card (Cartão de Cidadão) or passport for everyone (renew any that expire in less than 1 year), birth and marriage certificates, health cards, property deeds, diplomas. Originals in a waterproof bag, copies in the [vault](#/t/cofre) and on a USB stick, photos on your phone.
-- [ ] **Money**: small euro notes (a few hundred euros, more if you can), and some dollars or another stable currency if you might have to flee abroad. Banks and cash machines (Multibanco) can close for days.
+- [ ] **Money**: small euro notes (ideally 1 to 2 months of expenses, spread across several places; a few hundred euros at the very least), and some dollars or another stable currency if you might have to flee abroad. See [money in a crisis](#/s/guerra/dinheiro). Banks and cash machines (Multibanco) can close for days.
 - [ ] **Fuel**: tank always full, a 20 L jerrycan stored safely outdoors.
 - [ ] **Water and food** for 2 weeks minimum, ideally 1 month. [Pantry](#/s/comida/despensa).
-- [ ] **Medication** for 2 to 3 months, including potassium iodide (iodine tablets) if there are nuclear power stations less than 300 km away (Almaraz, in Spain, is 100 km from the border).
+- [ ] **Medication** for 2 to 3 months, including potassium iodide (iodine tablets) if you live within 100 km of a nuclear power station (Almaraz, in Spain, is 100 km from the border: that covers Beira Baixa and the Alto Alentejo).
 - [ ] **Battery-powered radio**, power banks, solar panel, batteries, torches.
 - [ ] **Grab bag** for each person, by the door. [Checklist](#/s/kit/mala-evacuacao).
 - [ ] **Shelter**: identify the best place at home ([shelter at home](#/s/casa/abrigo-explosoes)) and the public shelters or underground car parks less than 5 minutes from home, work and school. Metro, garages, basements of large buildings.
@@ -33,6 +33,8 @@ Schools and airports closing, embassies being evacuated, military mobilisation, 
 ` },
     'alerta-aereo': { title: 'Air raid alerts and sirens', desc: 'What to do when you hear sirens, see drones or hear explosions.', md: `
 ## When you hear the siren or get an alert
+![A civil defence siren (Finland). Portugal has no siren network: the warning comes by SMS, radio and the authorities' loudspeakers.](img:sirene.jpg)
+
 
 **Go to the shelter. Now. Not home, not to fetch things.**
 
@@ -42,7 +44,7 @@ Schools and airports closing, embassies being evacuated, military mobilisation, 
 - In the car: stop (not under bridges or near petrol stations or military sites), get out, move away from the car and lie down or go into a building.
 - On public transport: drivers stop and passengers go to the nearest shelter.
 - Do not use lifts.
-- Stay in the shelter until the **all-clear signal** (a long continuous siren, or an announcement on the radio or app), and do not come out just because "you can't hear anything any more".
+- Stay in the shelter until the **all-clear signal** (a long continuous siren, or an announcement on the radio or app), and do not come out just because "you can't hear anything any more"; where there are no sirens and no all-clear (Portugal), wait at least 10 to 15 minutes after the last explosion and listen to the radio.
 
 ## Types of signal (they vary by country; Portugal has no established system, but the pattern is similar across Europe)
 
@@ -53,7 +55,7 @@ Schools and airports closing, embassies being evacuated, military mobilisation, 
 ## Explosions without a siren
 
 1. **Lie down** immediately, on your front, head away from windows, hands on the back of your neck, mouth open.
-2. Wait 30 to 60 seconds (attacks come in series).
+2. Wait 1 to 2 minutes on the ground (second explosion, falling debris, attacks in series).
 3. Move to the shelter between explosions, running crouched, through the inside of buildings if possible.
 4. Do not go near the impact site ("double tap": a second missile or drone hits the same place to catch rescuers).
 
@@ -66,13 +68,15 @@ Schools and airports closing, embassies being evacuated, military mobilisation, 
 
 ## After an attack
 
-- Only come out after the all clear. Cover your nose and mouth (dust, asbestos).
+- Only come out after the all clear; where there are no sirens and no all-clear signal (Portugal), wait at least 10 to 15 minutes after the last explosion and listen to the radio. Cover your nose and mouth (dust, asbestos).
 - Injured people: [severe bleeding](#/s/socorros/hemorragia) is the priority, tourniquets, then airway and breathing.
 - Power cables, gas leaks, unstable structures: keep away.
 - Do not touch anything metallic or unusual (submunitions, unexploded ordnance). [See unexploded ordnance](#/s/guerra/engenhos).
 - Tell 112 what you saw (location, injured, type of damage). Do not block the roads.
 ` },
     abrigo: { title: 'Shelters: choosing and living in them', desc: 'Public shelter, basement, metro, what to take, how to get through days.', md: `
+![A metro station used as a shelter in Kyiv, 2022: deep, concrete and crowded. Each family brings its own corner, water, warm clothes and something to keep the children busy.](img:abrigo-metro.jpg)
+
 ## Ranking (best to worst)
 
 1. **Purpose-built shelter** (bunker, air raid shelter with ventilation and armoured doors). Rare in Portugal.
@@ -98,8 +102,10 @@ Avoid: anywhere near military targets, power stations, fuel depots, bridges, rad
 
 ## Inside the shelter
 
+![A building's basement as a shelter: camp beds, shelves with supplies, battery lights. Cold and damp, so dress in layers and insulate yourself from the floor.](img:abrigo-cave.jpg)
+
 - Away from the door and the outside walls; in the centre, against pillars.
-- Sit or lie against the wall; during explosions, lie down, head protected, mouth open.
+- Sit or lie against an interior wall or a pillar, never against the wall facing the street; during explosions, lie down, head protected, mouth open.
 - Save light and battery. Take turns on the radio.
 - Rules for living together: quiet at night, hygiene, rubbish, jobs for the children. One person in charge.
 - Ventilation: a closed shelter with a lot of people uses up the air. Open the door between alerts.
@@ -107,7 +113,7 @@ Avoid: anywhere near military targets, power stations, fuel depots, bridges, rad
 
 ## If you are trapped
 
-Do not shout; **tap in a rhythm** on pipes or walls (3 knocks, pause), use the [whistle](#/t/apito). Cover your mouth against the dust. Move as little as possible. Save battery: only switch on your phone to try to call. An SMS to 112 or to family with your exact location is your best chance.
+Do not shout; **tap in a rhythm** on pipes or walls (3 knocks, pause), use the [whistle](#/t/apito). Cover your mouth against the dust. Move as little as possible. Save battery: only switch on your phone to try to call. A call to 112, or an SMS to family with your exact location, is your best chance (112 does not receive SMS; text only through the MAI112 app).
 
 ## Days and weeks in a shelter
 
@@ -125,6 +131,8 @@ A fixed routine (getting up, meals, hygiene, bedtime), light exercise, jobs for 
 5. Keep children and animals away.
 
 ## Danger areas
+![Minefield sign: a skull, tape, painted stones or simply an area nobody walks on. Stop, go back in your own footsteps and warn others.](img:sinal-minas.jpg)
+
 
 - Where there has been fighting, military positions, destroyed vehicles, craters.
 - Road and track verges (that is where mines against vehicles and people are laid), bridges, doorways of abandoned houses, wells, orchards, cemeteries.
@@ -290,15 +298,17 @@ A very intense flash of light, even tens of km away.
 ## Nuclear power station accident (Almaraz, Spain, 100 km from the border; others in Spain and France)
 
 - The release is slower and lasts longer; the authorities give warnings. **Go inside, close everything, turn off ventilation, listen to the radio.**
-- **Potassium iodide (KI, iodine tablets)**: saturates the thyroid with normal iodine so that it does not absorb radioactive iodine (which causes thyroid cancer, especially in children). **Take it only when the authorities say so** (taken too early or too late it does not work, and it has risks), preferably 1 to 2 hours before the cloud passes, and only once (rarely twice). Doses:
+- **Potassium iodide (KI, iodine tablets)**: saturates the thyroid with normal iodine so that it does not absorb radioactive iodine (which causes thyroid cancer, especially in children). **Take it only when the authorities say so** (taken too early or too late it does not work, and it has risks), preferably 1 to 2 hours before the cloud passes, and only once (rarely twice). Anyone with a thyroid condition or an iodine allergy asks their doctor **beforehand**, calmly, whether they can take it. Doses:
 
 | Age | KI dose |
 |---|---|
-| Adults up to 40, pregnant or breastfeeding women | 130 mg (2 tablets of 65 mg) |
+| Over 12 and up to 40 years (teenagers and adults, including pregnant and breastfeeding women) | 130 mg (2 tablets of 65 mg) |
 | 3 to 12 years | 65 mg (1 tablet) |
 | 1 month to 3 years | 32 mg (half a tablet) |
 | Newborn up to 1 month | 16 mg (a quarter of a tablet) |
 | Over 40 | Not normally recommended (low risk) |
+![Potassium iodide tablets (65 mg) in a blister pack: only on the authorities' orders, once, in the dose from the table.](img:ki.jpg)
+
 
   It does not replace sheltering. It does not protect against other isotopes (caesium, strontium) or against external radiation. Do not take tincture of iodine, Betadine or seaweed: they are toxic in high doses and do not work.
 
@@ -306,7 +316,7 @@ A very intense flash of light, even tens of km away.
 
 ## "Dirty bomb" (explosive with radioactive material)
 
-More panic than radiation. Move away from the explosion as you would from any other, upwind, go inside, decontaminate as above, listen to the authorities.
+More panic than radiation. Move away from the explosion as you would from any other, across the wind and then upwind, go inside, decontaminate as above, listen to the authorities.
 
 ## Symptoms of high exposure
 
@@ -323,8 +333,8 @@ Many people with the same symptoms at the same time (coughing, burning eyes, dif
 
 ## What to do (first minutes)
 
-1. **Get out of the cloud**: upwind (wind in your face) and **up** (most gases are heavier than air and collect in basements, ditches and low floors). Do not use basements as a shelter from chemicals.
-2. **Cover your nose and mouth** with a damp cloth (water, or even urine as a last resort; activated charcoal or wet bicarbonate of soda on the cloth helps against some gases). An FFP2/FFP3 mask protects against particles and aerosols, but little against gases. A gas mask with a filter is the only real protection: an ABEK-P3 filter against industrial gases, a CBRN-certified filter against chemical warfare agents. If you live in an area at risk, consider one per person.
+1. **Get out of the cloud**: first sideways (across the wind, to get out of its path), then upwind (wind in your face) and **up** (most gases are heavier than air and collect in basements, ditches and low floors). Do not use basements as a shelter from chemicals.
+2. **Cover your nose and mouth** with a damp cloth (water; activated charcoal or wet bicarbonate of soda on the cloth helps against some gases). An FFP2/FFP3 mask protects against particles and aerosols, but little against gases. Only a gas mask with the right filter protects against gases (types and prices under **Preparation**, at the end of the page).
 3. **Get into a building**, go upstairs, close windows and doors, turn off ventilation and air conditioning, **seal** a room on an upper floor with tape and wet towels in the gaps. Stay there until the radio says it has passed (usually hours).
 4. **Decontaminate**: take off your clothes (cut them off; do not pull them over your head), closed bag outside the room. Wash everything with **plenty of soap and water** for 15 minutes, eyes with water for 15 minutes. Do not scrub hard (it breaks the skin). Clean clothes. If there is no water: absorbent powder (flour, talc, dry earth) on the skin, then remove it with a cloth; then water when there is some.
 5. Do not eat or drink anything that was exposed. Do not smoke.
@@ -336,13 +346,15 @@ Many people with the same symptoms at the same time (coughing, burning eyes, dif
 - **Nerve agents** (sarin, Novichok): no smell or a fruity smell; very small pupils, drooling, tears, urinating, seizures. Decontaminate now; 112.
 - **Mustard gas**: smells of garlic or mustard; blisters on the skin and eyes hours later. Wash thoroughly, cover the blisters.
 - **Ammonia, acid**: strong smell, burns. Fresh air, water.
-- **Smoke from an industrial fire**: cyanide and others; move away upwind.
+- **Smoke from an industrial fire**: cyanide and others; move away across the wind and then upwind.
 
 ## Biological (infectious agents)
 
 You cannot see it at the time; symptoms appear days later in many people. Do the same as for a [pandemic](#/s/agora/pandemia): distance, masks, hand washing, treated water, cooked food, isolating the sick, following the health authorities (mass vaccination or antibiotics if needed). Do not panic over rumours: most "biological weapons" are far less effective than they seem.
 
 ## Preparation
+![An FFP3 mask with a valve: protects against particles and aerosols, little against gases. Fitted tightly to the face, no beard underneath; one per person, plus spares.](img:mascara-ffp3.jpg)
+
 
 - [ ] Wide duct tape and plastic sheeting to seal a room.
 - [ ] FFP2/FFP3 masks, safety goggles, gloves.
@@ -364,7 +376,7 @@ You cannot see it at the time; symptoms appear days later in many people. Do the
 
 ## Practise
 
-- "When we hear the siren, we go to the [shelter] and take our backpack." Like a game, timed, with praise.
+- "When we hear the siren, we go to the shelter and take our backpack." Like a game, timed, with praise.
 - Each child has a **small backpack** with water, a snack, a torch, a small toy, and a card with their name, address, parents' phone numbers and blood group.
 - Name and parents' phone number written on their arm in permanent marker when travelling and during evacuations. ID bracelet.
 - Rule: "if you get lost, stay where you are and ask a mum with children or a police officer for help".
@@ -463,6 +475,56 @@ Shifts, breaks, eating, sleeping. Talk to someone about what you have seen. Acce
 ## Work and income
 
 Diversify: do not depend on a single client or employer. Skills you can take anywhere. A small sideline that works without the internet.
+` },
+    desconhecido: { title: 'Unknown threat, even from beyond Earth', desc: 'When nobody knows, or nobody says, what is going on: lights, objects, everything failing at once. The sequence of decisions that works for any scenario without a name.', md: `
+>! We know of no public official plan for a threat coming from beyond Earth, in Portugal or anywhere else. This page cites no official sources because we found none: it applies to that scenario the rules of the other pages in the app, which are the same for any large danger that nobody can explain. If official information is scarce, late or contradictory, decide by what you see and by these rules.
+
+## The rule that works for everything
+
+Faced with something you cannot identify: **move away, take shelter, tell the family, wait, look after each other**. In that order. Curiosity and haste are what kill most in the first hours of any disaster.
+
+## First minutes
+
+1. **Do not go and look.** Lights, objects coming down, a crowd running towards somewhere: go the other way. Whoever films up close is the one closest to the explosion, the fall, the gas or the panic.
+2. **Unknown objects, debris or devices**: the rules for [mines and ordnance](#/s/guerra/engenhos). Never touch, more than 100 m away, mark it from a distance, call 112 if there is a network. That applies to anything that fell from the sky.
+3. **Go into the nearest solid building** and stay away from windows, with two walls between you and the street: explosions, shrapnel and shock waves kill through glass. As in an [air raid alert](#/s/guerra/alerta-aereo) or an [explosion](#/s/agora/ataque).
+4. **Let the family know by the plan**: one short SMS ("we are OK, at home"). Each person stays sheltered where they are and only joins up at the meeting point when it is safe to go out. Save battery (screen brightness at minimum, mobile data off), but leave the network on: Proteção Civil alerts and the family's replies come by SMS. See [messages without internet](#/t/mensagens) and [I'm OK](#/t/estoubem).
+5. **Battery radio on**, Antena 1 and local stations. In the first hours what circulates on phones is mostly rumour: the [reliable information](#/s/comunicar/informacao) page says how to tell them apart.
+
+## If what you see cannot be explained
+
+- **Lights, flying objects, sounds you do not recognise**: treat them as a physical danger (fall, explosion) and a technological one (blackouts, phones and cars failing). It is the [blackout](#/s/agora/apagao) scenario with more unknowns: torch, radio, water drawn from the taps while there is pressure.
+- **Electronics failing suddenly** (phone, car, lights, all at once): do not keep switching things on and off. Devices switched off and unplugged survive surges better; the battery radio and this app (it works without a network) are your link to what is happening.
+- **Smoke, clouds, dust or strange smells**: the [chemical](#/s/guerra/quimico-bio) rules: go up, never down to the basement (most gases collect low down), close everything, seal gaps, a damp cloth over the face, and wash with soap and water if you were outdoors.
+- **Skin burning as if sunburnt without any sun, dizziness, nausea or vomiting with no explanation**: the [radiation](#/s/guerra/nuclear) rules: time, distance, shelter; the basement or the centre of the building (but with smoke or a strange smell in the air, the chemical rule applies: go up).
+- **People, animals or things behaving in ways you do not understand**: do not approach, do not try to communicate, do not try to catch or drive them away by force. Move the children and pets away, keep a door between you, leave by the opposite side. It is the [intruder](#/s/protecao/intrusao) rule, with more distance.
+- **Photograph or film only from far away and only if it is safe**, noting the time and place. Do not use a flash, a laser or flashing lights to "signal" anything: you do not know what you are calling.
+
+## First days
+
+- **Stay where you have water, food and walls.** The road is the worst option: traffic jams, no fuel, no information, and the children shut in the car. You only evacuate on official orders or with a direct danger (fire, building giving way, smoke), and never towards what you do not know. See [evacuating from a conflict zone](#/s/guerra/evacuar-conflito).
+- **Supplies**: [your numbers](#/s/familia/numeros) for two weeks; water in every container while there is any; regular medication to hand.
+- **Minimal light and noise at night**, windows covered, as in [discretion in a crisis](#/s/protecao/principios): you do not know who, or what, notices you.
+- **Neighbours**: watch shifts, water and information shared, one agreed signal for "danger" and another for "all well". See [community](#/s/protecao/comunidade).
+- **Children**: routine, the simple truth ("there is a danger outside, in here we are safe, the adults are dealing with it"), no videos on repeat. See [children in conflict](#/s/guerra/criancas) and [calm and play](#/s/familia/ocupar-e-acalmar).
+- **Write down what you observe** (time, direction, duration, effects on devices, on animals, on you) in a notebook: it helps you decide and will be precious to whoever comes afterwards.
+
+## What not to do
+
+- Improvised weapons against something you do not know: the only defence you can be sure of is distance.
+- Believing messages, voices or "instructions" that do not come from Proteção Civil, Antena 1 or identified security forces. If in doubt, shelter and wait.
+- Drinking or eating anything that appeared, fell or changed in appearance; the tap water you stored at the start is fine; what comes out of the tap afterwards, only once the authorities confirm it is safe (looking clean does not mean safe).
+- Letting the pets run loose towards the danger, or abandoning them.
+- Going to fetch relatives elsewhere by crossing the area of the phenomenon: each person shelters where they are and joins up by the plan when it is safe.
+
+## Checklist for this scenario
+
+- [ ] Battery radio, torch and this app installed on every phone
+- [ ] Family plan with a meeting point and an out-of-area contact
+- [ ] Water and food for 2 weeks, regular medication
+- [ ] An inside room with two walls identified, windows with blackout curtains
+- [ ] Cloth, tape and plastic to seal gaps; FFP2 masks
+- [ ] Notebook and pen to record what happens
 ` },
   }
 };

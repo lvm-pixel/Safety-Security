@@ -20,7 +20,7 @@ Usa a [calculadora de reservas](#/t/reservas).
 3. Lavar mãos antes de comer e depois da casa de banho (usa gel de álcool para poupar).
 4. Lavar feridas.
 5. Higiene corporal (toalhitas, pano húmido; não é preciso duche).
-6. Loiça (limpa com papel, lava com pouca água, ferve-a depois).
+6. Loiça (limpa primeiro com papel, lava com pouca água e enxagua com umas gotas de lixívia, como em [cozinhar sem eletricidade](#/s/comida/cozinhar)).
 7. Roupa (última prioridade; ar e sol matam a maioria dos micróbios).
 
 ## Racionar sem adoecer
@@ -42,16 +42,16 @@ Dor de cabeça, cansaço, irritabilidade, urina escura e pouca, tonturas ao leva
 
 ## Fontes dentro de casa (normalmente potáveis)
 
-- **Termoacumulador / cilindro de água quente:** 50 a 200 L. Desliga a eletricidade ou o gás, fecha a entrada de água fria, abre uma torneira de água quente na casa para entrar ar, e retira a água pela válvula de purga em baixo (podes precisar de uma mangueira). Deixa arrefecer. Os primeiros litros podem ter sedimento: filtra por um pano.
+- **Termoacumulador / cilindro de água quente:** 50 a 200 L. Ao primeiro sinal de corte, **fecha a entrada de água fria** (a reserva não se esvazia pelas torneiras e não entra água suja quando a pressão volta). Para a usar: desliga a eletricidade ou o gás, confirma que a entrada de água fria está fechada, abre uma torneira de água quente na casa para entrar ar, e retira a água pela válvula de purga em baixo (podes precisar de uma mangueira). Deixa arrefecer. Os primeiros litros podem ter sedimento: filtra por um pano.
 - **Tubagens:** abre a torneira mais alta da casa (entra ar) e recolhe na mais baixa. Podem sair vários litros.
 - **Cubos de gelo e gelo do congelador.**
-- **Depósito do autoclismo (o tanque de cima, não a sanita):** 6 a 10 L, potável se não usares pastilhas de limpeza azuis. Purifica na mesma.
+- **Depósito do autoclismo (o tanque de cima, não a sanita):** 6 a 10 L, aproveitável se não usares pastilhas de limpeza azuis; purifica antes de beber.
 - **Água de conservas e legumes em lata**, sumos, leite UHT, bebidas: contam como líquidos.
 - **Máquina de lavar** e **desumidificador**: não potáveis para beber (só autoclismo e limpeza).
 
 ## Fora de casa
 
-- Piscinas e jacúzis: para higiene e autoclismo. Beber só em último recurso, depois de filtrar e ferver (o cloro de piscina não é o problema; são os químicos acumulados).
+- Piscinas e jacúzis: só para higiene e autoclismo. **Não bebas água de piscina**, nem fervida: ferver não tira os químicos acumulados (algicidas, estabilizante, sais) e ainda os concentra.
 - Depósitos de rega, cisternas, água da chuva: purificar sempre.
 - Fontes, ribeiros, poços: purificar sempre. Ver [recolher água](#/s/agua/chuva-natureza).
 - Estabelece um turno de recolha e um sítio de armazenamento fresco e escuro.
@@ -74,22 +74,22 @@ Dor de cabeça, cansaço, irritabilidade, urina escura e pouca, tonturas ao leva
 
 ## Método 1: Fervura (o mais fiável)
 
-**Fervura em cachão durante 1 minuto** (3 minutos acima de 2000 m de altitude). Mata bactérias, vírus e parasitas. Não remove químicos nem sal. Deixa arrefecer tapada. Passa entre dois recipientes para arejar e melhorar o sabor.
+**Fervura em cachão durante 1 minuto** (3 minutos acima de 2000 m de altitude) mata bactérias, vírus e parasitas, segundo a OMS; a DGS aconselha 10 minutos, por segurança: se o combustível não faltar, ferve mais tempo. Não remove químicos nem sal. Deixa arrefecer tapada. Passa entre dois recipientes para arejar e melhorar o sabor.
 
-Gasta combustível: cerca de 1 cartucho de gás de campismo (230 g) para 20 a 30 L.
+Gasta combustível: cerca de 1 cartucho de gás de campismo (230 g) para 10 a 20 L.
 
 ## Método 2: Lixívia (hipoclorito de sódio)
 
-Só **lixívia simples, sem perfume, sem detergente, sem espessante**. Vê a concentração no rótulo. Mata bactérias e vírus; é **fraca contra parasitas** (Giardia, Cryptosporidium): por isso filtra bem primeiro.
+Só **lixívia simples, sem perfume, sem detergente, sem espessante**. Vê no rótulo a percentagem de **cloro ativo**: a maioria das lixívias vendidas em Portugal tem 2 a 3%, as «fortes» 4 a 6%. A «lixívia alimentar» (para desinfetar legumes) serve e é a mais fácil de dosear. Mata bactérias e vírus; é **fraca contra parasitas** (Giardia, Cryptosporidium): por isso filtra bem primeiro.
 
 | Concentração da lixívia | Água límpida (por litro) | Água turva ou fria (por litro) |
 |---|---|---|
 | 1% | 10 gotas | 20 gotas |
-| 2 a 3% | 4 gotas | 8 gotas |
-| 4 a 6% (mais comum) | **2 gotas** | **4 gotas** |
+| 2 a 3% (a mais comum em Portugal) | **4 gotas** | **8 gotas** |
+| 4 a 6% («lixívia forte») | 2 gotas | 4 gotas |
 | 7 a 10% | 1 gota | 2 gotas |
 
-20 gotas = 1 ml. Para 10 L de água límpida com lixívia a 5%: 20 gotas = 1 ml (uma tampa de caneta). Para 50 L: 5 ml = 1 colher de chá.
+20 gotas = 1 ml. Para 10 L de água límpida com lixívia a 2,5%: 40 gotas = 2 ml; com lixívia a 5%: 20 gotas = 1 ml (uma tampa de caneta). Para 50 L a 2,5%: 10 ml = 2 colheres de chá.
 
 Mistura, **espera 30 minutos** (60 se estiver muito fria). Deve cheirar ligeiramente a cloro; se não cheirar, repete a dose e espera mais 15 min. Cheira demasiado? Deixa ao ar aberto umas horas ou passa entre recipientes.
 
@@ -97,38 +97,38 @@ Usa a [calculadora de dose](#/t/conversor).
 
 ## Método 3: Comprimidos ou gotas de purificação
 
-Cloro (NaDCC) ou dióxido de cloro (mais eficaz, mata também Cryptosporidium em 4 h). Segue a embalagem. Leves e baratos: tem-nos no kit. Iodo (tintura a 2%: 5 gotas por litro, 10 se turva, 30 min): não para grávidas, tiroide ou uso prolongado.
+Cloro (NaDCC) ou dióxido de cloro (mais eficaz, mata também Cryptosporidium em 4 h). Segue a embalagem. Leves e baratos: tem-nos no kit. Iodo (tintura a 2%: 5 gotas por litro, 10 se turva, 30 min): não para grávidas, para quem tem problemas de tiroide, nem para uso prolongado.
 
 ## Método 4: Filtros
 
 - **Filtros de campismo** (Sawyer, LifeStraw, Katadyn, 0,1 a 0,2 mícron): removem bactérias e parasitas, **não removem vírus** (que em Portugal e Europa são o menor risco em água de rio, mas existem em água de esgoto). Combina com cloro ou fervura em água suspeita.
-- **Filtros de cerâmica e carvão** (jarros de casa, Brita): melhoram o sabor e tiram alguns químicos; **não desinfetam**.
+- **Jarros de carvão** (Brita e semelhantes): melhoram o sabor e tiram alguns químicos; **não desinfetam**. Os **filtros de cerâmica** (vela de 0,2 µm) retêm bactérias e parasitas, mas não vírus: filtra e depois lixívia ou fervura.
 - Filtro improvisado (areia, carvão, gravilha): clarifica e tira algum cheiro; não desinfeta.
 
 ## Método 5: Sol (SODIS)
 
-Garrafas PET transparentes até 2 L, cheias com água **límpida**, deitadas ao sol direto sobre superfície refletora (chapa, alumínio) durante **6 horas** (2 dias se nublado). A radiação UV e o calor matam a maioria dos micróbios. Grátis, lento, sem sabor. Bom para complementar.
+Garrafas PET transparentes até 2 L, cheias com água **límpida**, deitadas ao sol direto sobre superfície refletora (chapa, alumínio) durante **6 horas** (2 dias seguidos se estiver nublado, ou para matar também os parasitas). A radiação UV e o calor matam a maioria dos micróbios. Grátis, lento, sem sabor. Bom para complementar.
 
-![Desinfeção solar (SODIS)](fig:sodis)
+![SODIS: garrafas PET transparentes, cheias de água límpida e deitadas ao sol, 6 horas de sol forte (2 dias seguidos se estiver nublado, ou para os parasitas).](img:sodis.jpg)
 
 ## Método 6: Destilação
 
-Única forma de tirar **sal, metais pesados, químicos e radioatividade** da água. Ferve num recipiente tapado com um tubo ou uma tampa invertida que faça o vapor condensar e pingar para outro recipiente limpo. Lento e gasta muito combustível. Destilador solar: buraco no chão com recipiente ao centro, coberto por plástico com uma pedra no meio; rende pouco (0,5 a 1 L por dia).
+A única forma caseira de tirar **sal, metais pesados e radioatividade** da água; dos químicos, só parte (os que evaporam com a água passam). Ferve num recipiente tapado com um tubo ou uma tampa invertida que faça o vapor condensar e pingar para outro recipiente limpo. Lento e gasta muito combustível. Destilador solar: buraco no chão com recipiente ao centro, coberto por plástico com uma pedra no meio; rende pouco (0,5 a 1 L por dia).
 
 ## O que nenhum destes métodos resolve
 
-Água com químicos industriais, pesticidas, combustíveis ou radioatividade só a destilação (parcialmente) e filtros específicos. Se cheira a químico, tem cor estranha ou brilho de óleo: não a bebas, procura outra fonte.
+Água com químicos industriais, pesticidas, combustíveis ou radioatividade: só a destilação (parcialmente) e filtros específicos. Se cheira a químico, tem cor estranha ou brilho de óleo: não a bebas, procura outra fonte.
 
 ## Resumo rápido
 
 | Método | Bactérias | Vírus | Parasitas | Químicos | Tempo |
 |---|---|---|---|---|---|
-| Ferver 1 min | Sim | Sim | Sim | Não | 10 min |
+| Ferver 1 min (DGS: 10) | Sim | Sim | Sim | Não | 10 min a aquecer e ferver, mais arrefecer |
 | Lixívia | Sim | Sim | Parcial | Não | 30 min |
 | Dióxido de cloro | Sim | Sim | Sim (4 h) | Não | 30 min a 4 h |
 | Filtro 0,1 µm | Sim | Não | Sim | Não | Imediato |
-| SODIS | Sim | Maioria | Sim | Não | 6 h |
-| Destilar | Sim | Sim | Sim | Sim | Horas |
+| SODIS | Sim | Maioria | Parcial (2 dias seguidos de sol) | Não | 6 h |
+| Destilar | Sim | Sim | Sim | Parcial | Horas |
 ` },
 
     { id: 'armazenar', icon: '🛢️', title: 'Armazenar água', desc: 'Recipientes, rotação, quantidade e onde guardar.', md: `
@@ -136,8 +136,8 @@ Garrafas PET transparentes até 2 L, cheias com água **límpida**, deitadas ao 
 
 - **Garrafões de água de 5 a 8 L** do supermercado: o mais simples. Duram 1 a 2 anos fechados. Baratos, fáceis de transportar (5 kg cada).
 - **Jerricãs e bidões alimentares** (PEAD azul ou branco, com símbolo de copo e garfo): 10 a 25 L. Não uses bidões que tiveram químicos ou combustível.
-- **Garrafas PET reutilizadas:** lava com água e sabão, enxagua com 1 colher de chá de lixívia em 1 L de água, enche com água da torneira, fecha bem. Não uses garrafas de leite ou sumo (resíduos de proteína e açúcar).
-- Bolsas de água para banheira (100 L, "WaterBOB") enchem-se em minutos com aviso prévio.
+- **Garrafas PET reutilizadas:** lava com água e sabão, enxagua com 1 colher de chá de lixívia em 1 L de água, despeja essa solução, enche com água da torneira, fecha bem. Não uses garrafas de leite ou sumo (resíduos de proteína e açúcar).
+- Bolsas de água para banheira ("WaterBOB", até cerca de 380 L; numa banheira normal, o que ela levar, 100 a 150 L) enchem-se em minutos com aviso prévio.
 - Não uses vidro em grande quantidade (parte-se em sismos).
 
 ## Como guardar
@@ -145,7 +145,7 @@ Garrafas PET transparentes até 2 L, cheias com água **límpida**, deitadas ao 
 - Local **fresco, escuro** (a luz favorece algas), longe de combustíveis, pesticidas e químicos (o plástico absorve vapores).
 - Não diretamente sobre betão (usa tábuas ou paletes).
 - Rotula com a data. Usa e repõe (rotação) de 6 em 6 meses (água da torneira) ou pela validade (comercial). Se a água ficar com sabor mas estiver fechada, está boa: areja-a passando entre dois recipientes.
-- Água da torneira portuguesa já tem cloro: **não precisa de mais lixívia** ao armazenar, desde que o recipiente esteja limpo e fechado. Se tiveres dúvidas, 2 gotas de lixívia por litro.
+- Água da torneira portuguesa já tem cloro: **não precisa de mais lixívia** ao armazenar, desde que o recipiente esteja limpo e fechado. Se tiveres dúvidas, usa a dose para água límpida da [tabela](#/s/agua/purificar): 4 gotas por litro com lixívia a 2 a 3%, 2 gotas com lixívia a 4 a 6%.
 
 ## Quanto
 
@@ -188,7 +188,7 @@ Depois de cheias, sismos ou secas prolongadas, podem estar contaminados por esgo
 
 ## Neve e gelo
 
-Derreter antes de beber (gastas calor do corpo e desidrata-te ao comer neve). Gelo de água doce é mais rico em água do que neve. Trata na mesma se vier de zona com animais.
+Derreter antes de beber (gastas calor do corpo e desidratas-te ao comer neve). Gelo de água doce é mais rico em água do que neve. Trata na mesma se vier de zona com animais.
 
 ## Orvalho e plantas
 
@@ -196,7 +196,7 @@ Ao amanhecer, arrasta um pano pela erva alta e espreme. Saco de plástico transp
 
 ## Sinais de água insegura
 
-Cheiro (esgoto, químico, ovos podres), cor, espuma persistente, óleo à superfície, peixes mortos, vegetação morta à volta, formigueiro na boca ao provar. Se em dúvida, procura outra fonte ou destila.
+Cheiro (esgoto, químico, ovos podres), cor, espuma persistente, óleo à superfície, peixes mortos, vegetação morta à volta. Não proves para testar: se já provaste e sentires formigueiro ou sabor metálico, cospe e não bebas mais. Na dúvida, procura outra fonte ou destila.
 ` }
   ]
 });

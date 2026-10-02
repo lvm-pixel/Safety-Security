@@ -8,7 +8,7 @@ CONTENT.sections.push({
 ## A ordem certa
 
 1. **Evitar**: não estar no sítio errado à hora errada. Sair cedo, ficar em casa quando a rua aquece, não ir ver.
-2. **Dissuadir**: parecer um alvo difícil e pouco interessante. Casa fechada e iluminada por dentro, vizinhos atentos, nada à vista.
+2. **Dissuadir**: parecer um alvo difícil e pouco interessante. Casa fechada e com sinais de estar habitada (luz por dentro, sem se ver da rua), vizinhos atentos, nada à vista.
 3. **Atrasar**: portas e janelas que aguentem minutos. Minutos chegam para fugir, chamar ajuda ou fazer o intruso desistir.
 4. **Fugir**: ter sempre uma saída e um sítio para onde ir. Fugir não é cobardia, é o que mais vidas salva.
 5. **Defender**: só quando não há outra opção e há perigo real para pessoas. Ver [o que diz a lei](#/s/protecao/lei).
@@ -20,7 +20,7 @@ CONTENT.sections.push({
 - **Não mostres o que tens.** Comida, água, gerador, combustível, dinheiro, medicamentos. Quem sabe que tens é quem vem pedir, e depois quem vem buscar.
 - Não publiques nas redes sociais o que guardaste, onde vives nem quando sais.
 - Luz: numa rua às escuras, a única janela iluminada atrai atenção. Cortinas grossas ou persianas descidas; luz virada para dentro.
-- Gerador e cheiros de cozinha denunciam-te. Gerador só de dia, se possível, e sempre com a porta do sítio onde está trancada.
+- Gerador e cheiros de cozinha denunciam-te. Gerador só de dia, se possível, sempre ao ar livre a 6 m de janelas (nunca num anexo fechado: monóxido de carbono) e preso com corrente e cadeado.
 - Traz as compras em sacos normais e aos poucos. Sem caixotes de água às dezenas à porta.
 - Parece igual aos outros: nem mais rico, nem mais preparado. Roupa normal, sem camuflados nem equipamento "tático", que chama a atenção de todos, incluindo das autoridades.
 - Partilha com critério: ajudar quem precisa cria aliados; anunciar que tens muito cria problemas.
@@ -39,7 +39,7 @@ CONTENT.sections.push({
 ![Reforçar a porta da rua](fig:porta-reforco)
 
 - A maior parte das portas cede na **chapa da fechadura** e nas **dobradiças**, não na fechadura. Troca os parafusos curtos por parafusos de 7 a 8 cm que entrem na parede ou no aro. Custa pouco e faz muita diferença.
-- Fechadura de segurança com cilindro anti-arrombamento; porta blindada se puderes.
+- Fechadura de segurança com cilindro antiarrombamento; porta blindada se puderes.
 - Óculo e corrente ou trinco limitador: **nunca abras sem ver quem é**. Quem se apresenta como autoridade pode mostrar identificação pelo óculo; na dúvida, liga 112 a confirmar.
 - Barra atravessada em suportes presos à parede ou calço de porta no chão: aguentam muito quando já estás dentro.
 - Portas das traseiras, da garagem e da varanda são as esquecidas.
@@ -91,10 +91,10 @@ Lojas a fechar à pressa, grupos a correr, montras partidas, sirenes constantes,
 ## Se estás na rua
 
 - Afasta-te **para longe** e **na perpendicular** do movimento das pessoas, pelas ruas laterais.
-- Não corras contra a multidão; não te agaches para apanhar coisas; mantém as crianças ao colo ou pela mão.
+- Não corras contra a multidão; não te agaches para apanhar coisas; mantém as crianças ao colo ou agarradas pelo pulso (a mão escapa-se).
 - Entra num sítio seguro e fica (café, igreja, casa de conhecidos) até acalmar.
 - Se a polícia avançar, obedece às ordens e sai pelo lado indicado. Mãos à vista.
-- Gás lacrimogéneo: sai contra o vento, não esfregues os olhos, lava com muita água; tira as lentes de contacto.
+- Gás lacrimogéneo: sai de lado ao vento e depois contra o vento, não esfregues os olhos, lava com muita água; tira as lentes de contacto.
 
 ## Se o teu negócio ou a tua casa estiver a ser pilhado
 
@@ -151,7 +151,7 @@ Não mexas em nada até a polícia chegar (impressões digitais, pegadas). Prest
 ![Distância para poderes sair de uma fila](fig:carro-distancia)
 
 - **Portas trancadas e vidros fechados** em cidade, filas e zonas tensas.
-- Em filas e semáforos, deixa espaço para sair: para onde ainda vês os pneus de trás do carro da frente a tocar no chão.
+- Em filas e semáforos, deixa espaço para sair: para no ponto em que ainda vês os pneus de trás do carro da frente a tocar no chão.
 - Não pares para "acidentes" em zonas isoladas, sobretudo de noite. Abranda, observa, passa se for seguro, e liga 112 a descrever o que viste.
 - Se alguém tentar parar-te a bater no vidro ou a pôr-se à frente: não abras, continua devagar se houver espaço, e liga 112.
 - Se te seguirem: não vás para casa; vai para um sítio com gente e luz (posto da GNR ou da PSP, bombeiros, área de serviço) e liga 112.
@@ -167,7 +167,7 @@ Não mexas em nada até a polícia chegar (impressões digitais, pegadas). Prest
 
 - Em grupo, de dia, com pouco à vista. Mochila discreta.
 - Evita pontes, túneis e passagens estreitas onde é fácil ser encurralado; se não der, atravessa rápido e sem parar.
-- Para dormir fora: afastado das estradas e dos caminhos, sem fogo visível, com um adulto de vigia em turnos de 2 horas.
+- Para dormir fora: afastado das estradas e dos caminhos (em zona de conflito, só em terreno já pisado: [minas](#/s/guerra/engenhos)), sem fogo visível, com um adulto de vigia em turnos de 2 horas.
 - Se te abordarem: entrega, não resistas, não persigas. Afasta-te na direção oposta.
 
 ## Se fores assaltado
@@ -194,7 +194,7 @@ As zonas onde os vizinhos se conhecem e se ajudam têm muito menos crime em cris
 - Turnos só se for mesmo necessário, **em pares**, com lanterna, apito e telemóvel ou rádio. Sem armas.
 - Luz na entrada do prédio, porta da rua sempre fechada, ninguém entra "atrás" de um morador sem ser conhecido.
 - Registar o que é estranho (veículos que passam várias vezes, pessoas a espreitar portas) e passar à polícia.
-- **Barreiras na rua, revistas e detenções não são legais** para civis. Qualquer pessoa pode deter alguém apanhado em flagrante num crime, mas só se a polícia não puder vir a tempo e para o entregar logo. Na prática, é quase sempre má ideia.
+- **Barreiras na rua e revistas não são legais** para civis; deter alguém, só apanhado em flagrante, se a polícia não puder vir a tempo, e para o entregar logo. Na prática, é quase sempre má ideia.
 
 ## Entreajuda
 
@@ -225,7 +225,7 @@ Se a casa for assaltada, inundada ou tiveres de sair à pressa, perder tudo de u
 
 - A despensa visível deve parecer normal para uma família. O resto, fora de vista.
 - Não contes a toda a gente quanto tens nem onde. As crianças também não precisam de saber os pormenores: "temos o suficiente" chega.
-- Lixo: embalagens vazias em grande quantidade denunciam reservas. Espalma-as e deita-as aos poucos.
+- Lixo: embalagens vazias em grande quantidade denunciam reservas. Espalma-as e deita-as fora aos poucos.
 
 ## Regras
 
@@ -245,6 +245,15 @@ Se a casa for assaltada, inundada ou tiveres de sair à pressa, perder tudo de u
 - Quando o excesso resulta de medo ou susto não censuráveis, a lei tem isso em conta (artigo 33.º), mas vais ter de o explicar a um juiz.
 - Proteger **só bens** com força grave raramente é justificável. Uma televisão não vale um processo por homicídio, nem uma vida.
 
+- **Estado de necessidade (artigo 34.º)**: partir uma porta para fugir de um incêndio, ou tirar água de um edifício abandonado para não morrer de sede, não é crime se o mal evitado for claramente maior do que o causado e não houver outra saída. Não cobre tirar bens por conforto, nem violência contra pessoas.
+
+## O que podes ter e levar contigo
+
+- Sem licença: lanterna, apito, alarme pessoal, bastão de caminhada usado como tal, canivete ou faca com lâmina até 10 cm (para o uso normal: campismo, cozinha), extintor.
+- Só com **licença E** (PSP): aerossóis de defesa (gás pimenta) e armas elétricas de choque até 200 000 V.
+- Proibido sempre: bastões extensíveis, soqueiras, facas de abertura automática ou de arremesso, e **qualquer objeto levado «para defesa»** sem justificação (lâmina acima de 10 cm na rua sem motivo é arma proibida).
+- Armas de fogo: só com licença da classe respetiva, guardadas em cofre certificado (EN 14450 S1) e munições à parte.
+
 ## Na prática
 
 - A melhor autodefesa é **não estar lá**: sair, fechar, afastar, ligar 112.
@@ -254,7 +263,7 @@ Se a casa for assaltada, inundada ou tiveres de sair à pressa, perder tudo de u
 ## Meios de defesa
 
 - **Apito, alarme pessoal e lanterna forte**: legais, chamam atenção e encandeiam.
-- **Spray de gás pimenta**: os aerossóis de defesa são permitidos a maiores de 18 anos dentro dos limites da lei das armas (compra em armeiro). Confirma as regras atuais na PSP. Usar só perante uma agressão, e fugir logo a seguir.
+- **Spray de gás pimenta**: só com **licença E** da PSP (ver acima); sem ela, ter ou usar é crime. Usar só perante uma agressão, e fugir logo a seguir.
 - **Facas e objetos "para defesa"**: andar com eles como arma é crime em muitos casos e aumenta o risco de ferimentos graves, incluindo os teus.
 - **Armas de fogo**: exigem licença e cumprimento rigoroso da lei. Se tens armas licenciadas, com crianças em casa guarda-as **descarregadas, trancadas num cofre, com as munições noutro sítio trancado**. Numa crise, com stress e cansaço, uma arma em casa aumenta mais o risco de acidente ou tragédia do que protege.
 
@@ -280,13 +289,13 @@ Um curso de autodefesa (com foco em evitar, soltar-se de um agarrão e fugir) e 
 
 - Nunca abrir a porta a ninguém, mesmo que diga o nome dos pais. Ir chamar um adulto.
 - Não dizer a estranhos o que há em casa, quem lá está, nem quando os pais saem.
-- Se alguém a tentar levar: gritar "**Não te conheço!**", e não só "socorro", para quem está à volta perceber, correr para um sítio com pessoas e pedir ajuda a uma mãe com filhos, a um polícia ou a alguém numa loja.
+- Se alguém tentar levá-l{{c2_o}}: gritar "**Não te conheço!**", e não só "socorro", para quem está à volta perceber, correr para um sítio com pessoas e pedir ajuda a uma mãe com filhos, a um polícia ou a alguém numa loja.
 - Segredos que dão medo não se guardam: conta-se sempre aos pais.
 - A palavra-sinal de ir para o [quarto seguro](#/s/protecao/casa) e o que fazer lá dentro.
 
 ## {{C1}}
 
-- Sempre ao colo, no porta-bebé ou pela mão de um adulto em sítios com gente.
+- Sempre ao colo, no porta-bebés ou pelo pulso de um adulto em sítios com gente.
 - Nome e telefone escritos no braço com caneta permanente em deslocações, e cartão cosido por dentro do casaco.
 - Roupa de cor viva e fácil de descrever. Foto tirada nesse dia, com a roupa que leva.
 

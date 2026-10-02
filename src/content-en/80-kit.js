@@ -46,7 +46,7 @@ CONTENT_EN.sections['kit'] = {
 - [ ] FFP2 masks (adult and child sizes), disposable gloves, alcohol hand gel
 - [ ] Toilet paper, wipes, soap, toothbrushes and toothpaste, sanitary pads
 - [ ] Heavy-duty bin bags and a bucket with a lid (emergency toilet)
-- [ ] Plain bleach, stored out of the children's reach
+- [ ] Plain unscented bleach (food-grade is fine), with the chlorine % on the label, out of the children's reach
 
 ## Tools and protection
 
@@ -102,7 +102,6 @@ CONTENT_EN.sections['kit'] = {
 - [ ] Nappies for one day, wipes, cream and bags
 - [ ] {{C1_s}} milk and snacks, a spare dummy and the cuddly toy
 - [ ] Small radio, head torch and whistle
-- [ ] The family's documents and cash
 
 ## Large backpack ({{a2}})
 
@@ -110,10 +109,10 @@ CONTENT_EN.sections['kit'] = {
 - [ ] Food for 3 days for everyone, light and needing no cooking: cereal bars, nuts, biscuits, small easy-open tins, dried fruit, chocolate
 - [ ] Milk for the children ({{milk_3d}} L, powdered or UHT) and {{c1_s}} baby cereal or purées
 - [ ] Nappies for the remaining days ({{diapers_3d}} in total) and wipes
-- [ ] First aid kit with the children's medicines and oral dosing syringes
+- [ ] First aid kit with the children's medicines and oral dosing syringes, and everyone's long-term medication (at least 1 week; 2 if you can)
 - [ ] Changes of clothes for everyone in waterproof bags, extra socks, woolly hats and light jackets
 - [ ] Foil blankets (one per person), poncho, 2 large bin bags and 10 m of cord
-- [ ] Metal mug or pot, lighter, waterproof matches, penknife, strong tape
+- [ ] Metal mug or pot, lighter, waterproof matches, ferrocerium rod, penknife, strong tape
 - [ ] Hygiene: toothbrushes and toothpaste, soap, toilet paper, hand gel, sanitary pads
 - [ ] Sun cream, insect repellent and FFP2 masks
 
@@ -148,7 +147,7 @@ CONTENT_EN.sections['kit'] = {
 - [ ] Water, 2 to 4 L (replace every 6 months; in summer the plastic degrades: keep it in the shade), cereal bars or nuts
 - [ ] Blanket or foil blanket, old coat, work gloves, woolly hat
 - [ ] Torch and batteries, power bank, cigarette-lighter charger, cables
-- [ ] Jump leads, tow rope, spare wheel or tyre repair kit, jack and wheel brace (check that you know how to use them)
+- [ ] Jump leads or a jump starter, tow rope, spare wheel or tyre repair kit, jack and wheel brace (check that you know how to use them)
 - [ ] Toilet paper, bin bags, wipes, sick bag
 - [ ] Paper map of the region, small notes, coins
 - [ ] Paper and pen, contact list
@@ -171,13 +170,13 @@ CONTENT_EN.sections['kit'] = {
 ## Evacuation
 
 - [ ] Everyone's grab bag goes into the car
-- [ ] Fuel jerrycan (20 L, approved type, outside the passenger compartment, or firmly secured in the boot)
+- [ ] Approved fuel jerrycan: diesel up to 20 L, in a ventilated outbuilding or storeroom, never inside the home or in a flat (and petrol never at home: only in the car's tank); in the car only when travelling, outside the passenger compartment and firmly secured
 - [ ] Car documents, insurance, spare key in an agreed place
 
 ## With children
 
 - [ ] {{C1_s}} car seat and {{c2_s}} booster seat, firmly fitted
-- [ ] A change of clothes for each child, nappies, wipes and sick bags
+- [ ] A change of clothes for each child and nappies
 - [ ] Water in spouted bottles, snacks and long-life milk
 - [ ] Blankets, window sunshades, toys and books
 - [ ] Baby carrier rolled up under a seat
@@ -211,16 +210,15 @@ Tyres (pressure every month, tread), brakes, battery (over 4 years old: at risk)
 
 ## Medicines (adults; see [doses](#/s/socorros/medicamentos))
 
-- [ ] Paracetamol 1 g (20), ibuprofen 400 mg (20), aspirin 100 mg (10, for a heart attack)
+- [ ] Paracetamol 1 g (20), ibuprofen 400 mg (20), aspirin 100 mg (10; for a heart attack, 3 tablets chewed = 300 mg)
 - [ ] Antihistamine (cetirizine 10 mg, 10), hydrocortisone cream 1%
 - [ ] Oral rehydration solution (10 sachets), loperamide (10)
 - [ ] Antacid, omeprazole
 - [ ] Anti-sickness medicine (dimenhydrinate), if you travel
 - [ ] Antifungal (clotrimazole), antibiotic ointment if you have a prescription
 - [ ] Water purification drops or tablets
-- [ ] Potassium iodide (if there is a nuclear power station less than 300 km away)
+- [ ] Potassium iodide, 65 mg tablets (prescription only; makes sense mainly within 100 km of a nuclear power station, such as Almaraz for the Alto Alentejo and Beira Baixa)
 - [ ] Each person's own medication for 1 week
-- [ ] Paediatric doses (paracetamol and ibuprofen syrup) if there are children
 - [ ] Adrenaline auto-injector if anyone has a severe allergy
 
 ## Other
@@ -233,8 +231,7 @@ Tyres (pressure every month, tread), brakes, battery (over 4 years old: at risk)
 
 - [ ] Paracetamol syrup 40 mg/ml and ibuprofen syrup 20 mg/ml (2 bottles of each), with oral dosing syringes
 - [ ] Paracetamol suppositories in the strengths for the children's weights
-- [ ] Oral rehydration solution (10 sachets) and saline solution in single-use ampoules
-- [ ] Nasal aspirator, digital thermometer and paediatric finger pulse oximeter
+- [ ] Nasal aspirator and paediatric finger pulse oximeter
 - [ ] Cetirizine drops, barrier cream and bite ointment
 - [ ] Small plasters with pictures on them (they help more than you would think)
 - [ ] Each child's doses written down: [dose calculator](#/t/doses)
@@ -250,7 +247,7 @@ A bag with compartments, labelled, always in the same place, and everyone knows 
     documentos: { title: 'Documents and information', desc: 'What to keep on paper, in the vault and in your head.', md: `
 ## On paper, in a waterproof bag, in the grab bag
 
-- [ ] Cartão de Cidadão (national ID card), passport (both valid), driving licence
+- [ ] Cartão de Cidadão (national ID card), passport (both valid), driving licence: the originals go on your body, in an inside pouch ([grab bag](#/s/kit/mala-evacuacao))
 - [ ] Birth, marriage and relevant death certificates (copies)
 - [ ] SNS card (national health service), health insurance, European Health Insurance Card, vaccination record
 - [ ] List of medication, allergies, blood group, doctors' contacts, advance directives if there are any
@@ -276,7 +273,7 @@ Photos of everything above, in the [encrypted vault](#/t/cofre). Also on a hidde
 - [ ] Your full address and that of a relative
 - [ ] Your main IBAN
 - [ ] The meeting points and the code word
-- [ ] The vault password (one trusted person should know it too: the same password)
+- [ ] The vault password; one trusted person knows it too
 - [ ] Each person's medication doses
 
 ## Certified copies
@@ -314,7 +311,7 @@ Residence permit (título de residência), passport valid for more than 6 months
 
 ## Wildfire (house near scrubland or woodland)
 
-- [ ] A 50 m strip cleared of scrub around the house (required by law), trees more than 5 m from the roof
+- [ ] A 50 m strip cleared of scrub around the house (required by law, by 30 April each year), trees more than 5 m from the roof
 - [ ] No firewood, gas, garden furniture or rubbish against the walls
 - [ ] Fine mesh over the vents, clean gutters, no leaves on the roof
 - [ ] A hose that reaches all the way round, water tank, pump if possible
@@ -334,9 +331,9 @@ Residence permit (título de residência), passport valid for more than 6 months
 
 ## Self-sufficiency
 
-- [ ] Stored water (at least 12 L per person), means of purifying it
+- [ ] Stored water (at least 15 L per person; 60 L for 2 weeks), means of purifying it
 - [ ] A 2-week food store, rotated
-- [ ] Means of cooking without electricity, and fuel
+- [ ] Means of cooking without electricity (camping stove, gas bottle) and spare fuel
 - [ ] Battery radio, torches, power banks, solar panel
 - [ ] Safe alternative heating (fireplace, wood-burning stove) or a "warm room" plan
 - [ ] A vegetable garden, even a small one, and seeds; fruit trees if you have land
@@ -358,7 +355,7 @@ Residence permit (título de residência), passport valid for more than 6 months
 - [ ] Food: eat what expires within 6 months and restock; check tins (dents, rust)
 - [ ] Medicines: expiry dates, replace what has been used, 1 month of long-term medication
 - [ ] Batteries: test torches and radio, replace old batteries, charge rechargeables
-- [ ] Power banks and power station: charge to 100%, test
+- [ ] Power banks and power station: charge to 100% and test (between reviews, one charge a month)
 - [ ] Solar panel: test it on a sunny day
 - [ ] Generator: run it for 15 minutes, check oil and fuel (rotate the fuel)
 - [ ] Smoke and CO alarms: press the test button, replace batteries

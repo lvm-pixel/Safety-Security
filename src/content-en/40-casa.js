@@ -13,7 +13,7 @@ CONTENT_EN.sections['casa'] = {
 
 ## Batteries
 
-Standardise: **AA and AAA** for everything. Alkaline batteries last 5 to 10 years in storage; rechargeables (low self-discharge NiMH, such as Eneloop) keep 70% after a year. 20 AA and 20 AAA per household. Do not leave batteries inside devices for months (they leak).
+Standardise: **AA and AAA** for everything. Alkaline batteries last 5 to 10 years in storage; rechargeables (low self-discharge NiMH, such as Eneloop) keep about 70% of their charge after a year. 20 AA and 20 AAA per household. Do not leave batteries inside devices for months (they leak).
 
 ## Power
 
@@ -21,7 +21,7 @@ Standardise: **AA and AAA** for everything. Alkaline batteries last 5 to 10 year
 - **Portable power station** (300 to 1,000 Wh): phones for weeks, radio, lights, CPAP, router, a small fridge for a few hours. It recharges from a 100 W solar panel in 5 to 10 h of sunshine.
 - **Folding solar panel** (20 to 100 W): phones and power banks. Check that it works **before** you need it.
 - **Car**: charges phones (10 min of engine running per hour). A 12 V inverter (150 to 300 W) for a laptop and lights. Never in a closed garage.
-- **Petrol/diesel generator**: 2 kW runs a fridge, lights, router and phones. **Always outdoors**, 6 m from windows, with the exhaust pointing away. Never connect it to the house's fuse box without a transfer switch (you can electrocute the people repairing the grid). Fuel: 5 to 10 L a day; store it with a stabiliser and rotate it every 6 months. Do a 15-min test run every month.
+- **Petrol/diesel generator**: 2 kW runs a fridge, lights, router and phones. **Always outdoors**, 6 m from windows, with the exhaust pointing away. Never connect it to the house's fuse box without a transfer switch (you can electrocute the people repairing the grid). Fuel: 5 to 10 L a day; switch the generator off and let it cool before refuelling; store it with a stabiliser and rotate it every 6 months. Do a 15-min test run every month.
 
 ## What to do at the fuse box
 
@@ -43,7 +43,7 @@ Routines (mealtimes, bedtimes), card and board games, books, giving the children
 
 - Small, an inner room or south-facing, with few windows, on the lowest floor that is not a damp basement. One small bedroom for the whole family is ideal.
 - Close the doors to the other rooms. Block the gaps around doors with towels.
-- Windows: curtains closed at night, open during the day if there is direct sun. Bubble wrap, cardboard or blankets over the windows insulate a lot. Shutters closed.
+- Windows: curtains and shutters closed at night, open during the day only on the windows that get direct sun. Bubble wrap, cardboard or blankets over the other windows insulate a lot.
 - A tent pitched inside the bedroom, or a blanket "den" over the bed: the small space of air warms up with body heat. Children love it, and it works.
 
 ## Heat your body, not the house
@@ -58,8 +58,8 @@ Routines (mealtimes, bedtimes), card and board games, books, giving the children
 ## Safe heat sources
 
 - Fireplace or wood-burning stove with a chimney: excellent. Dry firewood (less smoke, more heat). Never close the air intake completely.
-- Bottled-gas heater (catalytic or infrared) or paraffin heater: **only with ventilation** (window ajar) and **never while sleeping**. A CO detector next to it. See [carbon monoxide](#/s/casa/co).
-- Large candles (they do not heat a room, but under an upturned clay pot they create a small spot of radiant heat; beware of fire).
+- Bottled-gas heater (catalytic or infrared) or paraffin heater: **only with ventilation** (window ajar) and **never while sleeping**. A CO detector next to it (standard EN 50291; at head height, 1 to 3 m from the appliance; it lasts 7 to 10 years, check the date). See [carbon monoxide](#/s/casa/co).
+- Large candles give light, they do not heat a room. Forget the candle-under-a-clay-pot "heater": it heats nothing and has caused fires and burns.
 - Cooking warms the kitchen: gather the family there.
 
 ## Never
@@ -70,7 +70,7 @@ Routines (mealtimes, bedtimes), card and board games, books, giving the children
 
 ## Pipes and the house
 
-- Leave a tap dripping on freezing nights. If a pipe freezes: turn off the main stopcock and warm the pipe slowly (hairdryer, hot cloths), never with a flame.
+- Leave a tap dripping on freezing nights. If a pipe freezes: turn off the main stopcock and open the tap on that pipe, warm the pipe slowly (hairdryer, hot cloths) starting from the tap, never with a flame.
 - Know where the [main stopcock](#/s/casa/cortar) is: a burst pipe floods a home in minutes.
 
 ## Signs of hypothermia
@@ -84,7 +84,7 @@ Shivering, clumsy hands, confusion, drowsiness. Elderly people and babies do not
 - Windows **closed** while the air outside is hotter than the air inside (usually from 10:00 to 20:00).
 - Stay on the lowest floor, in north-facing rooms, or in the basement.
 - Do not use the hob, the oven or lights that give off heat.
-- Damp sheets hung at windows where there is a draught: they cool the air by evaporation (this works best when the air is dry).
+- A damp sheet hung at an open window where air comes in (at night, or during the day only if the air outside is not hotter): it cools the air by evaporation (this works best when the air is dry).
 
 ## At night
 
@@ -123,11 +123,11 @@ Headache, dizziness, nausea, tiredness, confusion, drowsiness, chest pain. **Sev
 
 ## Prevention
 
-- **CO detector** with an alarm (€15 to €30) near the bedrooms and close to fuel-burning appliances. Change the battery every year. It is the cheapest and most ignored safety item in the kit.
-- Generators, barbecues, braziers, charcoal or wood stoves: **always outdoors**, away from windows and doors.
+- **CO detector** with an alarm (€15 to €30) near the bedrooms and close to fuel-burning appliances. Change the battery every year (or use one with a sealed 10-year battery); the detector itself lasts 7 to 10 years, check the date on the back. It is the cheapest and most ignored safety item in the kit.
+- Generators, barbecues, braziers, charcoal or wood stoves: **always outdoors**, 6 m from windows and doors.
 - Gas water heaters: with ventilation (a vent in the window or door), serviced every year, blue flame (a yellow flame is a sign of poor combustion).
 - Gas and paraffin heaters: never in closed rooms or while sleeping; window ajar.
-- Car engine: never running in a garage, even with the door open. Beware of snow blocking the exhaust of a stationary car.
+- Car engine: never running in a garage, even with the door open. Stationary car with the engine running: check that snow or mud is not blocking the exhaust.
 - Fireplaces: clean chimney, air intake open, embers not smothered.
 - Candles: more than 5 or 6 in a closed room for hours produce CO and use up the oxygen.
 ` },
@@ -146,7 +146,7 @@ Headache, dizziness, nausea, tiredness, confusion, drowsiness, chest pain. **Sev
 ## Electricity
 
 - **Fuse box** (usually near the front door): the main circuit breaker (the biggest one, or the RCD) switches everything off. The small ones switch off individual circuits.
-- **When to switch off:** flood (before the water reaches the sockets), electrical fire, water leaking onto the wiring, a long evacuation, repair work.
+- **When to switch off:** flood (before the water reaches the sockets; if it already has, do not touch the fuse box or go into the water), electrical fire, water leaking onto the wiring, a long evacuation, repair work.
 - Never touch anything electrical with wet hands or feet, or while standing in water. Fallen cables in the street: keep 10 m away and report them.
 - After a flood, the wiring should be checked by an electrician before the power is switched back on.
 
@@ -170,11 +170,11 @@ An adjustable spanner or valve key for the stopcock in the street, a torch by th
 
 ## Bucket toilet (2 buckets)
 
-![Two-bucket toilet](fig:balde)
+![Two-bucket toilet: one for urine, one for faeces, lined with a strong bag and with sawdust, soil or ash over each use. Lid always closed.](img:balde.jpg)
 
 - Bucket 1 for urine (empty it away from the house and from water sources, or dilute it and use it to water plants; urine is almost sterile).
-- Bucket 2 for faeces, lined with a **strong bin bag**; after each use, cover with a handful of sawdust, soil, ash, lime, cat litter or shredded paper (it removes the smell, dries things out and reduces flies). Lid always closed.
-- When the bag is half full, tie it tightly and put it inside a second bag. Keep it in a closed bin away from the house and from water, in the shade, until there is a collection. Or bury it (see below).
+- Bucket 2 for faeces, lined with a **strong bin bag**; after each use, cover with a handful of sawdust, soil, ash, slaked lime, cat litter or shredded paper (it removes the smell, dries things out and reduces flies). Lid always closed.
+- When the bag is half full, tie it tightly and put it inside a second bag. Keep it in a closed bin away from the house and from water, in the shade, until there is a collection. Or bury it following the latrine rules (below): 30 m from water and with 30 cm of soil on top.
 - Keeping urine and faeces apart greatly reduces the smell and the volume.
 - A camping toilet seat that fits 20 L buckets costs €15; have one.
 
@@ -189,7 +189,7 @@ An adjustable spanner or valve key for the stopcock in the street, a torch by th
 
 ## Rubbish
 
-- Sort it: organic waste (bury it, compost it, or seal it tightly and keep it far from the house), plastic and paper (these can be kept for weeks; burn them only as a last resort and in the open air, never plastics indoors).
+- Sort it: organic waste (bury it, compost it, or seal it tightly and keep it far from the house), plastic and paper (these can be kept for weeks; burn them only as a last resort and in the open air; plastic, never indoors: the smoke is toxic).
 - Washed tins and glass do not attract animals.
 - Bags tightly closed, in a bin with a lid, away from the door. Rats, flies and dogs turn up within 2 days.
 - Nappies and sanitary pads: treat them like faeces: double bag, closed bin.
@@ -197,7 +197,7 @@ An adjustable spanner or valve key for the stopcock in the street, a torch by th
 ## Cleaning and disinfection
 
 - Diluted bleach: **1 part to 10 of water** for surfaces with faeces, vomit or blood; **1 to 50** for general cleaning. Make a fresh batch every day (it loses its effect). Do not mix it with ammonia or other products (toxic gas).
-- Quicklime or hydrated lime in latrines and over waste.
+- Hydrated lime (slaked lime) in latrines and over waste, with gloves and goggles. Never quicklime: it reacts with water, burns and can start a fire.
 
 ## Dead animals
 
@@ -269,7 +269,7 @@ In most crises, people cooperate; crime rises mainly when shortages last for wee
 
 ## Weapons
 
-In Portugal, owning a firearm without a licence is a crime, and with a licence there are strict rules. A fire extinguisher, pepper spray (legal for over-18s, for self-defence) and a powerful torch deal with almost everything an ordinary civilian faces, without the risks. A gun in a home with stress, children and alcohol is more dangerous to the family than to intruders.
+In Portugal, owning a firearm without a licence is a crime, and with a licence there are strict rules. A fire extinguisher, a powerful torch and, only with a **class E licence** from the PSP police, a defence spray (without the licence, owning or using pepper spray is a crime) deal with almost everything an ordinary civilian faces, without the risks. A gun in a home with stress, children and alcohol is more dangerous to the family than to intruders.
 ` },
     'abrigo-improvisado': { title: 'Improvised outdoor shelter', desc: 'Spending the night outdoors with whatever is at hand. Protection from wind, rain, cold and the ground.', md: `
 ## Priorities

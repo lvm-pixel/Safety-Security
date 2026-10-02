@@ -8,7 +8,7 @@ CONTENT_EN.sections['protecao'] = {
 ## The right order
 
 1. **Avoid**: don't be in the wrong place at the wrong time. Leave early, stay at home when the street heats up, don't go and look.
-2. **Deter**: look like a hard and uninteresting target. Home locked and lit from inside, watchful neighbours, nothing on show.
+2. **Deter**: look like a hard and uninteresting target. Home locked and showing signs of being lived in (light inside, not visible from the street), watchful neighbours, nothing on show.
 3. **Delay**: doors and windows that hold out for minutes. Minutes are enough to escape, call for help or make the intruder give up.
 4. **Escape**: always have a way out and somewhere to go. Running away is not cowardice: it is what saves the most lives.
 5. **Defend**: only when there is no other option and there is real danger to people. See [what the law says](#/s/protecao/lei).
@@ -20,7 +20,7 @@ CONTENT_EN.sections['protecao'] = {
 - **Don't show what you have.** Food, water, generator, fuel, money, medicines. Those who know you have it are the ones who come asking, and then the ones who come to take it.
 - Don't post on social media what you have stored, where you live or when you go out.
 - Light: in a dark street, the only lit window attracts attention. Thick curtains or roller shutters down; lights pointed inwards.
-- A generator and cooking smells give you away. Run the generator only in the daytime if possible, and always keep the door to where it stands locked.
+- A generator and cooking smells give you away. Run the generator only in the daytime if possible, always outdoors 6 m from windows (never in a closed outbuilding: carbon monoxide) and secured with a chain and padlock.
 - Bring your shopping home in ordinary bags, a little at a time. No stacks of cases of water at your door.
 - Look like everyone else: neither richer nor better prepared. Ordinary clothes, no camouflage or "tactical" gear, which draws everyone's attention, including the authorities'.
 - Share wisely: helping people in need makes allies; announcing that you have plenty makes problems.
@@ -64,7 +64,7 @@ CONTENT_EN.sections['protecao'] = {
 - An interior room with a **solid door**, a lock on the inside and, if possible, a second way out (a window onto a safe place).
 - Always kept inside: a charged mobile phone, or an old one with a charger (112 works without a SIM card), torch, water, first aid kit, whistle, shoes, something for the children.
 - The whole family knows to go there at the agreed signal, by day and by night, in the dark. Practise with the children as a game.
-- The safe room also serves for [break-ins](#/s/protecao/intrusao), [looting](#/s/protecao/pilhagens) and, if it is an interior room, as a shelter from flying glass.
+- The safe room also serves for [break-ins](#/s/protecao/intrusao), [looting](#/s/protecao/pilhagens) and, if it is an interior room, as a shelter from shrapnel.
 
 ## What not to do
 
@@ -89,10 +89,10 @@ Shops closing in a hurry, groups running, smashed shop windows, constant sirens,
 ## If you are in the street
 
 - Move **well away** from the flow of people and **at right angles** to it, through side streets.
-- Don't run against the crowd; don't bend down to pick things up; keep children in your arms or by the hand.
+- Don't run against the crowd; don't bend down to pick things up; keep children in your arms or held by the wrist (a hand slips out).
 - Go into a safe place and stay there (a café, a church, the home of people you know) until things calm down.
 - If the police advance, obey their orders and leave on the side they point to. Hands visible.
-- Tear gas: move upwind, don't rub your eyes, rinse with plenty of water; take out contact lenses.
+- Tear gas: move across the wind and then upwind, don't rub your eyes, rinse with plenty of water; take out contact lenses.
 
 ## If your business or your home is being looted
 
@@ -163,7 +163,7 @@ Don't touch anything until the police arrive (fingerprints, footprints). Give [f
 
 - In a group, in daylight, with little on show. A plain rucksack.
 - Avoid bridges, tunnels and narrow passages where it is easy to get cornered; if you can't, cross quickly without stopping.
-- Sleeping outdoors: away from roads and tracks, no visible fire, with one adult keeping watch in 2-hour shifts.
+- Sleeping outdoors: away from roads and tracks (in a conflict zone, only on ground that has already been walked on: [mines](#/s/guerra/engenhos)), no visible fire, with one adult keeping watch in 2-hour shifts.
 - If you are approached: hand things over, don't resist, don't give chase. Move away in the opposite direction.
 
 ## If you are robbed
@@ -189,7 +189,7 @@ Areas where neighbours know and help each other have much less crime in crises. 
 - Patrol shifts only if really necessary, **in pairs**, with a torch, a whistle and a phone or radio. No weapons.
 - A light at the building entrance, the street door always shut, nobody slips in "behind" a resident unless they are known.
 - Record anything strange (vehicles driving past several times, people peering at doors) and pass it on to the police.
-- **Roadblocks in the street, searches and detentions are not legal** for civilians. Anyone may detain a person caught in the act of committing a crime, but only if the police cannot come in time, and only to hand them over straight away. In practice, it is almost always a bad idea.
+- **Roadblocks in the street and searches are not legal** for civilians; detaining someone, only if they are caught in the act, only if the police cannot come in time, and only to hand them over straight away. In practice, it is almost always a bad idea.
 
 ## Mutual help
 
@@ -238,6 +238,15 @@ If your home is burgled or flooded, or you have to leave in a hurry, losing ever
 - When the excess comes from fear or panic that cannot be blamed on you, the law takes that into account (article 33), but you will have to explain it to a judge.
 - Protecting **property alone** with serious force is rarely justifiable. A television is not worth a homicide trial, nor a life.
 
+- **Necessity (article 34)**: breaking a door to escape a fire, or taking water from an abandoned building so as not to die of thirst, is not a crime if the harm avoided is clearly greater than the harm done and there is no other way out. It does not cover taking goods for comfort, or violence against people.
+
+## What you may own and carry
+
+- Without a licence: torch, whistle, personal alarm, a walking stick used as such, a penknife or knife with a blade up to 10 cm (for normal use: camping, cooking), a fire extinguisher.
+- Only with a **class E licence** (PSP police): defence sprays (pepper spray) and stun guns up to 200,000 V.
+- Always banned: extendable batons, knuckledusters, flick knives and throwing knives, and **any object carried "for defence"** without a legitimate reason (a blade over 10 cm in the street with no reason is a prohibited weapon).
+- Firearms: only with the licence for that class, kept in a certified safe (EN 14450 S1) with the ammunition stored separately.
+
 ## In practice
 
 - The best self-defence is **not being there**: leave, lock yourself in, move away, call 112.
@@ -247,7 +256,7 @@ If your home is burgled or flooded, or you have to leave in a hurry, losing ever
 ## Means of defence
 
 - **Whistle, personal alarm and powerful torch**: legal; they attract attention and dazzle.
-- **Pepper spray**: defence sprays are allowed for people over 18, within the limits of the Lei das Armas (the Portuguese weapons law); buy from a licensed gun shop (armeiro). Check the current rules with the PSP. Use it only against an attack, and escape immediately afterwards.
+- **Pepper spray**: only with a **class E licence** from the PSP police (see above); without it, owning or using one is a crime. Use it only against an attack, and escape immediately afterwards.
 - **Knives and objects "for defence"**: carrying them as a weapon is a crime in many cases and increases the risk of serious injury, including to you.
 - **Firearms**: they require a licence and strict compliance with the law. If you have licensed firearms and children at home, keep them **unloaded, locked in a safe, with the ammunition locked away somewhere else**. In a crisis, with stress and fatigue, a gun at home increases the risk of an accident or a tragedy more than it protects you.
 
@@ -278,7 +287,7 @@ A self-defence course (focused on avoiding trouble, breaking free from a grab an
 
 ## {{C1}}
 
-- Always in an adult's arms, in the baby carrier or held by the hand in busy places.
+- Always in an adult's arms, in the baby carrier or held by the wrist in busy places.
 - Name and phone number written on the arm in permanent marker when on the move, and a card sewn inside the coat.
 - Brightly coloured clothes that are easy to describe. A photo taken that day, in the clothes being worn.
 

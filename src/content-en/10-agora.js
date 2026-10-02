@@ -14,11 +14,11 @@ CONTENT_EN.sections['agora'] = {
 5. **Deal with the most urgent first:** first anyone who is not breathing, then severe bleeding, then everything else.
 6. **Keep people informed and together.** Tell the family where you are and where you are going. Meeting point from the [family plan](#/t/plano).
 
->+ If you are the one in danger and cannot do anything else: make yourself seen and heard. [SOS light](#/t/sos), 3 whistle blasts, shouts in groups of 3.
+>+ If you are the one in danger and cannot do anything else: make yourself seen and heard. [SOS light](#/t/sos), 3 whistle blasts in a row (pause 1 minute and repeat), shouts in groups of 3.
 
 ## How to call 112
 
-112 works throughout the European Union, is free and works **even with no credit, no SIM or a locked screen**. If your network has no coverage, the phone uses any other network available.
+112 works throughout the European Union, is free and works **even with no credit, no SIM or a locked screen**. If your network has no coverage, the phone uses any other network available. Without a SIM card, 112 cannot call you back or receive your automatic location: always say where you are. Cars sold new since 2018 have an **SOS** button (eCall) that calls 112 and sends the position, even without a phone.
 
 Say, in this order:
 
@@ -28,7 +28,7 @@ Say, in this order:
 4. **Who you are** and your phone number.
 5. **Do not hang up** until you are told to. Answer the questions: the operator is sending help while talking to you.
 
-If you cannot speak (danger, disability): call anyway, leave the line open and, if possible, press some keys. Alternatively, send an SMS to 112 if you are registered with the SMS service for deaf people (it only works if it was activated beforehand).
+If you cannot speak (danger, disability): call anyway, leave the line open and, if possible, press some keys. Alternatively, the free **MAI112** app (install it beforehand) reaches 112 by video call with a sign-language interpreter, quick messages and sending your location.
 
 ## After calling
 
@@ -62,7 +62,7 @@ Learn from the Iberian blackout of 28 April 2025: within minutes, **card payment
 3. If you are in a lift: press the alarm button, stay calm, do not force the doors.
 4. Listen to the radio (Antena 1, the public radio, or a local station) on batteries or in the car. Do not trust rumours on social media.
 5. Fill bottles and the bath with water **now**, while there is still pressure (it can fail when the pumps stop).
-6. Contact the family by SMS (it gets through better than calls) and agree on the meeting point. Then save battery: aeroplane mode.
+6. Contact the family by SMS (it gets through better than calls) and agree on the meeting point. Then save battery: aeroplane mode, and switch the network on for 5 minutes at the top of every hour to receive messages.
 
 ## In the hours that follow
 
@@ -72,14 +72,15 @@ Learn from the Iberian blackout of 28 April 2025: within minutes, **card payment
 - Generator: **always outdoors**, 6 m from windows, never in a garage or an enclosed balcony.
 - Cash: Multibanco machines and cards do not work. Use your reserve of small notes.
 - Fuel: petrol pumps do not work without electricity. Do not waste your tank driving around.
-- Traffic: with the traffic lights out, junctions work as STOP signs. Avoid driving.
+- Traffic: with the traffic lights out, the junction's road signs apply and, with no signs, priority to the right; slow down and expect drivers who will not stop. Avoid driving.
+- Electric gates and garage doors have a manual release (a key or a lever): find out where it is before you need to get the car out.
 - Heating or cold: gather the family in one room, dress in layers, close the doors. [See keeping warm at home](#/s/casa/frio-casa).
-- Check on neighbours who are elderly, ill or have babies. Anyone who depends on oxygen or medical machines: call 112 or go to the health centre, following their plan.
+- Check on neighbours who are elderly, ill or have babies. Anyone who depends on oxygen or medical machines: call 112 or go to the hospital set out in the plan agreed beforehand ([long-term medication](#/s/saude/medicacao-cronica)).
 
 ## When the power comes back
 
 - Switch appliances back on a few at a time, with gaps in between.
-- Check the food: if frozen food still has ice crystals, it can be refrozen. If it smells bad or has been above 5 °C for more than 2 h, throw it away. If in doubt, throw it out.
+- Check the food: anything that still has ice crystals can be refrozen; anything that has thawed must be cooked and not refrozen. If it smells bad or has been above 4 °C for more than 2 h, throw it away. If in doubt, throw it out.
 - Replace the water and batteries you used. Write down what you were missing.
 
 >+ Preparation that makes a difference: battery radio, head torch, charged power bank, €50 to €100 in small notes, camping stove with gas cartridges, 20 L of stored water, extension lead with surge protection.
@@ -89,7 +90,7 @@ Learn from the Iberian blackout of 28 April 2025: within minutes, **card payment
 
 **Drop. Cover. Hold on.**
 
-![Drop, cover, hold on](fig:sismo)
+![Drop, cover, hold on: under a table, holding one of its legs, head and neck protected.](img:sismo.jpg)
 
 - **Indoors:** get down, get **under a sturdy table** and hold on to its legs. If there is none, get against an interior wall, away from windows, mirrors, bookcases and lamps, and protect your head and neck with your arms. **Do not run outside** during the shaking: what injures people most is what falls from the fronts of buildings.
 - **In bed:** stay in bed and protect your head with the pillow.
@@ -101,11 +102,11 @@ Learn from the Iberian blackout of 28 April 2025: within minutes, **card payment
 ## Straight afterwards
 
 1. Expect **aftershocks**: they can be strong and bring down whatever has been weakened.
-2. Check whether anyone around you is injured. [First aid](#/s/socorros).
+2. Put on closed shoes (broken glass), pick up the torch and the grab bag.
 3. **Smell gas?** Do not turn on lights or use lighters, do not touch switches. Open the windows, turn off the gas valve and get out.
-4. Put on closed shoes (broken glass) and take the grab bag.
+4. Check whether anyone around you is injured: first whoever is not breathing, then whoever is bleeding heavily. [First aid](#/s/socorros).
 5. If the building has visible damage (large cracks, cracked pillars, doors that no longer close), **leave** calmly by the stairs and do not go back in.
-6. Outside, keep away from building fronts, balconies and chimneys. Go to the meeting point in the [plan](#/t/plano).
+6. Outside, keep away from building fronts, balconies and chimneys. Near the sea after a strong or long earthquake? High ground first (see "Tsunami risk" below); only then the meeting point in the [plan](#/t/plano).
 7. Radio on. Phone for SMS only.
 
 ## Tsunami risk (Portugal has it)
@@ -129,18 +130,19 @@ If you are near the sea and feel a **strong or long** earthquake (hard to stay o
     'incendio-casa': { title: 'House fire', desc: 'Smoke, kitchen fire, getting out safely.', md: `
 ## If the fire is small (smaller than a wastepaper bin)
 
-- **Pan of burning oil:** cover it with a lid or a wet cloth and turn off the cooker. **Never pour water on it** (it explodes into a fireball).
+- **Pan of burning oil:** cover it with a lid or a damp, well wrung-out cloth and turn off the cooker. **Never pour water on it** (it explodes into a fireball).
 - Electrical appliance: unplug it, or switch it off at the fuse box, before anything else. Powder or CO2 extinguisher. Do not use water on appliances that are plugged in.
 - Use the extinguisher, **P.A.S.S.**: pull the pin, aim at the base of the flames, squeeze the handle, sweep from side to side. Keep your back to the exit.
 - If it is not under control within 30 seconds, **get out**.
+- Fire out? Check that no embers are left and no smoke is coming out of appliances or walls. If in doubt, call 112 anyway.
 
-![Using the extinguisher: P.A.S.S.](fig:pass)
+![Using the extinguisher: pull the pin, aim at the base of the flames, squeeze the handle and sweep from side to side, from 2 or 3 metres.](img:extintor.jpg)
 
 ## If the fire is big or there is a lot of smoke
 
 1. **Shout "FIRE"** to wake everyone up. Do not waste time getting dressed or taking belongings.
 2. **Get out low.** Smoke kills more people than flames: crawl, the air near the floor is breathable. A damp cloth over your nose and mouth.
-3. **Touch doors with the back of your hand** before opening them. Hot? Do not open it: use another exit, or stay and seal the room.
+3. **Touch doors with the back of your hand** before opening them. Hot? Do not open: use another exit, or stay and seal the room.
 4. Close the doors behind you: every closed door holds the fire back for minutes.
 5. **Never use the lift.**
 6. Once outside, call **112**. Go to the meeting point and count everyone. **Never go back inside.**
@@ -167,17 +169,19 @@ If you are near the sea and feel a **strong or long** earthquake (hard to stay o
     'incendio-rural': { title: 'Wildfire', desc: 'Home near scrubland, trapped on the road, smoke coming closer.', md: `
 ## If a fire is approaching your area
 
-1. Radio or SMS from Proteção Civil (Civil Protection): **if there is an evacuation order, obey it early**. Leaving late, with smoke and closed roads, is the deadliest situation.
-2. If you decide to stay (only if the house is prepared and cleared of vegetation around it, with water and no heavy smoke):
+1. Can you see flames or new smoke? Call **112**. Radio or SMS from Proteção Civil (Civil Protection): **if there is an evacuation order, obey it early**. Leaving late, with smoke and closed roads, is the deadliest situation.
+2. With no evacuation order, if you decide to stay (only if the house is prepared and cleared of vegetation around it, with water and no heavy smoke):
    - Close doors, windows, shutters and vents. Take down the curtains. Wet the roof and the area around the house if you have water.
    - Fill buckets, the bath and the sinks. Have a hose connected.
    - Long cotton clothing, boots, gloves, goggles, a damp cloth for your face.
    - Move gas bottles, firewood, garden furniture and rubbish bags away from the house.
    - Car facing the way out, with the key, windows closed, in the garage or next to the house (not in the scrub).
    - Stay inside the house while the fire front passes (10 to 20 min). Then go out and put out small spot fires (roof, eaves, outdoor curtains).
+- In a village covered by the **Aldeia Segura / Pessoas Seguras** programme there is an agreed shelter point (parish hall, square, sports hall) and a local safety officer: find out about them before the summer and go there when leaving is no longer safe.
 
 ## Trapped outdoors
 
+- If you have a signal, call **112** and say where you are (road, kilometre marker, coordinates from [messages](#/t/mensagens)), whether on foot or in the car.
 - **Never flee uphill** or ahead of the fire: fire climbs faster than you can. Escape to the side or downhill, onto ground that has already burnt, a wide road, a ploughed field, water, rock.
 - No way out: lie down in an area with no vegetation (road, bare earth), face down, feet towards the fire, and cover yourself with earth or a wool blanket. Breathe close to the ground.
 - Swimming pool, river or lake: get in and keep your body in the water, with your head protected by a wet cloth.
@@ -193,22 +197,23 @@ If you are near the sea and feel a **strong or long** earthquake (hard to stay o
 - Clear the scrub in a 50 m radius around the house (a legal obligation in Portugal). No trees touching the roof, no firewood stacked against the wall.
 - Fine mesh over the loft vents. Gutters clear of leaves.
 - Grab bag ready from June to October. Agree with the family where to go.
-- Follow the warnings from IPMA (weather institute: fire danger) and ANEPC (Proteção Civil). On days of maximum fire danger, do not use machinery in scrubland or light fires.
+- Follow the warnings from IPMA (weather institute: fire danger) and ANEPC (Proteção Civil). On days of very high or maximum fire danger, using machinery in scrubland and lighting any fire are banned.
 ` },
     cheia: { title: 'Flood', desc: 'Rising water, car in the water, after the flood.', md: `
 ## Rising water
+![Before the water arrives, if there is time and you have sandbags: two-thirds full, closed by folding the flap underneath, laid in staggered rows like bricks, with plastic sheeting under and over them.](img:sacos-areia.jpg)
+
 
 - **15 cm of moving water knocks a person over; 30 cm sweeps a car away.** Never cross moving water, on foot or by car. Depth is deceptive and the road surface may have gone.
-- Go up: upper floors, the roof if necessary. Take the kit, water, mobile phone, radio and warm clothes.
-- Switch off the electricity at the fuse box **before** the water reaches the sockets. Never touch electrical appliances with wet feet.
-- Turn off the gas.
+- Switch off the electricity at the fuse box **before** the water reaches the sockets, and turn off the gas. Never touch electrical appliances with wet feet.
+- Then go up: upper floors, the roof if necessary. Take the kit, water, mobile phone, radio and warm clothes.
 - Signal that you are there (a cloth at the window, a light). Call 112 if you are in danger.
 - Avoid basements, garages, tunnels and underpasses.
 
 ## In the car
 
 - If the water rises around the car, **get out immediately** and go to high ground. Do not wait.
-- If the car goes into the water: undo your seatbelt, open or break the window (headrest: its metal prongs break the glass at the corner), and get out through the window **before** the car fills up. The doors will not open against the water pressure.
+- If the car goes into the water you have about **1 minute**, in this order: **seatbelt** (yours), **window** (open it now, or break it with a glass-breaking tool within reach; the headrest is unreliable, and the laminated side windows of many recent cars will not break), **children** (unbuckle the oldest first, who can then help, and pass them out of the window), **out**. The doors will not open against the water pressure. If the window will not open or break, the last resort is to wait until the car is almost full: then the pressure equalises and the door opens.
 
 ## After the flood
 
@@ -290,6 +295,7 @@ Full guide: [Air raid alert and shelter](#/s/guerra/alerta-aereo).
 
 ## Afterwards
 
+- Call **112** (or ask someone else to call): where, what happened, how many injured.
 - First aid: [severe bleeding](#/s/socorros/hemorragia) is the priority. Tourniquet if needed.
 - Leave the area, let the family know by SMS, do not spread rumours.
 ` },
@@ -298,7 +304,7 @@ Full guide: [Air raid alert and shelter](#/s/guerra/alerta-aereo).
 
 **Get in. Stay in. Tune in.**
 
-1. **Get in** to the nearest solid building (concrete, brick), to the middle of it or the basement. Do not go to fetch family members from somewhere else: they should also shelter where they are. You have **10 to 15 minutes** before radioactive fallout starts to come down.
+1. **Get in** to the nearest solid building (concrete, brick), to the middle of it or the basement. Do not go to fetch family members from somewhere else: they should also shelter where they are. In a **nuclear explosion** you have **10 to 15 minutes** before radioactive fallout starts to come down; in a power-plant accident the plume takes hours and you follow the authorities' instructions.
 2. **Stay in** for at least **24 hours** (the first 24 h are the most dangerous; radiation drops very quickly). Close windows, doors and vents; turn off the air conditioning.
 3. If you were outside: **take off your outer clothing** (it removes up to 90% of the contamination) and put it in a sealed bag away from people; shower with soap or wipe your skin with a damp cloth; do not use hair conditioner. Blow your nose.
 4. **Tune in** to the radio (Antena 1, the public radio) for instructions: when to leave, where to go, whether iodine tablets are being handed out.
@@ -311,7 +317,7 @@ Full guide: [Nuclear and radiation](#/s/guerra/nuclear).
 
 - If the cloud is coming from outside: **get in**, close everything, go upstairs (many gases are heavier than air), seal the room with wet towels and tape, turn off the ventilation. Listen to the radio.
 - If the leak is indoors (cooking gas): **do not light anything, do not touch switches**, open the windows, turn off the valve, get out and call 112 and the gas company from outside.
-- If you are outdoors: move away **into the wind** (the wind should be blowing in your face) and to high ground. Cover your nose and mouth with a damp cloth.
+- If you are outdoors: get out of the cloud **sideways, at right angles to the wind** (never downwind, which carries you with it), to high ground, and get at least 1 km away. Cover your nose and mouth with a damp cloth.
 - Contamination on the skin or clothes: take the clothes off (cut them off instead of pulling them over your head), wash with plenty of water and soap for 15 minutes, and rinse the eyes with water for 15 minutes.
 - Symptoms (coughing, burning eyes, difficulty breathing, confusion): 112, fresh air, no physical exertion.
 
@@ -335,6 +341,8 @@ Full guide: [Chemical and biological](#/s/guerra/quimico-bio).
 - Keep a record: temperature twice a day, what they eat and drink, symptoms.
 
 ## When to call 112 or SNS 24
+
+Call **112** if the person is struggling to breathe, cannot be woken, is having seizures or has spots that do not fade when pressed. For the other signs, call SNS 24 (808 24 24 24) first.
 
 - Difficulty breathing, bluish lips, chest pain.
 - Confusion, hard to wake, seizures.
@@ -377,7 +385,7 @@ Full guide: [Chemical and biological](#/s/guerra/quimico-bio).
 ## First
 
 - It is not your phone: do not waste battery restarting it. Try an SMS (it gets through on congested networks). Try 112 only if it is a real emergency.
-- Aeroplane mode, and switch the network on every 30 minutes for 2 minutes to receive messages.
+- Aeroplane mode, and switch the network on for 5 minutes at the top of every hour to receive messages.
 - Wi-Fi from neighbours, cafés or public hotspots may work when the mobile network does not (and vice versa).
 - Battery or car radio: Antena 1 (public radio) and local stations broadcast instructions from Proteção Civil (Civil Protection).
 
@@ -407,7 +415,7 @@ Grab and go, in this order:
 4. House and car keys.
 5. Clothes and shoes suited to the weather.
 
-Lock the door. Do not go back. Take the agreed route, on foot if the roads are at a standstill.
+Lock the door. Do not go back. Take the agreed route, on foot if the roads are at a standstill. Once you are safe, let the family and your out-of-area contact know by SMS.
 
 ## With time (1 to 2 hours)
 
@@ -437,12 +445,14 @@ Lock the door. Do not go back. Take the agreed route, on foot if the roads are a
 ` },
     carro: { title: 'Stuck in the car', desc: 'Snow, flood, breakdown in a remote area, traffic jam lasting hours.', md: `
 ## Golden rule
+![A window-breaker hammer, like the ones on buses and trains: hit a corner of a side window, never the windscreen. Keep one in the car within the driver's reach, with a seat-belt cutter.](img:martelo-vidros.jpg)
 
-**The car is a shelter, a signal and a resource.** Only leave it if it is in danger (rising water, fire, unstable road) or if you know exactly where to go a short distance away.
+
+**The car is a shelter, a signal and a resource.** Only leave it if it is in danger (rising water, the car itself on fire, unstable road, stopped in a lane with traffic) or if you know exactly where to go a short distance away. Surrounded by a wildfire, the car protects you more than fleeing on foot: see [Wildfire](#/s/agora/incendio-rural).
 
 ## Stuck in snow or cold
 
-- Stay in the car. Run the engine for 10 minutes every hour for heat, with the **exhaust pipe clear of snow** (carbon monoxide) and a window slightly open.
+- Call **112** (or send an SMS, if the call does not get through) and say where you are. Stay in the car. Run the engine for 10 minutes every hour for heat, with the **exhaust pipe clear of snow** (carbon monoxide) and a window slightly open.
 - Layers of clothing, a blanket, newspapers or car mats for insulation. Move your arms and legs. Do not sleep with the engine running.
 - Tie a brightly coloured cloth to the aerial or the door. Interior light on at night (it uses little power).
 - Do not walk through the snow looking for help unless you can see a building less than 100 m away.
@@ -450,7 +460,7 @@ Lock the door. Do not go back. Take the agreed route, on foot if the roads are a
 
 ## Breakdown in a remote area
 
-- Get out of the car on the side away from the traffic and move away from the carriageway. Warning triangle at least 30 m away, visible from 100 m, hi-vis vest.
+- Put on the hi-vis vest while still inside the car, get out on the side away from the traffic and move away from the carriageway. Warning triangle at least 30 m away, visible from 100 m.
 - Call 112 or your breakdown service. Give the kilometre point (small signs on the verge) and the direction of travel.
 - Stay on the outside of the crash barrier, never inside a car stopped on the carriageway.
 

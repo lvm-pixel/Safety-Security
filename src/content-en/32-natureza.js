@@ -1,9 +1,9 @@
 CONTENT_EN.sections['natureza'] = {
   title: 'Food from nature',
-  desc: 'Fishing, traps, hunting, preparing the meat, wild plants and producing food. For real emergencies, within the law.',
+  desc: 'Fishing, traps, hunting, preparing the meat, wild plants and producing food. For real emergencies, and what the law allows.',
   pages: {
     antes: { title: 'Before you start: law and priorities', desc: 'What gives the most food for the effort, what is legal in normal times and when it makes sense.', md: `
->! In normal times, **hunting without a hunter's certificate (carta de caçador) and a licence is a crime**, fishing without a licence is an administrative offence, and **snares, traps and nets are banned**. What is in this section is for a real emergency with no other source of food: lost in the countryside for days, or a long crisis in which food distribution has stopped. To learn to hunt properly, the way to do it is to get a hunter's certificate.
+>! In normal times, **hunting without a hunter's certificate (carta de caçador) is a crime** (with the certificate but without the annual licence, an administrative offence), fishing without a licence is an administrative offence (recreational fishing licence from DGRM for the sea, from ICNF for rivers and reservoirs; paid at a Multibanco cash machine under "Pagamentos ao Estado"; under-16s fish accompanied by a licence holder; fines of €200 to €2,000), and **snares, traps and nets are banned** (hunting with them is a crime). What is in this section is for a real emergency with no other source of food: lost in the countryside for days, or a long crisis in which food distribution has stopped. To learn to hunt properly, the way to do it is to get a hunter's certificate.
 
 ## Food is the last priority
 
@@ -31,7 +31,7 @@ Improvised bows, catapults and spears almost never work in the hands of someone 
 - Take only what you need and dismantle all the traps when you leave.
 ` },
     pesca: { title: 'Survival fishing', desc: 'Improvised hooks and lines, bait, where the fish are, passive fishing and shellfish.', md: `
-![Improvised fishing gear](fig:pesca-improvisada)
+![A hand-made bone fish hook. You can copy the shape with a bent safety pin, a thorn or a sliver of bone; simpler still is the "gorge" (a 3 cm stick sharpened at both ends and tied in the middle), which the fish swallows with the bait. Line: the inner strands of paracord, dental floss or doubled sewing thread.](img:anzol-osso.jpg)
 
 ## Gear
 
@@ -54,10 +54,12 @@ Earthworms (easiest to find after rain, under stones and logs), grubs, grasshopp
 
 ## Passive fishing (it works while you do other things)
 
-![Bottle fish trap](fig:nassa-garrafa)
+Only in a real emergency, like snares: see [law and priorities](#/s/natureza/antes).
+
+![Bottle fish trap: the top third cut off and reversed makes the entry funnel; a few holes so the water circulates, the funnel fixed with string or wire, and a weight underneath. Mouth facing downstream.](img:nassa-garrafa.jpg)
 
 - **Set line**: several baited hooks on a line tied to a branch or stake, left overnight. Check it in the morning.
-- **Bottle fish trap**: cut off the top third of a large plastic bottle, fit it upside down inside the rest, put bait inside and a stone to sink it. Small fish swim in and cannot find their way out. Place it in a calm spot, with the entrance facing downstream.
+- **Bottle fish trap**: cut off the top third of a large plastic bottle, fit it upside down inside the rest and fix it (string, wire or staples), make a few holes so the water circulates, put bait inside and a stone to sink it. Small fish swim in and cannot find their way out. Place it in a calm spot, with the entrance facing downstream.
 - **Stone barrier** in a shallow stream, in a V shape, that guides the fish into a closed pool where you catch them by hand or with an improvised net.
 
 ## Pronged spear
@@ -67,7 +69,7 @@ A straight 1.5 m stick, with the tip split into 2 to 4 prongs, held apart with a
 ## Shellfish
 
 - Mussels (mexilhões), limpets (lapas), cockles (berbigão) and clams (amêijoas) can build up invisible **toxins** that heat does not destroy. IPMA (the sea and weather institute) publishes the areas where harvesting is banned: if you do not know, **do not eat bivalves**.
-- Limpets and winkles (caramujos) from rocks pounded by the sea are safer than bivalves from still water. Always well cooked.
+- Limpets and winkles (caramujos) from rocks pounded by the sea are safer than bivalves from still water, but they pick up toxins too: the same IPMA warnings apply. Always well cooked.
 - Never gather shellfish near sewage outlets or harbours, or after floods.
 
 ## Cleaning and cooking the fish
@@ -89,7 +91,7 @@ Remove the scales by scraping from the tail towards the head, slit the belly fro
 
 1. Thin, flexible wire (0.5 to 1 mm brass, or thin steel cable), 60 to 80 cm long.
 2. Make a small eye at one end and pass the other end through it: this gives you a running noose.
-3. **Opening about 10 cm across** (a fist), with the bottom of the loop **a hand span above the ground**.
+3. **Opening about 10 cm across** (four fingers), with the bottom of the loop **a fist above the ground** (7 to 10 cm).
 4. Tie the other end firmly to a stake driven well into the ground or to a strong bush.
 5. Use sticks and branches on either side to "funnel" the run towards the snare, without changing the spot too much.
 6. Touch as little as possible and rub the wire and your hands with earth to remove the human scent.
@@ -105,7 +107,7 @@ Remove the scales by scraping from the tail towards the head, slit the belly fro
 
 - **Bottle fish trap** for fish: see [fishing](#/s/natureza/pesca).
 - **Deadfall trap** (a heavy flat stone propped on a figure-4 trigger made of sticks): works for rats and small birds, but it takes a lot of practice and it is easy to hurt your fingers setting it.
-- Wild birds and their eggs are protected: stick to rabbits, field mice and fish.
+- Most wild birds, and all nests and eggs, are protected (the game species are in [hunting](#/s/natureza/caca)): with traps, stick to rabbits, field mice and fish.
 ` },
     caca: { title: 'Hunting: the legal path', desc: 'Hunter’s certificate, species, firearm safety, and why improvised hunting rarely works.', md: `
 ## Learning to hunt in Portugal
@@ -150,9 +152,9 @@ Improvised bows, catapults, spears and bolas rarely hit a wild animal, and a wou
 
 1. Pinch the skin on the back, make a small cut and push your fingers in. Pull the skin in opposite directions, like taking off a glove, down to the legs and the neck.
 2. Cut off the head and the feet.
-3. Open the belly with a shallow cut, from between the hind legs up to the ribs, **without piercing the intestines**: slide two fingers under the knife to lift the skin.
+3. Open the belly with a shallow cut, from between the hind legs up to the ribs, **without piercing the intestines**: slide two fingers under the knife to lift the belly wall, keeping it away from the guts.
 4. Remove the guts. Keep the heart, the kidneys, and the liver if it is healthy.
-5. Wash inside and out with clean water. Cut into pieces.
+5. Wash the meat inside and out with clean water, then your hands and the knife. Cut into pieces.
 
 ## Birds
 
@@ -166,7 +168,7 @@ Pluck the bird dry while it is still warm (or dip it for 1 minute in boiling wat
 
 ## Preserving
 
-Thin salted strips dried in the sun and wind, or smoked: see [preserving without refrigeration](#/s/comida/conservar). Fresh meat without refrigeration keeps for one day; cooked, for two.
+Thin salted strips dried in the sun and wind, or smoked: see [preserving without refrigeration](#/s/comida/conservar). Fresh meat without refrigeration: cook it the same day and eat what you cooked within 2 hours, or salt and dry it straight away. Wild boar only **well done** (trichinosis), never tasted raw.
 
 ## Leftovers
 
@@ -186,6 +188,10 @@ Skin, guts and bones buried at least 30 cm deep, away from the water and the cam
 | **Thorn apple, castor oil plant, yew, arum lily** (estramónio, mamona, teixo, jarro) | Waste ground, gardens | Very toxic |
 | **Horse chestnut** (castanheiro-da-índia) | Gardens, avenues | The fruits look like chestnuts and are toxic |
 
+![Hemlock water dropwort (embude, Oenanthe crocata): umbels of white flowers and celery-like leaves, in ditches and on stream banks. The root, a bundle of tubers, is deadly.](img:planta-embude.jpg)
+
+![Hemlock (cicuta, Conium maculatum): a tall plant of roadsides and waste ground, with white umbels, a smooth stem with purple blotches and an unpleasant smell.](img:planta-cicuta.jpg)
+
 Golden rule: **never eat plants with umbrella-shaped flower heads** (the carrot and parsley family), unless you are absolutely certain. Hemlock water dropwort and hemlock both belong to that family.
 
 ## Common edible plants that are easy to recognise
@@ -197,7 +203,7 @@ Golden rule: **never eat plants with umbrella-shaped flower heads** (the carrot 
 - **Plantain** (tanchagem): leaves with parallel veins. Young leaves, boiled.
 - **Sorrel** (azedas): sour taste. In small amounts (it contains oxalates).
 - **Wild asparagus** (espargos bravos): shoots in spring, in hedgerows. Boiled.
-- **Watercress** (agrião): only cooked if it comes from streams with livestock nearby (liver parasites).
+- **Watercress** (agrião): only cooked if it comes from streams with livestock nearby (liver parasites). It grows in the same places as hemlock water dropwort: unless you are absolutely sure of the plant, do not pick it.
 
 ## Fruit, seeds and nuts
 

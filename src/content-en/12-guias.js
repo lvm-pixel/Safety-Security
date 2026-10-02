@@ -22,9 +22,9 @@ GUIAS_EN['sismo'] = { t: 'Earthquake', passos: [
 ] };
 
 GUIAS_EN['incendio-rural'] = { t: 'Approaching wildfire', passos: [
-  { /* 0 */ t: 'What is the situation?', d: 'Listen to {{radio_zona}} and read the SMS alerts from Proteção Civil (Civil Protection).', p: { q: 'Is there an evacuation order, thick smoke or flames in sight?' } },
+  { /* 0 */ t: 'What is the situation?', d: 'Can you see flames or new smoke? Call 112 and say where. Listen to {{radio_zona}} and read the SMS alerts from Proteção Civil (Civil Protection).', p: { q: 'Is there an evacuation order, thick smoke or flames in sight?' } },
   { /* 1 sair */ t: 'Leave early', d: 'Leaving late, through smoke and closed roads, is the deadliest situation. Take people, animals, the grab bag, documents and medication.' },
-  { /* 2 */ t: 'On the road with smoke or flames', d: '**Stay in the car** in a spot with no vegetation, headlights and hazard lights on, windows and vents closed, engine running. Lie down below the windows and cover yourself with clothing or a wool blanket. Get out when the fire front has passed.' },
+  { /* 2 */ t: 'On the road with smoke or flames', d: 'If you have a signal, call 112 and say where you are (road, km marker). **Stay in the car** in a spot with no vegetation, headlights and hazard lights on, windows and vents closed, engine running. Lie down below the windows and cover yourself with clothing or a wool blanket. Get out when the fire front has passed.' },
   { /* 3 */ t: 'Trapped on foot', d: '**Never run uphill** or ahead of the fire. Go sideways or downhill, to ground that has already burnt, a wide road, water or rock. No way out: lie down in a spot with no vegetation, face down, feet towards the fire, and cover yourself with soil or a wool blanket.' },
   { /* 4 preparar */ t: 'Prepare the house', d: 'Close doors, windows, shutters and vents, and take down the curtains. Fill buckets and the bath and connect the hose. Move gas cylinders, firewood and garden furniture away from the house.' },
   { /* 5 */ t: 'Prepare the car and clothing', d: 'Car facing the way out, key ready, windows closed. Long cotton clothes, boots, gloves, goggles and a damp cloth for your face. Grab bag by the door.' },
@@ -32,10 +32,10 @@ GUIAS_EN['incendio-rural'] = { t: 'Approaching wildfire', passos: [
 ] };
 
 GUIAS_EN['cheia'] = { t: 'Flood', passos: [
-  { /* 0 */ t: 'Never cross moving water', d: '15 cm of moving water knocks a person over and 30 cm sweeps a car away. Not on foot, not by car: the road surface may have gone.' },
+  { /* 0 */ t: 'Never cross moving water', d: '15 cm of moving water knocks a person over and 30 cm sweeps a car away. Not on foot, not by car: the road surface may have gone.', p: { q: 'Are you in a car with the water rising?' } },
   { /* 1 */ t: 'Switch off the power and turn off the gas', d: 'At the fuse box, **before** the water reaches the sockets. Never touch electrical appliances with wet feet.' },
-  { /* 2 */ t: 'Move up with the essentials', d: 'Upper floors, the roof if necessary. Take the kit, water, mobile phone, radio and warm clothes. Avoid basements, garages, tunnels and underpasses.', p: { q: 'Are you in a car with the water rising?' } },
-  { /* 3 carro */ t: 'Get out now and go to high ground', d: 'Do not wait. If the car goes into the water: undo your seatbelt, open or break the window (the metal prongs of the headrest break the glass at a corner) and get out through the window **before** the car fills up.' },
+  { /* 2 */ t: 'Move up with the essentials', d: 'Upper floors, the roof if necessary. Take the kit, water, mobile phone, radio and warm clothes. Avoid basements, garages, tunnels and underpasses.' },
+  { /* 3 carro */ t: 'Get out now and go to high ground', d: 'Do not wait. If the car goes into the water you have about 1 minute: **seatbelt, window, children, out**. Open the window now or break it with a proper tool (the headrest is unreliable); unbuckle the oldest child first and pass them out of the window; get out **before** the car fills up. If the window will not open or break, the last resort is to wait until the car is almost full: then the pressure equalises and the door opens.' },
   { /* 4 sinal */ t: 'Signal and ask for help', d: 'A cloth at the window, a light at night. Call 112 if you are in danger.' },
 ] };
 
@@ -43,16 +43,16 @@ GUIAS_EN['apagao'] = { t: 'Blackout', passos: [
   { /* 0 */ t: 'Just your home or the whole area?', d: 'Check the fuse box, the neighbours and the street. Turn on a battery radio or the car radio: {{radio_zona}}.' },
   { /* 1 */ t: 'Switch off sensitive appliances', d: 'Computer, TV and anything with electronics, because of surges when the power comes back. Leave one light switched on so you know when it is back.' },
   { /* 2 */ t: 'Store water now', d: 'Bottles and the bath, while there is still pressure: the pumps in blocks of flats may stop.' },
-  { /* 3 */ t: 'Tell your family and save battery', d: 'SMS gets through better than calls: [quick messages](#/t/mensagens). Then Aeroplane mode, and turn the network on for 5 minutes every hour.', ios: 'Low Power Mode in Control Centre. On an iPhone 15 or later, you can charge another phone through the USB-C cable.' },
+  { /* 3 */ t: 'Tell your family and save battery', d: 'SMS gets through better than calls: [quick messages](#/t/mensagens). Then Aeroplane mode, and turn the network on for 5 minutes at the top of every hour.', ios: 'Low Power Mode in Control Centre. On an iPhone 15 or later, you can charge another phone through the USB-C cable.' },
   { /* 4 */ t: 'Keep the fridge and freezer closed', d: 'The fridge stays cold for 4 hours; a full freezer for 48 hours and a half-full one for 24. Blackout mode keeps track of the time for you.' },
-  { /* 5 */ t: 'Safety in the hours that follow', d: 'Torches instead of candles. Generators, charcoal and barbecues **never indoors**. Traffic lights out: treat junctions as a STOP sign. Check on neighbours who are elderly, ill or have babies.' },
+  { /* 5 */ t: 'Safety in the hours that follow', d: 'Torches instead of candles. Generators, charcoal and barbecues **never indoors**. Traffic lights out: road signs apply and, with no signs, priority to the right; slow down. Check on neighbours who are elderly, ill or have babies.' },
 ] };
 
 GUIAS_EN['ataque'] = { t: 'Explosion, air raid or gunfire', passos: [
   { /* 0 */ t: 'What is happening?', d: 'The two situations need different responses.', p: { q: 'Explosion or air raid alert, or gunfire and an armed attacker?', simT: 'Explosion or air raid alert', naoT: 'Gunfire or attacker' } },
   { /* 1 chao */ t: 'Get down on the ground now', d: 'Face down, head away from windows, hands protecting your head and the back of your neck, mouth slightly open. Behind something solid, if possible.' },
   { /* 2 */ t: 'Wait 1 to 2 minutes', d: 'There may be a second explosion or falling debris.', tempoT: 'Wait on the ground' },
-  { /* 3 */ t: 'Go to the nearest shelter', d: 'Basement, underground car park, metro, or the lowest inside room, with **two walls** between you and the outside. At home: {{plano_abrigo}}. During an air raid alert, go to the shelter, not home, and stay until the all-clear.' },
+  { /* 3 */ t: 'Go to the nearest shelter', d: 'Basement, underground car park, metro, or the lowest inside room, with **two walls** between you and the outside. At home: {{plano_abrigo}}. In the street with no shelter: a ditch, a hole or the base of a sturdy wall, away from glass and cars. During an air raid alert, go to the shelter, not home, and stay until the all-clear.' },
   { /* 4 */ t: 'Do not go closer or take photos', d: 'There may be another attack. Do not touch suspicious objects. With casualties, severe bleeding is the priority.' },
   { /* 5 fugir */ t: 'Run, if there is a safe way out', d: 'Leave everything, hands visible and empty. Take anyone you can, but do not wait for anyone who will not come. Get several streets away.', p: { q: 'Did you get away?' } },
   { /* 6 esconder */ t: 'Hide in silence', d: 'A room with a door that locks or that you can block with furniture. Lights off, phone on silent with vibration off, away from the door and windows, behind concrete. Call 112 silently and leave the line open.', ios: 'With Call Quietly turned on in Emergency SOS, pressing the side button 5 times calls 112 without the warning sound.' },
@@ -62,13 +62,13 @@ GUIAS_EN['ataque'] = { t: 'Explosion, air raid or gunfire', passos: [
 
 GUIAS_EN['nuclear-quimico'] = { t: 'Nuclear, radiological or chemical', passos: [
   { /* 0 */ t: 'What kind of danger?', d: 'Follow the authorities’ orders as soon as you hear them.', p: { q: 'Radiation (nuclear accident, explosion) or a chemical cloud and gas leaks?', simT: 'Radiation', naoT: 'Chemical or gas' } },
-  { /* 1 entra */ t: 'Get into the nearest solid building', d: 'Concrete or brick, in the middle or in the basement. **Do not go to fetch family members** from elsewhere: they should also shelter where they are. You have 10 to 15 minutes before radioactive fallout starts coming down.', tempoT: 'Time to take shelter' },
+  { /* 1 entra */ t: 'Get into the nearest solid building', d: 'Concrete or brick, in the middle or in the basement. **Do not go to fetch family members** from elsewhere: they should also shelter where they are. In an explosion you have 10 to 15 minutes before radioactive fallout starts coming down; in a power-plant accident, follow the authorities.', tempoT: 'Time to take shelter' },
   { /* 2 */ t: 'Close everything and stay in for at least 24 hours', d: 'Windows, doors and vents closed, air conditioning off. The first 24 hours are the most dangerous.' },
   { /* 3 */ t: 'If you were outside, take off your outer clothes', d: 'Put them in a closed bag away from people. Shower with soap, or use a damp cloth, no conditioner. Blow your nose.' },
   { /* 4 */ t: 'Listen to the radio', d: 'Tune in to {{radio_zona}} and wait for instructions: when to leave, where to go, whether iodine tablets are being handed out.' },
   { /* 5 */ t: 'Iodine tablets only when the authorities say so', d: 'They only protect the thyroid from radioactive iodine. Doses: {{familia_ki}}. Do not take tincture of iodine or disinfectants.' },
   { /* 6 onde */ t: 'Where is it coming from?', d: 'A leak inside the house and a cloud outside are handled in opposite ways.', p: { q: 'Is the cloud coming from outside, or is there a smell of gas inside the house?', simT: 'From outside', naoT: 'Gas indoors' } },
-  { /* 7 nuvem */ t: 'Get inside, close everything and go upstairs', d: 'Many gases are heavier than air. Seal the room with wet towels and tape, and switch off the ventilation. Outside: move away with the wind in your face, to high ground, with a damp cloth over your nose and mouth.' },
+  { /* 7 nuvem */ t: 'Get inside, close everything and go upstairs', d: 'Many gases are heavier than air. Seal the room with wet towels and tape, and switch off the ventilation. Outside: get out of the cloud sideways, at right angles to the wind, to high ground, with a damp cloth over your nose and mouth.' },
   { /* 8 */ t: 'Contamination on the skin: wash for 15 minutes', d: 'Cut clothing off instead of pulling it over the head. Lots of soap and water; rinse eyes under running water. Coughing, burning eyes, shortness of breath or confusion: 112.', tempoT: 'Washing' },
   { /* 9 gas */ t: 'Do not light anything, open the windows and get out', d: 'Do not touch switches. Turn off the valve, get out and call 112 and the gas company from outside.' },
 ] };

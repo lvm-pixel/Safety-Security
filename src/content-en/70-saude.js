@@ -5,13 +5,15 @@ CONTENT_EN.sections['saude'] = {
     higiene: { title: 'Hygiene without running water', desc: 'Keeping clean and avoiding infections with 2 litres a day.', md: `
 ## Priorities (what prevents illness)
 
-1. **Hands**: before eating, cooking or treating wounds; after using the toilet, touching rubbish or touching sick people. Soap and water (20 seconds) or alcohol gel of 60% or more. A water jug with a tap, or a bottle with a small hole in the cap, uses 200 ml per wash.
+1. **Hands**: before eating, cooking or treating wounds; after using the toilet, touching rubbish or touching sick people. Soap and water (20 seconds) or alcohol gel of 60% or more. A water jug with a tap, or a bottle with a small hole in the cap, uses 100 to 200 ml per wash (half a glass to a glass).
 2. **Teeth**: brush twice a day (toothache with no dentist is a serious problem). Half a glass of water. No toothpaste: bicarbonate of soda or just the brush.
 3. **High-risk areas**: armpits, groin, feet, between the toes, genitals. A damp cloth with soap, or wipes, once a day. Dry well (fungi grow in damp).
 4. **Underwear and socks**: change them every day if possible; if not, turn them inside out and air them in the sun. Sun and air kill bacteria.
 5. **Hair and whole body**: once a week is enough. A 2 L "shower": wet yourself with a mug, soap up, rinse with the rest.
 
 ## Saving water
+![A bottle washstand ("tippy tap"): a hanging bottle with a small hole in the cap, tipped with a hand or a foot; washes your hands with half a glass of water.](img:tippy-tap.jpg)
+
 
 - Wipes (baby or adult), alcohol gel, dry shampoo.
 - Washing from a basin: 3 to 5 L for the whole body, from top to bottom; the used water can flush the toilet or wash the floor.
@@ -31,7 +33,7 @@ Wipe with paper before washing. Two basins: one with soap, the other with a few 
 
 ## Home
 
-Disinfect the bathroom once a day with bleach diluted 1:50. Rubbish kept closed. See [sanitation](#/s/casa/saneamento).
+Disinfect the bathroom once a day with bleach diluted 1:50; 1:10 wherever there are faeces or vomit. Rubbish kept closed. See [sanitation](#/s/casa/saneamento).
 ` },
     doencas: { title: 'Common illnesses in a crisis', desc: 'Preventing and treating at home what appears when services fail.', md: `
 ## What appears first
@@ -68,7 +70,7 @@ Difficulty breathing, chest pain, sudden confusion, seizure, fever with spots on
 
 ## Antibiotics
 
-Only on prescription, but in a prolonged crisis it is worth keeping a reserve, with a prescription obtained in advance from your family doctor: amoxicillin with clavulanic acid (wounds, teeth, respiratory), ciprofloxacin or fosfomycin (urinary), azithromycin (respiratory, for people allergic to penicillin). Doses and duration as in the leaflet, or as advised by a doctor over the phone (SNS 24, the national health helpline). Finish the course. Don't use them for colds and flu (they are viruses).
+Only on prescription, but in a prolonged crisis it is worth keeping a reserve, with a prescription obtained in advance from your family doctor: amoxicillin with clavulanic acid (wounds, teeth, respiratory), fosfomycin or nitrofurantoin (urinary; ciprofloxacin is no longer a first choice), azithromycin (respiratory, for people allergic to penicillin). Doses and duration as in the leaflet, or as advised by a doctor over the phone (SNS 24, the national health helpline). Finish the course. Don't use them for colds and flu (they are viruses).
 ` },
     'medicacao-cronica': { title: 'Long-term medication', desc: 'Diabetes, blood pressure, heart, thyroid, epilepsy, psychiatric conditions, asthma: it must not run out.', md: `
 ## Preparing
@@ -159,7 +161,7 @@ People with limitations need a **plan made in advance**, not improvisation. Make
 ## Sight and hearing
 
 - Blind people: a spare white cane, memorised routes, a torch for whoever is helping; radio is the way to get information.
-- Deaf people: alerts with light and vibration, a written card saying "Sou surdo/a, escreva por favor" ("I am deaf, please write it down"), SMS to 112 (register in advance with the service for deaf people), a neighbour who passes on warnings. Batteries or charger for hearing aids, with spares.
+- Deaf people: alerts with light and vibration, a written card saying "Sou surdo/a, escreva por favor" ("I am deaf, please write it down"), contact 112 by text and sign-language video call through the **MAI112** app (register beforehand), a neighbour who passes on warnings. Batteries or charger for hearing aids, with spares.
 
 ## Dementia and confusion
 
@@ -194,7 +196,7 @@ In disasters and conflicts, there may be nobody who can come in the first hours 
 - **Dead bodies do not cause epidemics**, contrary to the myth, except with highly contagious diseases (cholera, Ebola) and for people who handle them directly without protection. There is no need to rush a burial for health reasons; there is for reasons of dignity and smell.
 - Record: who, where, when, how, who saw it. Photograph the face and any distinguishing marks (for identification). Keep documents and personal belongings in a bag labelled with the name.
 - Cover with a sheet. Gloves, or bags over your hands, when moving the body; wash your hands afterwards. Place it somewhere cool and ventilated, away from people, if possible in a body bag or well wrapped in sheets.
-- Report it: 112, police, Proteção Civil (Civil Protection), junta de freguesia (parish council). Only the authorities can authorise a burial; in a conflict zone with no authorities, a marked temporary burial (site recorded, name, at least 1 m deep, away from water), for later exhumation.
+- Report it: 112, police, Proteção Civil (Civil Protection), junta de freguesia (parish council). Only the authorities can authorise a burial; in a conflict zone with no authorities, a marked temporary burial (site recorded, name, at least 1.5 m deep, more than 200 m from wells, springs and watercourses), for later exhumation.
 - **Never an improvised cremation, never mass graves without identification.**
 - Tell the relatives truthfully and calmly, somewhere private. Let them see the body if they want to. A ritual, however small, helps with grieving.
 - Children: simple truth ("Grandad has died; dying is when the body stops working and the person doesn't come back"), not "he fell asleep" or "he went away".

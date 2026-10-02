@@ -3,7 +3,7 @@ CONTENT_EN.sections['saber'] = {
   desc: 'Making fire, knots, repairs, fuels, improvising, the car. Skills that need no battery.',
   pages: {
     fogo: { title: 'Making fire', desc: 'With a lighter, without a lighter, in the rain. And how not to set the countryside alight.', md: `
->! In Portugal, lighting fires in woodland and scrubland outside authorised places is prohibited from May to October and whenever the fire danger is high. Only in a real emergency, in a cleared spot, with water or soil at hand to put it out, and never when it is windy.
+>! In Portugal, lighting fires in the countryside outside authorised places is prohibited whenever the day's fire danger (IPMA/ICNF) is **very high or maximum**, and during the critical period declared by the Government (in practice, most of the summer); burning brush or stubble needs a permit. Only in a real emergency, in a cleared spot, with water or soil at hand to put it out, and never when it is windy.
 
 ## The triangle
 
@@ -16,9 +16,15 @@ Fire needs **heat, fuel and air**. Take one away and there is no fire. The usual
 3. **Kindling** (from the thickness of a match to that of a pencil): dry twigs that snap with a crack, still on the tree or in the middle of bushes (the ones on the ground are damp). Two handfuls.
 4. **Firewood** (from finger to wrist thickness): dry, snapping cleanly. An armful before you light, not after.
 
+![Tinder: birch bark burning. It catches from a spark and gives the kindling time.](img:fogo-isca.jpg)
+
+![Feather sticks: thin curls raised on a dry stick with a knife. They catch first time, even when everything else is damp.](img:fogo-penas.jpg)
+
 ## Lighting
 
-![Teepee fire](fig:fogo)
+![A teepee of kindling built over the tinder, with room for air: this is what it looks like before lighting.](img:fogo-cabana.jpg)
+
+![Light it from below and on the windward side: the flame climbs through the kindling and only then does the firewood go on.](img:fogo-acender.jpg)
 
 - Tinder in the centre. Kindling in a teepee or pyramid over the tinder, with space for air, or leaning against one side (lean-to).
 - Light the tinder **from below and on the windward side** (the wind carries the flame to the rest).
@@ -27,7 +33,7 @@ Fire needs **heat, fuel and air**. Take one away and there is no fire. The usual
 
 ## Without a lighter
 
-- **Battery and steel wool** (easiest with a 9 V battery; alternatively an AA battery and the foil wrapper from chewing gum, cut narrow in the middle): the wool, or the foil strip, ignites when it touches both terminals.
+- **Battery and steel wool** (easiest with a 9 V battery; alternatively an AA battery and a strip of the foil wrapper from chewing gum, cut narrower in the middle, which is where it heats up): the wool, or the foil strip, ignites when it touches both terminals.
 - **Lens** (magnifying glass, reading glasses, the bottom of a bottle with water in it, polished ice): focus the sun on dark tinder. Only in strong sunshine.
 - **Flint and steel (ferrocerium rod)**: scrape hard towards the tinder; cotton wool with petroleum jelly or feather sticks catch first time. Keep one in the kit: it works when wet and lasts for thousands of strikes.
 - **Friction (bow drill)**: possible, but it takes practice and the right wood. Learn it beforehand; do not count on it.
@@ -46,7 +52,7 @@ Wood from inside fallen logs (split them and use the core), dead branches still 
 
 ## Putting it out
 
-Water until it stops smoking and the ashes are **cold to the touch**. No water: soil, stirring until it cools. Never leave a fire burning unattended. Never bury embers (they can smoulder in roots for days).
+Water until it stops smoking and the ashes are **cold to the touch**. No water: mix soil into the embers and stir until it cools; covering them without stirring is not enough. Never leave a fire burning unattended. Never leave embers buried (they can smoulder in roots for days).
 
 ## Fire indoors
 
@@ -56,6 +62,7 @@ Only in a fireplace or wood-burning stove with a chimney. Never in tins, basins 
 ## The six
 
 ### 1. Bowline: a fixed loop that neither tightens nor slips
+![Bowline step by step: 1 and 2 the small loop, 3 the end comes up through it, 4 goes round the standing part, 5 goes back down through the loop. Pull the standing part and the loop to tighten.](img:nos-lais-de-guia.jpg)
 
 For: tying around a tree trunk or a person (rescue), making a loop to hold. It holds a load and can be untied afterwards.
 
@@ -65,6 +72,7 @@ For: tying around a tree trunk or a person (rescue), making a loop to hold. It h
 4. Go back down through the loop from above ("and back down the hole"). Tighten by pulling the long part and the loop.
 
 ### 2. Sheet bend: joining two ropes, even of different thicknesses
+![Sheet bend step by step: 1 a bight in the thick rope and the thin end up through it from below; 2 round behind both legs of the bight; 3 tuck the end under itself; 4 tighten.](img:nos-escota-passos.jpg)
 
 1. Make a bend (U) in the thicker rope.
 2. Pass the end of the thinner rope through the U, from underneath upwards.
@@ -72,12 +80,14 @@ For: tying around a tree trunk or a person (rescue), making a loop to hold. It h
 4. Tuck the end under itself (without going into the U). Tighten. For extra security, take two turns (double sheet bend).
 
 ### 3. Clove hitch: tying on quickly to a post or pole
+![Clove hitch on a pole: two turns, with the end coming out under the last crossing.](img:nos-volta-do-fiel.jpg)
 
 1. Take a turn round the pole with the rope crossing over the top.
 2. Take a second turn and pass the end under the last crossing. Tighten.
 Easy to adjust; do not trust it with a load that pulls and slackens (it can come undone). Finish with a half hitch.
 
 ### 4. Double fisherman's knot: joining two ropes that will take a load (climbing, towing)
+![Double fisherman's knot: each end makes two turns around the other rope and passes through them; when pulled, the two knots jam together.](img:nos-pescador-duplo.jpg)
 
 1. Lay the ends side by side, pointing in opposite directions.
 2. With end A, take two turns round rope B and pass it back through the turns. Tighten.
@@ -85,6 +95,7 @@ Easy to adjust; do not trust it with a load that pulls and slackens (it can come
 4. Pull both ropes: the knots slide together. Very secure; hard to untie after it has taken a load.
 
 ### 5. Trucker's hitch: tensioning a rope hard (tarpaulin, load on a car)
+![Trucker's hitch step by step: 1 and 2 make a loop in the middle of the rope (a twisted turn with a bight pushed through); 3 and 4 the loop is set and works as a pulley; 5 the free end goes round the anchor and back through the loop; 6 pull hard and finish with two half hitches.](img:nos-volta-de-tensao-passos.jpg)
 
 1. Tie one end to point A (bowline).
 2. Halfway along, make a loop in the rope (a twisted turn with a U passed through it: it forms a "pulley").
@@ -92,6 +103,7 @@ Easy to adjust; do not trust it with a load that pulls and slackens (it can come
 4. Pull: you have a 3:1 mechanical advantage. Hold the tension with two half hitches next to the loop.
 
 ### 6. Prusik knot: a loop that slides when slack and grips when loaded (climbing a rope, safety line, tensioning)
+![Prusik knot: the loop of thin cord goes three times around the main rope, always through itself, with the turns neatly parallel.](img:nos-prusik.jpg)
 
 1. Make a loop from thinner cord (double fisherman's knot).
 2. Wrap the loop round the main rope 3 times, always passing it through itself.
@@ -101,11 +113,12 @@ Easy to adjust; do not trust it with a load that pulls and slackens (it can come
 
 - A knot that is well tightened and neatly dressed is the one that holds. Messy knots fail.
 - Knots reduce a rope's strength by 30 to 50%. A 5 mm polyethylene rope holds 300 kg without a knot; count on half.
-- Paracord (550) holds 250 kg and has 7 inner strands for fishing line, sewing, etc. 20 m in the kit.
+- Paracord (550) holds 250 kg and has 7 inner strands for fishing line, sewing, etc. The 10 m in the kit are enough; 20 m give more leeway.
 - Always finish with a half hitch or an overhand knot at the end.
 - When cutting synthetic rope, melt the end so it does not fray.
 
 ## Lashings (joining poles for shelters, stretchers, tripods)
+![Square lashing, top to bottom: clove hitch on the upright, three wrapping turns over and under both poles, frapping turns between them, finished with a clove hitch.](img:nos-amarracao.jpg)
 
 **Square lashing** (poles crossed): clove hitch on one pole, three wraps going alternately over and under each pole, three "frapping" turns between the poles to tighten, finish with a clove hitch. **Tripod**: three poles side by side, 5 zigzag turns between them, frap, open out.
 ` },
@@ -130,7 +143,7 @@ Hammer, combination pliers, wire cutters, screwdrivers (cross-head and flat-head
 ## Pipes and water
 
 - Burst pipe: **turn off the main stopcock**, open the taps to drain the pipes. Temporary patch: a piece of rubber (inner tube, glove) over the hole, tightened with cable ties or metal hose clips; self-amalgamating tape; epoxy glue for plumbing. It holds for days.
-- Frozen pipe: turn off the main stopcock, warm the pipe slowly with hot cloths or a hairdryer, starting from the tap and working towards the ice.
+- Frozen pipe: turn off the main stopcock and open the tap on that pipe (it relieves the pressure and shows when it has thawed); warm the pipe slowly with hot cloths or a hairdryer, never with a flame, starting from the tap and working towards the ice.
 - Blocked toilet: a bucket of hot soapy water, wait, then a plunger. No sewerage: bucket toilet ([sanitation](#/s/casa/saneamento)).
 - Leaking water heater or hot water cylinder: turn off the water and the power; the water inside it is drinkable ([hidden water](#/s/agua/fontes-casa)).
 
@@ -142,7 +155,7 @@ Hammer, combination pliers, wire cutters, screwdrivers (cross-head and flat-head
 
 ## Gas
 
-Smell of gas: no flames or switches, open the windows, close the valve, get out, call for help. Do not repair it yourself.
+Smell of gas: no flames, no switches, no mobile phone inside the house; open the windows, close the valve, get out, and call 112 and the gas supplier from outside. Do not repair it yourself.
 
 ## Improvising
 
@@ -155,7 +168,7 @@ Smell of gas: no flames or switches, open the windows, close the valve, get out,
     combustiveis: { title: 'Fuels and power', desc: 'Storing petrol, gas and firewood safely. How long each one lasts.', md: `
 ## Petrol and diesel
 
-- **Storage**: in approved jerrycans (metal, or plastic made for fuel), filled to 95% (expansion), closed, in a ventilated place, in the shade, outside the house and away from sources of heat. Legal maximum at home in Portugal: small quantities (check the regulations; 20 to 30 L is reasonable and prudent).
+- **Storage**: in approved jerrycans (metal, or plastic made for fuel), filled to 95% (expansion), closed, in a ventilated place, in the shade, outside the house and away from sources of heat. Legal limits in Portugal: in flats, **no petrol at all**; diesel up to 20 L, in a ventilated outbuilding or storeroom and never inside the home; bottled gas, at most 4 bottles (full and empty) at home. Beyond that, the place counts as a storage installation and needs a licence.
 - **Shelf life**: petrol degrades in 3 to 6 months (with a stabiliser, 1 to 2 years); diesel lasts 6 to 12 months (longer with an additive; watch out for bacteria and water). Rotate it: use it in the car and refill every 6 months.
 - **Getting fuel out of a car's tank**: modern cars have anti-siphon valves; a siphon may not work. Use a manual transfer pump through the filler pipe, or through the return pipe near the filter (for those who know how).
 - **Consumption**: a 2 kW generator uses 0.5 to 1 L per hour at half load. A car idling to charge devices: 0.5 to 1 L per hour.
@@ -165,7 +178,7 @@ Smell of gas: no flames or switches, open the windows, close the valve, get out,
 - 13 kg gas bottle: 1 to 2 months of normal cooking, 1 week of heavy heating. Store it upright, outdoors or somewhere ventilated, away from heat; never in cellars (the gas is heavier than air and builds up).
 - Check the hose (expiry date printed on it) and the regulator; test for leaks with soapy water (bubbles).
 - Propane works in the cold; pure butane fails below 0 to 5 °C.
-- Camping gas cartridges (230 g): 1 to 2 h on a high flame each. 10 in the kit.
+- Camping gas cartridges (230 g): 1 to 2 h on a high flame each. 3 in the 72-hour kit, 10 for two weeks.
 
 ## Firewood
 
@@ -185,8 +198,8 @@ Ethanol, liquid or gel (camping stoves, tabletop burners): no smoke, little heat
 ## Batteries
 
 - Alkaline: 5 to 10 years in storage, at 20 °C. Lithium (AA lithium): 15 years, work in the cold, lighter. NiMH rechargeables: lose 20 to 30% a year; charge them every 6 months.
-- Power banks and power stations (lithium-ion): store at 50 to 80%, charge every 3 months, away from heat. They last 500 to 1,000 cycles; LiFePO4 lasts 3,000.
-- Car battery: 12 V, 40 to 70 Ah = 500 to 800 Wh usable, with care. Do not discharge it below 12.0 V (the battery gets damaged and the car will not start).
+- Power banks and power stations (lithium-ion): keep them charged and top them up every month, away from heat; if one will sit unused for months, 50 to 80% keeps it in better shape. They last 500 to 1,000 cycles; LiFePO4 lasts 3,000.
+- Car battery: 12 V, 40 to 70 Ah, but only half is usable without damaging it: about 240 to 420 Wh. At rest, 12.24 V = 50%: do not go below that (the battery gets damaged and the car will not start).
 
 ## Solar power
 
@@ -209,30 +222,30 @@ Fire extinguisher near fuels. Never transfer fuel between containers near a flam
 - **PET bottles**: storing water, SODIS, funnel, diffused lamp (with a head torch), improvised filter, float, spoon.
 - **Tins**: stove (rocket stove from 2 tins), lamp, cooking pot, reflector, signal, water trap.
 - **Metal spoon**: signal mirror (polished), small splints.
-- **Belt**: tourniquet (a wide one), rope, splint support.
+- **Belt**: rope, splint support, holding a dressing in place. **Not a tourniquet**: it cannot be tightened enough or locked; use a real tourniquet, or improvise one with a wide cloth and a stick to twist it.
 - **Socks**: coarse water filter, gloves, bag; with soap inside, for washing and drying.
 - **Large scarves or a T-shirt**: sling, bandage, filter, dust mask, hat, collecting dew, twisted rope.
 - **Cardboard**: floor insulation, splints, signs, kindling, covering windows.
 - **Mirrors and CDs**: signalling from kilometres away.
 - **Reading glasses**: fire lens.
 - **Battery and steel wool**: fire.
-- **Tampons and pads**: fire (cotton), stopping nosebleeds.
+- **Tampons**: stopping nosebleeds; the cotton works as fire tinder.
 - **Bucket with a lid**: toilet, washing, carrying, stool, storing food safe from rats.
 - **Chair**: stretcher (two poles passed under the seat), barricading doors, splint.
 - **Door**: stretcher for spinal injuries, table, plywood, bridge.
-- **Car**: shelter, battery (light, radio, charging), mirrors (signalling), horn (3 blasts), mats (insulation), seatbelt (rope), petrol (fire, with care), tyres (black smoke as a signal).
+- **Car**: shelter, battery (light, radio, charging), mirrors (signalling), horn (3 blasts), mats (insulation), seatbelt (rope), petrol (only a few drops on a cloth as tinder, never onto the fire), tyres (black smoke as a signal).
 
 ## Improvised tools
 
 - **Knife**: a tin cut and folded, glass, knapped stone. A craft knife blade with tape as a handle.
 - **Rope**: duct tape, strips of plaited cloth, electrical cables, wire, belts, twisted plant fibres.
-- **Shovel**: saucepan lid, plate, board, plastic car bonnet.
+- **Shovel**: saucepan lid, plate, board, plastic wheel trim (hubcap).
 - **Container for boiling**: any tin without a coloured lining inside; a full PET bottle over embers (it works: the water stops it melting, but it will not look pretty).
 
 ## Water
 
 - Steaming with a pot and a plate: emergency distillation.
-- Bottle filter: crushed charcoal from a campfire, sand, gravel, cloth.
+- Bottle filter: crushed charcoal from a campfire, sand, gravel, cloth. It clarifies, it does not disinfect: boil or [treat](#/s/agua/purificar) the water afterwards.
 
 ## Rule
 
@@ -240,11 +253,13 @@ Before you go out "searching", take stock of what you have. An ordinary home has
 ` },
     veiculo: { title: 'The car in an emergency', desc: 'Starting with a flat battery, a puncture, fuel, using the car as a resource.', md: `
 ## Flat battery
+![Jump leads: red on the + of both batteries; black on the − of the good battery and on a metal part of the engine of the dead car, away from its battery. Start the good car, wait 2 minutes, try the other.](img:arranque.jpg)
 
-- **Jump leads**: both cars switched off. Red on the + of the flat battery, then on the + of the good one. Black on the − of the good one, then on a metal part of the engine of the car with the flat battery (not on the − of the flat battery: sparks near the gas). Start the good car, wait 2 minutes, try to start the other one. Remove the leads in reverse order. Leave the engine running for 30 minutes.
+
+- **Jump leads**: both cars switched off. Red on the + of the flat battery, then on the + of the good one. Black on the − of the good one, then on a metal part of the engine of the car with the flat battery (not on the − of the flat battery: a spark there could ignite the gas the battery gives off). Start the good car, wait 2 minutes, try to start the other one. Remove the leads in reverse order. Leave the engine running for 30 minutes.
 - **Jump starter** (booster power bank, €50 to €100): no other car needed. Have one and keep it charged.
 - **Push-starting** (manual gearbox cars only): ignition on, 2nd gear, clutch pressed right down, reach 10 km/h, release the clutch suddenly.
-- **Cold**: the battery loses 30 to 50% below 0 °C. Switch everything off (lights, heating) when starting. Headlights on for 30 seconds beforehand warm up the battery.
+- **Cold**: the battery loses 30 to 50% below 0 °C. Turn the headlights on for 30 seconds to warm up the battery, then switch everything off (lights, heating) and turn the key.
 
 ## Puncture
 
@@ -267,7 +282,7 @@ Do not rev (it digs you in deeper). Mats, branches, cardboard, gravel under the 
 
 ## The car as a resource
 
-- **Shelter**: against wind, rain, cold, smoke and the radiant heat of a fire. Not against floods, or lightning in a forest (but it does protect against lightning in open country).
+- **Shelter**: against wind, rain, cold, smoke and the radiant heat of a fire. Not against floods. Against lightning it protects anywhere (the bodywork works as a metal cage), with the windows closed and without touching metal; in a forest the danger is falling trees and branches.
 - **Power**: cigarette-lighter socket (12 V, 120 W), inverter for 230 V. 10 minutes of engine running every hour charges phones without draining the battery. Never in a closed garage.
 - **Radio** and **light** (interior light, headlights for signalling).
 - **Water**: the windscreen washer reservoir (only if it holds plain water; most contain detergent and antifreeze: do not drink).

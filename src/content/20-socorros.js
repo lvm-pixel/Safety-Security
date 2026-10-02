@@ -18,13 +18,13 @@ CONTENT.sections.push({
 ## Se não responde
 
 1. Vira-a de costas com cuidado. **Abre a via aérea:** uma mão na testa, inclina a cabeça para trás; dois dedos no queixo, levanta-o.
-2. **Vê, ouve e sente** durante **10 segundos no máximo**: o peito sobe? ouves ar? sentes ar na tua bochecha? Respiração ofegante, com ruídos ou muito lenta **não é normal**: trata como se não respirasse.
-3. **Não respira normalmente:** liga **112** (alta-voz), pede um DAE, começa [RCP](#/s/socorros/rcp) já.
-4. **Respira normalmente:** põe em **posição lateral de segurança** (abaixo), liga 112, vigia a respiração a cada minuto.
+2. **Liga 112 em alta-voz** (ou manda alguém ligar) assim que vires que não responde, e avalia a respiração enquanto a chamada é atendida. **Vê, ouve e sente** durante **10 segundos no máximo**: o peito sobe? ouves ar? sentes ar na tua bochecha? Respiração ofegante, com ruídos ou muito lenta **não é normal**: trata como se não respirasse.
+3. **Não respira normalmente:** diz ao 112 «não respira», pede um DAE e começa [RCP](#/s/socorros/rcp) já.
+4. **Respira normalmente:** põe em **posição lateral de segurança** (abaixo), diz ao 112 que respira mas não responde, e vigia a respiração a cada minuto.
 
 ## Posição lateral de segurança (PLS)
 
-![Posição lateral de segurança](fig:pls)
+![Posição lateral de segurança: de lado, cabeça inclinada para trás e boca virada para baixo, mão de cima debaixo da cara, joelho de cima dobrado a travar o corpo.](img:pls.jpg)
 
 1. Ajoelha-te ao lado da vítima. Braço mais próximo de ti em ângulo reto, palma para cima.
 2. Outro braço cruzado sobre o peito, mão encostada à bochecha do lado mais perto de ti.
@@ -60,29 +60,32 @@ Onde, o quê, quantos, estado (consciente? respira? sangra?), quem és. Não des
 7. Se houver mais alguém, **troquem a cada 2 minutos** (a qualidade cai depressa com o cansaço).
 
 ## Desfibrilhador (DAE)
+![DAE de treino: as pás colam-se como no desenho da própria caixa, uma abaixo da clavícula direita e outra no lado esquerdo, abaixo da axila. O aparelho fala e diz tudo o que fazer.](img:dae.jpg)
+
 
 Qualquer pessoa pode e deve usar. Não faz mal a quem não precisa: o aparelho decide.
 
 1. Liga-o. Segue as instruções de voz.
 2. Descobre o peito (seca-o se molhado; tira pensos de medicação; afasta colares).
-3. Cola os elétrodos como no desenho: um abaixo da clavícula direita, outro na lateral esquerda abaixo da axila.
+3. Cola os elétrodos como no desenho: um abaixo da clavícula direita, outro na lateral esquerda abaixo da axila. Se houver mais alguém, essa pessoa continua as compressões enquanto colas.
 4. "Afastem-se, a analisar": ninguém toca na vítima.
 5. Se disser "choque aconselhado": grita "afastem-se", verifica que ninguém toca, carrega no botão.
 6. Retoma **imediatamente** compressões após o choque. O aparelho volta a analisar de 2 em 2 minutos.
 
 ## Criança (1 ano até à puberdade)
 
-- Se estás sozinho: faz **1 minuto de RCP antes** de ligar 112 (a causa é quase sempre respiratória).
 - Começa com **5 insuflações** suaves.
+- Se estás sozinho e tens telemóvel: liga 112 em alta-voz **logo a seguir às 5 insuflações** e continua. Só sem telemóvel é que fazes 1 minuto de RCP antes de ir buscar ajuda (a causa é quase sempre respiratória).
 - Compressões com **uma mão** (ou duas se for grande), **5 cm** de profundidade ou um terço do tórax, 100 a 120 por minuto.
-- 30:2 (ou 15:2 se forem dois socorristas treinados).
+- 30:2 (15:2 se tiveres formação em RCP pediátrica).
 - DAE: usa elétrodos pediátricos se houver; se não, os de adulto (um à frente, outro nas costas).
 
 ## Bebé (menos de 1 ano)
 
 - **5 insuflações** iniciais: a tua boca cobre a boca **e o nariz** do bebé; sopros suaves, só o ar das bochechas, ver o peito subir.
-- Compressões com **dois dedos** no centro do peito, logo abaixo da linha dos mamilos, **4 cm** (um terço do tórax), 100 a 120 por minuto.
+- Compressões com os **dois polegares** no centro do peito, logo abaixo da linha dos mamilos, com as mãos a abraçar o tórax, **4 cm** (um terço do tórax), 100 a 120 por minuto. Sozinho, podes usar dois dedos.
 - 30:2. Cabeça em posição neutra (não a inclines muito para trás).
+- **112** como na criança: em alta-voz logo a seguir às 5 insuflações; sem telemóvel, 1 minuto de RCP antes de ir buscar ajuda.
 - Bebé engasgado: ver [engasgamento](#/s/socorros/engasgamento).
 
 ## Afogamento
@@ -107,11 +110,11 @@ Encoraja a tossir. Não batas nas costas nem dês nada a beber. Vigia.
 
 ## Adulto ou criança com mais de 1 ano (obstrução grave: não tosse, não fala)
 
-![A partir de 1 ano: pancadas nas costas e compressões abdominais](fig:heimlich)
+![Compressões abdominais no adulto e na criança: por trás, punho fechado logo acima do umbigo, a outra mão por cima, 5 puxões fortes para dentro e para cima. Antes delas, 5 pancadas secas entre as omoplatas com a pessoa inclinada para a frente; alterna 5 e 5.](img:engasgamento-adulto.jpg)
 
 1. **5 pancadas nas costas:** inclina a pessoa para a frente, apoia-lhe o peito com uma mão, dá 5 pancadas fortes entre as omoplatas com a base da outra mão. Verifica entre cada uma se saiu.
 2. **5 compressões abdominais (Heimlich):** por trás, braços à volta da cintura, punho fechado logo acima do umbigo (polegar para dentro), outra mão por cima; puxa **para dentro e para cima** com força, 5 vezes.
-3. Alterna 5 pancadas e 5 compressões até desobstruir ou a vítima ficar inconsciente.
+3. Alterna 5 pancadas e 5 compressões até desobstruir ou a vítima ficar inconsciente. Se houver outra pessoa, ela liga 112 já.
 4. **Inconsciente:** deita no chão, liga 112, começa [RCP](#/s/socorros/rcp). Antes de cada insuflação olha para a boca e tira o objeto se o vires (sem "pescar" às cegas).
 5. Depois de compressões abdominais, mesmo com sucesso, deve ser observada por um médico (lesões internas).
 
@@ -123,7 +126,7 @@ Compressões abdominais com o teu próprio punho, ou inclina-te com força sobre
 
 ## Bebé (menos de 1 ano)
 
-![No bebé: nunca compressões abdominais](fig:bebe-engasgado)
+![No bebé: 5 pancadas nas costas, de barriga para baixo sobre o teu antebraço e com a cabeça mais baixa, e 5 compressões no peito com dois dedos. Nunca compressões abdominais.](img:bebe-engasgado.jpg)
 
 1. Deita o bebé de barriga para baixo sobre o teu antebraço, cabeça mais baixa do que o corpo, a segurar o queixo (sem apertar a garganta).
 2. **5 pancadas** entre as omoplatas com a base da mão.
@@ -134,13 +137,13 @@ Compressões abdominais com o teu próprio punho, ou inclina-te com força sobre
 **Nunca** faças compressões abdominais a bebés.
 ` },
 
-    { id: 'hemorragia', icon: '🩸', title: 'Hemorragia grave', desc: 'Pressão direta, elevação, torniquete. Sangue que jorra é prioridade máxima.', md: `
+    { id: 'hemorragia', icon: '🩸', title: 'Hemorragia grave', desc: 'Pressão direta, penso compressivo, torniquete. Sangue que jorra é prioridade máxima.', md: `
 >x Uma hemorragia arterial mata em **3 a 5 minutos**. Sangue vermelho vivo que jorra ou sai em golfadas, sangue que ensopa panos em segundos, poça a crescer: age já, antes de tudo o resto (exceto se a vítima não respira).
 
 ## Passos
 
 1. **Pressão direta, forte, contínua.** Com compressas, pano dobrado, peça de roupa, ou só as mãos (luvas se houver). Empurra com o peso do corpo, sem aliviar para "ver". Se o pano ensopar, **não o tires**: põe mais por cima.
-2. **Deita a vítima** e, se der, levanta o membro acima do coração.
+2. **Deita a vítima.** O que para a hemorragia é a pressão; levantar o membro não substitui nada.
 3. **Liga 112** (alta-voz) enquanto pressionas, ou pede a alguém.
 4. **Enche a ferida** se for funda (virilha, axila, pescoço, onde o torniquete não serve): enfia gaze ou pano limpo dentro da ferida, o máximo que couber, e pressiona por cima 3 minutos no mínimo. Depois liga com força.
 5. **Penso compressivo:** liga com ligadura, lenço, fita ou cinto por cima das compressas, apertado.
@@ -154,7 +157,7 @@ Compressões abdominais com o teu próprio punho, ou inclina-te com força sobre
 7. Mantém a vítima quente (a perda de sangue arrefece e o frio piora a coagulação), deitada, tranquila. Nada de beber.
 8. Vigia sinais de [choque](#/s/socorros/choque): pele pálida e fria, pulso rápido, confusão.
 
-![Onde pôr o torniquete](fig:torniquete)
+![Torniquete 5 a 7 cm acima da ferida (do lado do coração), nunca sobre uma articulação, apertado até o sangue parar. Escreve a hora. Não alivies.](img:torniquete.jpg)
 
 ## Objetos espetados
 
@@ -166,7 +169,7 @@ Torniquete. A parte amputada: embrulha em pano limpo húmido, dentro de um saco 
 
 ## Hemorragia nasal
 
-Sentado, cabeça **para a frente**, aperta a parte mole do nariz 10 minutos sem largar. Frio na nuca ou testa. Se não parar em 20 a 30 minutos ou depois de pancada na cabeça: urgência.
+Sentado, cabeça **para a frente**, aperta a parte mole do nariz 10 minutos sem largar; se ainda sangrar, repete outros 10. Frio na nuca ou testa. Se não parar em 20 a 30 minutos ou depois de pancada na cabeça: urgência.
 
 ## Hemorragia interna (suspeita)
 
@@ -178,13 +181,13 @@ Pancada forte no abdómen, peito ou costas; abdómen duro e inchado; sangue na u
 
 1. Lava as mãos. Luvas se possível.
 2. **Lava a ferida com água limpa corrente** (a torneira serve, ou água potável) durante alguns minutos, até sair toda a sujidade. Sabão à volta. Soro fisiológico se tiveres. Tira pequenos detritos com pinça limpa (flamejada ou com álcool).
-3. Seca à volta. Desinfeta (clorexidina, iodopovidona ou água oxigenada; álcool arde e atrasa a cicatrização, é a última escolha).
+3. Seca à volta. Desinfeta (clorexidina ou iodopovidona; água oxigenada e álcool ardem e atrasam a cicatrização: última escolha).
 4. Cobre com compressa e adesivo, ou penso. Muda todos os dias ou quando molhar ou sujar.
 5. Vacina do tétano: se a última foi há mais de 10 anos (5 anos se a ferida é suja ou funda), vai a um centro de saúde nas 72 h.
 
 ## Precisa de pontos (procura assistência em menos de 6 a 8 horas)
 
-- Bordos afastados que não se juntam sozinhos, mais de 1 cm de profundidade ou mais de 2 cm na face.
+- Bordos afastados que não se juntam sozinhos, mais de 1 cm de profundidade, ou mais de 2 cm de comprimento na face.
 - Ferida na face, mãos, articulações, genitais.
 - Continua a sangrar depois de 15 minutos de pressão.
 - Mordedura (humana ou animal): estas normalmente **não** se fecham; lavar muito, antibiótico.
@@ -237,6 +240,13 @@ Sombra, água, hidratar a pele, paracetamol. Bolhas extensas ou febre: médico.
 - Vigia infeção: pus, cheiro, febre, vermelhidão a alastrar.
 - Beber muito (queimaduras grandes perdem muitos líquidos). Soro oral se extensa.
 - Mantém articulações queimadas a mexer para não ficarem presas.
+
+## Choque elétrico
+
+1. **Não toques** na pessoa enquanto estiver em contacto com a corrente. Desliga o quadro ou tira a ficha; se não der, afasta o cabo com um objeto seco que não conduza (cabo de vassoura de madeira ou plástico).
+2. Linhas de alta tensão caídas (rua, comboio): fica a **mais de 10 metros** e liga 112; não te aproximes mesmo que a pessoa esteja a chamar.
+3. Se não responde e não respira: [RCP](#/s/socorros/rcp) e DAE.
+4. Toda a queimadura elétrica vai ao hospital, mesmo pequena: o estrago é por dentro e o coração pode alterar-se horas depois. Arrefece as queimaduras como as outras.
 ` },
 
     { id: 'fraturas', icon: '🦴', title: 'Fraturas, luxações, entorses', desc: 'Imobilizar como está, não endireitar. RICE para entorses.', md: `
@@ -255,11 +265,11 @@ Dor intensa, deformação, inchaço, incapacidade de usar, ruído no momento, os
    - Dedos: liga ao dedo vizinho.
    - Acolchoa com roupa; aperta o suficiente para não mexer, sem cortar a circulação (dedos devem continuar rosados e quentes; verifica de 15 em 15 min).
 4. Gelo envolto em pano 20 minutos, elevar se possível.
-5. Nada de comer ou beber (pode precisar de anestesia). 112 ou transporte cuidadoso.
+5. Nada de comer ou beber (pode precisar de anestesia). **112** se a fratura for exposta, na perna, anca ou coluna, ou se não for possível mover a vítima com segurança; nos outros casos, transporte cuidadoso à urgência.
 
 ## Suspeita de lesão na coluna ou pescoço
 
-Queda de altura, mergulho, acidente de viação, dor no pescoço/costas, formigueiro ou fraqueza nos membros. **Não mexer.** Segura a cabeça alinhada com o tronco com as duas mãos e fica assim até chegar ajuda. Só move se houver perigo de vida ou se não respira (e aí mantendo cabeça-pescoço-tronco em bloco).
+Queda de altura, mergulho, acidente de viação, dor no pescoço/costas, formigueiro ou fraqueza nos membros. **112** (em alta-voz, ou manda alguém ligar). **Não mexer.** Segura a cabeça alinhada com o tronco com as duas mãos e fica assim até chegar ajuda. Só move se houver perigo de vida ou se não respira (e aí mantendo cabeça-pescoço-tronco em bloco).
 
 ## Anca partida (idosos)
 
@@ -306,7 +316,7 @@ O corpo deixa de conseguir levar sangue e oxigénio suficientes aos órgãos. Ca
 
 ## Desmaio simples (lipotimia)
 
-Baixa de tensão momentânea: calor, dor, emoção, estar muito tempo de pé. Deita com pernas elevadas, ar fresco, afrouxa roupa. Recupera em 1 a 2 minutos. Se não recuperar rapidamente, se bateu com a cabeça, se tem mais de 50 anos ou problemas cardíacos, ou se se repete: procurar médico.
+Baixa de tensão momentânea: calor, dor, emoção, estar muito tempo de pé. Deita com pernas elevadas, ar fresco, afrouxa roupa. Recupera em 1 a 2 minutos. Se não acordar nesse tempo, trata como [não responde](#/s/socorros/abordagem): respira? 112. Se bateu com a cabeça, se tem mais de 50 anos ou problemas cardíacos, ou se se repete: procurar médico.
 ` },
 
     { id: 'avc-enfarte', icon: '🧠', title: 'AVC e enfarte', desc: 'Reconhecer em segundos: cada minuto conta. Os 3 F do AVC e a dor no peito.', md: `
@@ -323,15 +333,15 @@ Súbito. Faz o teste **F.A.S.T. (ou 3 F)**:
 
 Outros sinais: perda súbita de visão num olho, dor de cabeça muito forte e súbita ("a pior da vida"), perda de equilíbrio, formigueiro ou fraqueza súbita num lado do corpo, confusão súbita.
 
-Enquanto esperas: deita com cabeça e ombros ligeiramente elevados, nada de comer ou beber (pode engasgar), **não dês aspirina** (pode ser hemorrágico), afrouxa roupa, tranquiliza, anota a hora e a medicação habitual.
+Enquanto esperas: deita com cabeça e ombros ligeiramente elevados, nada de comer ou beber (pode engasgar), **não dês aspirina** (pode ser hemorrágico), afrouxa roupa, tranquiliza, anota a hora e a medicação habitual. Se perder a consciência: [posição lateral](#/s/socorros/abordagem) se respira; [RCP](#/s/socorros/rcp) se não respira.
 
 ## Enfarte (ataque cardíaco)
 
 Sinais: **dor ou aperto no centro do peito** que dura mais de alguns minutos, pode irradiar para braço esquerdo (ou ambos), pescoço, maxilar, costas ou estômago. Suor frio, náuseas, falta de ar, sensação de morte iminente. Nas mulheres, idosos e diabéticos pode ser só cansaço súbito, falta de ar, mal-estar no estômago.
 
 1. **112 já.** Não conduzas até ao hospital (se parar o coração no carro, não há quem ajude).
-2. Senta a pessoa, com as costas apoiadas, joelhos dobrados (posição semi-sentada). Repouso absoluto, não a deixes andar.
-3. **Aspirina:** se não for alérgica, não tiver úlcera ativa nem hemorragia, e o 112 não desaconselhar: **1 comprimido de 150 a 300 mg (ou 3 a 4 de 100 mg) mastigado**, não engolido inteiro.
+2. Senta a pessoa, com as costas apoiadas, joelhos dobrados (posição semissentada). Repouso absoluto, não a deixes andar.
+3. **Aspirina:** se não for alérgica, não tiver úlcera ativa nem hemorragia, e o 112 não desaconselhar: **1 comprimido de 150 a 300 mg (ou 3 de 100 mg) mastigado**, não engolido inteiro.
 4. Se toma nitroglicerina sublingual habitualmente, pode tomar como prescrito.
 5. Afrouxa roupa, ar fresco, tranquiliza. Se ficar inconsciente e sem respirar: [RCP](#/s/socorros/rcp) e DAE.
 
@@ -352,11 +362,11 @@ Minutos depois de comida, medicamento, picada ou látex:
 
 ### O que fazer
 
-1. **Adrenalina auto-injetável (EpiPen, Jext, Anapen)** se a pessoa tiver: retira a tampa de segurança, **espeta na parte lateral externa da coxa** (pode ser através da roupa), mantém 10 segundos. Massaja. Anota a hora.
+1. **Adrenalina autoinjetável (EpiPen, Jext, Anapen)** se a pessoa tiver: retira a tampa de segurança, **espeta na parte lateral externa da coxa** (pode ser através da roupa), mantém 10 segundos (serve para todas as marcas). Massaja. Anota a hora.
 2. **112.** Diz "anafilaxia".
 3. Deita a pessoa com as pernas elevadas (se tiver dificuldade em respirar, sentada; grávida, de lado esquerdo). **Não a deixes levantar-se de repente** (pode colapsar).
-4. Se não melhorar em 5 a 15 minutos, **segunda dose** de adrenalina, se houver.
-5. Anti-histamínico (cetirizina, loratadina) ajuda a comichão mas **não trata** a anafilaxia. O inalador de asma pode ajudar a pieira, depois da adrenalina.
+4. Se não melhorar ao fim de 5 minutos, **segunda dose** de adrenalina, se houver.
+5. Anti-histamínico (cetirizina, loratadina) alivia a comichão mas **não trata** a anafilaxia. O inalador de asma pode ajudar a pieira, depois da adrenalina.
 6. Se parar de respirar: [RCP](#/s/socorros/rcp).
 7. Mesmo que melhore, tem de ir ao hospital: pode voltar horas depois (reação bifásica).
 
@@ -372,7 +382,26 @@ Urticária localizada, comichão, espirros, olhos a lacrimejar, sem dificuldade 
 
 ## Picadas de aranha, escorpião, lacrau (Portugal)
 
-Raramente graves. Lavar, gelo, elevar, analgésico. Se inchaço a alastrar, febre ou mal-estar: médico. Mordedura de **víbora** (rara; norte e interior): [ver mordeduras](#/s/socorros/mordeduras).
+Raramente graves. Lavar, gelo, elevar, analgésico. Se inchaço a alastrar, febre ou mal-estar: médico. Mordedura de **víbora** (rara; serras de norte a sul): [ver mordeduras](#/s/socorros/mordeduras).
+` },
+    { id: 'asma', icon: '🫁', title: 'Crise de asma', desc: 'Inalador de alívio com câmara, sentado, e quando ligar 112.', md: `
+## Reconhecer
+
+Falta de ar, pieira, tosse seca, respiração rápida, dificuldade em dizer frases inteiras. Numa criança: covas entre as costelas ou no pescoço a cada respiração, lábios ou unhas azulados, muito quieta ou muito agitada.
+
+## O que fazer
+
+1. **Senta** a pessoa direita (não deitada), calma, roupa solta. Longe de fumo, pó ou frio.
+2. **Inalador de alívio** (salbutamol, a «bomba azul», ex.: Ventilan) com **câmara expansora** se houver: **1 puff de cada vez**, 4 respirações normais entre cada, **4 a 10 puffs**. Sem câmara também serve; numa criança pequena usa a máscara da câmara.
+3. Espera 4 minutos. Se não melhorar, **repete os 4 a 10 puffs**.
+4. **112 já**, sem esperar pela segunda ronda, se: não consegue falar ou beber, lábios azulados, fica sonolenta ou confusa. **112 também** se não melhora com a segunda ronda ou se é a primeira crise. Continua os puffs (4 a 10 a cada 4 minutos) até chegar ajuda.
+5. Corticoide oral (prednisolona) só se o médico o receitou para as crises: dá-o cedo.
+
+>! Sem inalador: 112. Nada o substitui. Numa crise grave, cada minuto conta.
+
+## Depois
+
+Mesmo que passe, uma crise que precisou de mais de 10 puffs, ou que voltou no mesmo dia, deve ser vista pelo médico nas 24 horas seguintes. Guarda um inalador e uma câmara no kit e na mala de evacuação (ver [medicação crónica](#/s/saude/medicacao-cronica)).
 ` },
 
     { id: 'convulsoes', icon: '⚡', title: 'Convulsões e epilepsia', desc: 'Proteger sem imobilizar. Cronometrar. Quando é emergência.', md: `
@@ -394,17 +423,17 @@ Raramente graves. Lavar, gelo, elevar, analgésico. Se inchaço a alastrar, febr
 
 - Dura **mais de 5 minutos** ou repete-se sem recuperar entre crises.
 - É a **primeira** crise da pessoa.
-- Não recupera a consciência em 10 a 15 minutos, ou tem dificuldade em respirar depois.
+- Continua **sem responder** 10 a 15 minutos depois de a crise parar (estar confusa ou sonolenta, mas a responder, é normal), ou tem dificuldade em respirar depois.
 - Feriu-se, está grávida, é diabética, ou aconteceu na água.
-- Febre alta em criança (convulsão febril: normalmente benigna, mas na primeira vez deve ser vista).
+- Criança com febre (convulsão febril): **só** pelos motivos acima; é normalmente benigna, mas na primeira vez tem de ser vista (ver abaixo).
 
 ## Criança com febre e convulsão
 
-Deita de lado, protege, tira roupa a mais, cronometra, não a metas em água fria. Normalmente passa em 1 a 2 minutos. Depois: paracetamol, e chamar SNS 24 ou urgência na primeira vez.
+Deita de lado, protege, tira roupa a mais, cronometra, não a metas em água fria. Normalmente passa em 1 a 2 minutos. Depois: paracetamol e, na primeira vez, SNS 24 (808 24 24 24) ou urgência; **112** se durou mais de 5 minutos ou não recupera.
 
 ## Diabético com hipoglicemia (não é convulsão mas parece)
 
-Suor, tremor, confusão, comportamento estranho, agressividade, pode desmaiar. Se consegue engolir: **açúcar rápido** (3 pacotes de açúcar, sumo, refrigerante normal, mel), depois pão ou bolachas. Se inconsciente: **nada pela boca**, PLS, 112 (glucagon se houver e souber usar).
+Suor, tremor, confusão, comportamento estranho, agressividade, pode desmaiar. Se consegue engolir: **açúcar rápido** (3 pacotes de açúcar, sumo, refrigerante normal, mel), depois pão ou bolachas. Se inconsciente: **nada pela boca**, PLS, 112 (glucagon se houver e souberes usar).
 ` },
 
     { id: 'hipotermia', icon: '🥶', title: 'Hipotermia e enregelamento', desc: 'Aquecer devagar, sem fricção, sem álcool. Bebés e idosos arrefecem depressa.', md: `
@@ -415,7 +444,7 @@ Não precisa de neve: chuva e vento a 10 °C, água fria, roupa molhada, idoso e
 ### Sinais
 
 - **Ligeira:** tremores intensos, mãos desajeitadas, fala arrastada, cansaço, irritabilidade.
-- **Moderada:** tremores **param** (mau sinal), confusão, sonolência, movimentos lentos, pulso lento.
+- **Moderada:** tremores **param** (mau sinal), confusão, sonolência, movimentos lentos, pulso lento. Liga 112.
 - **Grave:** inconsciente, respiração quase impercetível, parece morta. **Ninguém está morto até estar quente e morto:** faz RCP se não respirar e liga 112.
 
 ### O que fazer
@@ -482,7 +511,7 @@ Beber antes de ter sede, 250 ml de 20 em 20 min em esforço ao calor; roupa clar
 ## Regras gerais
 
 - **Não provoques o vómito** (lesa mais na subida, sobretudo com cáusticos e derivados de petróleo, e pode ir para os pulmões).
-- Não dês leite nem "antídotos caseiros".
+- Não dês leite nem «antídotos caseiros» por tua conta: só se o CIAV o disser.
 - Guarda a embalagem, o vomitado ou a planta para mostrar.
 - Se inconsciente e a respirar: [PLS](#/s/socorros/abordagem). Se não respira: [RCP](#/s/socorros/rcp), com insuflações só se não houver risco de contaminação para ti (usa máscara de bolso ou só compressões).
 
@@ -494,7 +523,7 @@ Beber antes de ter sede, 250 ml de 20 em 20 min em esforço ao calor; roupa clar
 - **Álcool grave (inconsciente, respiração lenta, frio):** PLS, aquecer, 112. Não deixes "dormir a bebedeira" sozinho.
 - **Drogas:** PLS, 112, diz a verdade ao INEM (não há polícia envolvida).
 - **Cogumelos ou plantas:** guarda um exemplar. Os cogumelos mortais (Amanita) dão sintomas só 6 a 24 h depois. CIAV.
-- **Pele:** tirar a roupa contaminada, lavar com muita água 15 minutos. **Olhos:** lavar com água morna 15 a 20 minutos, do canto interior para o exterior, urgência.
+- **Pele:** tirar a roupa contaminada, lavar com muita água pelo menos 20 minutos. **Olhos:** lavar com água morna 15 a 20 minutos, do canto interior para o exterior, urgência.
 - **Inalação (fumo, gases, químicos):** ar fresco imediatamente, sem esforço, sentado. Se tosse, pieira ou confusão: 112.
 
 ## Monóxido de carbono (CO): o assassino silencioso
@@ -512,6 +541,12 @@ Prevenção: detetor de CO (custa 20 €), nunca combustão em local fechado, es
 ## Intoxicação alimentar
 
 Vómitos, diarreia, cólicas, febre, horas a dias depois. Trata como [diarreia](#/s/socorros/diarreia): hidratar. Urgência se: sangue nas fezes, febre alta, sinais de desidratação grave, visão dupla ou dificuldade em falar/engolir (botulismo: conservas caseiras, latas inchadas), grávidas, bebés e idosos com sintomas fortes.
+
+## Pilhas-botão e ímanes engolidos
+
+- Uma pilha-botão presa no esófago queima a parede em **2 horas**: **urgência já, mesmo sem sintomas**, e diz que foi uma pilha. Não provoques vómito, nada de comer ou beber, exceto **mel: 10 ml (2 colheres de chá) a cada 10 minutos** a caminho, só com mais de 1 ano.
+- Dois ou mais ímanes (ou um íman e um metal) engolidos prendem-se um ao outro através do intestino: urgência já.
+- Guarda pilhas, comandos e brinquedos com pilhas-botão fora do alcance das crianças.
 ` },
 
     { id: 'diarreia', icon: '💧', title: 'Diarreia, vómitos e soro oral', desc: 'A desidratação é o que mata. Receita do soro caseiro. Sinais de alarme.', md: `
@@ -536,7 +571,7 @@ Mistura bem. Deve saber a lágrimas, não mais salgado. Se tiveres, junta o sumo
 ### Quanto dar
 
 - Adultos: 200 a 400 ml depois de cada dejeção líquida, além do que beberem normalmente; 2 a 3 L por dia.
-- Crianças: 50 a 100 ml (meio copo) depois de cada dejeção. Bebés: continuar a amamentar ou dar leite habitual, mais SRO à colher, 1 colher de chá a cada 1 a 2 minutos.
+- Crianças até aos 2 anos: 50 a 100 ml depois de cada dejeção; dos 2 aos 10 anos: 100 a 200 ml (meio copo a um copo); mais velhos: 200 a 400 ml. Bebés: continuar a amamentar ou dar leite habitual, mais SRO à colher, 1 colher de chá a cada 1 a 2 minutos.
 - Com vómitos: goles muito pequenos e frequentes (uma colher de chá a cada minuto). Espera 10 minutos depois de vomitar e recomeça devagar. Frio ajuda a tolerar.
 
 ### Comida
@@ -613,7 +648,10 @@ Não mexer a cabeça. Ver [fraturas](#/s/socorros/fraturas).
 
 Lavar **muito** (15 minutos com água e sabão), desinfetar, cobrir sem fechar. Alto risco de infeção (sobretudo gatos): procurar médico nas 24 h para antibiótico e tétano. Raiva: Portugal está livre, mas animal desconhecido ou vindo de fora deve ser reportado.
 
-## Víbora (Portugal: víbora-cornuda no norte e centro, víbora-de-seoane no norte)
+## Víbora (Portugal: víbora-cornuda de norte a sul, em núcleos isolados nas serras; víbora-de-seoane só no extremo norte)
+![Víbora-cornuda (Vipera latastei): corpo curto e grosso, cabeça triangular bem destacada, pequeno «corno» na ponta do focinho e ziguezague escuro no dorso.](img:vibora-cornuda.jpg)
+
+![Víbora-de-seoane (Vipera seoanei), só no extremo norte: cabeça triangular, pupila vertical, ziguezague ou faixa escura no dorso; sem corno.](img:vibora-seoane.jpg)
 
 Duas marcas de presas, dor e inchaço que alastra, náuseas. Raramente mortal, mas urgente.
 
@@ -624,6 +662,7 @@ Duas marcas de presas, dor e inchaço que alastra, náuseas. Raramente mortal, m
 5. 112 ou hospital. Marca com caneta o limite do inchaço e a hora.
 
 Cobras não venenosas (cobras-de-água) e a cobra-rateira (veneno fraco, raramente perigosa) são muito mais comuns: tratar como ferida suja e vigiar o inchaço.
+![Cobra-rateira (Malpolon monspessulanus), a cobra grande mais comum em Portugal: cabeça estreita com «sobrancelhas» salientes, olhos grandes e redondos, cauda longa. Veneno fraco, só com presas no fundo da boca.](img:cobra-rateira.jpg)
 
 ## Carraças
 
@@ -634,10 +673,12 @@ Pinça fina junto à pele, puxar devagar e a direito, sem torcer nem esmagar. Se
 Lavar com **água do mar** (nunca doce), tirar tentáculos com pinça ou cartão (não com a mão), água quente (40 a 45 °C, 20 minutos) ou compressas quentes. Vinagre para caravela-portuguesa é discutido: usa água quente. Não urinar (mito). Dificuldade em respirar ou reação generalizada: 112.
 
 ## Peixe-aranha, raia (picada na praia)
+![Peixe-aranha (Trachinus draco): enterra-se na areia em águas pouco profundas; os espinhos pretos da primeira barbatana dorsal e os das guelras são venenosos.](img:peixe-aranha.jpg)
 
 Dor muito forte. Água **quente** (o mais quente que suportar sem queimar) durante 30 a 90 minutos: inativa o veneno. Tirar espinhos visíveis, desinfetar, tétano.
 
-## Lagarta do pinheiro (processionária)
+## Lagarta-do-pinheiro (processionária)
+![Processionária do pinheiro em fila no chão, de janeiro a abril: lagartas castanhas e peludas, em procissão nariz com cauda. Não tocar, nem deixar cães e crianças aproximarem-se.](img:processionaria.jpg)
 
 Pelos urticantes. Não tocar, lavar com água e sabão, tirar roupa, anti-histamínico. Nos olhos ou boca, ou em cães (língua inchada): urgência veterinária ou médica.
 
@@ -654,7 +695,7 @@ Contrações a cada 2 minutos ou menos, vontade irresistível de fazer força, c
 ## Preparar
 
 - Local limpo e quente, lençóis ou toalhas limpas, mãos lavadas até aos cotovelos (luvas se houver).
-- A mãe semi-sentada ou deitada de lado, como preferir. Toalhas por baixo. Não a mandes deitar de costas plana.
+- A mãe semissentada ou deitada de lado, como preferir. Toalhas por baixo. Não a deites completamente de costas.
 - Dois cordões ou atacadores limpos (fervidos se possível) e tesoura limpa (fervida ou com álcool).
 
 ## O nascimento
@@ -671,7 +712,7 @@ Não há pressa. Se a ajuda chega em 1 hora, deixa-o. Se não: espera **pelo men
 
 ## A placenta
 
-Sai sozinha em 5 a 30 minutos. Não puxes. Guarda-a num saco para os profissionais verem. Massaja a barriga da mãe (útero) firme para ajudar a contrair e reduzir a hemorragia. Amamentar ajuda.
+Sai sozinha em 5 a 30 minutos. Não puxes. Guarda-a num saco para os profissionais verem. Só depois de a placenta sair, massaja a barriga da mãe (útero) com firmeza para ajudar a contrair e reduzir a hemorragia. Amamentar ajuda.
 
 ## Hemorragia da mãe
 
@@ -681,26 +722,26 @@ Um pouco de sangue é normal. Se ensopar mais de uma toalha grande, ou tiver ton
     { id: 'medicamentos', icon: '💊', title: 'Medicamentos de emergência', desc: 'Doses de adulto dos medicamentos mais úteis, e o que ter em casa.', md: `
 >i Doses para as nossas crianças: [calculadora de doses](#/t/doses), com registo das tomas, e [os nossos números](#/s/familia/numeros).
 
->! Doses indicativas para **adultos saudáveis**. Confirma no folheto. Crianças: dose por peso (folheto ou SNS 24). Grávidas: paracetamol sim, ibuprofeno e aspirina não. Não misturar medicamentos com o mesmo princípio ativo (muitos "anti-gripais" têm paracetamol).
+>! Doses indicativas para **adultos saudáveis**. Confirma no folheto. Crianças: dose por peso (folheto ou SNS 24). Grávidas: paracetamol sim, ibuprofeno e aspirina não. Não misturar medicamentos com o mesmo princípio ativo (muitos "antigripais" têm paracetamol).
 
 ## Dor e febre
 
 - **Paracetamol:** 500 a 1000 mg, de 6 em 6 horas (ou 8 em 8), **máximo 3 g por dia** (4 g em adultos saudáveis com peso normal e sem álcool). Seguro na gravidez. Excesso destrói o fígado.
-- **Ibuprofeno:** 400 mg de 8 em 8 horas, com comida, máximo 1200 mg por dia sem médico. Não com úlcera, insuficiência renal, anticoagulantes, gravidez no 3.º trimestre, desidratação grave. Bom para dor de dentes, entorses, febre.
+- **Ibuprofeno:** 400 mg de 8 em 8 horas, com comida, máximo 1200 mg por dia sem médico. Não com úlcera, insuficiência renal, anticoagulantes, gravidez, desidratação grave. Bom para dor de dentes, entorses, febre.
 - Podem alternar-se (paracetamol às 0 h, ibuprofeno às 4 h, paracetamol às 8 h) para dor forte.
 - **Aspirina:** só em adultos. Enfarte suspeito: 150 a 300 mg mastigada. Não em crianças (síndrome de Reye) nem com suspeita de AVC.
 
 ## Alergia
 
 - **Cetirizina 10 mg** ou **loratadina 10 mg**: 1 por dia. Comichão, urticária, rinite, picadas.
-- **Adrenalina auto-injetável** se alguém em casa tem alergias graves. Dose adulto 0,3 mg; criança 0,15 mg.
+- **Adrenalina autoinjetável** se alguém em casa tem alergias graves. Dose adulto 0,3 mg; criança 0,15 mg.
 
 ## Estômago e intestino
 
 - **Soro de reidratação oral:** o mais importante. [Receita](#/s/socorros/diarreia).
 - **Loperamida 2 mg:** 2 cápsulas, depois 1 após cada dejeção líquida, máximo 8 por dia, 2 dias. Não com febre ou sangue. Nunca em crianças.
 - **Omeprazol 20 mg** ou antiácidos: azia, refluxo.
-- **Domperidona ou metoclopramida** (receita) para vómitos; sem eles, goles pequenos de soro frio.
+- **Domperidona ou metoclopramida** (receita) para vómitos; sem elas, goles pequenos de soro frio.
 - **Laxante** (macrogol): a obstipação é comum com stress e má alimentação.
 
 ## Feridas e pele
@@ -721,7 +762,7 @@ Ver [checklist do kit de primeiros socorros](#/s/kit/kit-medico).
 
 ## Validade
 
-A maior parte dos comprimidos sólidos são seguros e quase totalmente eficazes anos após a validade (estudos militares). Não uses: líquidos e suspensões, insulina, adrenalina, antibióticos líquidos, colírios abertos, nada com aspeto ou cheiro alterado. Em emergência, um comprimido fora de prazo é melhor do que nenhum.
+A maior parte dos comprimidos sólidos são seguros e quase totalmente eficazes anos após a validade (estudos militares). Não uses: líquidos e suspensões, insulina, antibióticos líquidos, colírios abertos, nada com aspeto ou cheiro alterado. Em emergência, um comprimido fora de prazo é melhor do que nenhum. **Exceção que salva vidas:** numa anafilaxia, uma caneta de adrenalina fora de prazo usa-se na mesma se for a única e o líquido estiver límpido, e liga-se ao 112.
 ` }
   ]
 });

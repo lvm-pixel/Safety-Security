@@ -2,7 +2,7 @@ Object.assign(CONTENT_EN.sections['comunicar'].pages, {
     informacao: { title: 'Reliable information and rumours', desc: 'Where to hear the authorities, which sources you can trust and how to catch a rumour before you share it.', md: `
 ## Official sources first
 
-- **Proteção Civil (Civil Protection) alert SMS**: it reaches the mobile phones in the affected area, with no sign-up. Read it carefully and do what it says.
+- **Proteção Civil (Civil Protection) alert SMS**: it reaches the mobile phones in the affected area, with no sign-up, from the sender **"AvisoPROCIV"**. Read it carefully and do what it says. It never contains links or asks for data: a message "from Proteção Civil" with a link or a request for data is a scam.
 - **Radio**: Antena 1 (public radio) and local radio stations broadcast Proteção Civil's instructions, and radio works without internet or a mobile network. See [radio](#/s/comunicar/radio).
 - **Proteção Civil** (prociv.gov.pt), **IPMA** (weather warnings), **DGS** (Directorate-General of Health) and **SNS 24** (national health helpline), the câmara municipal (town council) and the junta de freguesia (parish council).
 - **Portal Diplomático** (Portuguese Ministry of Foreign Affairs) and consulates, if you are outside Portugal.
@@ -29,13 +29,12 @@ No source is perfect, and they all get things wrong in the first hours of a cris
 
 ## Typical rumours in a crisis
 
-- "Water or electricity will be cut off for weeks: fill everything up now", with no official source at all.
-- "The dam is going to burst", "a tsunami is coming", "they are closing the borders tonight".
+- "Water or electricity will be cut off for weeks", with no official source at all. Filling bottles in a blackout is sensible; emptying the shops over a rumour is not.
+- "The dam is going to burst", "a tsunami is coming", "they are closing the borders tonight". Exception: if you felt a strong or long earthquake near the sea, do not wait for confirmation: [earthquake](#/s/agora/sismo).
 - "They are looting supermarket X", "children are being kidnapped in area Y".
 - Miracle cures and home remedies for serious illnesses.
-- Fake messages "from Proteção Civil", "from the bank" or "from the police" with links, or asking for personal details or money.
 
->x **No official alert asks for personal details, codes or payments**, or tells you to install apps from a link. Messages like that are scams.
+>x **No official body (Proteção Civil, the police, your bank) asks by message for personal details, codes or payments**, or tells you to install apps from a link. Messages like that are scams.
 
 ## Images and videos made with artificial intelligence
 
@@ -47,6 +46,6 @@ No source is perfect, and they all get things wrong in the first hours of a cris
 
 - Agree which sources you trust and who follows the news. Everyone else can rest.
 - With children nearby, news only on the radio or in writing, away from videos. See [keeping the children calm](#/s/familia/ocupar-e-acalmar).
-- Checking the news twice a day is enough to make good decisions. More than that increases fear and does not improve decisions.
+- When the situation is stable, checking the news twice a day is enough to make good decisions; more than that increases fear and does not improve decisions. With an active danger in your area (fire, flood, evacuation order), keep the radio on at all times.
 ` },
 });

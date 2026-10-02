@@ -15,6 +15,8 @@ CONTENT_EN.sections['familia'] = {
 
 For drinking and cooking: {{water_detail}}. On top of that, add 2 L per person for hygiene (hands, teeth, nappies, wounds).{{pets_water_line}} Small children dehydrate within hours and do not ask for water: offer it every hour. In hot weather, or with fever or diarrhoea, allow 50% more.
 
+{{B1_s}} water is for making up formula and washing bottles: before 6 months a baby does not drink water, only milk; from 6 months, small sips.
+
 ## Food
 
 **{{kcal_day}} kcal a day** for the family: {{kcal_detail}}. For 3 days, about {{kcal_3d}} thousand kcal; for 2 weeks, about **{{kcal_14d}} thousand kcal**.
@@ -44,6 +46,8 @@ For drinking and cooking: {{water_detail}}. On top of that, add 2 L per person f
 | Potassium iodide (iodine tablets), only on official orders | {{c1_ki}} | {{c2_ki}} |
 | Adrenaline auto-injector | {{c1_adr}} | {{c2_adr}} |
 
+{{c1_bebe_nota}}
+
 If the weight shows as estimated, it comes from the age: for accurate doses, **weigh the children** and enter the weight in the [profile](#/t/familia). Log the doses given, and find other concentrations, in the [dose calculator](#/t/doses). **Never give aspirin to children.**
 
 ## Who does what
@@ -59,11 +63,53 @@ If the weight shows as estimated, it comes from the age: for accurate doses, **w
 ## Transport
 
 - **Car**: a child restraint suited to each child's weight and height, always fitted. {{C1}} in a rear-facing car seat for as long as possible; {{c2}} in a high-back booster seat (compulsory up to age 12 or 135 cm). In an evacuation there are no exceptions: in a crash at 50 km/h, nobody can hold on to a child on their lap.
-- **On foot**: {{c1}} is carried in arms, in an ergonomic baby carrier or in a hiking child carrier backpack (it takes the child plus some load), or goes in a sturdy pushchair, which carries a load but cannot get through stairs, rubble, mud or crowds. {{C2}} walks **5 to 8 km a day**, with 10-minute breaks every 40 minutes. Realistic distance for the family: **8 to 12 km a day**.
+- **On foot**: {{c1}} is carried in arms, in an ergonomic baby carrier or in a hiking child carrier backpack (it takes the child plus some load), or goes in a sturdy pushchair, which carries a load but cannot get through stairs, rubble, mud or crowds. {{C2}} walks **5 to 8 km a day**, with 10-minute breaks every 40 minutes. Realistic distance for the family: **5 to 8 km a day**.
 - **Bicycle**: rear child seat for {{c1}}; {{c2}} on their own bike or in a trailer. You get 3 to 4 times further than on foot.
 - More in [evacuating with children](#/s/familia/evacuar-com-criancas).
 ` },
-    'crianca-pequena': { title: '{{c1_titulo}}: what changes', desc: 'Written for {{c1}}: nappies, milk, choking, being carried, fever, sleep and dangers at home.', md: `
+    bebe: { title: '{{b1_titulo}}: what changes with a baby', desc: 'Written for {{b1}}: carrying, milk, fever and warning signs, choking and baby CPR, the grab bag.', md: `
+## What changes with a baby
+
+- They depend on you for everything, get cold and dehydrated within hours and cannot tell you what is wrong. Never left alone, not even in the car "just for a minute".
+- **Carried in a sling or baby carrier**, with your hands free: safer than a pushchair on stairs, in rubble and in crowds. Head always supported, face uncovered and airway clear.
+- Cold: a baby loses heat very fast. Hat, several layers, skin-to-skin contact inside an adult's coat. Heat: shade, little clothing, more frequent feeds; never left in a closed car.
+- **Safe sleep** even in a shelter: on their back, on a firm surface, no pillows or duvets, away from smoke. Never on sofas or in beds shared with exhausted adults.
+- It starts with you: a calm adult is what calms {{b1}}. Speak softly, rock them, keep whatever routines you can.
+
+## Milk and water
+
+- If you breastfeed, **keep breastfeeding**: it is the safest food in a crisis, needs no clean water and soothes. The mother needs an extra 1 L of water and 500 kcal a day; stress does not "dry up" milk, dehydration does.
+- Formula: about **800 ml a day** for a baby aged {{b1_meses}}, that is 110 g of powder a day and 1.5 kg for 2 weeks. Make it up with **boiled** water still above 70 °C, cool it before feeding, throw away leftovers after 1 hour. With no boiled water, ready-to-feed liquid formula is the safe alternative.
+- With no clean bottle, feed from a small cup, slowly. No formula and no breastfeeding: under 6 months it is a medical emergency; over 6 months, undiluted full-fat UHT milk and soft food, for a short time, while you get help.
+- Before 6 months, milk is enough even in hot weather; from 6 months, small sips of boiled or bottled water. Quantities for the family: [our numbers](#/s/familia/numeros).
+
+## Fever and illness
+
+- A fever starts at **38 °C** (armpit; rectal is more accurate). Under **3 months**, any fever means SNS 24 (808 24 24 24) or the emergency department **the same day**, without giving any medicine first. From 3 to 6 months, from 39 °C.
+- {{b1_bebe_nota}}
+- Paracetamol ({{b1_kg}} kg{{b1_kg_est}}): **{{b1_para_mg}} mg** = {{b1_para_ml}} ml of 40 mg/ml syrup, up to 4 times a day, 6 hours apart. 125 mg suppository from 6 kg, at most 2 to 4 a day depending on weight (the calculator says how many).
+- Ibuprofen only from 3 months and 5 kg, with milk: **{{b1_ibu_mg}} mg** = {{b1_ibu_ml}} ml of 20 mg/ml syrup, up to 3 times a day. Never aspirin, never cold-and-flu remedies. See the [dose calculator](#/t/doses).
+- Diarrhoea and vomiting: oral rehydration solution {{b1_sro}} after each watery stool or vomit, and keep breastfeeding or the usual milk. Warning signs: a dry nappy for 6 hours or more, dry mouth, sunken soft spot: **emergency department**; if they are very drowsy or cannot drink, 112.
+- Breathing: more than 60 breaths a minute (50 after 2 months), the skin sucking in between the ribs, grunting, blue lips, pauses in breathing: **112**. Blocked nose: saline drops and a nasal aspirator; a baby breathes mostly through the nose.
+- Purple or red spots that do not fade when you press a glass against them: **112** (it may be meningitis). The other warning signs, and when to call, are in [fever and illness](#/s/familia/febre-doenca).
+- Potassium iodide, only on official orders: {{b1_ki}}.
+
+## Choking and CPR: the baby technique
+
+- **Choking**: if they are coughing hard, let them cough and watch. If they cannot cough, cry or breathe: baby face down along your forearm, head lower than the body, 5 back blows between the shoulder blades; turn them over and give 5 chest thrusts with two fingers. Repeat. Never abdominal thrusts on a baby. If they become unresponsive: CPR.
+- **Baby CPR**: 5 rescue breaths covering the mouth and nose with your mouth, then compressions with **two fingers or both thumbs** in the middle of the chest, 4 cm deep, 100 to 120 a minute, 30:2 (15:2 if you are trained). On your own: phone on speaker and call 112 while you do CPR; with no phone to hand, 1 minute of CPR before going for help. See [CPR](#/s/socorros/rcp), [choking](#/s/socorros/engasgamento) and the [CPR metronome](#/t/rcp).
+
+## In the grab bag and when evacuating
+
+- [ ] Nappies for 3 days (8 a day), wipes, barrier cream, bags for used ones
+- [ ] Formula (powder or liquid) for 3 days, 2 bottles, bottled water to make it up
+- [ ] Sling or baby carrier
+- [ ] 2 complete changes of clothes, hat, blanket, baby sleeping bag
+- [ ] Paracetamol 40 mg/ml syrup and syringe, saline drops, thermometer
+- [ ] Health and vaccination record (photo on the phone) and a card with name and phone numbers in the baby's pocket
+- In collective shelters ask for a quiet corner and keep the baby with an adult at all times. The car seat is for travelling, not for sleeping for hours.
+` },
+    'crianca-pequena': { title: '{{c1_pequena_titulo}}: what changes', desc: 'Written for {{c1}}: nappies, milk, choking, being carried, fever, sleep and dangers at home.', md: `
 ## What changes at this age
 
 - Does not understand danger, does not keep still, cannot say the parents' names or the address and cannot walk far. **Everything depends on you.** Never leave them alone, not even "just for a minute".
@@ -93,9 +139,9 @@ If the weight shows as estimated, it comes from the age: for accurate doses, **w
 ## Health
 
 - **Fever**: paracetamol **{{c1_para_mg}} mg** ({{c1_para_ml}} ml of 40 mg/ml syrup) up to 4 times a day, or ibuprofen **{{c1_ibu_mg}} mg** ({{c1_ibu_ml}} ml of 20 mg/ml syrup) up to 3 times a day, with food. Light clothing, fluids. See [fever and illness](#/s/familia/febre-doenca) and the [dose calculator](#/t/doses).
-- **Seizure with fever**: between 6 months and 5 years it is common and almost always harmless. Lay them on their side, protect the head, time it, put nothing in the mouth. Longer than 5 minutes, or they do not recover: 112. See [seizures](#/s/socorros/convulsoes).
-- **Diarrhoea and vomiting**: oral rehydration solution (ORS), {{c1_sro}} after each stool, by spoon or syringe, in small sips. If already dehydrated: {{c1_sro4h}}. Warning signs: nappy dry for 6 hours, no tears, very drowsy, sunken eyes: 112. See [diarrhoea](#/s/socorros/diarreia).
-- **CPR and choking**: the **child** technique (from age 1), not the baby one. CPR: 5 initial rescue breaths, chest compressions with one hand, 5 cm deep, 30:2. Choking: 5 back blows and 5 gentle abdominal thrusts, with the child leaning forward. See [CPR](#/s/socorros/rcp), [choking](#/s/socorros/engasgamento) and the [CPR metronome](#/t/rcp).
+- **Seizure with fever**: between 6 months and 5 years it is common and almost always harmless. Lay them on their side, protect the head, time it, put nothing in the mouth. If it is the first time, lasts longer than 5 minutes, or they do not recover: 112. See [seizures](#/s/socorros/convulsoes).
+- **Diarrhoea and vomiting**: oral rehydration solution (ORS), {{c1_sro}} after each stool, by spoon or syringe, in small sips. If already dehydrated: {{c1_sro4h}}. Warning signs: nappy dry for 6 hours, no tears, sunken eyes: **emergency department**; if they are very drowsy or cannot drink, 112. See [diarrhoea](#/s/socorros/diarreia).
+- **CPR and choking**: the **child** technique (from age 1), not the baby one. CPR: call 112 on speaker; 5 initial rescue breaths, chest compressions with one hand, 5 cm deep, 30:2. Choking: if they are coughing hard, let them cough and watch; if they cannot cough, talk or breathe, 5 back blows and 5 gentle abdominal thrusts, with the child leaning forward, and repeat; if they become unresponsive, CPR. See [CPR](#/s/socorros/rcp), [choking](#/s/socorros/engasgamento) and the [CPR metronome](#/t/rcp).
 - **Poisoning**: CIAV (Poison Information Centre) 800 250 250. Do not make them vomit. Keep the packaging. See [poisoning](#/s/socorros/intoxicacao).
 - **Cold and heat**: watch for cold hands and feet, shivering, drowsiness; in the heat, a very red face, floppiness, a dry nappy. At this age they do not complain in time.
 - Child health booklet and vaccination record in the [vault](#/t/cofre) and on paper in the grab bag.
@@ -168,7 +214,7 @@ The school's emergency plan, who does the pick-up, the list of authorised people
 ## Their own equipment
 
 - Their own small backpack (see [grab bag](#/s/kit/mala-evacuacao)): water, snack, torch, whistle, jacket, change of clothes, small toy, book, ID card.
-- Closed shoes, already worn in and comfortable, and spare socks. A blister ends a walk after 2 km.
+- Closed shoes, already worn in and comfortable, and spare socks. A blister ends a walk after 3 km.
 - Brightly coloured clothes. Hat and gloves even in summer: nights get cold and children lose heat quickly.
 ` },
     'escola-creche': { title: 'School, nursery and separation', desc: 'What to agree with {{c2_s}} school and {{c1_s}} nursery, what to do during school hours, and what to do if we get separated.', md: `
@@ -188,7 +234,7 @@ The school's emergency plan, who does the pick-up, the list of authorised people
 - **Earthquake or fire**: the school evacuates to an outdoor meeting point. Go there, not to the classroom. Take ID: they only hand children over to people on the list.
 - The school's phones get jammed: use the school's app or website, SMS, the parents' group, or go there. **One adult goes to collect, the other stays put to receive and pass on information** (radio, out-of-area contact).
 - The order: first the child at greatest risk or furthest from help, usually the youngest. Agree on it beforehand, not in the moment.
-- If it is a choice between collecting the children and anything else, collect the children.
+- As soon as it is safe to go out, if it is a choice between collecting the children and anything else, collect the children.
 - Then everyone goes to the meeting point or home, as planned. Tell the out-of-area contact: "we have the children, we are at X".
 
 ## If we are separated for hours or days
@@ -204,25 +250,28 @@ The school's emergency plan, who does the pick-up, the list of authorised people
 ## Fever
 
 - A fever starts at **38 °C**. It is not an illness: it is the body fighting. Medicine is there for comfort, not to bring the temperature down to normal.
-- **Paracetamol**, up to 4 times a day, at least 4 to 6 hours apart:
+- **Paracetamol**, every 6 hours (never less than 4 hours between doses), up to 4 times a day:
   - {{c1_n}}: **{{c1_para_mg}} mg** = {{c1_para_ml}} ml of 40 mg/ml syrup
   - {{c2_n}}: **{{c2_para_mg}} mg** = {{c2_para_ml}} ml of 40 mg/ml syrup{{c2_para_tab}}
 - **Ibuprofen**, if the fever does not come down or there is pain, up to 3 times a day, with food:
   - {{c1_n}}: **{{c1_ibu_mg}} mg** = {{c1_ibu_ml}} ml of 20 mg/ml syrup
   - {{c2_n}}: **{{c2_ibu_mg}} mg** = {{c2_ibu_ml}} ml of 20 mg/ml syrup
-- Do not give ibuprofen to a child who is dehydrated, has chickenpox, or has asthma that gets worse with anti-inflammatories. With a high fever the two can be alternated, without going over the daily maximum of either.
+- {{c1_bebe_nota}}
+- Do not give ibuprofen to a child who is dehydrated, has chickenpox, or has asthma that gets worse with anti-inflammatories. **Do not alternate the two as a routine**: choose one; only if the fever does not come down and the child is miserable do you give the other, without going over the daily maximum of either, and logging everything.
 - Use the **dosing syringe** and **log every dose** in the [dose calculator](#/t/doses): at 3 in the morning, two tired adults give the same dose twice. Check the concentration on the label: syrups come in different concentrations.
+- Gave an extra dose by mistake? One doubled dose of paracetamol or ibuprofen rarely does harm, but call the **poisons centre, CIAV (800 250 250)** to check, especially with a baby. No cold-and-flu remedies or cough syrups for small children: many already contain paracetamol (a double dose) and they are not indicated under age 6.
 - Light clothing, a cool room, frequent drinks (water, oral rehydration solution, soup, milk). No cold baths and no alcohol on the skin. They can sleep; wake them only to drink.
 - If they vomit the syrup: a paracetamol suppository in the strength closest to the dose for their weight, without going over (check the leaflet).
 
 ## When to call SNS 24, the national health helpline (808 24 24 24), or go to A&E
 
-- Fever above **40 °C**, or lasting more than **3 days** (2 days under age 3).
+- Any fever (38 °C or more) under **3 months old**: SNS 24 or the emergency department the same day. From 3 to 6 months, from **39 °C**. After that, a fever of **39.5 °C** or more that does not come down with medicine, or lasting more than **3 days** (2 days under age 3).
+- If you have a fingertip pulse oximeter: oxygen saturation below **92%** with the child calm, or below 94% with difficulty breathing: emergency department.
 - **Purple or red spots that do not fade when you press a glass against them**: 112 (it may be meningitis).
 - Stiff neck, bad headache with vomiting, light is very uncomfortable.
 - Difficulty breathing: very fast breathing, skin sucking in between the ribs or at the neck with each breath, bluish lips, noisy breathing, cannot say a full sentence: **112**.
 - Very floppy, hard to wake, does not smile or react, moans constantly, cries inconsolably for hours.
-- Seizure: if it lasts more than 5 minutes or is the first one, 112.
+- Seizure: lay them on their side, protect the head, time it, nothing in the mouth; if it lasts more than 5 minutes or is the first one, 112. See [seizures](#/s/socorros/convulsoes).
 - Dehydration: no urine for 6 to 8 hours, dry mouth, no tears, sunken eyes.
 - Severe, constant tummy pain (especially on the right side), green vomit, blood in the stools.
 - Anything that really worries you: parents are right more often than they think.
@@ -240,10 +289,10 @@ The school's emergency plan, who does the pick-up, the list of authorised people
 
 ## Coughs, blocked nose, ears
 
-- Fluids, humid air (a wet towel in the room), head of the bed raised, saline in the nose: essential up to age 3 or 4, because they cannot blow their nose yet. Nasal aspirator.
+- Fluids, humid air (a wet towel in the room), head of the bed raised (not for babies under 1: they sleep on their back, on a flat mattress), saline in the nose: essential up to age 3 or 4, because they cannot blow their nose yet. Nasal aspirator.
 - Honey for coughs from age 1 (one teaspoon). Cough syrups are not given under age 6: they do not work and carry risks.
 - Earache: paracetamol or ibuprofen. If it lasts more than 2 days, pus comes out or there is a high fever, they need a doctor.
-- Wheezing or fast breathing, especially if they have had bronchiolitis or asthma before: inhaler with a spacer, if prescribed; if there is no improvement, A&E.
+- Wheezing or fast breathing, especially if they have had bronchiolitis or asthma before: inhaler with a spacer, if prescribed; if there is no improvement, A&E. See [asthma](#/s/socorros/asma).
 
 ## Skin
 
@@ -267,7 +316,7 @@ The school's emergency plan, who does the pick-up, the list of authorised people
     'evacuar-com-criancas': { title: 'Evacuating with {{kids_para}}', desc: 'By car, on foot, on public transport and in shared shelters, with {{kids_desc}}.', md: `
 ## Decide early
 
-With small children, **leave before everyone else**. You avoid a 6-hour queue in the heat with no nappies or water, or a walk at night with both children, by leaving at the first warning, while the roads and petrol stations are still working. If most people decide to stay, you have less margin than most.
+With small children, **leave before everyone else**. You avoid a 6-hour queue in the heat with no nappies or water, or a walk at night with both children, by leaving at the first warning, while the roads and petrol stations are still working. Even if most people decide to stay, you have less margin than they do.
 
 ## By car
 
@@ -278,10 +327,12 @@ With small children, **leave before everyone else**. You avoid a 6-hour queue in
 - If you have to abandon the car: baby carrier and backpacks; the car seat stays behind.
 
 ## On foot
+![A baby carrier: hands free, the child safe and warm, and you move faster than with a pushchair on stairs and rubble.](img:marsupio.jpg)
+
 
 - {{C1}} goes in the ergonomic baby carrier or the hiking child carrier backpack (which still takes a load underneath and has a rain cover). An all-terrain pushchair works on roads and carries a lot, but cannot get through stairs, rubble, deep mud or tightly packed crowds. Ideally take both: the pushchair for the load, the baby carrier rolled up as a backup.
-- {{C2}} holds an adult's hand on streets with traffic and in crowds, or is attached by a strap to the adult's wrist, and carries their own 2 to 3 kg backpack. Child pace: 2 to 3 km/h, 10-minute breaks every 40 minutes, short goals ("as far as that tree"), snacks as rewards.
-- **Realistic distance for the family: 8 to 12 km a day.** Plan stops and shelter at that distance, not at the distance two adults would cover.
+- {{C2}} is held by the wrist on streets with traffic and in crowds (a hand slips out of yours), or is attached by a strap to the adult's wrist, and carries their own 2 to 3 kg backpack. Child pace: 2 to 3 km/h, 10-minute breaks every 40 minutes, short goals ("as far as that tree"), snacks as rewards.
+- **Realistic distance for the family: 5 to 8 km a day.** Plan stops and shelter at that distance, not at the distance two adults would cover.
 - Load: whoever carries {{c1}} ({{c1_kg}} kg) carries only a small backpack on the front (documents, water, nappies; up to 5 kg). The other adult carries the big backpack (up to 15 kg). See [travelling on foot](#/s/navegar/caminhar).
 - Layers of clothing for both children, hats, a dry change of clothes in a waterproof bag. Children warm up and cool down faster than adults: check hands, feet and the back of the neck every hour.
 - Check {{c2_s}} feet at every stop: a blister at 3 km ends the walk.
@@ -348,7 +399,7 @@ With small children, **leave before everyone else**. You avoid a 6-hour queue in
 - Noise: ear defenders, a quiet song, a hand on their back. Explosions and sirens: "It's just noise. We're safe here. Come for a cuddle."
 - Nightmares: wake them, cuddle, water, "it was a dream, I'm here", back to bed. Talk about the dream only in the morning, and only if they want to.
 - Bedwetting: normal in a crisis. Waterproof mattress protector, quick change, no comments.
-- Everyone sleeping in the same room is normal and advisable in a crisis. If {{c1}} will only sleep holding on to someone, let them.
+- Everyone sleeping in the same room is normal and advisable in a crisis. If {{c1}} will only sleep holding on to someone, let them (except a baby under 1: on their back, on a firm surface, never in the arms of a sleeping adult).
 
 ## Tantrums, crying and fear
 
@@ -401,7 +452,7 @@ In a crisis the home fills up with dangers that were not there before: candles, 
 
 ## Outside the home
 
-- [ ] {{C1}} always held by the hand or carried near water, roads, rubble and loose animals.
+- [ ] {{C1}} always carried or held by the wrist near water, roads, rubble and loose animals.
 - [ ] {{C2}} does not touch strange objects, does not go to look at the river, the fire or the damage, and does not go into damaged houses.
 - [ ] Loose, frightened dogs: children do not run or scream; they stand sideways, still, behind an adult.
 - [ ] Fallen cables, holes and floodwater: off-limits, explained and repeated.

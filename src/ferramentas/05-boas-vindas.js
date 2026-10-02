@@ -9,7 +9,7 @@ function renderBoasVindas() {
   const guardada = LS.get('family', null), f0 = getFamily();
   const st = {
     adultos: guardada ? Math.max(1, f0.adults.length) : 1,
-    criancas: guardada ? f0.children.map(c => ({ name: c.name || '', sex: c.sex || '', age: c.age === '' || c.age == null ? '' : Math.max(0, +c.age || 0), kg: c.kg || '' })) : [],
+    criancas: guardada ? f0.children.map(c => ({ name: c.name || '', sex: c.sex || '', age: c.age === '' || c.age == null ? '' : Math.max(0, +c.age || 0), meses: c.meses === '' || c.meses == null ? '' : Math.max(0, Math.min(11, +c.meses || 0)), kg: c.kg || '' })) : [],
     caes: guardada ? +f0.dogs || 0 : 0,
     gatos: guardada ? +f0.cats || 0 : 0
   };
@@ -27,9 +27,10 @@ function renderBoasVindas() {
       '<div class="card"><h3>' + L('Crianças (até aos 17 anos)', 'Children (up to 17)') + '</h3>' + passo('criancas', st.criancas.length, 0, 8) +
       st.criancas.map((c, i) => '<div class="bv-crianca' + (tentou && c.age === '' ? ' bv-falta' : '') + '"><strong class="bv-num">' + L('Criança ', 'Child ') + (i + 1) + '</strong>' +
         '<label class="field"><span>' + L('Idade', 'Age') + '</span><select data-c="' + i + '" data-k="age"><option value="">' + L('Escolhe…', 'Choose…') + '</option>' + Array.from({ length: 18 }, (_, n) => '<option value="' + n + '"' + (c.age === n ? ' selected' : '') + '>' + idade(n) + '</option>').join('') + '</select></label>' +
+        '<label class="field" data-mw="' + i + '"' + (c.age === 0 ? '' : ' style="display:none"') + '><span>' + L('Meses', 'Months') + '</span><select data-c="' + i + '" data-k="meses"><option value="">' + L('Escolhe…', 'Choose…') + '</option>' + Array.from({ length: 12 }, (_, m) => '<option value="' + m + '"' + (c.meses === m ? ' selected' : '') + '>' + mesesTxt(m) + '</option>').join('') + '</select></label>' +
         '<label class="field"><span>' + L('Menina ou menino', 'Girl or boy') + '</span><select data-c="' + i + '" data-k="sex"><option value="">—</option><option value="f"' + (c.sex === 'f' ? ' selected' : '') + '>' + L('menina', 'girl') + '</option><option value="m"' + (c.sex === 'm' ? ' selected' : '') + '>' + L('menino', 'boy') + '</option></select></label>' +
         '<label class="field"><span>' + L('Nome (opcional)', 'Name (optional)') + '</span><input data-c="' + i + '" data-k="name" value="' + esc(c.name) + '" autocomplete="off"></label>' +
-        '<label class="field"><span>' + L('Peso em kg (opcional)', 'Weight in kg (optional)') + '</span><input type="number" min="2" max="100" step="0.5" data-c="' + i + '" data-k="kg" value="' + esc(c.kg) + '" placeholder="' + (c.age === '' ? '' : '≈ ' + estKg(c.age)) + '"></label></div>').join('') + '</div>' +
+        '<label class="field"><span>' + L('Peso em kg (opcional)', 'Weight in kg (optional)') + '</span><input type="number" min="2" max="100" step="0.5" data-c="' + i + '" data-k="kg" value="' + esc(c.kg) + '" placeholder="' + (c.age === '' ? '' : '≈ ' + estKg(c.age, c.meses)) + '"></label></div>').join('') + '</div>' +
       '<div class="card"><h3>' + L('Animais', 'Pets') + '</h3><div class="row"><div class="fixed"><span class="small muted">' + L('Cães', 'Dogs') + '</span>' + passo('caes', st.caes, 0, 9) + '</div><div class="fixed"><span class="small muted">' + L('Gatos', 'Cats') + '</span>' + passo('gatos', st.gatos, 0, 9) + '</div></div></div>' +
       (tentou && falta ? '<div class="callout warn">' + L('Escolhe a idade de cada criança.', 'Choose each child’s age.') + '</div>' : '') +
       '<div class="btnrow"><button class="btn big primary" id="bvguardar">✅ ' + L('Guardar e começar', 'Save and start') + '</button><button class="btn" id="bvadiar">' + L('Agora não', 'Not now') + '</button></div>' +
@@ -37,21 +38,21 @@ function renderBoasVindas() {
     const main = $('#main');
     $$('[data-menos],[data-mais]', main).forEach(b => b.onclick = () => {
       const id = b.dataset.menos || b.dataset.mais, d = b.dataset.menos ? -1 : 1;
-      if (id === 'criancas') { if (d > 0) st.criancas.push({ name: '', sex: '', age: '', kg: '' }); else st.criancas.pop(); }
+      if (id === 'criancas') { if (d > 0) st.criancas.push({ name: '', sex: '', age: '', meses: '', kg: '' }); else st.criancas.pop(); }
       else st[id] = Math.max(id === 'adultos' ? 1 : 0, st[id] + d);
       draw();
     });
     $$('[data-c]', main).forEach(x => x.oninput = x.onchange = () => {
       const c = st.criancas[+x.dataset.c], k = x.dataset.k;
-      c[k] = k === 'age' ? (x.value === '' ? '' : +x.value) : x.value;
-      if (k === 'age') { const kg = main.querySelector('[data-c="' + x.dataset.c + '"][data-k="kg"]'); if (kg) kg.placeholder = c.age === '' ? '' : '≈ ' + estKg(c.age); x.closest('.bv-crianca').classList.remove('bv-falta'); }
+      c[k] = k === 'age' || k === 'meses' ? (x.value === '' ? '' : +x.value) : x.value;
+      if (k === 'age' || k === 'meses') { if (k === 'age' && c.age !== 0) c.meses = ''; const kg = main.querySelector('[data-c="' + x.dataset.c + '"][data-k="kg"]'); if (kg) kg.placeholder = c.age === '' ? '' : '≈ ' + estKg(c.age, c.meses); const mw = main.querySelector('[data-mw="' + x.dataset.c + '"]'); if (mw) mw.style.display = c.age === 0 ? '' : 'none'; x.closest('.bv-crianca').classList.remove('bv-falta'); }
     });
     $('#bvguardar', main).onclick = () => {
       tentou = true;
       if (st.criancas.some(c => c.age === '')) { draw(); const m = $('.bv-falta select', $('#main')); if (m) m.focus(); return; }
       const f = getFamily();
       f.adults = Array.from({ length: st.adultos }, (_, i) => (guardada && f.adults[i]) || { name: '', phone: '', health: '' });
-      f.children = st.criancas.map((c, i) => ({ name: String(c.name || '').trim(), sex: c.sex, age: +c.age, kg: c.kg === '' ? '' : Math.max(0, +c.kg || 0), health: (guardada && f.children[i] && f.children[i].health) || '' }));
+      f.children = st.criancas.map((c, i) => ({ name: String(c.name || '').trim(), sex: c.sex, age: +c.age, meses: +c.age === 0 && c.meses !== '' ? +c.meses : '', kg: c.kg === '' ? '' : Math.max(0, +c.kg || 0), health: (guardada && f.children[i] && f.children[i].health) || '' }));
       f.dogs = st.caes; f.cats = st.gatos;
       saveFamily(f);
       toast(L('Família guardada: os guias já usam os vossos dados', 'Family saved: the guides now use your details'), 3200);
